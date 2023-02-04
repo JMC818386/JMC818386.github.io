@@ -5,55 +5,31 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin: 10px 100px 10px 100px;
 }
 
-#topLogo {
-  display: flex;
-  justify-content: flex-start;
-  width: 125px;
-  height: auto;
+a:link {
+  text-decoration: none;
 }
-
-@media screen and (max-width: 1000px) {
-  #topLogo {
-    width: 100px;
-    height: auto;
-  }
+a:visited {
+  text-decoration: none;
 }
-
-@media screen and (max-width: 700px) {
-  #topLogo {
-    width: 80px;
-    height: auto;
-  }
+a:hover {
+  text-decoration: none;
 }
-
-@media screen and (max-width: 400px) {
-  #topLogo {
-    width: 40px;
-    width: auto;
-  }
+a:active {
+  text-decoration: none;
 }
-
-
-/* #gitHub {
-  display: flex;
-  justify-content: flex-end;
-  width: 7%;
-  height: 7%;
-  margin-top: 25px; 
-} */
-
 
 /*-------------Responsive h1-------------*/
 h1 {
     color: black;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
   @media screen and (max-width: 1000px) {
