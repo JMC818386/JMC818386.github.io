@@ -1,4 +1,49 @@
 # **BootCamp Blog**
+
+## Post #3
+## Retrospective | Week 2
+### *02.03.23* 
+
+**What did you enjoy?**
+> The amount of material we covered this week was a bit overwhelming at times, but I feel like I learned a great deal. Working through and gaining a better understanding of pseudo code was definitely the most enjoyable part of the past week for me. Once I began the final project of the week, one where we were expected to build  an alarm clock without any tutorial guides or provided code, I could really see the value in building a strong foundation with pseudo coding. I didn’t finish the alarm clock project, however I gained a lot of confidence in working from pseudo code to actual code.  
+
+**What worked?**
+> Working through the first and last projects of the week were a tremendous help to me in my process of better understanding the structure of JavaScript and the way that objects and functions interact. I still have a long way to go, but knowing where the starting block is has made it a lot easier to understand the process of getting from a concept to a functioning website.  
+
+**What didn’t?**
+> I spent more time than I would have liked on the W3 schools JavaScript documentation and tutorials. I worked through each section, only moving forward when I felt comfortable that I had a solid understanding of the material. The amount of information was overwhelming, but exposure to the documentation helped me to more easily find answers to questions I would have when working through projects later in the week. My biggest blockers this week were executing a for loop to render images on screen from an array of image files. I eventually referenced the source code in order to work through the code and gain a better understanding. A second blocker was in figuring out how to construct a working alarm feature to work with my running clock. I didn’t encounter this blocker until just before code freeze on Friday, so managing my time wisely throughout this next week will be a focus of mine.  
+
+**Looking ahead…?**
+> Right now, I’m trying to stay focused on trusting the process and progressing through the material and projects at my own pace. I have a lot of work to do in order to gain the competency in JavaScript that I aim to achieve.  
+
+
+## Post #2
+## Retrospective | Week 1
+### *01.27.23*             
+
+**What helps you to be successful as a team?**
+> Great leadership, communication and shared struggle. I was worried about this being remote, but the slack channel has really helped to keep me plugged in to not feel so isolated.  
+
+**How did you do this sprint?**
+> I think I did ok, but I could have done much better. The first two days were a huge struggle for me, and I still have assignments from those days that I need to return to and work through. The second half of the week felt much more productive, although I do think I could have pushed myself to achieve stretch goals and challenge myself more.  
+
+**Where and when did it go wrong in this sprint?**
+> The bug on our first day and the W3 Git and Github tutorial were very difficult for me to work through. I still haven’t finished either assignment, but plan to revisit them and at least get repetitions and hopefully gain a better understanding of the material.  
+
+**What do you expect, from who?**
+> I expect to learn a great deal everyday and grow as a developer over the coming months from my instructors, classmates and the material provided to us.  
+
+**Which tools or techniques proved to be useful?**
+> I would have to say the full spectrum of everything combined has been an enormous help throughout this week. We have been provided a wide variety of material through both our assigned work as well as extra resources that address individual and group concerns. Josh and Andrew have done great job pacing the class so that anyone struggling is provided assistance, while those advancing quickly are provided more opportunities to stretch and explore.  
+
+**What is your biggest impediment?**
+> The fully remote format has been a challenge. I enjoy being physically present with my instructors and classmates, and the bond that that can build, so it’s been an adjustment for me especially when it comes to asking questions and interacting with everyone. It is nice to not have to pack a lunch and commute though! That being said, I do hope that by being challenged in a remote setting I will be better equipped to work remotely in the future if needed.  
+
+**If you could change 1 thing, what would it be?**
+> It would be nice to be in-person, but I can’t say that I would change anything. I’m enjoying the process so far, and really enjoy working with and learning from my instructors and classmates.  
+
+
+
 ## Post #1
 ### *01/26/23*
   
