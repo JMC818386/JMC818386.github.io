@@ -14,7 +14,7 @@
 > Trusting in the process and simply focusing on the next problem has been helpful for me to this point. I keep handwritten check lists to keep my order of work pointed in the right direction, then I just dive into the work, checking boxes as I progress. The slack channel has been an invaluable resource throughout onboarding. Interacting with everyone throughout the day has made working remotely more engaging.  
 
 **What hindered your progress during Onboarding?**
-> The only thing that has hindered me throughout onboarding is my ability to absorb and apply highly technical information on short recall. I'm confident that over time and with repetitions, not only will my understanding of the material increase but also my ability to retain and utilze new information more quickly and accuately.  
+> The only thing that has hindered me throughout onboarding is my ability to absorb and apply highly technical information on short recall. I'm confident that over time and with repetitions, not only will my understanding of the material increase but also my ability to retain and utilize new information more quickly and accuately.  
 
 **How did you overcome challenges during Onboarding?**
 > Seeing that nearly everything has been a challenge for me so far, I suppose simple persistance has willed me through to this point. Getting 8 hours of sleep, eating clean and staying hydrated I'm sure has helped me to sustain my energy and focus throughout the day as well.
