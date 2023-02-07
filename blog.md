@@ -8,13 +8,13 @@
 > The more I learn about each language, the more I can conceptualize the relationships between the three. JavaScript has been the biggest challenge for me so far, but I'm determined to keep hammering away at it. I think the Code Wars warm-ups will be a great way to keep growing my understanding and confidence with the language.  
 
 **What are your thoughts on pseudocoding?**
-> At first I didn't quite understand the actual utility of pseudo code. After a little practice, working from pseudo code to actual code helped me gain a better understanding and appreciation for the process. It will take some time for me to develop my own style and ensure that I am writing comprehensive and efficent code.  
+> At first I didn't quite understand the actual utility of pseudo code. After a little practice, working from pseudo code to actual code helped me gain a better understanding and appreciation for the process. It will take some time for me to develop my own style and ensure that I am writing comprehensive and efficient code.  
 
 **What was helpful during Onboarding working remotely?**
 > Trusting in the process and simply focusing on the next problem has been helpful for me to this point. I keep handwritten check lists to keep my order of work pointed in the right direction, then I just dive into the work, checking boxes as I progress. The slack channel has been an invaluable resource throughout onboarding. Interacting with everyone throughout the day has made working remotely more engaging.  
 
 **What hindered your progress during Onboarding?**
-> The only thing that has hindered me throughout onboarding is my ability to absord and apply highly technical information on short recall. I'm confident that over time and with repetitions, not only will my understanding of the material increase but also my ability to retain and utilze new information more quickly and accuately.  
+> The only thing that has hindered me throughout onboarding is my ability to absorb and apply highly technical information on short recall. I'm confident that over time and with repetitions, not only will my understanding of the material increase but also my ability to retain and utilze new information more quickly and accuately.  
 
 **How did you overcome challenges during Onboarding?**
 > Seeing that nearly everything has been a challenge for me so far, I suppose simple persistance has willed me through to this point. Getting 8 hours of sleep, eating clean and staying hydrated I'm sure has helped me to sustain my energy and focus throughout the day as well.
