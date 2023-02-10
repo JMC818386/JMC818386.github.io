@@ -1,5 +1,20 @@
 # **BootCamp Blog**
 
+## Post #5
+## Onboarding Sprint 3 | Week 3
+### *02.10.23* 
+
+## What is the number one thing that held you back this week? Why?
+> The only thing that really held me back this week is the same thing that had been holding me back since our last sprint - JavaScript. Although I am making consistent progress in understanding the language and how to implement it, there are still some very basic fundamental structural and relational principles that I am still not fully grasping. Spending time in one-on-one huddles with my classmates and instructors has helped me to progress through projects, but it will take some time for me to gain the competence that I need. 
+
+
+## What is one thing you would like to learn more about regarding JavaScript (JSON, Data Structures), Bootstrap, or Atomic Design?
+> Objects, functions and event listeners are areas that I really need to spend some extra time on moving forward. With Bootstrap, I feel comfortable that I have a general idea of how to build with it, but I think I have only scratched the surface. Learning about atomic design felt very intuitive for me, as it is something I’ve encountered before and isn’t very far off from what is taught in print layout design. It will certainly be a great way to conceptualize and form a concise and ordered understanding of the structure of elements on the pages I build, and the relationships between them.
+
+## What is your “Why”?
+> If I had to condense it down to one thing, it’s the satisfaction that learning and writing code brings me. Even when I’m struggling and nothing works, I enjoy the process. There are many many more reasons, but how much I enjoy the grind of development sits right at the core of my reasons for being here.
+
+
 ## Post #4
 ## Onboarding Sprint 2 | Week 2
 ### *02.03.23* 
