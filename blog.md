@@ -1,6 +1,6 @@
 # **BootCamp Blog**
 
-## Post #5
+# Post #5
 ## Onboarding Sprint 3 | Week 3
 ### *02.10.23* 
 
@@ -15,7 +15,7 @@
 > If I had to condense it down to one thing, it’s the satisfaction that learning and writing code brings me. Even when I’m struggling and nothing works, I enjoy the process. There are many many more reasons, but how much I enjoy the grind of development sits right at the core of my reasons for being here.
 
 
-## Post #4
+# Post #4
 ## Onboarding Sprint 2 | Week 2
 ### *02.03.23* 
 
@@ -34,7 +34,7 @@
 **How did you overcome challenges during Onboarding?**
 > Seeing that nearly everything has been a challenge for me so far, I suppose simple persistance has willed me through to this point. Getting 8 hours of sleep, eating clean and staying hydrated I'm sure has helped me to sustain my energy and focus throughout the day as well.
 
-## Post #3
+# Post #3
 ## Retrospective | Week 2
 ### *02.03.23* 
 
@@ -51,7 +51,7 @@
 > Right now, I’m trying to stay focused on trusting the process and progressing through the material and projects at my own pace. I have a lot of work to do in order to gain the competency in JavaScript that I aim to achieve.  
 
 
-## Post #2
+# Post #2
 ## Retrospective | Week 1
 ### *01.27.23*             
 
@@ -78,7 +78,7 @@
 
 
 
-## Post #1
+# Post #1
 ### *01/26/23*
   
 **Was your first week what you expected? Why? Why not?**
