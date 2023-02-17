@@ -1,7 +1,24 @@
 # **BootCamp Blog**
 
+# Post #6
+## Onboarding Sprint 3 | Week 4
+### *02.17.23* 
+
+## What did you learn about that helped you understand the development process?
+> Using breakpoints and console logs really helped me to better understand how my code is being interpreted in the browser. This week I really tried to focus on embracing incremental coding and gaining a more firm understanding of JS and the myriad of ways to approach and solve problems.
+
+## What does it mean to develop good code?
+> At this stage, good code for me is not perhaps the most efficient method to solve a problem, but whatever method I find that makes sense to me. At some point I hope that I gain a level of competence that will allow me to approach coding in a way that centers around industry best practices. For now, my focus is on working through the processes we’ve learned and maintaining a clear understanding of the underlying logic that I am aiming to program into my projects. 
+
+
+## What does it mean to be a good developer?
+> I would imagine a good developer is a master in the craft of problem solving. Able to examine and comprehend all factors in play, understand the mechanics at work, capable of breaking large problems down into smaller problems, then formulating solutions with an eye on the overarching goals of the entire project. I’m sure there are many other things that characterize a good developer, but an ability to solve problems systematically stands out to me as a crucial skill.
+ 
+## What is one thing that programmers hate doing?
+> Getting bogged down with easily avoidable mistakes has been a frustrating pain point for me so far. I’ve lost count of the number of times I have found myself blocked on a problem, only to find out hours later that the solution was something as simple as a typo or missing file link. Encountering silly problems like this has set me back a few times, resulting in deadline pressure to achieve the minimum viable product.
+
 # Post #5
-## Onboarding Sprint 3 | Week 3
+## Sprint 1 | HTML/CSS/JS/State | Week 3
 ### *02.10.23* 
 
 ## What is the number one thing that held you back this week? Why?
@@ -79,6 +96,7 @@
 
 
 # Post #1
+## Onboarding Sprint 1 | Week 1
 ### *01/26/23*
   
 **Was your first week what you expected? Why? Why not?**
