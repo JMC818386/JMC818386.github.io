@@ -1,7 +1,7 @@
 # **BootCamp Blog**
 
 # Post #6
-## Onboarding Sprint 3 | Week 4
+## Onboarding Sprint 2 | Week 4
 ### *02.17.23* 
 
 ## What did you learn about that helped you understand the development process?
