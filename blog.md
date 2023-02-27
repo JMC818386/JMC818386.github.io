@@ -1,6 +1,6 @@
 # **BootCamp Blog**
 # Post #8
-## Retrospective Sprint 3 | Week 5
+## Retrospective Sprint 5 | Week 5
 ### *02.24.23*
 
 ## What did you enjoy?
@@ -17,7 +17,7 @@
 
 
 # Post #7
-## Onboarding Sprint 3 | Week 5
+## Onboarding Sprint 5 | Week 5
 ### *02.24.23*
 
 ### *What is pseudocode and how does it help with programming?*  
@@ -42,7 +42,7 @@ However one approaches pseudocode, the main goal should always be to use simple 
 
 
 # Post #6
-## Onboarding Sprint 2 | Week 4
+## Onboarding Sprint 4 | Week 4
 ### *02.17.23* 
 
 ## What did you learn about that helped you understand the development process?
@@ -59,7 +59,7 @@ However one approaches pseudocode, the main goal should always be to use simple 
 > Getting bogged down with easily avoidable mistakes has been a frustrating pain point for me so far. I’ve lost count of the number of times I have found myself blocked on a problem, only to find out hours later that the solution was something as simple as a typo or missing file link. Encountering silly problems like this has set me back a few times, resulting in deadline pressure to achieve the minimum viable product.
 
 # Post #5
-## Sprint 1 | HTML/CSS/JS/State | Week 3
+## Sprint 3 | HTML/CSS/JS/State | Week 3
 ### *02.10.23* 
 
 ## What is the number one thing that held you back this week? Why?
