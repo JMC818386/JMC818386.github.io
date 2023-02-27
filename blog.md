@@ -1,5 +1,31 @@
 # **BootCamp Blog**
 
+# Post #7
+## Onboarding Sprint 3 | Week 5
+### *02.24.23*
+###
+
+### *What is pseudocode and how does it help with programming?*  
+
+#### *What is Pseudocode?*
+Oxford languages broadly defines Pseudocode as, “a notation resembling a simplified programming language, used in program design”, but what exactly is pseudocode? Why is it used, and why is it a helpful tool for programmers? In the following article we will explore these questions and hopefully arrive at a clearer understanding of the principles and power of pseudocode.
+#### *So, what is pseudocode exactly?*
+The Economic Times introduces the concept of pseudocode as, “an informal way of programming description that does not require any strict programming language syntax or underlying considerations. Simple enough. Computer programming languages are structured using syntactic rules, which through many layers of abstraction, allow us to type and click our way through the technologies we encounter everyday. Anyone who has attempted to learn any programming language will tell you that learning all of the syntax, principles and best practices in even the simplest languages is no easy feat. Now, while there are certainly individuals who have the ability to sit down and build programs from start to finish with little to no ideation or early work-up, for the rest of us mere mortals, this is where pseudocode comes in handy. 
+#### *Why should I use it?*
+Imagine trying to build a skyscraper without a blueprint, or attempting to off-trail land navigation without a map. Now, it can certainly be done, but what that blueprint and map provides is a foundation from which to build upon. This foundation is where all of the basic problem solving takes place. While blueprints and maps might not be the most accurate comparisons to use, the general take-away here is that pseudocode is a tool to build a sturdy foundation upon which to work from in order to reach more complex implementations.
+
+You’ll likely get a different answer from any programmer as to what exactly they believe pseudocode is technically. There is a seemingly endless number of technology stacks, made up of a wide number of languages, designed to accomplish countless objectives from which programmers each subjectively aim to achieve. This technological labyrinth of possibility means that each programmer will inevitably develop their own method and style when approaching the practice of pseudocoding. Now, with all of this being said, there are still some basic rules that apply to most, if not all pseudocode. Keywords such as INPUT, OUTPUT,  IF, THEN, ELSE, FOR, WHILE, GET, DISPLAY and many many others serve as a general marker for programmers to use in attempting to work out the basic logic of whatever program they are attempting to build.
+#### *In summary*
+However one approaches pseudocode, the main goal should always be to use simple language to work through the logic of a system that is to be built. The key objective is to nail down the broad strokes and step into the arena of computer programming equipped with a simplified understanding of the underlying logic which is to be programmed with actual computer programming languages. This article is meant only to address an introductory approach to the concept of pseudocode, providing a general overview of this powerful tool that serves as a starting block only. Beyond the scope of this article are well established styles of pseudocode that are tailored for specific programming languages. For anyone interested in further exploring the foundational principles of pseudocode, check out the links below.
+
+[Definition of Pseudocode](https://economictimes.indiatimes.com/definition/pseudocode)  
+ 
+[How to Write Pseudocode](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/)  
+[What is Pseudocode in Programming?](https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/)  
+[What is Pseudocode?](https://www.techtarget.com/whatis/definition/pseudocode)  
+[Pseudocode according to Wikipedia](https://en.wikipedia.org/wiki/Pseudocode) 
+
+
 # Post #6
 ## Onboarding Sprint 2 | Week 4
 ### *02.17.23* 
