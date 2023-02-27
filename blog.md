@@ -1,9 +1,24 @@
 # **BootCamp Blog**
+# Post #8
+## Retrospective Sprint 3 | Week 5
+### *02.24.23*
+
+## What did you enjoy?
+> Working on the design project was the most enjoyable part of this past week for me. I feel that I have a good understanding of HTML and Bootstrap at this point, so constructing a landing page using my wireframe went very smoothly in contrast to my struggles with the Tic-Tac-Toe project. My landing page is nowhere near where I want it to be, but it felt nice getting to play with the layout and structuring elements on the page.
+
+## What worked?
+> Although my personal website landing page needs a lot of refinement, I’m happy with the progress that I made early in the week. I was able to make the page responsive with the top nav bar being hidden and a hamburger menu appearing when adjusting the screen size from desktop to mobile. I nearly completed the Tic-Tac-Toe game, rendering my entire page using DOM manipulation inside of a single HTML div container, making each square clickable only once, constructing and tying together my functions to access a 2D array of winning combinations, tracking player state, and running an endGame function to log the winner of the game to the console. I had to rely heavily on my instructors to walk me through the functions and structuring of my code, but luckily I was able to present a working site on demo day. I felt a lot more confident working through our morning warm-ups on CodeWars this week, recognizing the necessary logic to implement, spending very little time figuring out what array methods to utilize in order to solve each kata. I’m hoping that my steady progress in warm-ups eventually translates to increased competence while working through our projects moving forward.
+
+## What didn’t?
+> I had a really difficult time moving from my pseudocode to Javascript on Wednesday and Thursday. Once I had the basic structure of  the code framed up, my next step was to figure out how to render HTML elements to the page within a single div. Once I figured that out, I made very little progress on my own. I needed to have one of my instructors walk me through the syntax of tracking player state, using a single event listener inside of a makeMove function to render X’s and O’s to each square that was clicked. I spent a majority of Friday morning working with Andrew to access my winningCombinations 2D array to determine whether or not playerX or playerO had won. I ran out of time before I was able to solve the endGame and resetGame functions. 
+
+## Looking ahead…?
+> As has been the case over the previous few weeks, I will need to spend a lot of extra time outside of class studying and practicing basic Javascript. At this point I know what does and doesn’t work for me when it comes to searching through documentation to solve small problems. I’m hoping that learning the fundamentals of React will help to reinforce what I already know in vanilla JS, and fill in some gaps where I’ve been struggling to connect objects and functions into dynamic pages. I’m still a little behind on my proficiency in Git, so I will also need to spend some extra time reviewing branching so that I can move forward working primarily on dev and feature branching instead of always working on my main branches.
+
 
 # Post #7
 ## Onboarding Sprint 3 | Week 5
 ### *02.24.23*
-###
 
 ### *What is pseudocode and how does it help with programming?*  
 
