@@ -1,6 +1,23 @@
 # **BootCamp Blog**
+
+# Post #9
+## Sprint 4 | React Intro | Week 6
+### *03.03.23*
+
+
+## Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?
+> For me learning React has been a huge challenge so far, but as with every other tool we have encountered so far, the most difficult aspect seems to be the barrier to entry. Similar to bootstrap, I think that once I have gained a solid proficiency with the syntax I will be able to lean into React and begin to see the power of using it to build single page web applications.
+
+## What Frameworks or Libraries are you interested in learning more about?
+> From the very little that I know about other Frameworks and Libraries out there, developers who can work in Angular.js and Vue.js seem to be in high demand currently. I would like to approach my professional development in a way that parallels current market trends and industry demands, so Angular and Vue seem to be the next logical steps if I can manage to gain a solid working proficiency in React.
+
+
+## Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
+> I’m not sure if it would be considered emerging, but state management is a concept that I would really like to gain much more of an understanding and proficiency in. Although I understand the basic concept of state management, I was only able to barely grasp the syntax we used to manage state in our previous projects. Creating single page web applications that work through state rather than rendering the entire page each time seems like a very powerful too.
+
+
 # Post #8
-## Retrospective Sprint 5 | Week 5
+## Retrospective Sprint 3 | Week 5
 ### *02.24.23*
 
 ## What did you enjoy?
@@ -17,7 +34,7 @@
 
 
 # Post #7
-## Onboarding Sprint 5 | Week 5
+## Sprint 3 | Technical Article | Week 5
 ### *02.24.23*
 
 ### *What is pseudocode and how does it help with programming?*  
@@ -34,7 +51,6 @@ You’ll likely get a different answer from any programmer as to what exactly th
 However one approaches pseudocode, the main goal should always be to use simple language to work through the logic of a system that is to be built. The key objective is to nail down the broad strokes and step into the arena of computer programming equipped with a simplified understanding of the underlying logic which is to be programmed with actual computer programming languages. This article is meant only to address an introductory approach to the concept of pseudocode, providing a general overview of this powerful tool that serves as a starting block only. Beyond the scope of this article are well established styles of pseudocode that are tailored for specific programming languages. For anyone interested in further exploring the foundational principles of pseudocode, check out the links below.
 
 [Definition of Pseudocode](https://economictimes.indiatimes.com/definition/pseudocode)  
- 
 [How to Write Pseudocode](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/)  
 [What is Pseudocode in Programming?](https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/)  
 [What is Pseudocode?](https://www.techtarget.com/whatis/definition/pseudocode)  
@@ -42,7 +58,7 @@ However one approaches pseudocode, the main goal should always be to use simple 
 
 
 # Post #6
-## Onboarding Sprint 4 | Week 4
+## Sprint 2 | Vanilla JS | Week 4
 ### *02.17.23* 
 
 ## What did you learn about that helped you understand the development process?
@@ -59,7 +75,7 @@ However one approaches pseudocode, the main goal should always be to use simple 
 > Getting bogged down with easily avoidable mistakes has been a frustrating pain point for me so far. I’ve lost count of the number of times I have found myself blocked on a problem, only to find out hours later that the solution was something as simple as a typo or missing file link. Encountering silly problems like this has set me back a few times, resulting in deadline pressure to achieve the minimum viable product.
 
 # Post #5
-## Sprint 3 | HTML/CSS/JS/State | Week 3
+## Sprint 1 | HTML/CSS/JS/State | Week 3
 ### *02.10.23* 
 
 ## What is the number one thing that held you back this week? Why?
