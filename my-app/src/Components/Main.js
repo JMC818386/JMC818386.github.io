@@ -1,0 +1,20 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Home';
+import Portfolio from './Portfolio';
+import Blog from './Blog';
+import About from './About';
+import Contact from './Contact';
+
+function Main() {
+  return (
+    <div>
+        <Home />
+        <Portfolio />
+        <Blog />
+        <About />
+        <Contact />
+    </div>
+  );
+}
+
+export default Main;
