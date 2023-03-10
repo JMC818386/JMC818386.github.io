@@ -7,15 +7,11 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="container-fluid d-flex justify-content-center">
-      <div className="row">
-        <div className="col-12">
+        <div>
           <TopNav />
           <Main />
           <Footer />
         </div>
-      </div>
-    </div>  
   );
 }
 

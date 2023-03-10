@@ -7,12 +7,16 @@ import Contact from './Contact';
 
 function Main() {
   return (
-    <div>
-        <Home />
-        <Portfolio />
-        <Blog />
-        <About />
-        <Contact />
+    <div className="container-fluid">
+        <div className="row">
+            <div className="col-12">
+                <Home />
+                <Portfolio />
+                <Blog />
+                <About />
+                <Contact />
+            </div>
+        </div>
     </div>
   );
 }
