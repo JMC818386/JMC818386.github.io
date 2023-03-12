@@ -3,8 +3,8 @@ import logo from './img/logo-white.png';
 
 function TopNav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark ">
-      <img className="mx-3 my-2"src={logo} style={{ width: 60 }} alt="Logo" />
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark fixed-top shadow shadow-danger shadow-intensity-lg">
+      <img className="mx-5 my-4"src={logo} style={{ width: 60 }} alt="Logo" />
       <button class="navbar-toggler mx-3"
         type="button"
         data-toggle="collapse" data-target="#navbarNavAltMarkup"

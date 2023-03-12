@@ -2,9 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
   return (
-    <div className="p-5 mt-4 d-flex justify-content-center align-items-center border" style={{ height: 500 }}>
-      <h1>This is my About page/section</h1>
-    </div> 
+    <div className="container-fluid p-5 d-flex align-items-center justify-content-center border" style={{ height: "90vh" }}>
+      <div className="row">
+        <div className="col-12">
+          <h1 className="d-flex justify-content-center" style={{ fontSize: 80 }}>About</h1>
+        </div>
+      </div>
+    </div>
   );
 }
 
