@@ -2,7 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
   return (
-    <h1>This is my About page</h1>
+    <div className="p-5 mt-4 d-flex justify-content-center align-items-center border" style={{ height: 500 }}>
+      <h1>This is my Contact page/section</h1>
+    </div>
   );
 }
 

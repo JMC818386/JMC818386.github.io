@@ -7,16 +7,13 @@ import Contact from './Contact';
 
 function Main() {
   return (
-    <div className="container-fluid">
-        <div className="row">
-            <div className="col-12">
-                <Home />
-                <Portfolio />
-                <Blog />
-                <About />
-                <Contact />
-            </div>
-        </div>
+
+    <div className="container-fluid bg-dark text-light">
+        <Home />
+        <Portfolio />
+        <Blog />
+        <About />
+        <Contact />
     </div>
   );
 }
