@@ -10,9 +10,9 @@ function Main() {
 
     <div className="container-fluid bg-dark text-light">
         <Home />
+        <About />
         <Portfolio />
         <Blog />
-        <About />
         <Contact />
     </div>
   );

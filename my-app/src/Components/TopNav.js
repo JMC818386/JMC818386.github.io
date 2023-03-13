@@ -15,9 +15,9 @@ function TopNav() {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
+          <a class="nav-item nav-link mx-3 px-3" href="https://www.jmcrawforddesign.com/" target="_blank">About</a>
           <a class="nav-item nav-link mx-3 px-3" href="https://www.jmcrawforddesign.com/" target="_blank">Portfolio</a>
           <a class="nav-item nav-link mx-3 px-3" href="https://www.jmcrawforddesign.com/" target="_blank">Blog</a>
-          <a class="nav-item nav-link mx-3 px-3" href="https://www.jmcrawforddesign.com/" target="_blank">About</a>
           <a class="nav-item nav-link mx-3 px-3" href="https://www.jmcrawforddesign.com/" target="_blank">Contact</a>
         </div>
       </div>
