@@ -6,7 +6,7 @@ import {
 
 function TopNav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark shadow shadow-danger shadow-intensity-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark bg-gradient shadow shadow-danger shadow-intensity-lg">
       <img className="mx-5 my-4"src={logo} style={{ width: 60 }} alt="Logo" />
       <button class="navbar-toggler mx-3"
         type="button"

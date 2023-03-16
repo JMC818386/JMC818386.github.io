@@ -9,7 +9,7 @@ function About() {
     <div>
       <TopNav />
       <div className="container-fluid p-5 bg-dark text-light" style={{ height: "90vh" }}>
-        <div className="row mt-5">
+        <div className="row mt-5 rounded shadow shadow-danger shadow-intensity-lg">
           <div className="col-5 d-flex justify-content-center">
             <img src={aboutPhoto} alt="About Image" className="d-flex justify-content-start" style={{ height: 500 }}/>
           </div>
@@ -23,8 +23,10 @@ function About() {
               <h3 className="mt-4 ms-4">University of Kentucky Graduate</h3>
               <h6 className="ms-5 text-secondary">B.S. Digital Media and Design</h6>
               <h6 className="ms-5 text-secondary">B.A. Art History and Visual Studies</h6>
-              <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Resume</button>
-              <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Extended Resume</button>
+              <div className="d-flex justify-content-start">
+                <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Resume</button>
+                <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Extended Resume</button>
+              </div>
             </div>
           </div>
         </div>
