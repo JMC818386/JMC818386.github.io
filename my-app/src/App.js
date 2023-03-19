@@ -1,13 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
+import Home from './Components/Home';
 
 function App() {
   return (
         <div>
-          <Main />
+          <Home />
         </div>
   );
   }

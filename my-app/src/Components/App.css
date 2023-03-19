@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300&display=swap');
+
+.top-nav {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-container {
+
+}
+
+.about-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.about-subheader {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #A4A5A6;
+}
+
+.blog-container {
+    background-color: #1C2026;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+.blog-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.blog-sub-header {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog-sub-header2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog-body-q {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #A4A5A6;
+    font-size: 20px;
+}
+
+.port-card {
+    background-color: #1C2026;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+.port-card-header {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.port-card-body {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: light;
+}
