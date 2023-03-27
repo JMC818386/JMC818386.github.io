@@ -10,13 +10,13 @@ function About() {
     <div>
       <TopNav />
       <div className="container-fluid p-5 bg-dark text-light" style={{ height: "90vh" }}>
-        <div className="row mt-5 rounded about-container">
+        <div className="row mt-5 rounded p-4">
           <div className="col-5 d-flex justify-content-center">
             <img src={aboutPhoto} alt="About Image" className="d-flex justify-content-start" style={{ height: 500 }}/>
           </div>
           <div className="col-7 p-4 d-flex align-items-center">
             <div>
-              <h1 className="mt-4 ms-4 about-header" style={{ fontSize: 50 }}>John-Michael Crawford</h1>
+              <h1 className="mt-4 ms-4 text-light" style={{ fontSize: 50 }}>John-Michael Crawford</h1>
               <h6 className="ms-5 about-body" style={{ fontSize: 20 }}>Lexington, Kentucky</h6>
               <h3 className="mt-4 ms-4 about-subheader">Freelance Graphic Designer</h3>
               <h6 className="ms-5 about-body">Part-Time 2011-2023</h6>
