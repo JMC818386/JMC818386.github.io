@@ -1,0 +1,79 @@
+li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+#landingHeader {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    #landingHeader {font-size: 50px;}
+  }
+
+#landingSubhead {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    #landingSubhead {font-size: 25px;}
+  }
+
+#landingBody {
+    font-size: 30px;
+    color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    #landingBody{font-size: 15px;}
+  }
+
+#sectionSplit {
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    #sectionSplit{height: 200px;}
+  }
+
+.backDrop {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: .5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logoMain {
+    height: 275px;
+    width: auto;
+    margin: 20px 50px 50px 50px;
+}
+
+.cardName {
+    font-size: 25px;
+    margin: 20px 20px 30px 20px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardName{font-size: 15px;}
+  }
+
+.bottomWrapper {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+.svgImage {
+    height: 40px;
+    width: auto;
+    margin: 25px;
+}
+
