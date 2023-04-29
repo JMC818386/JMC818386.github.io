@@ -26,16 +26,16 @@ function TopNav() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link to="/about" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">About</Link>
+                    <Link to="/about" className="nav-item nav-link mx-3 px-3 top-nav">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/Portfolio" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Portfolio</Link>
+                    <Link to="/Portfolio" className="nav-item nav-link mx-3 px-3 top-nav">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/blog" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Blog</Link>
+                    <Link to="/blog" className="nav-item nav-link mx-3 px-3 top-nav">Blog</Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/contact" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Contact</Link>
+                <Link to="/contact" className="nav-item nav-link mx-3 px-3 top-nav">Contact</Link>
                 </li>
                 </ul>
             </div>
