@@ -9,9 +9,13 @@ function Contact() {
       <TopNav />
       <div className="container-fluid p-5 d-flex align-items-center justify-content-center bg-dark text-light" style={{ height: "90vh" }}>
         <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div class="wrapper">
-
+              <h1>CONTACT</h1>
+            </div>
+          </div>
+          <div className="col-6">
+            <div class="wrapper">
               <div className="inner">
                 <form action="">
                   <h3>Contact Us</h3>
@@ -46,12 +50,11 @@ function Contact() {
                   </button>
                 </form>
               </div>
-
             </div>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

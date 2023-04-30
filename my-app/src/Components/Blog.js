@@ -5,11 +5,18 @@ import './App.css';
 
 function Blog() {
   return (
-    <div>
+    <div className="container-fluid bg-dark">
       <TopNav />
-        <div className="container-fluid d-flex row justify-content-center bg-dark text-light">
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container-fluid d-flex justify-content-center bg-dark text-light pb-0 mb-0">
+          <div className="row d-flex justify-content-center pb-0 mb-0">
+            <div className="col-12 pb-0 mb-0">
+              <p className="text-title text-light pb-0 mb-0">BLOG</p>
+            </div>
+          </div>  
+        </div>
+        <div className="container mt-5d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 mt-5 blog-container w-60">
                 <h2 className="blog-sub-header">Sprint 7 | Python | Week 9</h2>
                 <h3 className="blog-body">03.24.23</h3>
                 <h5 className="blog-body-q">What are some similarities and differences you can see with JS and Python?</h5>
@@ -20,9 +27,11 @@ function Blog() {
                 <p className="blog-body">One technology that I use a lot is my smart watch and the Garmin Explore and Garmin Connect apps. I imagine the database for Explore is robust, and would include a lot of third party databases containing certain map types and locations, as well as user and system generated trails and many other features. Both databases would also need to include an ever growing amount of biofeedback and geolocation data that is tracked throughout the day as well as during programmed events. I am still in the very early stages of learning about databases, but if I ever reach a level of competency that would allow me to build software for these devices I would love to pursue projects that center around geolocation tracking and biofeedback monitoring. It would be an incredible opportunity to build something that allowed users to leverage wearable technology to improve their health and live more active lives.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 6 | Halfway | Week 8</h2>
                 <h3 className="blog-body">03.17.23</h3>
                 <h5 className="blog-body-q">Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?</h5>
@@ -33,9 +42,11 @@ function Blog() {
                 <p className="blog-body">I was surprised how quickly I was able to jump in and begin sandboxing with Python. I think that stumbling through and gutting out my first run-through with vanilla JavaScript made learning the basics of Python much easier. It was nice to see all of the programming principles we have been learning throughout the bootcamp in a new language.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 5 | CLI | Week 7</h2>
                 <h3 className="blog-body">03.10.23</h3>
                 <h5 className="blog-body-q">What have you learned about CLIs? Do you think they are scary?</h5>
@@ -46,9 +57,11 @@ function Blog() {
                 <p className="blog-body">At this point any project with or without a framework or library would take me a long time to code. I am still in the very early stages of my journey in gaining a working proficiency in web development. However, I can see how frameworks and libraries can allow for a more rapid development process once I have become more comfortable working with them over time. </p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 4 | React Intro | Week 6</h2>
                 <h3 className="blog-body">03.03.23</h3>
                 <h5 className="blog-body-q">Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h5>
@@ -59,9 +72,11 @@ function Blog() {
                 <p className="blog-body">I'm not sure if it would be considered emerging, but state management is a concept that I would really like to gain much more of an understanding and proficiency in. Although I understand the basic concept of state management, I was only able to barely grasp the syntax we used to manage state in our previous projects. Creating single page web applications that work through state rather than rendering the entire page each time seems like a very powerful too.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Retrospective Sprint 3 | Week 5</h2>
                 <h3 className="blog-body">02.24.23</h3>
                 <h5 className="blog-body-q">What did you enjoy?</h5>
@@ -74,9 +89,11 @@ function Blog() {
                 <p className="blog-body">As has been the case over the previous few weeks, I will need to spend a lot of extra time outside of class studying and practicing basic Javascript. At this point I know what does and doesn't work for me when it comes to searching through documentation to solve small problems. I'm hoping that learning the fundamentals of React will help to reinforce what I already know in vanilla JS, and fill in some gaps where I've been struggling to connect objects and functions into dynamic pages. I'm still a little behind on my proficiency in Git, so I will also need to spend some extra time reviewing branching so that I can move forward working primarily on dev and feature branching instead of always working on my main branches.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
               <h2 className="blog-sub-header">Sprint 3 | Technical Article | Week 5</h2>
               <h3 className="blog-body">02.24.23</h3>
               <h3 className="blog-sub-header">What is pseudocode and how does it help with programming?</h3>
@@ -101,9 +118,11 @@ function Blog() {
               <br></br>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 2 | Vanilla JS | Week 4</h2>
                 <h3 className="blog-body">02.17.23</h3>
                 <h5 className="blog-body-q">What did you learn about that helped you understand the development process?</h5>
@@ -116,9 +135,11 @@ function Blog() {
                 <p className="blog-body">Getting bogged down with easily avoidable mistakes has been a frustrating pain point for me so far. I've lost count of the number of times I have found myself blocked on a problem, only to find out hours later that the solution was something as simple as a typo or missing file link. Encountering silly problems like this has set me back a few times, resulting in deadline pressure to achieve the minimum viable product.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 1 | HTML/CSS/JS/State | Week 3</h2>
                 <h3 className="blog-body">02.10.23</h3>
                 <h5 className="blog-body-q">What is the number one thing that held you back this week? Why?</h5>
@@ -129,9 +150,11 @@ function Blog() {
                 <p className="blog-body">If I had to condense it down to one thing, it's the satisfaction that learning and writing code brings me. Even when I'm struggling and nothing works, I enjoy the process. There are many many more reasons, but how much I enjoy the grind of development sits right at the core of my reasons for being here.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Onboarding Sprint 2 | Week 2</h2>
                 <h3 className="blog-body">02.03.23</h3>
                 <h5 className="blog-body-q">What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h5>
@@ -146,9 +169,11 @@ function Blog() {
                 <p className="blog-body">Seeing that nearly everything has been a challenge for me so far, I suppose simple persistance has willed me through to this point. Getting 8 hours of sleep, eating clean and staying hydrated I'm sure has helped me to sustain my energy and focus throughout the day as well.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Retrospective | Week 2</h2>
                 <h3 className="blog-body">02.03.23</h3>
                 <h5 className="blog-body-q">What did you enjoy?</h5>
@@ -161,9 +186,11 @@ function Blog() {
                 <p className="blog-body">Right now, I'm trying to stay focused on trusting the process and progressing through the material and projects at my own pace. I have a lot of work to do in order to gain the competency in JavaScript that I aim to achieve.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Retrospective | Week 1</h2>
                 <h3 className="blog-body">01.27.23</h3>
                 <h5 className="blog-body-q">What helps you to be successful as a team?</h5>
@@ -182,9 +209,11 @@ function Blog() {
                 <p className="blog-body">It would be nice to be in-person, but I can’t say that I would change anything. I’m enjoying the process so far, and really enjoy working with and learning from my instructors and classmates.</p>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5 d-flex justify-content-center">
-            <div className="col-9 p-5 rounded blog-container">
+        <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="row d-flex justify-content-center">
+            <div className="col-9 px-5 rounded blog-container">
                 <h2 className="blog-sub-header">Onboarding Sprint 1 | Week 1</h2>
                 <h3 className="blog-body">01/26/23</h3>
                 <h5 className="blog-body-q">Was your first week what you expected? Why? Why not?</h5>

@@ -11,24 +11,17 @@ function About() {
       <TopNav />
       <div className="container-fluid p-5 bg-dark text-light" style={{ height: "90vh" }}>
         <div className="row mt-5 rounded p-4">
-          <div className="col-5 d-flex justify-content-center">
-            <img src={aboutPhoto} alt="About Image" className="d-flex justify-content-start" style={{ height: 500 }}/>
-          </div>
           <div className="col-7 p-4 d-flex align-items-center">
             <div>
-              <h1 className="mt-4 ms-4 text-light" style={{ fontSize: 50 }}>John-Michael Crawford</h1>
-              <h6 className="ms-5 about-body" style={{ fontSize: 20 }}>Lexington, Kentucky</h6>
-              <h3 className="mt-4 ms-4 about-subheader">Freelance Graphic Designer</h3>
-              <h6 className="ms-5 about-body">Part-Time 2011-2023</h6>
-              <h3 className="mt-4 ms-4 about-subheader">United States Army Veteran</h3>
-              <h3 className="mt-4 ms-4 about-subheader">University of Kentucky Graduate</h3>
-              <h6 className="ms-5 about-body">B.S. Digital Media and Design</h6>
-              <h6 className="ms-5 about-body">B.A. Art History and Visual Studies</h6>
+            <p>There isn't an aspect of art and design that doesn't draw my interest. I have always had a passion for art history and the evolution of visual communication.  My work as a designer and developer is a reflection of what and who I surround myself with. Collaborating with talented and motivated individuals is my life's passion, and a critical aspect of what I aim to accomplish professionally. I work in both print and digital media, utilizing holistic approaches in to deliver effective and sustainable messages and user experiences. My current focus is in web development and user experience design.</p>
               <div className="d-flex justify-content-start">
                 <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Resume</button>
                 <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Extended Resume</button>
               </div>
             </div>
+          </div>
+          <div className="col-5 d-flex justify-content-center">
+            <img src={aboutPhoto} alt="About Image" className="d-flex justify-content-start" style={{ height: 500 }}/>
           </div>
         </div>
       </div>
@@ -38,3 +31,7 @@ function About() {
 }
 
 export default About;
+
+
+
+
