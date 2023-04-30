@@ -7,6 +7,8 @@ import About from "./Components/About.js";
 import Portfolio from "./Components/Portfolio";
 import Blog from "./Components/Blog.js";
 import Contact from "./Components/Contact.js";
+import GraphicDesign from "./Components/GraphicDesign.js";
+import WebDevelopment from "./Components/WebDevelopment.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/graphic-design",
+    element: <GraphicDesign />,
+  },
+  {
+    path: "/web-development",
+    element: <WebDevelopment />,
   },
 ]);
 

@@ -1,47 +1,59 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './img/logo-white.png';
-import {
-  BrowserRouter as Router,
-  Link } from "react-router-dom";
+import TopNav from './TopNav';
+import Footer from './Footer';
+import './CSSSandbox.css';
 
-
-function TopNav() {
+function Contact() {
   return (
-    <div className="div">
-        <nav className="navbar navbar-expand-lg navbar-dark test-light bg-dark">
-            <Link to="/">
-                <img className="mx-5 my-4"src={logo} style={{ width: 60 }} alt="Logo" />
-            </Link>
-            <button
-                className="navbar-toggler mx-5"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span className="navbar-toggler-icon" />
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                <li className="nav-item">
-                    <Link to="/about" className="nav-item nav-link mx-3 px-3 top-nav">About</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/Portfolio" className="nav-item nav-link mx-3 px-3 top-nav">Portfolio</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/blog" className="nav-item nav-link mx-3 px-3 top-nav">Blog</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/contact" className="nav-item nav-link mx-3 px-3 top-nav">Contact</Link>
-                </li>
-                </ul>
+    <div>
+      <TopNav />
+      <div className="container-fluid p-5 d-flex align-items-center justify-content-center bg-dark text-light" style={{ height: "90vh" }}>
+        <div className="row">
+          <div className="col-12">
+            <div class="wrapper">
+
+              <div className="inner">
+                <form action="">
+                  <h3>Contact Us</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore.
+                  </p>
+                  <label className="form-group">
+                    <input type="text" className="form-control" required="" />
+                    <span>Your Name</span>
+                    <span className="border" />
+                  </label>
+                  <label className="form-group">
+                    <input type="text" className="form-control" required="" />
+                    <span htmlFor="">Your Mail</span>
+                    <span className="border" />
+                  </label>
+                  <label className="form-group">
+                    <textarea
+                      name=""
+                      id=""
+                      className="form-control"
+                      required=""
+                      defaultValue={""}
+                    />
+                    <span htmlFor="">Your Message</span>
+                    <span className="border" />
+                  </label>
+                  <button>
+                    Submit
+                    <i className="zmdi zmdi-arrow-right" />
+                  </button>
+                </form>
+              </div>
+
             </div>
-        </nav>
+          </div>
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
 
-export default TopNav;
+export default Contact;

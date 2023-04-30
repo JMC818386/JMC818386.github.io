@@ -8,12 +8,12 @@ import {
 function TopNav() {
   return (
     <div className="div">
-        <nav className="navbar navbar-expand-lg navbar-dark test-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark text-light bg-dark">
             <Link to="/">
                 <img className="mx-5 my-4"src={logo} style={{ width: 60 }} alt="Logo" />
             </Link>
             <button
-                className="navbar-toggler mx-5"
+                className="navbar-toggler mx-5 mb-5"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarNav"
