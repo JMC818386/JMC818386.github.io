@@ -13,7 +13,7 @@ font-family: 'Hind', sans-serif; */
     height: 100%;
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    transition: opacity 0.5s;
+    transition: opacity 0.80s;
   }
   
   .col-lg-4:hover .overlay,
@@ -22,13 +22,17 @@ font-family: 'Hind', sans-serif; */
   }
   
   .overlay-text {
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: 20px;
     color: white;
     text-align: center;
+    line-height: 30px;
   }
 
 .navbar-toggler {
@@ -59,24 +63,31 @@ font-family: 'Hind', sans-serif; */
 }
 
 .text-subnav {
-    font-family: 'Hind', sans-serif;
-    font-weight: 300;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
     text-decoration: none;
+    color: #88898C;
 }
 
-.text-subnav:hover,
-.text-subnav:focus,
+.text-subnav:hover {
+    color: white;
+    text-decoration: none;
+}
+.text-subnav:focus {
+    color: white;
+    text-decoration: none;
+}
 .text-subnav:active {
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid white;
 }
 
 .text-subnav:clicked {
     color: grey;
     text-decoration: none;
     border-bottom: 2px solid white;
+    text-align: center;
 }
 
 /* If the screen size is 1200px wide or more, set the font-size to 80px */
@@ -85,7 +96,7 @@ font-family: 'Hind', sans-serif; */
       font-size: 90px;
     }
     .text-subnav {
-        font-size: 25px;
+        font-size: 15px;
     }
   }
   /* If the screen size is smaller than 1200px, set the font-size to 80px */

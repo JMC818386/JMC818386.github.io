@@ -10,6 +10,21 @@ import Contact from "./Components/Contact.js";
 import GraphicDesign from "./Components/GraphicDesign.js";
 import WebDevelopment from "./Components/WebDevelopment.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Amperes from "./Components/Portfolio/Design/Amperes.js";
+import BG from "./Components/Portfolio/Design/BG.js";
+import BossStrategies from "./Components/Portfolio/Design/BossStrategies.js";
+import BrownForman from "./Components/Portfolio/Design/BrownForman.js";
+import DreamPosters from "./Components/Portfolio/Design/DreamPosters.js";
+import EastCoast from "./Components/Portfolio/Design/EastCoast.js";
+import Mindset from "./Components/Portfolio/Design/Mindset.js";
+import Phantom from "./Components/Portfolio/Design/Phantom.js";
+import QRT from "./Components/Portfolio/Design/QRT.js";
+import RangerHB from "./Components/Portfolio/Design/RangerHB.js";
+import SeaKayakGA from "./Components/Portfolio/Design/SeaKayakGA.js";
+import SpaceMonkey from "./Components/Portfolio/Design/SpaceMonkey.js";
+import StokedOne from "./Components/Portfolio/Design/StokedOne.js";
+import StokedTwo from "./Components/Portfolio/Design/StokedTwo.js";
+import StokedThree from "./Components/Portfolio/Design/StokedThree.js";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +58,66 @@ const router = createBrowserRouter([
   {
     path: "/web-development",
     element: <WebDevelopment />,
+  },
+  {
+    path: "/amperes",
+    element: <Amperes />,
+  },
+  {
+    path: "/bg",
+    element: <BG />,
+  },
+  {
+    path: "/boss-strategies",
+    element: <BossStrategies />,
+  },
+  {
+    path: "/brown-forman",
+    element: <BrownForman />,
+  },
+  {
+    path: "/dream-posters",
+    element: <DreamPosters />,
+  },
+  {
+    path: "/east-coast",
+    element: <EastCoast />,
+  },
+  {
+    path: "/mindset",
+    element: <Mindset />,
+  },
+  {
+    path: "/phantom",
+    element: <Phantom />,
+  },
+  {
+    path: "/qrt",
+    element: <QRT />,
+  },
+  {
+    path: "/ranger",
+    element: <RangerHB />,
+  },
+  {
+    path: "/skg",
+    element: <SeaKayakGA />,
+  },
+  {
+    path: "/space-monkey",
+    element: <SpaceMonkey />,
+  },
+  {
+    path: "/stoked-one",
+    element: <StokedOne />,
+  },
+  {
+    path: "/stoked-two",
+    element: <StokedTwo />,
+  },
+  {
+    path: "/stoked-three",
+    element: <StokedThree />,
   },
 ]);
 
