@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.25ed5753.css",
-    "main.js": "/static/js/main.939c41db.js",
+    "main.css": "/static/css/main.04705b96.css",
+    "main.js": "/static/js/main.6deda319.js",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
@@ -27,11 +27,11 @@
     "static/media/weather-app.png": "/static/media/weather-app.9ae797db14461e5e5aef.png",
     "static/media/boss.jpg": "/static/media/boss.bbf70a6151298aae2004.jpg",
     "index.html": "/index.html",
-    "main.25ed5753.css.map": "/static/css/main.25ed5753.css.map",
-    "main.939c41db.js.map": "/static/js/main.939c41db.js.map"
+    "main.04705b96.css.map": "/static/css/main.04705b96.css.map",
+    "main.6deda319.js.map": "/static/js/main.6deda319.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ed5753.css",
-    "static/js/main.939c41db.js"
+    "static/css/main.04705b96.css",
+    "static/js/main.6deda319.js"
   ]
 }
