@@ -90,7 +90,15 @@ font-family: 'Hind', sans-serif; */
     text-align: center;
 }
 
-/* If the screen size is 1200px wide or more, set the font-size to 80px */
+.about-image {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: scale-down;
+    max-width: 100%;
+  }
+
+/* If the screen size is 1200px wide or more */
 @media (min-width: 1200px) {
     .text-title {
       font-size: 90px;
@@ -98,8 +106,39 @@ font-family: 'Hind', sans-serif; */
     .text-subnav {
         font-size: 15px;
     }
+    .about-header {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: left;
+    }
+    .about-subheader {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 25px;
+        text-align: left;
+        font-weight: 200;
+        text-align: left;
+    }
+    .about-subheader-2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #88898C;
+        font-size: 20px;
+        text-align: left;
+        font-weight: 200;
+        text-align: left;
+    }
+    .about-body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        text-align: left;
+        line-height: 30px;
+        font-size: 15px;
+        text-align: left;
+    }
+
   }
-  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  /* If the screen size is smaller than 1200px */
   @media (max-width: 1000px) {
     .text-title {
       font-size: 60px;
@@ -107,8 +146,50 @@ font-family: 'Hind', sans-serif; */
     .text-subnav {
         font-size: 17px;
     }
-  }
-/* If the screen size is smaller than 1200px, set the font-size to 80px */
+    .about-header {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: left;
+    }
+    .about-subheader {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .about-subheader-2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #88898C;
+        font-size: 12px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .about-body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
+    .about-image {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 15px;
+        object-fit: scale-down;
+        max-width: 100%;
+    }
+}
+
+  /* @media (max-width: 800px) {
+    .about-image {
+      display: none;
+    }
+  } */
+
+/* If the screen size is smaller than 1200px */
 @media (max-width: 600px) {
     .text-title {
         font-size: 40px;
@@ -116,15 +197,44 @@ font-family: 'Hind', sans-serif; */
     .text-subnav {
         font-size: 17px;
     }
+    .about-header {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: left;
+    }
+    .about-subheader {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .about-subheader-2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #88898C;
+        font-size: 15px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .about-body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
 }
-
-
 
 
 .text-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 50px;
+}
+
+.grey {
+    color:#88898C;
 }
 
 .text-secondary {
@@ -141,19 +251,6 @@ font-family: 'Hind', sans-serif; */
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
-.about-header {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
-.about-subheader {
-    font-family: 'Hind', sans-serif;
-}
-
-.about-body {
-    font-family: 'Hind', sans-serif;;
-    color: #A4A5A6;
-}
 
 .blog-container {
     background-color: dark;
