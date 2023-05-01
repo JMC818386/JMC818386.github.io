@@ -5,7 +5,7 @@ import './Components/App.css';
 
 function App() {
   return (
-        <div className="bg-dark background vh-100 d-flex justify-content-center">
+        <div className="container-fluid bg-dark background h-100">
           <Home />
         </div>
   );

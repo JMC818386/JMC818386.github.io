@@ -56,6 +56,35 @@ font-family: 'Hind', sans-serif; */
     background: rgb(38,38,38);
    
 } */
+
+.contact-input {
+    max-width: 400px;
+}
+
+.contact-box {
+    max-width: 400px;
+}
+
+.contact-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+}
+.contact-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+}
+
+.contact-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    text-align: left;
+}
+
 .text-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -264,11 +293,13 @@ font-family: 'Hind', sans-serif; */
 .blog-sub-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-align: left;
 }
 
 .blog-sub-header2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-align: left;
 }
 
 .blog-body-q {

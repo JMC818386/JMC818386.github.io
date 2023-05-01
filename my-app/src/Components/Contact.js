@@ -5,52 +5,43 @@ import './CSSSandbox.css';
 
 function Contact() {
   return (
-    <div>
+    <div className="bg-dark">
       <TopNav />
-      <div className="container-fluid p-5 d-flex align-items-center justify-content-center bg-dark text-light" style={{ height: "90vh" }}>
-        <div className="row">
-          <div className="col-6">
-            <div class="wrapper">
-              <h1>CONTACT</h1>
-            </div>
+      <div className="container pt-5 d-flex justify-content-md-center bg-dark text-light vh-100">
+        <div className="row flex-column flex-md-row justify-content-md-center">
+          <div className="col d-flex flex-column pr-5">
+              <h1 className="text-header contact-title">CONTACT</h1>
+              <p className="contact-body">Thank you for visiting my site! If you would like to get in touch with me my contact information is listed below. You can contact me directly by phone and email, or if you would like to leave a quick and simple message just fill out the contact form and I will get back to you as soon as I can. Also, feel free to connect with me through social media.</p>
+              <p className="contact-body">johncrawforddesign@gmail.com</p>
+              
           </div>
-          <div className="col-6">
-            <div class="wrapper">
-              <div className="inner">
-                <form action="">
-                  <h3>Contact Us</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore.
-                  </p>
-                  <label className="form-group">
-                    <input type="text" className="form-control" required="" />
-                    <span>Your Name</span>
-                    <span className="border" />
-                  </label>
-                  <label className="form-group">
-                    <input type="text" className="form-control" required="" />
-                    <span htmlFor="">Your Mail</span>
-                    <span className="border" />
-                  </label>
-                  <label className="form-group">
-                    <textarea
-                      name=""
-                      id=""
-                      className="form-control"
-                      required=""
-                      defaultValue={""}
-                    />
-                    <span htmlFor="">Your Message</span>
-                    <span className="border" />
-                  </label>
-                  <button>
-                    Submit
-                    <i className="zmdi zmdi-arrow-right" />
-                  </button>
-                </form>
-              </div>
-            </div>
+          <div className="col contact-input">
+            <form action="">
+              <label className="form-group">
+                <input type="text" className="form-control" required="" />
+                <span>Your Name</span>
+                <span className="border" />
+              </label>
+              <label className="form-group">
+                <input type="text" className="form-control" required="" />
+                <span htmlFor="">Your Email</span>
+                <span className="border" />
+              </label>
+              <label className="form-group">
+                <textarea
+                  name=""
+                  id=""
+                  className="form-control"
+                  required=""
+                  defaultValue={""}
+                />
+                <span htmlFor="">Your Message</span>
+              </label>
+              <button>
+                Submit
+                <i className="zmdi zmdi-arrow-right" />
+              </button>
+            </form>
           </div>
         </div>
       </div>

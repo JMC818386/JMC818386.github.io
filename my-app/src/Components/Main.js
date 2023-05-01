@@ -4,7 +4,7 @@ import Home from './Home';
 function Main() {
   return (
     
-    <div className="container-fluid bg-dark text-light">
+    <div className="container-fluid bg-dark text-light d-flex justify-content-center">
         <Home />
     </div>
   );
