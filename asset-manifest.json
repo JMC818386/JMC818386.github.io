@@ -1,16 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.c15a9460.css",
-    "main.js": "/static/js/main.49c93752.js",
-    "static/media/paper-background.png": "/static/media/paper-background.7b9b175d785a2bf18cd2.png",
+    "main.css": "/static/css/main.25ed5753.css",
+    "main.js": "/static/js/main.939c41db.js",
+    "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
+    "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
+    "static/media/brownforman.jpg": "/static/media/brownforman.8f659052253de79c6a88.jpg",
+    "static/media/phantom.jpg": "/static/media/phantom.484ccf77f5d100e8620b.jpg",
+    "static/media/stoicism1.jpg": "/static/media/stoicism1.da3dc8cd76e59c2e61f0.jpg",
+    "static/media/stoicism2.jpg": "/static/media/stoicism2.02ff571f2215d359c584.jpg",
+    "static/media/skg.jpg": "/static/media/skg.1344d5721349d607c877.jpg",
+    "static/media/dreams.jpg": "/static/media/dreams.4f9bf9053cffa7275bf6.jpg",
+    "static/media/alarm-clock.png": "/static/media/alarm-clock.9103a2e3b0af1f5a73de.png",
+    "static/media/pocket-pro.png": "/static/media/pocket-pro.2a720ac33c3f7aa83cf5.png",
+    "static/media/rangerhandbook.jpg": "/static/media/rangerhandbook.29576d4a731f66195932.jpg",
+    "static/media/smm.jpg": "/static/media/smm.d8c6d09b7b9d1d2f6578.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.08233491a367a4ddbb3e.png",
+    "static/media/amperes&.jpg": "/static/media/amperes&.cc5b2ca2f8529fba5521.jpg",
+    "static/media/QRT.jpg": "/static/media/QRT.617f8bcd2beabc2b1505.jpg",
+    "static/media/bg.jpg": "/static/media/bg.5bd065582a2ef9586611.jpg",
+    "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.78bb4f1a3e9bc2be83d7.png",
+    "static/media/tic-tac-toe-two.png": "/static/media/tic-tac-toe-two.e8f6454bd2247e56fee9.png",
+    "static/media/eastcoast.jpg": "/static/media/eastcoast.6d468ef8f2bac5491071.jpg",
+    "static/media/todo-list.png": "/static/media/todo-list.79e6d76325161ee001c7.png",
+    "static/media/weather-app.png": "/static/media/weather-app.9ae797db14461e5e5aef.png",
+    "static/media/boss.jpg": "/static/media/boss.bbf70a6151298aae2004.jpg",
     "index.html": "/index.html",
-    "main.c15a9460.css.map": "/static/css/main.c15a9460.css.map",
-    "main.49c93752.js.map": "/static/js/main.49c93752.js.map"
+    "main.25ed5753.css.map": "/static/css/main.25ed5753.css.map",
+    "main.939c41db.js.map": "/static/js/main.939c41db.js.map"
   },
   "entrypoints": [
-    "static/css/main.c15a9460.css",
-    "static/js/main.49c93752.js"
+    "static/css/main.25ed5753.css",
+    "static/js/main.939c41db.js"
   ]
 }
