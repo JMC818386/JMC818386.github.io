@@ -11,8 +11,8 @@ function Home() {
       <div className="container-fluid p-5 d-flex align-items-center justify-content-center bg-dark text-light" style={{ height: "80vh" }}>
         <div className="row">
           <div className="col-12">
-            <h1 className="d-flex justify-content-center text-header">John-Michael Crawford</h1>
-            <h4 className="d-flex justify-content-center text-secondary">Graphic Designer & Web Developer</h4>
+            <p className="d-flex justify-content-center text-header mb-0 pb-0">John-Michael Crawford</p>
+            <p className="d-flex justify-content-center text-secondary mt-0 pt-0">Graphic Designer & Web Developer</p>
           </div>
         </div>
       </div>
