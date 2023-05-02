@@ -1,5 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './img/logo-white.png';
+import GitHubNav from './img/GithubNav.png';
+import LinkedInNav from './img/LinkedInNav.png';
+import CodeWarsNav from './img/CodeWarsNav.png';
 import {
   BrowserRouter as Router,
   Link } from "react-router-dom";
@@ -38,6 +41,15 @@ function TopNav() {
                 <Link to="/contact" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Contact</Link>
                 </li>
                 </ul>
+            </div>
+            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', top: '5px', right: '50px' }}>
+                 <a className="p-2" target="_blank" rel="noopener" href="https://github.com/JMC818386" ><img src={GitHubNav} style={{ width: 30 }}/></a>
+            </div>            
+            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', top: '5px', right: '50px' }}>
+                 <a className="p-2" target="_blank" rel="noopener" href="https://www.linkedin.com/in/john-michaelcrawford" ><img src={LinkedInNav} style={{ width: 30 }}/></a>
+            </div>
+            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', top: '5px', right: '50px' }}>
+                 <a className="p-2" target="_blank" rel="noopener" href="https://www.codewars.com/users/JMC818386" ><img src={CodeWarsNav} style={{ width: 30 }}/></a>
             </div>
         </nav>
     </div>
