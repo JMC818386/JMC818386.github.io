@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.04705b96.css",
-    "main.js": "/static/js/main.6deda319.js",
+    "main.css": "/static/css/main.0cce0aed.css",
+    "main.js": "/static/js/main.515cc016.js",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
@@ -17,21 +17,42 @@
     "static/media/smm.jpg": "/static/media/smm.d8c6d09b7b9d1d2f6578.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.08233491a367a4ddbb3e.png",
     "static/media/amperes&.jpg": "/static/media/amperes&.cc5b2ca2f8529fba5521.jpg",
+    "static/media/sql.png": "/static/media/sql.2b8e9013020e2225154f.png",
+    "static/media/microsoftoffice.png": "/static/media/microsoftoffice.e5610a12c708fb2b3e9d.png",
     "static/media/QRT.jpg": "/static/media/QRT.617f8bcd2beabc2b1505.jpg",
     "static/media/bg.jpg": "/static/media/bg.5bd065582a2ef9586611.jpg",
+    "static/media/react.png": "/static/media/react.8dc016621fcaa9f8f65a.png",
+    "static/media/slack.png": "/static/media/slack.8a0ace36c4515d19bbb9.png",
+    "static/media/postgresql.png": "/static/media/postgresql.bbcce89362d4eea09868.png",
+    "static/media/github.png": "/static/media/github.8088cc48de80d50f0d87.png",
     "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
+    "static/media/gitpod.png": "/static/media/gitpod.5858f62a5a73fc3a0cf2.png",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.78bb4f1a3e9bc2be83d7.png",
+    "static/media/python.png": "/static/media/python.90d64f917c3dd8238991.png",
     "static/media/tic-tac-toe-two.png": "/static/media/tic-tac-toe-two.e8f6454bd2247e56fee9.png",
+    "static/media/javascript.png": "/static/media/javascript.37ad15e913b1d75b7304.png",
     "static/media/eastcoast.jpg": "/static/media/eastcoast.6d468ef8f2bac5491071.jpg",
     "static/media/todo-list.png": "/static/media/todo-list.79e6d76325161ee001c7.png",
     "static/media/weather-app.png": "/static/media/weather-app.9ae797db14461e5e5aef.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.359f0e5e26731947e468.png",
+    "static/media/google.png": "/static/media/google.05bcc055e3ea1dbc2506.png",
     "static/media/boss.jpg": "/static/media/boss.bbf70a6151298aae2004.jpg",
+    "static/media/xd.png": "/static/media/xd.67261e493d02f0b05eda.png",
+    "static/media/css.png": "/static/media/css.e9614ba3fcebebd47545.png",
+    "static/media/html.png": "/static/media/html.743ab47c8b3f6f976f9e.png",
+    "static/media/acrobat.png": "/static/media/acrobat.b116fe46ee92c6804c3a.png",
+    "static/media/photoshop.png": "/static/media/photoshop.56cb1c17c857f9fd96f6.png",
+    "static/media/illustrator.png": "/static/media/illustrator.8552f039c44e8ae8a31d.png",
+    "static/media/git.png": "/static/media/git.bf85abb8182fe44f3862.png",
+    "static/media/indesign.png": "/static/media/indesign.f0750bf3c5c18188a08c.png",
+    "static/media/premiere.png": "/static/media/premiere.e8ba8eb2895c07763937.png",
+    "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "index.html": "/index.html",
-    "main.04705b96.css.map": "/static/css/main.04705b96.css.map",
-    "main.6deda319.js.map": "/static/js/main.6deda319.js.map"
+    "main.0cce0aed.css.map": "/static/css/main.0cce0aed.css.map",
+    "main.515cc016.js.map": "/static/js/main.515cc016.js.map"
   },
   "entrypoints": [
-    "static/css/main.04705b96.css",
-    "static/js/main.6deda319.js"
+    "static/css/main.0cce0aed.css",
+    "static/js/main.515cc016.js"
   ]
 }
