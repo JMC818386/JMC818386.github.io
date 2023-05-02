@@ -11,7 +11,7 @@ function Contact() {
         <div className="row flex-column flex-md-row justify-content-md-center">
           <div className="col d-flex flex-column pr-5">
               <h1 className="text-header contact-title">CONTACT</h1>
-              <p className="contact-body">Thank you for visiting my site! If you would like to get in touch with me my contact information is listed below. You can contact me directly by phone and email, or if you would like to leave a quick and simple message just fill out the contact form and I will get back to you as soon as I can. Also, feel free to connect with me through social media.</p>
+              <p className="contact-body">Thank you for visiting my site! If you would like to get in touch with me my contact information is listed below. You can contact me directly by email, or if you would like to leave a quick and simple message just fill out the contact form and I will get back to you as soon as I can. Also, feel free to connect with me through social media.</p>
               <p className="contact-body">johncrawforddesign@gmail.com</p>
               
           </div>
