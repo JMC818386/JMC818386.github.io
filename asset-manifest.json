@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0cce0aed.css",
-    "main.js": "/static/js/main.515cc016.js",
+    "main.js": "/static/js/main.82d0642d.js",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
@@ -25,8 +25,10 @@
     "static/media/slack.png": "/static/media/slack.8a0ace36c4515d19bbb9.png",
     "static/media/postgresql.png": "/static/media/postgresql.bbcce89362d4eea09868.png",
     "static/media/github.png": "/static/media/github.8088cc48de80d50f0d87.png",
+    "static/media/GithubNav.png": "/static/media/GithubNav.afad718f9f3173b32e12.png",
     "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
     "static/media/gitpod.png": "/static/media/gitpod.5858f62a5a73fc3a0cf2.png",
+    "static/media/CodeWarsNav.png": "/static/media/CodeWarsNav.54bc17296cf970d555c8.png",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.78bb4f1a3e9bc2be83d7.png",
     "static/media/python.png": "/static/media/python.90d64f917c3dd8238991.png",
     "static/media/tic-tac-toe-two.png": "/static/media/tic-tac-toe-two.e8f6454bd2247e56fee9.png",
@@ -38,6 +40,7 @@
     "static/media/google.png": "/static/media/google.05bcc055e3ea1dbc2506.png",
     "static/media/boss.jpg": "/static/media/boss.bbf70a6151298aae2004.jpg",
     "static/media/xd.png": "/static/media/xd.67261e493d02f0b05eda.png",
+    "static/media/LinkedInNav.png": "/static/media/LinkedInNav.a9be71d95f8ca9566624.png",
     "static/media/css.png": "/static/media/css.e9614ba3fcebebd47545.png",
     "static/media/html.png": "/static/media/html.743ab47c8b3f6f976f9e.png",
     "static/media/acrobat.png": "/static/media/acrobat.b116fe46ee92c6804c3a.png",
@@ -49,10 +52,10 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "index.html": "/index.html",
     "main.0cce0aed.css.map": "/static/css/main.0cce0aed.css.map",
-    "main.515cc016.js.map": "/static/js/main.515cc016.js.map"
+    "main.82d0642d.js.map": "/static/js/main.82d0642d.js.map"
   },
   "entrypoints": [
     "static/css/main.0cce0aed.css",
-    "static/js/main.515cc016.js"
+    "static/js/main.82d0642d.js"
   ]
 }
