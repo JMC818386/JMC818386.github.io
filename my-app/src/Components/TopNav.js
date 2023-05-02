@@ -42,13 +42,13 @@ function TopNav() {
                 </li>
                 </ul>
             </div>
-            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', top: '5px', right: '50px' }}>
+            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>
                  <a className="p-2" target="_blank" rel="noopener" href="https://github.com/JMC818386" ><img src={GitHubNav} style={{ width: 30 }}/></a>
             </div>            
-            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', top: '5px', right: '50px' }}>
+            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>
                  <a className="p-2" target="_blank" rel="noopener" href="https://www.linkedin.com/in/john-michaelcrawford" ><img src={LinkedInNav} style={{ width: 30 }}/></a>
             </div>
-            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', top: '5px', right: '50px' }}>
+            <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>
                  <a className="p-2" target="_blank" rel="noopener" href="https://www.codewars.com/users/JMC818386" ><img src={CodeWarsNav} style={{ width: 30 }}/></a>
             </div>
         </nav>
