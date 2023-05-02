@@ -5,6 +5,12 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Hind', sans-serif; */
 
+.icons {
+    width: 60px;
+    margin: 25px;
+    padding-top: 10px;
+}
+
 .overlay {
     position: absolute;
     top: 0;

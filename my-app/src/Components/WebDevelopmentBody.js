@@ -64,14 +64,6 @@ function WebDevelopmentBody() {
                     </div>
                 </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-                <Link to="/about" className="">
-                    <img className="card-img-top" src={Logo} alt="Weather App" />
-                    <div className="overlay">
-                    <p className="overlay-text">Restaurant Menu</p>
-                    </div>
-                </Link>
-                </div>
             </div>
         </div>
     </div>
