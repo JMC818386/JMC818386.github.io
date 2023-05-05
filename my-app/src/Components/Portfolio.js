@@ -3,15 +3,11 @@ import TopNav from './TopNav';
 import PortfolioNav from './PortfolioNav';
 import Footer from './Footer';
 import WebDevelopmentBody from './WebDevelopmentBody';
-import Logo from './img/logo.jpg';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Link } from "react-router-dom";
 
 function Portfolio() {
   return (
-  <div>
+  <div className="bg-dark">
     <TopNav />
     <PortfolioNav />
     <WebDevelopmentBody />

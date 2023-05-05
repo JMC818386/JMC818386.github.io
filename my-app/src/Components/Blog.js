@@ -5,7 +5,7 @@ import './App.css';
 
 function Blog() {
   return (
-    <div>
+    <div className="bg-dark">
       <TopNav />
       <div className="container-fluid bg-dark d-flex flex-column justify-content-center align-items-center">
           <div className="container bg-dark text-light pb-0 mb-0">

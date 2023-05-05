@@ -7,7 +7,7 @@ import GraphicDesignBody from './GraphicDesignBody';
 
 function GraphicDesign() {
   return (
-  <div>
+  <div className="bg-dark">
     <TopNav />
     <PortfolioNav />
     <GraphicDesignBody />

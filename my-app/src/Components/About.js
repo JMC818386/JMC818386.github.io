@@ -8,12 +8,12 @@ import Icons from './Icons';
 
 function About() {
   return (
-    <div>
+    <div className="bg-dark d-flex justify-content-center flex-column">
       <TopNav />
-      <div className="d-flex justify-content-center h-100">
-        <div className="container-fluid p-5 bg-dark text-light ">
-          <div className="row d-flex justify-content-center">
-            <div className="col-md-7 p-4 d-flex align-items-center justify-content-center">
+      <div className="h-100">
+        <div className="container p-5 bg-dark text-light">
+          <div className="row">
+            <div className="col-md-8 p-4 d-flex align-items-center">
               <div>
                 <h1 className="about-header">JOHN-MICHAEL</h1>
                 <h1 className="about-header grey">CRAWFORD</h1>
@@ -26,11 +26,11 @@ function About() {
                 </div> */}
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-4 d-flex justify-content-end">
               <img src={aboutPhoto} alt="About Image" className="about-image"/>
             </div>
           </div>
-          <div className="row mt-0 pt-0">
+          <div className="row mt-0 pt-0 d-flex justify-content-center ">
             <div className="col-12">
                 <Icons />
             </div>

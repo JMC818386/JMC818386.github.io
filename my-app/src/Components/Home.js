@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import BgImage from './img/paper-background.png';
 import TopNav from './TopNav';
 import Footer from './Footer';
 import './App.css';
@@ -8,7 +7,7 @@ function Home() {
   return (
     <div>
       <TopNav />
-      <div className="container-fluid p-5 d-flex align-items-center justify-content-center bg-dark text-light" style={{ height: "80vh" }}>
+      <div className="container-fluid p-5 d-flex align-items-center justify-content-center bg-dark text-light w-100" style={{ height: "70vh" }}>
         <div className="row">
           <div className="col-12">
             <p className="d-flex justify-content-center text-header mb-0 pb-0">John-Michael Crawford</p>
