@@ -3,7 +3,6 @@ import logo from './img/logo-white.png';
 import GitHubNav from './img/GithubNav.png';
 import LinkedInNav from './img/LinkedInNav.png';
 import CodeWarsNav from './img/CodeWarsNav.png';
-import Social from './Social'
 import {
   BrowserRouter as Router,
   Link } from "react-router-dom";
