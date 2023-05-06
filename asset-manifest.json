@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28fdf194.css",
-    "main.js": "/static/js/main.b8988bbc.js",
+    "main.css": "/static/css/main.f1de987a.css",
+    "main.js": "/static/js/main.3382c1a5.js",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
@@ -21,10 +21,10 @@
     "static/media/microsoftoffice.png": "/static/media/microsoftoffice.e5610a12c708fb2b3e9d.png",
     "static/media/QRT.jpg": "/static/media/QRT.617f8bcd2beabc2b1505.jpg",
     "static/media/bg.jpg": "/static/media/bg.5bd065582a2ef9586611.jpg",
-    "static/media/react.png": "/static/media/react.8dc016621fcaa9f8f65a.png",
+    "static/media/react.png": "/static/media/react.02489229dbf61b6b6783.png",
     "static/media/slack.png": "/static/media/slack.8a0ace36c4515d19bbb9.png",
     "static/media/postgresql.png": "/static/media/postgresql.bbcce89362d4eea09868.png",
-    "static/media/github.png": "/static/media/github.8088cc48de80d50f0d87.png",
+    "static/media/github.png": "/static/media/github.a40f67fa5e41a251b7df.png",
     "static/media/GithubNav.png": "/static/media/GithubNav.afad718f9f3173b32e12.png",
     "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
     "static/media/gitpod.png": "/static/media/gitpod.5858f62a5a73fc3a0cf2.png",
@@ -43,6 +43,8 @@
     "static/media/LinkedInNav.png": "/static/media/LinkedInNav.a9be71d95f8ca9566624.png",
     "static/media/css.png": "/static/media/css.e9614ba3fcebebd47545.png",
     "static/media/html.png": "/static/media/html.743ab47c8b3f6f976f9e.png",
+    "static/media/globe.png": "/static/media/globe.1ceffabd899d7e2713bf.png",
+    "static/media/eyeball.png": "/static/media/eyeball.4726ff69da0217ceb24d.png",
     "static/media/acrobat.png": "/static/media/acrobat.b116fe46ee92c6804c3a.png",
     "static/media/photoshop.png": "/static/media/photoshop.56cb1c17c857f9fd96f6.png",
     "static/media/illustrator.png": "/static/media/illustrator.8552f039c44e8ae8a31d.png",
@@ -50,12 +52,13 @@
     "static/media/indesign.png": "/static/media/indesign.f0750bf3c5c18188a08c.png",
     "static/media/premiere.png": "/static/media/premiere.e8ba8eb2895c07763937.png",
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
+    "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.28fdf194.css.map": "/static/css/main.28fdf194.css.map",
-    "main.b8988bbc.js.map": "/static/js/main.b8988bbc.js.map"
+    "main.f1de987a.css.map": "/static/css/main.f1de987a.css.map",
+    "main.3382c1a5.js.map": "/static/js/main.3382c1a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.28fdf194.css",
-    "static/js/main.b8988bbc.js"
+    "static/css/main.f1de987a.css",
+    "static/js/main.3382c1a5.js"
   ]
 }
