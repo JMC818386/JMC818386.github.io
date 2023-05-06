@@ -39,11 +39,11 @@ function WebDevelopmentBody() {
                         <div className="overlay d-flex flex-column justify-content-center align-items-center">
                             <h4 className="overlay-header pb-1">PocketPro</h4>
                             <ul className="overlay-icons list-unstyled d-flex flex-row">
-                                {/* <li className="web-links">
+                                <li className="web-links">
                                     <Link to="/about">
                                         <img src={EyeBallIcon} alt="Project Details" className="web-icons" />
                                     </Link>
-                                </li> */}
+                                </li>
                                 <li className="web-links">
                                     <a href="https://pocket-pro-api.web.app/" target="_blank">
                                         <img src={GlobeIcon} alt="Web Application" className="web-icons" />
@@ -67,16 +67,16 @@ function WebDevelopmentBody() {
 
                 <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
                     <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <img className="card-img-top" src={TicTacToeTwo} alt="Tic-Tac-Toe" />
+                        <img className="card-img-top" src={TicTacToeTwo} alt="Tic-Tac-Toe 2" />
                         {hovered && (
                         <div className="overlay d-flex flex-column justify-content-center align-items-center">
                             <h4 className="overlay-header pb-1">Tic-Tac-Toe 2</h4>
                             <ul className="overlay-icons list-unstyled d-flex flex-row">
-                                {/* <li className="web-links">
+                                <li className="web-links">
                                     <Link to="/about">
                                         <img src={EyeBallIcon} alt="Project Details" className="web-icons" />
                                     </Link>
-                                </li> */}
+                                </li>
                                 <li className="web-links">
                                     <a href="https://github.com/JMC818386/react-tic-tac-toe" target="_blank">
                                         <img src={GlobeIcon} alt="Web Application" className="web-icons" />
@@ -93,38 +93,117 @@ function WebDevelopmentBody() {
                     </div>
                 </div>
 
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                    <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <img className="card-img-top" src={WeatherApp} alt="Weather App" />
+                        {hovered && (
+                        <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                            <h4 className="overlay-header pb-1">Weather App</h4>
+                            <ul className="overlay-icons list-unstyled d-flex flex-row">
+                                <li className="web-links">
+                                    <Link to="/about">
+                                        <img src={EyeBallIcon} alt="Project Details" className="web-icons" />
+                                    </Link>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/weather-app" target="_blank">
+                                        <img src={GlobeIcon} alt="Web Application" className="web-icons" />
+                                    </a>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/weather-app" target="_blank">
+                                        <img src={ReactIcon} alt="React Code" className="web-icons"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        )}
+                    </div>
+                </div>
 
-                <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-                <Link to="/about" className="">
-                    <img className="card-img-top" src={WeatherApp} alt="To-Do-List" />
-                    <div className="overlay">
-                    <p className="overlay-text">Weather App</p>
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                    <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <img className="card-img-top" src={ToDoList} alt="Todo List" />
+                        {hovered && (
+                        <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                            <h4 className="overlay-header pb-1">Todo List</h4>
+                            <ul className="overlay-icons list-unstyled d-flex flex-row">
+                                <li className="web-links">
+                                    <Link to="/about">
+                                        <img src={EyeBallIcon} alt="Project Details" className="web-icons" />
+                                    </Link>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/to-do-list-project" target="_blank">
+                                        <img src={GlobeIcon} alt="Web Application" className="web-icons" />
+                                    </a>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/to-do-list-project" target="_blank">
+                                        <img src={ReactIcon} alt="React Code" className="web-icons"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        )}
                     </div>
-                </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-                <Link to="/about" className="">
-                    <img className="card-img-top" src={ToDoList} alt="Tic-Tac-Toe" />
-                    <div className="overlay">
-                    <p className="overlay-text">Todo List</p>
+
+
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                    <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <img className="card-img-top" src={TicTacToe} alt="Tic-Tac-Toe 1" />
+                        {hovered && (
+                        <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                            <h4 className="overlay-header pb-1">Tic-Tac-Toe 1</h4>
+                            <ul className="overlay-icons list-unstyled d-flex flex-row">
+                                <li className="web-links">
+                                    <Link to="/about">
+                                        <img src={EyeBallIcon} alt="Project Details" className="web-icons" />
+                                    </Link>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/Tic-Tac-Toe-Project" target="_blank">
+                                        <img src={GlobeIcon} alt="Web Application" className="web-icons" />
+                                    </a>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/Tic-Tac-Toe-Project" target="_blank">
+                                        <img src={ReactIcon} alt="React Code" className="web-icons"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        )}
                     </div>
-                </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-                <Link to="/about" className="">
-                    <img className="card-img-top" src={TicTacToe} alt="Weather App" />
-                    <div className="overlay">
-                    <p className="overlay-text">Tic-Tac-Toe</p>
+
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                    <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <img className="card-img-top" src={AlarmClock} alt="Alarm Clock" />
+                        {hovered && (
+                        <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                            <h4 className="overlay-header pb-1">Alarm Clock</h4>
+                            <ul className="overlay-icons list-unstyled d-flex flex-row">
+                                <li className="web-links">
+                                    <Link to="/about">
+                                        <img src={EyeBallIcon} alt="Project Details" className="web-icons" />
+                                    </Link>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/Tic-Tac-Toe-Project" target="_blank">
+                                        <img src={GlobeIcon} alt="Web Application" className="web-icons" />
+                                    </a>
+                                </li>
+                                <li className="web-links">
+                                    <a href="https://github.com/JMC818386/Tic-Tac-Toe-Project" target="_blank">
+                                        <img src={ReactIcon} alt="React Code" className="web-icons"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        )}
                     </div>
-                </Link>
-                </div>
-                <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-                <Link to="/about" className="">
-                    <img className="card-img-top" src={AlarmClock} alt="Weather App" />
-                    <div className="overlay">
-                    <p className="overlay-text">Alarm Clock</p>
-                    </div>
-                </Link>
                 </div>
             </div>
         </div>

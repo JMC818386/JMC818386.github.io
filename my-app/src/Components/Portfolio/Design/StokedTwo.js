@@ -8,7 +8,7 @@ import GraphicDesignBody from '../../GraphicDesignBody';
 
 function StokedTwo() {
   return (
-  <div>
+  <div className="bg-dark">
     <TopNav />
     <PortfolioNav />
     <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center bg-dark text-light">
@@ -16,7 +16,7 @@ function StokedTwo() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
             <img className="card-img-top" src={Logo} alt="Weather App" />
             <div className="overlay">
-              <p className="overlay-text">StokedTwo</p>
+              <p className="overlay-text">Coming Soon</p>
             </div>
         </div>
       </div>

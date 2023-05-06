@@ -12,7 +12,7 @@ import {
 function Footer() {
   return (
     <footer>
-      <div className="container d-flex justify-content-center pb-5">
+      <div className="container d-flex justify-content-center pb-5 bg-dark">
         <div className="row d-flex justify-content-center">
           <div>
               <hr

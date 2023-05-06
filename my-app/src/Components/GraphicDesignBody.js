@@ -35,7 +35,7 @@ function GraphicDesignBody() {
     }
     
   return (
-  <div>
+  <div className="bg-dark">
     <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center bg-dark text-light">
       <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
