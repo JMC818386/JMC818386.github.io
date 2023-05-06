@@ -11,7 +11,45 @@ font-family: 'Hind', sans-serif; */
     padding-top: 10px;
 }
 
-/* .overlay {
+.web-icons {
+    width: 35px;
+    margin: 10px;
+}
+
+/* .card-img-top {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    opacity: 0.8;
+  } */
+
+  .web-icons:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .position-relative:hover .overlay {
+    opacity: 1;
+  }
+
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +77,7 @@ font-family: 'Hind', sans-serif; */
     color: white;
     text-align: center;
     line-height: 30px;
-  } */
+  }
 
 
   .card-port {
