@@ -312,8 +312,10 @@ font-family: 'Hind', sans-serif; */
     }
     .text-header {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 70px;
+        font-weight: 800;
+        font-size: 90px;
+        text-align: center;
+        line-height: 90px;
     }
 
     .text-secondary {
@@ -374,6 +376,7 @@ font-family: 'Hind', sans-serif; */
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 60px;
+        text-align: center;
     }
     .text-secondary {
         font-family: 'Montserrat', sans-serif;
@@ -388,6 +391,12 @@ font-family: 'Hind', sans-serif; */
     .navbar-toggler {
         position: absolute;
         right: 0;
+    }
+    .text-header {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
     }
 }
 
@@ -450,7 +459,7 @@ font-family: 'Hind', sans-serif; */
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 70px;
-        line-height: 60px;
+        line-height: 70px;
     }
     .text-secondary {
         font-family: 'Montserrat', sans-serif;
