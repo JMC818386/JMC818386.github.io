@@ -107,15 +107,15 @@ function Blog() {
                 <p className="blog-body">You'll likely get a different answer from any programmer as to what exactly they believe pseudocode is technically. There is a seemingly endless number of technology stacks, made up of a wide number of languages, designed to accomplish countless objectives from which programmers each subjectively aim to achieve. This technological labyrinth of possibility means that each programmer will inevitably develop their own method and style when approaching the practice of pseudocoding. Now, with all of this being said, there are still some basic rules that apply to most, if not all pseudocode. Keywords such as INPUT, OUTPUT,  IF, THEN, ELSE, FOR, WHILE, GET, DISPLAY and many many others serve as a general marker for programmers to use in attempting to work out the basic logic of whatever program they are attempting to build.</p>
                 <h5 className="blog-body-q">In summary</h5>
                 <p className="blog-body">However one approaches pseudocode, the main goal should always be to use simple language to work through the logic of a system that is to be built. The key objective is to nail down the broad strokes and step into the arena of computer programming equipped with a simplified understanding of the underlying logic which is to be programmed with actual computer programming languages. This article is meant only to address an introductory approach to the concept of pseudocode, providing a general overview of this powerful tool that serves as a starting block only. Beyond the scope of this article are well established styles of pseudocode that are tailored for specific programming languages. For anyone interested in further exploring the foundational principles of pseudocode, check out the links below.</p>
-                <a href="https://economictimes.indiatimes.com/definition/pseudocode" target="_blank">Definition of Pseudocode</a>
+                <a href="https://economictimes.indiatimes.com/definition/pseudocode" target="_blank" rel="noreferrer" >Definition of Pseudocode</a>
                 <br></br>
-                <a href="https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/" target="_blank">How to Write Pseudocode</a>
+                <a href="https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/" target="_blank" rel="noreferrer" >How to Write Pseudocode</a>
                 <br></br>
-                <a href="https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/" target="_blank">What is Pseudocode in Programming?</a>
+                <a href="https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/" target="_blank" rel="noreferrer" >What is Pseudocode in Programming?</a>
                 <br></br>
-                <a href="https://www.techtarget.com/whatis/definition/pseudocode" target="_blank">What is Pseudocode?</a>
+                <a href="https://www.techtarget.com/whatis/definition/pseudocode" target="_blank" rel="noreferrer" >What is Pseudocode?</a>
                 <br></br>
-                <a href="https://en.wikipedia.org/wiki/Pseudocode" target="_blank">Pseudocode according to Wikipedia</a>
+                <a href="https://en.wikipedia.org/wiki/Pseudocode" target="_blank" rel="noreferrer" >Pseudocode according to Wikipedia</a>
                 <br></br>
               </div>
             </div>

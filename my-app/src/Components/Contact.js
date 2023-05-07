@@ -2,8 +2,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav';
 import Footer from './Footer';
 import './CSSSandbox.css';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 
 function Contact() {
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_ufod1qr', 'template_zv07uef', form.current, 'OAeVoOcPeU1ZCFE-A')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+      }
+
   return (
     <div className="bg-dark">
       <TopNav />
@@ -16,31 +33,14 @@ function Contact() {
               
           </div>
           <div className="col contact-input">
-            <form action="">
-              <label className="form-group">
-                <input type="text" className="form-control" required="" />
-                <span>Your Name</span>
-                <span className="border" />
-              </label>
-              <label className="form-group">
-                <input type="text" className="form-control" required="" />
-                <span htmlFor="">Your Email</span>
-                <span className="border" />
-              </label>
-              <label className="form-group">
-                <textarea
-                  name=""
-                  id=""
-                  className="form-control"
-                  required=""
-                  defaultValue={""}
-                />
-                <span htmlFor="">Your Message</span>
-              </label>
-              <button>
-                Submit
-                <i className="zmdi zmdi-arrow-right" />
-              </button>
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input type="text" name="user_name" />
+              <label>Email</label>
+              <input type="email" name="user_email" />
+              <label>Message</label>
+              <textarea name="message" />
+              <input type="submit" value="Send" />
             </form>
           </div>
         </div>

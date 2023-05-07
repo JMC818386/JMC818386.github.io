@@ -30,28 +30,28 @@ function Icons() {
         <div className="row">
             <p className="text-secondary pb-0 mb-0">Tools</p>
           <div className="col d-flex flex-wrap justify-content-center">
-            <img src={Photoshop} alt="About Image" className="icons"/>
-            <img src={Illustrator} alt="About Image" className="icons"/>
-            <img src={Indesign} alt="About Image" className="icons"/>
-            <img src={Xd} alt="About Image" className="icons"/>
-            <img src={Premiere} alt="About Image" className="icons"/>
-            <img src={Lightroom} alt="About Image" className="icons"/>
-            <img src={Acrobat} alt="About Image" className="icons"/>
-            <img src={Html} alt="About Image" className="icons"/>
-            <img src={Css} alt="About Image" className="icons"/>
-            <img src={Javascript} alt="About Image" className="icons"/>
-            <img src={Python} alt="About Image" className="icons"/>
-            <img src={Sql} alt="About Image" className="icons"/>
-            <img src={Bootstrap} alt="About Image" className="icons"/>
-            <img src={React} alt="About Image" className="icons"/>
-            <img src={Django} alt="About Image" className="icons"/>
-            <img src={Postgresql} alt="About Image" className="icons"/>
-            <img src={Github} alt="About Image" className="icons"/>
-            <img src={Git} alt="About Image" className="icons"/>
-            <img src={Gitpod} alt="About Image" className="icons"/>
-            <img src={Slack} alt="About Image" className="icons"/>
-            <img src={Google} alt="About Image" className="icons"/>
-            <img src={MicrosoftOffice} alt="About Image" className="icons"/>
+            <img src={Photoshop} alt="Adobe Photoshop" className="icons"/>
+            <img src={Illustrator} alt="Adobe Illustrator" className="icons"/>
+            <img src={Indesign} alt="Adobe Indesign" className="icons"/>
+            <img src={Xd} alt="Adobe XD" className="icons"/>
+            <img src={Premiere} alt="Adobe Premiere" className="icons"/>
+            <img src={Lightroom} alt="Adobe Lightroom" className="icons"/>
+            <img src={Acrobat} alt="Adobe Acrobat" className="icons"/>
+            <img src={Html} alt="HTML" className="icons"/>
+            <img src={Css} alt="CSS" className="icons"/>
+            <img src={Javascript} alt="JavaScript" className="icons"/>
+            <img src={Python} alt="Python" className="icons"/>
+            <img src={Sql} alt="SQL" className="icons"/>
+            <img src={Bootstrap} alt="BootStrap" className="icons"/>
+            <img src={React} alt="React" className="icons"/>
+            <img src={Django} alt="Django" className="icons"/>
+            <img src={Postgresql} alt="PostgreSQL" className="icons"/>
+            <img src={Github} alt="GitHub" className="icons"/>
+            <img src={Git} alt="Git" className="icons"/>
+            <img src={Gitpod} alt="GitPod" className="icons"/>
+            <img src={Slack} alt="Slack" className="icons"/>
+            <img src={Google} alt="Google Suite" className="icons"/>
+            <img src={MicrosoftOffice} alt="Microsoft Office" className="icons"/>
           </div>
         </div>
       </div>

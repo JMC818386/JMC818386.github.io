@@ -43,13 +43,13 @@ function TopNav() {
                     </ul>
                 </div>
                 <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>
-                    <a className="p-2 social-links" target="_blank" rel="noopener" href="https://github.com/JMC818386" ><img src={GitHubNav} style={{ width: 30 }}/></a>
+                    <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://github.com/JMC818386" ><img src={GitHubNav} style={{ width: 30 }} alt="GitHub Profile"/></a>
                 </div>            
                 <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>
-                    <a className="p-2 social-links" target="_blank" rel="noopener" href="https://www.linkedin.com/in/john-michaelcrawford" ><img src={LinkedInNav} style={{ width: 30 }}/></a>
+                    <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-michaelcrawford" ><img src={LinkedInNav} style={{ width: 30 }} alt="LinkedIn Profile"/></a>
                 </div>
                 <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>
-                    <a className="p-2 social-links" target="_blank" rel="noopener" href="https://www.codewars.com/users/JMC818386" ><img src={CodeWarsNav} style={{ width: 30 }}/></a>
+                    <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://www.codewars.com/users/JMC818386" ><img src={CodeWarsNav} style={{ width: 30 }} alt="CodeWars Profile"/></a>
                 </div>
             </nav>
         </div>
