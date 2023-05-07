@@ -10,7 +10,7 @@ function Blog() {
       <div className="container-fluid bg-dark d-flex flex-column justify-content-center align-items-center">
           <div className="container bg-dark text-light pb-0 mb-0">
             <div className="row d-flex justify-content-center pb-0 mb-0">
-              <div className="col-12 pb-0 mb-0">
+              <div className="col-12 pb-0 mb-0 d-flex justify-content-center">
                 <p className="text-title text-light pb-0 mb-0">BLOG</p>
               </div>
             </div>  

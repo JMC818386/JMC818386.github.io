@@ -20,13 +20,13 @@ function Footer() {
             </div>
           <div className="d-flex flex-row justify-content-center">
             <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative'}}>
-              <a className="p-2" target="_blank" rel="noreferrer" href="https://github.com/JMC818386" ><img src={GitHubNav} alt="GitHub Profile" style={{ width: 30 }}/></a>
+              <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://github.com/JMC818386" ><img src={GitHubNav} alt="GitHub Profile" style={{ width: 30 }}/></a>
             </div>            
             <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative'}}>
-              <a className="p-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-michaelcrawford" ><img src={LinkedInNav} alt="LinkedIn Profile" style={{ width: 30 }}/></a>
+              <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-michaelcrawford" ><img src={LinkedInNav} alt="LinkedIn Profile" style={{ width: 30 }}/></a>
             </div>
             <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative'}}>
-              <a className="p-2" target="_blank" rel="noreferrer" href="https://www.codewars.com/users/JMC818386" ><img src={CodeWarsNav} alt="CodeWars Profile" style={{ width: 30 }}/></a>
+              <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://www.codewars.com/users/JMC818386" ><img src={CodeWarsNav} alt="CodeWars Profile" style={{ width: 30 }}/></a>
             </div>
           </div>
         </div>
