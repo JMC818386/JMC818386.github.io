@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f1de987a.css",
-    "main.js": "/static/js/main.3382c1a5.js",
+    "main.js": "/static/js/main.4bd471cc.js",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
@@ -9,6 +9,7 @@
     "static/media/phantom.jpg": "/static/media/phantom.484ccf77f5d100e8620b.jpg",
     "static/media/stoicism1.jpg": "/static/media/stoicism1.da3dc8cd76e59c2e61f0.jpg",
     "static/media/stoicism2.jpg": "/static/media/stoicism2.02ff571f2215d359c584.jpg",
+    "static/media/budgetapp.png": "/static/media/budgetapp.11446df6c81a67631fdf.png",
     "static/media/skg.jpg": "/static/media/skg.1344d5721349d607c877.jpg",
     "static/media/dreams.jpg": "/static/media/dreams.4f9bf9053cffa7275bf6.jpg",
     "static/media/alarm-clock.png": "/static/media/alarm-clock.9103a2e3b0af1f5a73de.png",
@@ -24,13 +25,13 @@
     "static/media/react.png": "/static/media/react.02489229dbf61b6b6783.png",
     "static/media/slack.png": "/static/media/slack.8a0ace36c4515d19bbb9.png",
     "static/media/postgresql.png": "/static/media/postgresql.bbcce89362d4eea09868.png",
-    "static/media/github.png": "/static/media/github.a40f67fa5e41a251b7df.png",
+    "static/media/github.png": "/static/media/github.8088cc48de80d50f0d87.png",
     "static/media/GithubNav.png": "/static/media/GithubNav.afad718f9f3173b32e12.png",
     "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
     "static/media/gitpod.png": "/static/media/gitpod.5858f62a5a73fc3a0cf2.png",
     "static/media/CodeWarsNav.png": "/static/media/CodeWarsNav.54bc17296cf970d555c8.png",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.78bb4f1a3e9bc2be83d7.png",
-    "static/media/python.png": "/static/media/python.90d64f917c3dd8238991.png",
+    "static/media/python.png": "/static/media/python.84743938ef81ab8007fe.png",
     "static/media/tic-tac-toe-two.png": "/static/media/tic-tac-toe-two.e8f6454bd2247e56fee9.png",
     "static/media/javascript.png": "/static/media/javascript.37ad15e913b1d75b7304.png",
     "static/media/eastcoast.jpg": "/static/media/eastcoast.6d468ef8f2bac5491071.jpg",
@@ -44,7 +45,6 @@
     "static/media/css.png": "/static/media/css.e9614ba3fcebebd47545.png",
     "static/media/html.png": "/static/media/html.743ab47c8b3f6f976f9e.png",
     "static/media/globe.png": "/static/media/globe.1ceffabd899d7e2713bf.png",
-    "static/media/eyeball.png": "/static/media/eyeball.4726ff69da0217ceb24d.png",
     "static/media/acrobat.png": "/static/media/acrobat.b116fe46ee92c6804c3a.png",
     "static/media/photoshop.png": "/static/media/photoshop.56cb1c17c857f9fd96f6.png",
     "static/media/illustrator.png": "/static/media/illustrator.8552f039c44e8ae8a31d.png",
@@ -55,10 +55,10 @@
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
     "main.f1de987a.css.map": "/static/css/main.f1de987a.css.map",
-    "main.3382c1a5.js.map": "/static/js/main.3382c1a5.js.map"
+    "main.4bd471cc.js.map": "/static/js/main.4bd471cc.js.map"
   },
   "entrypoints": [
     "static/css/main.f1de987a.css",
-    "static/js/main.3382c1a5.js"
+    "static/js/main.4bd471cc.js"
   ]
 }
