@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from './img/logo.jpg';
 import './App.css';
 import Amperes from './Portfolio/Design/img/amperes&.jpg';
 import BG from './Portfolio/Design/img/bg.jpg';
@@ -16,7 +15,6 @@ import SMM from './Portfolio/Design/img/smm.jpg';
 import StoicismOne from './Portfolio/Design/img/stoicism1.jpg';
 import StoicismTwo from './Portfolio/Design/img/stoicism2.jpg';
 import StoicismThree from './Portfolio/Design/img/stoicism3.jpg';
-
 import {
     BrowserRouter as Router,
     Link } from "react-router-dom";
