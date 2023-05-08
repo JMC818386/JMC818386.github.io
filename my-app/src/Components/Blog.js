@@ -7,10 +7,10 @@ function Blog() {
   return (
     <div className="bg-dark">
       <TopNav />
-      <div className="container-fluid bg-dark d-flex flex-column justify-content-center align-items-center">
+      <div className="container-fluid bg-dark d-flex flex-column justify-content-center align-items-center mt-5 pt-5">
           <div className="container bg-dark text-light pb-0 mb-0">
             <div className="row d-flex justify-content-center pb-0 mb-0">
-              <div className="col-12 pb-0 mb-0 d-flex justify-content-center">
+              <div className="col-12 pb-0 mb-0 d-flex justify-content-center mt-5">
                 <p className="text-title text-light pb-0 mb-0">BLOG</p>
               </div>
             </div>  

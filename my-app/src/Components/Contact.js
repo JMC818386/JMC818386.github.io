@@ -27,12 +27,12 @@ function Contact() {
   return (
     <div className="bg-dark">
       <TopNav />
-      <div className="container-fluid pt-5 d-flex justify-content-md-center bg-dark text-light vh-100">
-        <div className="row flex-column flex-md-row justify-content-md-center px-3">
-          <div className="col d-flex flex-column pr-5">
-              <h1 className="text-header contact-title mx-5">CONTACT</h1>
-              <p className="contact-body mx-5">Thank you for visiting my site! If you would like to get in touch with me my contact information is listed below. You can contact me directly by email, or if you would like to leave a quick and simple message just fill out the contact form and I will get back to you as soon as I can. Also, feel free to connect with me through social media.</p>
-              <p className="contact-body mx-5 pb-2">johncrawforddesign@gmail.com</p>
+      <div className="container-fluid pt-5 d-flex justify-content-center text-light mt-5 pt-5">
+        <div className="row flex-column flex-md-row justify-content-center mt-5 pt-5 w-100">
+          <div className="col">
+              <h1 className="text-header contact-title">CONTACT</h1>
+              <p className="contact-body">Thank you for visiting my site! If you would like to get in touch with me my contact information is listed below. You can contact me directly by email, or if you would like to leave a quick and simple message just fill out the contact form and I will get back to you as soon as I can. Also, feel free to connect with me through social media.</p>
+              <p className="contact-body pb-2">johncrawforddesign@gmail.com</p>
               
           </div>
           <div className="col contact-input mx-5">
