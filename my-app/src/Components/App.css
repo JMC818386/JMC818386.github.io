@@ -6,7 +6,12 @@
 font-family: 'Hind', sans-serif; */
 
 
+
 .social-links:hover {
+    filter: brightness(80%);
+  }
+
+.social-links-footer:hover {
     filter: brightness(80%);
   }
 
@@ -47,7 +52,6 @@ font-family: 'Hind', sans-serif; */
   .contact-input form input[type="submit"]:hover {
     background-color: #171717;
   }
-
 
 
 .icons {
@@ -226,7 +230,7 @@ font-family: 'Hind', sans-serif; */
 .contact-body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 13px;
+    font-size: 19px;
     text-align: left;
 }
 
@@ -316,6 +320,7 @@ font-family: 'Hind', sans-serif; */
         font-size: 90px;
         text-align: center;
         line-height: 90px;
+        text-align: left;
     }
 
     .text-secondary {
@@ -376,7 +381,7 @@ font-family: 'Hind', sans-serif; */
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 60px;
-        text-align: center;
+        text-align: left;
     }
     .text-secondary {
         font-family: 'Montserrat', sans-serif;
@@ -396,7 +401,7 @@ font-family: 'Hind', sans-serif; */
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 50px;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -407,6 +412,7 @@ font-family: 'Hind', sans-serif; */
         font-weight: 700;
         font-size: 70px;
         line-height: 70px;
+        text-align: left;
     }
     .text-secondary {
         font-family: 'Montserrat', sans-serif;
@@ -460,6 +466,7 @@ font-family: 'Hind', sans-serif; */
         font-weight: 700;
         font-size: 70px;
         line-height: 70px;
+        text-align: left;
     }
     .text-secondary {
         font-family: 'Montserrat', sans-serif;

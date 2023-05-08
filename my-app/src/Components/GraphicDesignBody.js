@@ -19,9 +19,16 @@ import {
     BrowserRouter as Router,
     Link } from "react-router-dom";
 import { useRef } from 'react';
+import 'lightbox.js-react/dist/index.css'
+import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react'
+import React, { useEffect } from 'react';
 
 
 function GraphicDesignBody() {
+  
+  useEffect(() => {
+    initLightboxJS("8FD0-B03E-0811-EA4A", "Individual");
+  });
 
     const topRef = useRef(null);
 
@@ -36,6 +43,7 @@ function GraphicDesignBody() {
   <div className="bg-dark">
     <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center bg-dark text-light">
       <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
+
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <Link to="/stoked-one" className="" onClick={handleClick}>
             <img className="card-img-top" src={StoicismOne} alt="Weather App" />
@@ -45,6 +53,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/stoked-two" className="" onClick={handleClick}>
             <img className="card-img-top" src={StoicismTwo} alt="To-Do-List" />
@@ -54,6 +63,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/stoked-three" className="" onClick={handleClick}>
             <img className="card-img-top" src={StoicismThree} alt="Tic-Tac-Toe" />
@@ -63,6 +73,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/ranger" className="" onClick={handleClick}>
             <img className="card-img-top" src={RangerHB} alt="Weather App" />
@@ -72,6 +83,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/skg" className="" onClick={handleClick}>
             <img className="card-img-top" src={SKG} alt="Weather App" />
@@ -81,6 +93,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/phantom" className="" onClick={handleClick}>
             <img className="card-img-top" src={Phantom} alt="Weather App" />
@@ -90,6 +103,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/brown-forman" className="" onClick={handleClick}>
             <img className="card-img-top" src={BrownForman} alt="Weather App" />
@@ -99,6 +113,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/dream-posters" className="" onClick={handleClick}>
             <img className="card-img-top" src={Dreams} alt="Weather App" />
@@ -108,6 +123,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/space-monkey" className="" onClick={handleClick}>
             <img className="card-img-top" src={SMM} alt="Weather App" />
@@ -117,6 +133,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/boss-strategies" className="" onClick={handleClick}>
             <img className="card-img-top" src={Boss} alt="Weather App" />
@@ -126,6 +143,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/qrt" className="" onClick={handleClick}>
             <img className="card-img-top" src={QRT} alt="Weather App" />
@@ -135,6 +153,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/mindset" className="" onClick={handleClick}>
             <img className="card-img-top" src={Mindset} alt="Weather App" />
@@ -144,6 +163,7 @@ function GraphicDesignBody() {
           </Link>
           <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
             <Link to="/amperes" onClick={handleClick}>
              <img className="card-img-top" src={Amperes} alt="Weather App" />
@@ -153,6 +173,7 @@ function GraphicDesignBody() {
             </Link>
             <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
             <Link to="/amperes" onClick={handleClick}>
              <img className="card-img-top" src={BG} alt="Weather App" />
@@ -162,15 +183,17 @@ function GraphicDesignBody() {
             </Link>
             <div ref={topRef}></div>
         </div>
+
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-            <Link to="/east-coast" onClick={handleClick}>
-            <img className="card-img-top" src={EastCoast} alt="Weather App" />
+          <Link to="/east-coast" onClick={handleClick}>
+          <img className="card-img-top" src={EastCoast} alt="Weather App" />
             <div className="overlay">
               <p className="overlay-text">East Coast Magazine</p>
             </div>
           </Link>
           <div ref={topRef}></div>
         </div>
+
       </div>
     </div>
   </div>
