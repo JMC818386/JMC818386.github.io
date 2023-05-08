@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="bg-dark d-flex justify-content-center flex-column">
       <TopNav />
-      <div className="h-100">
+      <div className="my-5">
         <div className="container p-5 bg-dark text-light">
           <div className="row">
             <div className="col-md-8 p-4 d-flex align-items-center">

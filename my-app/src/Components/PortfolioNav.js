@@ -9,8 +9,8 @@ function PortfolioNav() {
 
   return (
     <div>
-      <div className="container-fluid d-flex justify-content-center bg-dark text-light pb-0 mb-0">
-        <div className="row d-flex justify-content-center pb-0 mb-0">
+      <div className="container-fluid d-flex justify-content-center bg-dark text-light pb-0 mb-0 mt-5 pt-5">
+        <div className="row d-flex justify-content-center pb-0 mb-0 mt-5 pt-5">
           <div className="col-12 pb-0 mb-0">
             <p className="text-title text-light pb-0 mb-0">PORTFOLIO</p>
           </div>

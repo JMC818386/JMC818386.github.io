@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <TopNav />
-      <div className="container p-5 d-flex align-items-center justify-content-center bg-dark text-light" style={{ height: "80vh" }}>
+      <div className="container p-5 d-flex align-items-center justify-content-center bg-dark text-light vh-100">
         <div className="row d-flex justify-content-center">
           <div className="col-12 d-flex flex-wrap justify-content-center hero-name">
             <img className="mx-5 mb-0" src={ThreeDname} style={{ maxWidth: "100%" }} alt="Logo" />

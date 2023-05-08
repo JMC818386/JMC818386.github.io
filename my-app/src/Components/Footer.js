@@ -7,7 +7,7 @@ import './App.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="bg-dark">
       <div className="container d-flex justify-content-center pb-5 bg-dark">
         <div className="row d-flex justify-content-center">
           <div>

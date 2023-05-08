@@ -7,7 +7,7 @@ import './App.css';
 
 function Portfolio() {
   return (
-  <div className="bg-dark">
+  <div className="bg-dark vh-100">
     <TopNav />
     <PortfolioNav />
     <WebDevelopmentBody />
