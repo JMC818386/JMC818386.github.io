@@ -9,12 +9,12 @@ function Home() {
   return (
     <div>
       <TopNav />
-      <div className="container p-5 d-flex align-items-center justify-content-center bg-dark text-light vh-100">
-        <div className="row d-flex justify-content-center">
+      <div className="container-fluid d-flex align-items-center justify-content-center bg-dark text-light vh-100">
+        <div className="row d-flex justify-content-center mb-5 pb-5">
           <div className="col-12 d-flex flex-wrap justify-content-center hero-name">
             <img className="mx-5 mb-0" src={ThreeDname} style={{ maxWidth: "100%" }} alt="Logo" />
             {/* <p className="d-flex justify-content-center text-header mb-0 pb-0">John-Michael Crawford</p> */}
-            <p className="d-flex justify-content-center text-secondary mt-0 pt-0">Graphic Designer & Web Developer</p>
+            <p className="d-flex justify-content-center text-secondary mt-0 pt-0 mb-5 pb-5">Graphic Designer & Web Developer</p>
           </div>
         </div>
       </div>

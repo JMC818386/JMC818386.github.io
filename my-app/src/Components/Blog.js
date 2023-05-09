@@ -17,7 +17,7 @@ function Blog() {
           </div>
           <div className="container mt-5 d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 mt-5 blog-container w-60 d-flex flex-column justify-content-center">
+              <div className="col-12 mt-5 blog-container w-60 d-flex flex-column justify-content-center">
                   <h2 className="blog-sub-header">Sprint 7 | Python | Week 9</h2>
                   <h3 className="blog-body">03.24.23</h3>
                   <h5 className="blog-body-q">What are some similarities and differences you can see with JS and Python?</h5>
@@ -32,7 +32,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 6 | Halfway | Week 8</h2>
                   <h3 className="blog-body">03.17.23</h3>
                   <h5 className="blog-body-q">Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?</h5>
@@ -47,7 +47,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 5 | CLI | Week 7</h2>
                   <h3 className="blog-body">03.10.23</h3>
                   <h5 className="blog-body-q">What have you learned about CLIs? Do you think they are scary?</h5>
@@ -62,7 +62,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 4 | React Intro | Week 6</h2>
                   <h3 className="blog-body">03.03.23</h3>
                   <h5 className="blog-body-q">Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h5>
@@ -77,7 +77,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Retrospective Sprint 3 | Week 5</h2>
                   <h3 className="blog-body">02.24.23</h3>
                   <h5 className="blog-body-q">What did you enjoy?</h5>
@@ -94,7 +94,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 3 | Technical Article | Week 5</h2>
                 <h3 className="blog-body">02.24.23</h3>
                 <h3 className="blog-sub-header">What is pseudocode and how does it help with programming?</h3>
@@ -123,7 +123,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light pt-5 mt-5">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 2 | Vanilla JS | Week 4</h2>
                   <h3 className="blog-body">02.17.23</h3>
                   <h5 className="blog-body-q">What did you learn about that helped you understand the development process?</h5>
@@ -140,7 +140,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 1 | HTML/CSS/JS/State | Week 3</h2>
                   <h3 className="blog-body">02.10.23</h3>
                   <h5 className="blog-body-q">What is the number one thing that held you back this week? Why?</h5>
@@ -155,7 +155,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Onboarding Sprint 2 | Week 2</h2>
                   <h3 className="blog-body">02.03.23</h3>
                   <h5 className="blog-body-q">What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h5>
@@ -174,7 +174,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Retrospective | Week 2</h2>
                   <h3 className="blog-body">02.03.23</h3>
                   <h5 className="blog-body-q">What did you enjoy?</h5>
@@ -191,7 +191,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Retrospective | Week 1</h2>
                   <h3 className="blog-body">01.27.23</h3>
                   <h5 className="blog-body-q">What helps you to be successful as a team?</h5>
@@ -214,7 +214,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center bg-dark text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-9 rounded blog-container">
+              <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Onboarding Sprint 1 | Week 1</h2>
                   <h3 className="blog-body">01/26/23</h3>
                   <h5 className="blog-body-q">Was your first week what you expected? Why? Why not?</h5>
