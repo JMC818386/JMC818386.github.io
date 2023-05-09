@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dad1c7e7.css",
-    "main.js": "/static/js/main.5eab332c.js",
+    "main.css": "/static/css/main.1a643e96.css",
+    "main.js": "/static/js/main.fdf26c91.js",
     "static/media/3Dname.png": "/static/media/3Dname.18ff9a2c2603b1f8b154.png",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
@@ -9,6 +9,7 @@
     "static/media/brownforman.jpg": "/static/media/brownforman.8f659052253de79c6a88.jpg",
     "static/media/phantom.jpg": "/static/media/phantom.484ccf77f5d100e8620b.jpg",
     "static/media/stoicism1.jpg": "/static/media/stoicism1.da3dc8cd76e59c2e61f0.jpg",
+    "static/media/amperes-main.jpg": "/static/media/amperes-main.e1e0a30e95e82fc5800b.jpg",
     "static/media/stoicism2.jpg": "/static/media/stoicism2.02ff571f2215d359c584.jpg",
     "static/media/budgetapp.png": "/static/media/budgetapp.11446df6c81a67631fdf.png",
     "static/media/skg.jpg": "/static/media/skg.1344d5721349d607c877.jpg",
@@ -56,11 +57,11 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.dad1c7e7.css.map": "/static/css/main.dad1c7e7.css.map",
-    "main.5eab332c.js.map": "/static/js/main.5eab332c.js.map"
+    "main.1a643e96.css.map": "/static/css/main.1a643e96.css.map",
+    "main.fdf26c91.js.map": "/static/js/main.fdf26c91.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad1c7e7.css",
-    "static/js/main.5eab332c.js"
+    "static/css/main.1a643e96.css",
+    "static/js/main.fdf26c91.js"
   ]
 }
