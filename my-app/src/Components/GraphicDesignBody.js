@@ -134,64 +134,41 @@ function GraphicDesignBody() {
           <div ref={topRef}></div>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-          <Link to="/boss-strategies" className="" onClick={handleClick}>
-            <img className="card-img-top" src={Boss} alt="Weather App" />
-            <div className="overlay">
-              <p className="overlay-text">3055 Strategies</p>
-            </div>
-          </Link>
-          <div ref={topRef}></div>
+        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+            <img className="card-img-top" src={Boss} alt="3055 Strategies" />
+          </SlideshowLightbox>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-          <Link to="/qrt" className="" onClick={handleClick}>
-            <img className="card-img-top" src={QRT} alt="Weather App" />
-            <div className="overlay">
-              <p className="overlay-text">QRT</p>
-            </div>
-          </Link>
-          <div ref={topRef}></div>
+        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+            <img className="card-img-top" src={QRT} alt="Quick Reaction Team" />
+          </SlideshowLightbox>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-          <Link to="/mindset" className="" onClick={handleClick}>
-            <img className="card-img-top" src={Mindset} alt="Weather App" />
-            <div className="overlay">
-              <p className="overlay-text">Mindset Solutions</p>
-            </div>
-          </Link>
-          <div ref={topRef}></div>
+        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+            <img className="card-img-top" src={Mindset} alt="Mindset Solution" />
+          </SlideshowLightbox>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-            <Link to="/amperes" onClick={handleClick}>
-             <img className="card-img-top" src={Amperes} alt="Weather App" />
-            <div className="overlay">
-                <p className="overlay-text">Ampere's &amp; Co.</p>
-            </div>
-            </Link>
-            <div ref={topRef}></div>
+        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+            <img className="card-img-top" src={Amperes} alt="Ampere's & Co." />
+          </SlideshowLightbox>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-            <Link to="/amperes" onClick={handleClick}>
-             <img className="card-img-top" src={BG} alt="Weather App" />
-            <div className="overlay">
-                <p className="overlay-text">Bluegrass Gentleman</p>
-            </div>
-            </Link>
-            <div ref={topRef}></div>
+        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+            <img className="card-img-top" src={BG} alt="Bluegrass Gentleman" />
+          </SlideshowLightbox>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-          <Link to="/east-coast" onClick={handleClick}>
-          <img className="card-img-top" src={EastCoast} alt="Weather App" />
-            <div className="overlay">
-              <p className="overlay-text">East Coast Magazine</p>
-            </div>
-          </Link>
-          <div ref={topRef}></div>
+
+        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+            <img className="card-img-top" src={EastCoast} alt="East Coast Magazine" />
+          </SlideshowLightbox>
         </div>
 
       </div>
