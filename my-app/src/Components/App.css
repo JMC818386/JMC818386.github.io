@@ -5,10 +5,16 @@
 html, body, #root {
     height: 100vh;
     width: 100vw;
+    background-color: #212529;
     
 }
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Hind', sans-serif; */
+
+.navbar-width {
+    max-width: 90vw;
+    /* padding-left: 100px; */
+}
 
 .img-square {
     max-width: 400px;
@@ -323,7 +329,7 @@ font-family: 'Hind', sans-serif; */
         font-size: 90px;
         text-align: center;
         line-height: 90px;
-        text-align: left;
+        text-align: center;
     }
 
     .text-secondary {
@@ -417,9 +423,9 @@ font-family: 'Hind', sans-serif; */
     .text-header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 70px;
+        font-size: 50px;
         line-height: 70px;
-        text-align: left;
+        text-align: center;
     }
     .text-secondary {
         font-family: 'Montserrat', sans-serif;
@@ -445,7 +451,7 @@ font-family: 'Hind', sans-serif; */
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 35px;
-        text-align: left;
+        text-align: center;
     }
     .about-subheader {
         font-family: 'Montserrat', sans-serif;
@@ -473,7 +479,8 @@ font-family: 'Hind', sans-serif; */
         font-weight: 700;
         font-size: calc(20px + 4em);
         overflow: hidden;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 60px;
         text-align: left;
     }
     .text-secondary {
