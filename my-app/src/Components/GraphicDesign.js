@@ -4,10 +4,12 @@ import PortfolioNav from './PortfolioNav';
 import Footer from './Footer';
 import './App.css';
 import GraphicDesignBody from './GraphicDesignBody';
+import Grid from './img/Grid.png';
+
 
 function GraphicDesign() {
   return (
-  <div className="bg-dark">
+  <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
     <TopNav />
     <PortfolioNav />
     <GraphicDesignBody />

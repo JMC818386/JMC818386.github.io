@@ -2,20 +2,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav';
 import Footer from './Footer';
 import './App.css';
+import Grid from './img/Grid.png';
 
 function Blog() {
   return (
-    <div className="bg-dark">
+    <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
       <TopNav />
-      <div className="container-fluid bg-dark d-flex flex-column justify-content-center align-items-center mt-5 pt-5">
-          <div className="container bg-dark text-light pb-0 mb-0">
+      <div className="container-fluid d-flex flex-column justify-content-center align-items-center mt-5 pt-5">
+          <div className="container text-light pb-0 mb-0">
             <div className="row d-flex justify-content-center pb-0 mb-0">
               <div className="col-12 pb-0 mb-0 d-flex justify-content-center mt-5">
                 <p className="text-title text-light pb-0 mb-0">BLOG</p>
               </div>
             </div>  
           </div>
-          <div className="container mt-5 d-flex row justify-content-center bg-dark text-light">
+          <div className="container mt-5 d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 mt-5 blog-container w-60 d-flex flex-column justify-content-center">
                   <h2 className="blog-sub-header">Sprint 7 | Python | Week 9</h2>
@@ -30,7 +31,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 6 | Halfway | Week 8</h2>
@@ -45,7 +46,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 5 | CLI | Week 7</h2>
@@ -60,7 +61,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 4 | React Intro | Week 6</h2>
@@ -75,7 +76,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Retrospective Sprint 3 | Week 5</h2>
@@ -92,7 +93,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                 <h2 className="blog-sub-header">Sprint 3 | Technical Article | Week 5</h2>
@@ -121,7 +122,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light pt-5 mt-5">
+          <div className="container d-flex row justify-content-center text-light pt-5 mt-5">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 2 | Vanilla JS | Week 4</h2>
@@ -138,7 +139,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Sprint 1 | HTML/CSS/JS/State | Week 3</h2>
@@ -153,7 +154,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Onboarding Sprint 2 | Week 2</h2>
@@ -172,7 +173,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Retrospective | Week 2</h2>
@@ -189,7 +190,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Retrospective | Week 1</h2>
@@ -212,7 +213,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="container d-flex row justify-content-center bg-dark text-light">
+          <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
               <div className="col-12 rounded blog-container">
                   <h2 className="blog-sub-header">Onboarding Sprint 1 | Week 1</h2>

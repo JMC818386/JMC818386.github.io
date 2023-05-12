@@ -2,18 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+
+
 html, body, #root {
     height: 100vh;
     width: 100vw;
-    background-color: #212529;
     
 }
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Hind', sans-serif; */
+
+.navbar-nav .nav-link {
+    color: white !important;
+    text-shadow: 2px 2px 100px rgba(0, 0, 0, 50);
+}
 
 .navbar-width {
     max-width: 90vw;
-    /* padding-left: 100px; */
 }
 
 .img-square {
@@ -45,7 +49,7 @@ font-family: 'Hind', sans-serif; */
   .contact-input form input[type="email"],
   .contact-input form textarea {
     font-family: 'Montserrat', sans-serif;
-    background-color: #212529;
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
     color: white;
@@ -55,7 +59,7 @@ font-family: 'Hind', sans-serif; */
   
   .contact-input form input[type="submit"] {
     font-family: 'Montserrat', sans-serif;
-    background-color: #212529;
+    background-color: transparent;
     border: none;
     color: white;
     padding: 10px;
@@ -68,7 +72,7 @@ font-family: 'Hind', sans-serif; */
   }
 
   .contact-input form input[type="submit"]:hover {
-    background-color: #171717;
+    background-color: transparent;
   }
 
 
@@ -83,13 +87,6 @@ font-family: 'Hind', sans-serif; */
     margin: 10px;
 }
 
-/* .card-img-top {
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .card-img-top:hover {
-    opacity: 0.8;
-  } */
 
   .web-icons:hover {
     opacity: 0.5;
@@ -122,54 +119,12 @@ font-family: 'Hind', sans-serif; */
     opacity: 1;
   }
   
-  .overlay-text {
-    width: 200px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-  }
 
-
-  .card-port {
-    position: relative;
-
-  }
   
   .card-port:hover .overlay {
     opacity: 1;
   }
-  
-  
-  .overlay-text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .overlay-text-icon {
-    color: white;
-    font-size: 20px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 197px 15px 0px 15px;
-    height: 40px;
-  }
+
 
   .icon-link {
     color: white;
@@ -195,14 +150,7 @@ font-family: 'Hind', sans-serif; */
     width: 325px;
     position: relative;
 }
-/* .background {
-    background: rgb(38,38,38);
-}
 
-.background-nav {
-    background: rgb(38,38,38);
-   
-} */
 
 .contact-input {
     max-width: 400px;
@@ -332,9 +280,10 @@ font-family: 'Hind', sans-serif; */
         text-align: center;
     }
 
-    .text-secondary {
+    .text-second {
         font-family: 'Montserrat', sans-serif;
         font-size: 40px;
+        color: white;
     }
 
   }
@@ -389,12 +338,13 @@ font-family: 'Hind', sans-serif; */
     .text-header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 60px;
-        text-align: left;
+        font-size: 80px;
+        text-align: center;
     }
-    .text-secondary {
+    .text-second {
         font-family: 'Montserrat', sans-serif;
         font-size: 30px;
+        color: white;
     }
 }
 
@@ -409,8 +359,8 @@ font-family: 'Hind', sans-serif; */
     .text-header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 50px;
-        text-align: left;
+        font-size: 70px;
+        text-align: center;
     }
 }
 
@@ -423,13 +373,14 @@ font-family: 'Hind', sans-serif; */
     .text-header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 70px;
         line-height: 70px;
         text-align: center;
     }
-    .text-secondary {
+    .text-second {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
+        color: white;
     }
   }
 
@@ -479,13 +430,14 @@ font-family: 'Hind', sans-serif; */
         font-weight: 700;
         font-size: calc(20px + 4em);
         overflow: hidden;
-        font-size: 50px;
+        font-size: 70px;
         line-height: 60px;
         text-align: left;
     }
-    .text-secondary {
+    .text-second {
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;
+        color: white;
     }
 }
 
@@ -508,16 +460,10 @@ font-family: 'Hind', sans-serif; */
     font-family: 'Hind', sans-serif;
 }
 
-.about-container {
-    background-color: #1C2026;
-    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
-}
 
 
-.blog-container {
-    background-color: dark;
-    /* box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px; */
-}
+
+
 .blog-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;

@@ -5,13 +5,15 @@ import TopNav from './TopNav';
 import Footer from './Footer';
 import './App.css';
 import Icons from './Icons';
+import JMC from './img/JMC.png';
+import Grid from './img/Grid.png';
 
 function About() {
   return (
-    <div className="bg-dark d-flex justify-content-center flex-column">
+    <div className="d-flex justify-content-center flex-column" style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
       <TopNav />
       <div className="my-5">
-        <div className="container p-5 bg-dark text-light">
+        <div className="container p-5 text-light">
           <div className="row">
             <div className="col-md-8 p-4 d-flex align-items-center">
               <div>

@@ -8,10 +8,12 @@ import WebDevelopmentBody from './WebDevelopmentBody';
 import {
     BrowserRouter as Router,
     Link } from "react-router-dom";
+import Grid from './img/Grid.png';
+
 
 function WebDevelopment() {
   return (
-    <div className="bg-dark">
+    <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
         <TopNav />
         <PortfolioNav />
         <WebDevelopmentBody />

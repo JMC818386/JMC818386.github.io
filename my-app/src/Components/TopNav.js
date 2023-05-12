@@ -10,14 +10,14 @@ import {
 
 function TopNav() {
   return (
-        <div className="bg-dark">
-            <nav className="navbar navbar-expand-lg navbar-dark text-light bg-dark">
+        <div className="">
+            <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="div">
                     <Link to="/">
                         <img className="mx-5 my-4"src={logo} style={{ width: 60 }} alt="Logo" />
                     </Link>
                     <button
-                        className="navbar-toggler mx-4 mt-4"
+                        className="navbar-toggler mx-4 mt-4 text-light"
                         type="button"
                         data-toggle="collapse"
                         data-target="#navbarNav"
@@ -30,18 +30,18 @@ function TopNav() {
                 </div>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <Link to="/about" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">About</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/Portfolio" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Portfolio</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/blog" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Blog</Link>
-                    </li>
-                    <li className="nav-item">
-                    <Link to="/contact" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Contact</Link>
-                    </li>
+                        <li className="nav-item">
+                            <Link to="/about" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/Portfolio" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Portfolio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/blog" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Blog</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to="/contact" className="nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end">Contact</Link>
+                        </li>
                     </ul>
                 </div>
                 <div classname="div d-flex justify-content-center" style={{ position: 'relative', right: '50px' }}>

@@ -26,7 +26,7 @@ import Sql from './img/icons/sql.png'
 function Icons() {
   return (
     <div>
-      <div className="container-fluid bg-dark text-light d-flex justify-content-center">
+      <div className="container-fluid text-light d-flex justify-content-center">
         <div className="row">
             <p className="text-secondary pb-0 mb-0 d-flex justify-content-center">Tools</p>
           <div className="col d-flex flex-wrap justify-content-center">

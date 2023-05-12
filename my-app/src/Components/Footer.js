@@ -7,8 +7,8 @@ import './App.css';
 
 function Footer() {
   return (
-    <footer className="bg-dark">
-      <div className="container d-flex justify-content-center pb-5 bg-dark">
+    <footer className="">
+      <div className="container d-flex justify-content-center pb-5">
         <div className="row d-flex justify-content-center">
           <div>
               <hr

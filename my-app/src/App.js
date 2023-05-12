@@ -5,7 +5,7 @@ import Home from './Components/Home';
 
 function App() {
   return (
-        <div className="container-fluid bg-dark h-100 g-0">
+        <div className="container-fluid h-100 g-0">
           <Home />
         </div>
   );

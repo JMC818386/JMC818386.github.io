@@ -4,6 +4,7 @@ import Footer from './Footer';
 import './App.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Grid from './img/Grid.png';
 
 
 
@@ -25,9 +26,9 @@ function Contact() {
       }
 
   return (
-    <div className="bg-dark vh-100 vw-100 d-flex flex-column justify-content-between alight-items-center">
+    <div className="vh-100 vw-100 d-flex flex-column justify-content-between alight-items-center" style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
       <TopNav />
-      <div className="container-fluid pt-5 d-flex justify-content-center text-light flex-grow-1 bg-dark">
+      <div className="container-fluid pt-5 d-flex justify-content-center text-light flex-grow-1">
         <div className="row flex-column flex-md-row justify-content-center w-100">
           <div className="col-lg-6">
               <h1 className="text-header contact-title mb-0 pb-0">CONTACT</h1>
