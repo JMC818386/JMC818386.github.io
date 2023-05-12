@@ -6,7 +6,7 @@
 
 /* 
 font-family: 'Outfit', sans-serif;
-        font-weight: 800px; */
+        font-weight: 600px; */
 
 html, body, #root {
     height: 100vh;
@@ -41,7 +41,8 @@ html, body, #root {
   }
 
 .contact-input form label {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     color: white;
     display: block;
     text-align: left;
@@ -51,7 +52,8 @@ html, body, #root {
   .contact-input form input[type="text"],
   .contact-input form input[type="email"],
   .contact-input form textarea {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
@@ -61,7 +63,8 @@ html, body, #root {
   }
   
   .contact-input form input[type="submit"] {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     background-color: transparent;
     border: none;
     color: white;
@@ -164,33 +167,38 @@ html, body, #root {
 }
 
 .contact-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 700;
     font-size: 60px;
     text-align: left;
 }
 .contact-subheading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 400;
     font-size: 30px;
     text-align: left;
 }
 
 .contact-body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 200;
     font-size: 15px;
     text-align: left;
 }
 
 .text-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 700;
     font-size: 80px;
 }
 
 .text-subnav {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 400;
     font-size: 15px;
     text-decoration: none;
@@ -245,14 +253,16 @@ html, body, #root {
         font-size: 15px;
     }
     .about-header {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+        font-weight: 600px;
         font-weight: 700;
         font-size: 50px;
         text-align: left;
         line-height: 40px;
     }
     .about-subheader {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+        font-weight: 600px;
         color: white;
         font-size: 25px;
         text-align: left;
@@ -260,7 +270,8 @@ html, body, #root {
         text-align: left;
     }
     .about-subheader-2 {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+        font-weight: 600px;
         color: #88898C;
         font-size: 20px;
         text-align: left;
@@ -268,7 +279,8 @@ html, body, #root {
         text-align: left;
     }
     .about-body {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+        font-weight: 600px;
         font-weight: 400;
         text-align: left;
         line-height: 30px;
@@ -286,7 +298,8 @@ html, body, #root {
     }
 
     .text-second {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-size: 40px;
         color: white;
     }
@@ -306,35 +319,40 @@ html, body, #root {
         font-size: 17px;
     }
     .about-header {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-weight: 700;
         font-size: 40px;
         text-align: left;
         line-height: 40px;
     }
     .about-subheader {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         color: white;
         font-size: 15px;
         font-weight: 200;
         text-align: left;
     }
     .about-subheader-2 {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         color: #88898C;
         font-size: 12px;
         font-weight: 200;
         text-align: left;
     }
     .about-body {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-weight: 400;
         line-height: 25px;
         font-size: 12px;
         text-align: left;
     }
     .about-image {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-weight: 400;
         line-height: 30px;
         font-size: 15px;
@@ -348,7 +366,8 @@ html, body, #root {
         text-align: center;
     }
     .text-second {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-size: 30px;
         color: white;
     }
@@ -384,7 +403,8 @@ html, body, #root {
         text-align: center;
     }
     .text-second {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-size: 20px;
         color: white;
     }
@@ -405,27 +425,31 @@ html, body, #root {
         font-size: 17px;
     }
     .about-header {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-weight: 700;
         text-align: left;
         line-height: 40px;
     }
     .about-subheader {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         color: white;
         font-size: 20px;
         font-weight: 200;
         text-align: left;
     }
     .about-subheader-2 {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         color: #88898C;
         font-size: 15px;
         font-weight: 200;
         text-align: left;
     }
     .about-body {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-weight: 400;
         line-height: 25px;
         font-size: 12px;
@@ -441,7 +465,8 @@ html, body, #root {
         text-align: left;
     }
     .text-second {
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
         font-size: 15px;
         color: white;
     }
@@ -471,31 +496,36 @@ html, body, #root {
 
 
 .blog-header {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 500;
 }
 
 .blog-sub-header {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: bold;
     text-align: left;
 }
 
 .blog-sub-header2 {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: bold;
     text-align: left;
 }
 
 .blog-body-q {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     font-weight: 400;
     text-align: left;
     line-height: 35px;
 }
 
 .blog-body {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Outfit', sans-serif;
+    font-weight: 600px;
     color: #A4A5A6;
     font-size: 16;
     text-align: left;
