@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dd34233.css",
-    "main.js": "/static/js/main.f0cea472.js",
-    "static/media/3Dname.png": "/static/media/3Dname.18ff9a2c2603b1f8b154.png",
+    "main.css": "/static/css/main.e25a9462.css",
+    "main.js": "/static/js/main.e0c807c7.js",
     "static/media/Grid.png": "/static/media/Grid.7c3ff76e02a224336a00.png",
-    "static/media/ThreeDBackground.png": "/static/media/ThreeDBackground.27aaf50d4ba48a096232.png",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
-    "static/media/JMC.png": "/static/media/JMC.567b517e1c46a607edaf.png",
-    "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
+    "static/media/about-me-photo.png": "/static/media/about-me-photo.db44c57d29e60220c800.png",
     "static/media/brownforman.jpg": "/static/media/brownforman.8f659052253de79c6a88.jpg",
     "static/media/phantom.jpg": "/static/media/phantom.484ccf77f5d100e8620b.jpg",
     "static/media/stoicism1.jpg": "/static/media/stoicism1.da3dc8cd76e59c2e61f0.jpg",
@@ -22,7 +19,6 @@
     "static/media/rangerhandbook.jpg": "/static/media/rangerhandbook.29576d4a731f66195932.jpg",
     "static/media/smm.jpg": "/static/media/smm.d8c6d09b7b9d1d2f6578.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.08233491a367a4ddbb3e.png",
-    "static/media/HeroName.png": "/static/media/HeroName.e588777e72a4c710a078.png",
     "static/media/amperes&.jpg": "/static/media/amperes&.cc5b2ca2f8529fba5521.jpg",
     "static/media/sql.png": "/static/media/sql.2b8e9013020e2225154f.png",
     "static/media/microsoftoffice.png": "/static/media/microsoftoffice.e5610a12c708fb2b3e9d.png",
@@ -31,7 +27,6 @@
     "static/media/react.png": "/static/media/react.02489229dbf61b6b6783.png",
     "static/media/slack.png": "/static/media/slack.8a0ace36c4515d19bbb9.png",
     "static/media/postgresql.png": "/static/media/postgresql.bbcce89362d4eea09868.png",
-    "static/media/github.png": "/static/media/github.8088cc48de80d50f0d87.png",
     "static/media/GithubNav.png": "/static/media/GithubNav.afad718f9f3173b32e12.png",
     "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
     "static/media/gitpod.png": "/static/media/gitpod.5858f62a5a73fc3a0cf2.png",
@@ -50,6 +45,7 @@
     "static/media/LinkedInNav.png": "/static/media/LinkedInNav.a9be71d95f8ca9566624.png",
     "static/media/css.png": "/static/media/css.e9614ba3fcebebd47545.png",
     "static/media/html.png": "/static/media/html.743ab47c8b3f6f976f9e.png",
+    "static/media/github.png": "/static/media/github.a40f67fa5e41a251b7df.png",
     "static/media/globe.png": "/static/media/globe.1ceffabd899d7e2713bf.png",
     "static/media/acrobat.png": "/static/media/acrobat.b116fe46ee92c6804c3a.png",
     "static/media/photoshop.png": "/static/media/photoshop.56cb1c17c857f9fd96f6.png",
@@ -60,11 +56,11 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.2dd34233.css.map": "/static/css/main.2dd34233.css.map",
-    "main.f0cea472.js.map": "/static/js/main.f0cea472.js.map"
+    "main.e25a9462.css.map": "/static/css/main.e25a9462.css.map",
+    "main.e0c807c7.js.map": "/static/js/main.e0c807c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd34233.css",
-    "static/js/main.f0cea472.js"
+    "static/css/main.e25a9462.css",
+    "static/js/main.e0c807c7.js"
   ]
 }
