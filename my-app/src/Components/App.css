@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-
+/* 
+font-family: 'Outfit', sans-serif;
+        font-weight: 800px; */
 
 html, body, #root {
     height: 100vh;
@@ -273,12 +276,13 @@ html, body, #root {
         text-align: left;
     }
     .text-header {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
         font-size: 90px;
         text-align: center;
         line-height: 90px;
         text-align: center;
+        letter-spacing: 4px;
     }
 
     .text-second {
@@ -306,7 +310,7 @@ html, body, #root {
         font-weight: 700;
         font-size: 40px;
         text-align: left;
-        line-height: 30px;
+        line-height: 40px;
     }
     .about-subheader {
         font-family: 'Montserrat', sans-serif;
@@ -338,8 +342,8 @@ html, body, #root {
         max-width: 100%;
     }
     .text-header {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600px;
         font-size: 80px;
         text-align: center;
     }
@@ -359,7 +363,7 @@ html, body, #root {
         right: 0;
     }
     .text-header {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Outfit', sans-serif;
         font-weight: 700;
         font-size: 70px;
         text-align: center;
@@ -373,8 +377,8 @@ html, body, #root {
     }
     
     .text-header {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
         font-size: 70px;
         line-height: 70px;
         text-align: center;
@@ -404,7 +408,7 @@ html, body, #root {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         text-align: left;
-        line-height: 30px;
+        line-height: 40px;
     }
     .about-subheader {
         font-family: 'Montserrat', sans-serif;
@@ -428,8 +432,8 @@ html, body, #root {
         text-align: left;
     }
     .text-header {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600px;
         font-size: calc(20px + 4em);
         overflow: hidden;
         font-size: 70px;
