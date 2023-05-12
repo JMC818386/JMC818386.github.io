@@ -8,7 +8,7 @@ function Blog() {
   return (
     <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
       <TopNav />
-      <div className="container-fluid d-flex flex-column justify-content-center align-items-center mt-5 pt-5">
+      <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
           <div className="container text-light pb-0 mb-0">
             <div className="row d-flex justify-content-center pb-0 mb-0">
               <div className="col-12 pb-0 mb-0 d-flex justify-content-center mt-5">

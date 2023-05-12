@@ -244,8 +244,9 @@ html, body, #root {
     .about-header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 50px;
         text-align: left;
+        line-height: 40px;
     }
     .about-subheader {
         font-family: 'Montserrat', sans-serif;
@@ -305,6 +306,7 @@ html, body, #root {
         font-weight: 700;
         font-size: 40px;
         text-align: left;
+        line-height: 30px;
     }
     .about-subheader {
         font-family: 'Montserrat', sans-serif;
@@ -401,8 +403,8 @@ html, body, #root {
     .about-header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 35px;
-        text-align: center;
+        text-align: left;
+        line-height: 30px;
     }
     .about-subheader {
         font-family: 'Montserrat', sans-serif;

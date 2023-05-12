@@ -28,7 +28,7 @@ function Icons() {
     <div>
       <div className="container-fluid text-light d-flex justify-content-center">
         <div className="row">
-            <p className="text-secondary pb-0 mb-0 d-flex justify-content-center">Tools</p>
+            <p className="text-second pb-0 mb-0 d-flex justify-content-center">Tools</p>
           <div className="col d-flex flex-wrap justify-content-center">
             <img src={Photoshop} alt="Adobe Photoshop" className="icons"/>
             <img src={Illustrator} alt="Adobe Illustrator" className="icons"/>
