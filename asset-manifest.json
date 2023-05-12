@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c8450b1.css",
-    "main.js": "/static/js/main.c124b952.js",
+    "main.css": "/static/css/main.2dd34233.css",
+    "main.js": "/static/js/main.f0cea472.js",
     "static/media/3Dname.png": "/static/media/3Dname.18ff9a2c2603b1f8b154.png",
+    "static/media/Grid.png": "/static/media/Grid.7c3ff76e02a224336a00.png",
+    "static/media/ThreeDBackground.png": "/static/media/ThreeDBackground.27aaf50d4ba48a096232.png",
     "static/media/logo.jpg": "/static/media/logo.11bfd44f725d8b0c7b35.jpg",
+    "static/media/JMC.png": "/static/media/JMC.567b517e1c46a607edaf.png",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.1590068aa7d2542fe55b.png",
     "static/media/stoicism3.jpg": "/static/media/stoicism3.524c5e986ec32c331ef9.jpg",
     "static/media/brownforman.jpg": "/static/media/brownforman.8f659052253de79c6a88.jpg",
@@ -57,11 +60,11 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.0c8450b1.css.map": "/static/css/main.0c8450b1.css.map",
-    "main.c124b952.js.map": "/static/js/main.c124b952.js.map"
+    "main.2dd34233.css.map": "/static/css/main.2dd34233.css.map",
+    "main.f0cea472.js.map": "/static/js/main.f0cea472.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c8450b1.css",
-    "static/js/main.c124b952.js"
+    "static/css/main.2dd34233.css",
+    "static/js/main.f0cea472.js"
   ]
 }
