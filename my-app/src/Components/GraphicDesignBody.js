@@ -1,20 +1,87 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+/*---------------------Stoked Ampere's------------------------------------------------------------------------------------*/
+
 import Amperes from './Portfolio/Design/img/amperes&.jpg';
+
+/*---------------------BG------------------------------------------------------------------------------------*/
+
 import BG from './Portfolio/Design/img/bg.jpg';
+
+/*---------------------Boss------------------------------------------------------------------------------------*/
+
 import Boss from './Portfolio/Design/img/boss.jpg';
+
+/*---------------------BrownForman------------------------------------------------------------------------------------*/
+
 import BrownForman from './Portfolio/Design/img/brownforman.jpg';
+
+/*---------------------Dreams------------------------------------------------------------------------------------*/
+
 import Dreams from './Portfolio/Design/img/dreams.jpg';
+
+/*---------------------EastCoast------------------------------------------------------------------------------------*/
+
 import EastCoast from './Portfolio/Design/img/eastcoast.jpg';
+
+/*---------------------Mindset------------------------------------------------------------------------------------*/
+
 import Mindset from './Portfolio/Design/img/mindset.jpg';
+
+/*---------------------Phantom------------------------------------------------------------------------------------*/
+
 import Phantom from './Portfolio/Design/img/phantom.jpg';
+
+/*---------------------QRT------------------------------------------------------------------------------------*/
+
 import QRT from './Portfolio/Design/img/QRT.jpg';
+
+/*---------------------RHB------------------------------------------------------------------------------------*/
+
 import RangerHB from './Portfolio/Design/img/rangerhandbook.jpg';
+
+/*---------------------SKG------------------------------------------------------------------------------------*/
+
 import SKG from './Portfolio/Design/img/skg.jpg';
+
+/*---------------------SMM------------------------------------------------------------------------------------*/
+
 import SMM from './Portfolio/Design/img/smm.jpg';
+
+/*---------------------Stoked One------------------------------------------------------------------------------------*/
+
 import StoicismOne from './Portfolio/Design/img/stoicism1.jpg';
+import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import MiniCoverBack from './Portfolio/Design/img/Stoked_One/Mini_Cover_Back.png';
+import MiniCoverSpreadFull from './Portfolio/Design/img/Stoked_One/Mini_CoverSpread_Full.png';
+import MiniEpictiteus from './Portfolio/Design/img/Stoked_One/Mini_Epictiteus.png';
+import MiniMarcus from './Portfolio/Design/img/Stoked_One/Mini_Marcus.png';
+import MiniSeneca from './Portfolio/Design/img/Stoked_One/Mini_Seneca.png';
+import LogoJMC from './Portfolio/Design/img/Stoked_One/LogoJMC.jpg';
+
+/*---------------------Stoked Two------------------------------------------------------------------------------------*/
+
 import StoicismTwo from './Portfolio/Design/img/stoicism2.jpg';
+import HistoryCoverBack from './Portfolio/Design/img/Stoked_Two/History_Cover_Back.png';
+import HistoryCoverFront from './Portfolio/Design/img/Stoked_Two/History_Cover_Front.png';
+import HistoryEarly from './Portfolio/Design/img/Stoked_Two/History_Early.png';
+import HistoryEpictetus from './Portfolio/Design/img/Stoked_Two/History_Epictetus.png';
+import HistoryFullCoverBack from './Portfolio/Design/img/Stoked_Two/History_FullCover_Back.png';
+import HistoryLate from './Portfolio/Design/img/Stoked_Two/History_Late.png';
+import HistoryMarcus from './Portfolio/Design/img/Stoked_Two/History_Marcus.png';
+import HistoryMarcusSpread from './Portfolio/Design/img/Stoked_Two/History_MarcusSpread.png';
+import HistoryMixedCoverFull from './Portfolio/Design/img/Stoked_Two/History_MixedCover_Full.png';
+import HistoryMixedSpread from './Portfolio/Design/img/Stoked_Two/History_MixedSpread.png';
+import HistorySeneca from './Portfolio/Design/img/Stoked_Two/History_Seneca.png';
+
+/*---------------------Stoked Three------------------------------------------------------------------------------------*/
+
 import StoicismThree from './Portfolio/Design/img/stoicism3.jpg';
+// import LogoJMC from './Portfolio/Design/img/Stoked_Three/LogoJMC.jpg';
+
+/*---------------------------------------------------------------------------------------------------------*/
+
 import {
     BrowserRouter as Router,
     Link } from "react-router-dom";
@@ -52,12 +119,12 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={StoicismOne}/>
-            <img src={StoicismOne} className="hidden"/>
-            <img src={StoicismOne} className="hidden" />
-            <img src={StoicismOne} className="hidden" />
-            <img src={StoicismOne} className="hidden" />
-            <img src={StoicismOne} className="hidden" />
-            <img src={StoicismOne} className="hidden" />
+            <img src={MiniCover} className="hidden"/>
+            <img src={MiniCoverSpreadFull} className="hidden" />
+            <img src={MiniSeneca} className="hidden" />
+            <img src={MiniEpictiteus} className="hidden" />
+            <img src={MiniMarcus} className="hidden" />
+            <img src={MiniCoverBack} className="hidden" />
           </SlideshowLightbox>
         </div>
 
@@ -77,12 +144,17 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={StoicismTwo}/>
-            <img src={StoicismTwo} className="hidden"/>
-            <img src={StoicismTwo} className="hidden" />
-            <img src={StoicismTwo} className="hidden" />
-            <img src={StoicismTwo} className="hidden" />
-            <img src={StoicismTwo} className="hidden" />
-            <img src={StoicismTwo} className="hidden" />
+            <img src={HistoryCoverFront} className="hidden"/>
+            <img src={HistoryMarcusSpread} className="hidden" />
+            <img src={HistoryEarly} className="hidden" />
+            <img src={HistoryLate} className="hidden" />
+            <img src={HistorySeneca} className="hidden" />
+            <img src={HistoryEpictetus} className="hidden" />
+            <img src={HistoryMarcus} className="hidden" />
+            <img src={HistoryMixedCoverFull} className="hidden" />
+            <img src={HistoryMixedSpread} className="hidden" />
+            <img src={HistoryFullCoverBack} className="hidden" />
+            <img src={HistoryCoverBack} className="hidden" />
           </SlideshowLightbox>
         </div>
 
