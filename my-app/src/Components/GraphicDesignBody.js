@@ -50,7 +50,7 @@ function GraphicDesignBody() {
 {/*------------------------------Stoked Mini------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={StoicismOne}/>
             <img src={StoicismOne} className="hidden"/>
             <img src={StoicismOne} className="hidden" />
@@ -75,7 +75,7 @@ function GraphicDesignBody() {
 {/*------------------------------Stoked History------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={StoicismTwo}/>
             <img src={StoicismTwo} className="hidden"/>
             <img src={StoicismTwo} className="hidden" />
@@ -99,7 +99,7 @@ function GraphicDesignBody() {
 {/*------------------------------Stoked Pantheon------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={StoicismThree}/>
             <img src={StoicismThree} className="hidden"/>
             <img src={StoicismThree} className="hidden" />
@@ -123,7 +123,7 @@ function GraphicDesignBody() {
 {/*------------------------------Ranger Handbook------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={RangerHB}/>
             <img src={RangerHB} className="hidden"/>
             <img src={RangerHB} className="hidden" />
@@ -148,7 +148,7 @@ function GraphicDesignBody() {
 {/*------------------------------Sea Kayak Georgia------------------------------------------------------------------------------------------*/}
 
       <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={SKG}/>
             <img src={SKG} className="hidden"/>
             <img src={SKG} className="hidden" />
@@ -172,7 +172,7 @@ function GraphicDesignBody() {
 {/*------------------------------Phantom Fireworks------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={Phantom}/>
             <img src={Phantom} className="hidden"/>
             <img src={Phantom} className="hidden" />
@@ -196,7 +196,7 @@ function GraphicDesignBody() {
         {/*------------------------------Brown Forman------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={BrownForman}/>
             <img src={BrownForman} className="hidden"/>
             <img src={BrownForman} className="hidden" />
@@ -220,7 +220,7 @@ function GraphicDesignBody() {
     {/*------------------------------Dream Posters------------------------------------------------------------------------------------------*/}
         
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={Dreams}/>
             <img src={Dreams} className="hidden"/>
             <img src={Dreams} className="hidden" />
@@ -244,7 +244,7 @@ function GraphicDesignBody() {
     {/*------------------------------Space Monkey Mafia------------------------------------------------------------------------------------------*/}
       
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={false} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={SMM}/>
             <img src={SMM} className="hidden"/>
             <img src={SMM} className="hidden" />
