@@ -1,55 +1,55 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-/*---------------------Stoked Ampere's------------------------------------------------------------------------------------*/
+/*---------------------Stoked Ampere's Imported Images------------------------------------------------------------------------------------*/
 
 import Amperes from './Portfolio/Design/img/amperes&.jpg';
 
-/*---------------------BG------------------------------------------------------------------------------------*/
+/*---------------------BG Imported Images------------------------------------------------------------------------------------*/
 
 import BG from './Portfolio/Design/img/bg.jpg';
 
-/*---------------------Boss------------------------------------------------------------------------------------*/
+/*---------------------Boss Imported Images------------------------------------------------------------------------------------*/
 
 import Boss from './Portfolio/Design/img/boss.jpg';
 
-/*---------------------BrownForman------------------------------------------------------------------------------------*/
+/*---------------------BrownForman Imported Images------------------------------------------------------------------------------------*/
 
 import BrownForman from './Portfolio/Design/img/brownforman.jpg';
 
-/*---------------------Dreams------------------------------------------------------------------------------------*/
+/*---------------------Dreams Imported Images------------------------------------------------------------------------------------*/
 
 import Dreams from './Portfolio/Design/img/dreams.jpg';
 
-/*---------------------EastCoast------------------------------------------------------------------------------------*/
+/*---------------------EastCoast Imported Images------------------------------------------------------------------------------------*/
 
 import EastCoast from './Portfolio/Design/img/eastcoast.jpg';
 
-/*---------------------Mindset------------------------------------------------------------------------------------*/
+/*---------------------Mindset Imported Images------------------------------------------------------------------------------------*/
 
 import Mindset from './Portfolio/Design/img/mindset.jpg';
 
-/*---------------------Phantom------------------------------------------------------------------------------------*/
+/*---------------------Phantom Imported Images------------------------------------------------------------------------------------*/
 
 import Phantom from './Portfolio/Design/img/phantom.jpg';
 
-/*---------------------QRT------------------------------------------------------------------------------------*/
+/*---------------------QRT Imported Images------------------------------------------------------------------------------------*/
 
 import QRT from './Portfolio/Design/img/QRT.jpg';
 
-/*---------------------RHB------------------------------------------------------------------------------------*/
+/*---------------------RHB Imported Images------------------------------------------------------------------------------------*/
 
 import RangerHB from './Portfolio/Design/img/rangerhandbook.jpg';
 
-/*---------------------SKG------------------------------------------------------------------------------------*/
+/*---------------------SKG Imported Images------------------------------------------------------------------------------------*/
 
 import SKG from './Portfolio/Design/img/skg.jpg';
 
-/*---------------------SMM------------------------------------------------------------------------------------*/
+/*---------------------SMM Imported Images------------------------------------------------------------------------------------*/
 
 import SMM from './Portfolio/Design/img/smm.jpg';
 
-/*---------------------Stoked One------------------------------------------------------------------------------------*/
+/*---------------------Stoked One Imported Images------------------------------------------------------------------------------------*/
 
 import StoicismOne from './Portfolio/Design/img/stoicism1.jpg';
 import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
@@ -60,7 +60,7 @@ import MiniMarcus from './Portfolio/Design/img/Stoked_One/Mini_Marcus.png';
 import MiniSeneca from './Portfolio/Design/img/Stoked_One/Mini_Seneca.png';
 import LogoJMC from './Portfolio/Design/img/Stoked_One/LogoJMC.jpg';
 
-/*---------------------Stoked Two------------------------------------------------------------------------------------*/
+/*---------------------Stoked Two Imported Images------------------------------------------------------------------------------------*/
 
 import StoicismTwo from './Portfolio/Design/img/stoicism2.jpg';
 import HistoryCoverBack from './Portfolio/Design/img/Stoked_Two/History_Cover_Back.png';
@@ -75,10 +75,25 @@ import HistoryMixedCoverFull from './Portfolio/Design/img/Stoked_Two/History_Mix
 import HistoryMixedSpread from './Portfolio/Design/img/Stoked_Two/History_MixedSpread.png';
 import HistorySeneca from './Portfolio/Design/img/Stoked_Two/History_Seneca.png';
 
-/*---------------------Stoked Three------------------------------------------------------------------------------------*/
+/*---------------------Stoked Three Imported Images------------------------------------------------------------------------------------*/
 
 import StoicismThree from './Portfolio/Design/img/stoicism3.jpg';
-// import LogoJMC from './Portfolio/Design/img/Stoked_Three/LogoJMC.jpg';
+import GodZineOne from './Portfolio/Design/img/Stoked_Three/God_Zine_01.png';
+import GodZineTwo from './Portfolio/Design/img/Stoked_Three/God_Zine_02.png';
+import GodZineThree from './Portfolio/Design/img/Stoked_Three/God_Zine_03.png';
+import GodZineFour from './Portfolio/Design/img/Stoked_Three/God_Zine_04.png';
+import GodZineFive from './Portfolio/Design/img/Stoked_Three/God_Zine_05.png';
+import GodZineSix from './Portfolio/Design/img/Stoked_Three/God_Zine_06.png';
+import GodZineSeven from './Portfolio/Design/img/Stoked_Three/God_Zine_07.png';
+import GodZineEight from './Portfolio/Design/img/Stoked_Three/God_Zine_08.png';
+import GodZineNine from './Portfolio/Design/img/Stoked_Three/God_Zine_09.png';
+import GodZineTen from './Portfolio/Design/img/Stoked_Three/God_Zine_10.png';
+import GodZineEleven from './Portfolio/Design/img/Stoked_Three/God_Zine_11.png';
+import GodZineTwelve from './Portfolio/Design/img/Stoked_Three/God_Zine_12.png';
+import GodZineCoverBack from './Portfolio/Design/img/Stoked_Three/God_Zine_Cover_Back.png';
+import GodZineCoverFront from './Portfolio/Design/img/Stoked_Three/God_Zine_Cover_Front.png';
+import GodZineFullCoverSpread from './Portfolio/Design/img/Stoked_Three/God_Zine_FullCoverSpread.png';
+
 
 /*---------------------------------------------------------------------------------------------------------*/
 
@@ -173,12 +188,21 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
             <img src={StoicismThree}/>
-            <img src={StoicismThree} className="hidden"/>
-            <img src={StoicismThree} className="hidden" />
-            <img src={StoicismThree} className="hidden" />
-            <img src={StoicismThree} className="hidden" />
-            <img src={StoicismThree} className="hidden" />
-            <img src={StoicismThree} className="hidden" />
+            <img src={GodZineCoverFront} className="hidden"/>
+            <img src={GodZineOne} className="hidden" />
+            <img src={GodZineTwo} className="hidden" />
+            <img src={GodZineThree} className="hidden" />
+            <img src={GodZineFour} className="hidden" />
+            <img src={GodZineFive} className="hidden" />
+            <img src={GodZineSix} className="hidden" />
+            <img src={GodZineSeven} className="hidden" />
+            <img src={GodZineEight} className="hidden" />
+            <img src={GodZineNine} className="hidden" />
+            <img src={GodZineTen} className="hidden" />
+            <img src={GodZineEleven} className="hidden" />
+            <img src={GodZineTwelve} className="hidden" />
+            <img src={GodZineCoverBack} className="hidden" />
+            <img src={GodZineFullCoverSpread} className="hidden" />
           </SlideshowLightbox>
         </div>
 
