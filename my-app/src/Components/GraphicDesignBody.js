@@ -23,12 +23,23 @@ import Boss from './Portfolio/Design/img/boss.jpg';
 /*---------------------BrownForman Imported Images------------------------------------------------------------------------------------*/
 
 import BrownForman from './Portfolio/Design/img/brownforman.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import BrownFormanOne from './Portfolio/Design/img/BrownForman/BrownForman_01.png';
+import BrownFormanTwo from './Portfolio/Design/img/BrownForman/BrownForman_02.png';
+import BrownFormanThree from './Portfolio/Design/img/BrownForman/BrownForman_03.png';
 
 /*---------------------Dreams Imported Images------------------------------------------------------------------------------------*/
 
 import Dreams from './Portfolio/Design/img/dreams.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import FinalGreen from './Portfolio/Design/img/Dreams/FinalGreen.png';
+import FinalPink from './Portfolio/Design/img/Dreams/FinalPink.png';
+import Grid_01 from './Portfolio/Design/img/Dreams/Grid_01.png';
+import Grid_02 from './Portfolio/Design/img/Dreams/Grid_02.png';
+import Grid_03 from './Portfolio/Design/img/Dreams/Grid_03.png';
+import Grid_04 from './Portfolio/Design/img/Dreams/Grid_04.png';
+import Grid_05 from './Portfolio/Design/img/Dreams/Grid_05.png';
+import Grid_06 from './Portfolio/Design/img/Dreams/Grid_06.png';
+import GridSource_01 from './Portfolio/Design/img/Dreams/GridSource_01.png';
+import GridSource_02 from './Portfolio/Design/img/Dreams/GridSource_02.png';
 
 /*---------------------EastCoast Imported Images------------------------------------------------------------------------------------*/
 
@@ -43,27 +54,43 @@ import Mindset from './Portfolio/Design/img/mindset.jpg';
 /*---------------------Phantom Imported Images------------------------------------------------------------------------------------*/
 
 import Phantom from './Portfolio/Design/img/phantom.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import FlyerFront from './Portfolio/Design/img/Phantom/Flyer Front.jpg';
+import FlyerBack from './Portfolio/Design/img/Phantom/Flyer Back.jpg';
 
 /*---------------------QRT Imported Images------------------------------------------------------------------------------------*/
 
 import QRT from './Portfolio/Design/img/QRT.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import QRTCoin from './Portfolio/Design/img/QRT/QRT_Coin.png';
+import QRTCrest from './Portfolio/Design/img/QRT/QRT_Crest.png';
 
 /*---------------------RHB Imported Images------------------------------------------------------------------------------------*/
 
 import RangerHB from './Portfolio/Design/img/rangerhandbook.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import CenterFold from './Portfolio/Design/img/RHB/RHB_CenterFold_Spread.jpeg';
+import ContourCover from './Portfolio/Design/img/RHB/RHB_Contour_Cover.jpeg';
+import CoverSpread from './Portfolio/Design/img/RHB/RHB_Cover_Spread.jpeg';
+import HeroDisplay from './Portfolio/Design/img/RHB/RHB_HeroDisplay.png';
+import KnotsSpread from './Portfolio/Design/img/RHB/RHB_Knots_Spread.jpeg';
+import PocketBack from './Portfolio/Design/img/RHB/RHB_Pocket_Back.jpeg';
+import PocketFront from './Portfolio/Design/img/RHB/RHB_Pocket_Front.jpeg';
+import PocketInside from './Portfolio/Design/img/RHB/RHB_Pocket_Inside.jpeg';
+import CreedCover from './Portfolio/Design/img/RHB/RHB_RangerCreed_Cover.jpeg';
 
 /*---------------------SKG Imported Images------------------------------------------------------------------------------------*/
 
 import SKG from './Portfolio/Design/img/skg.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import SKGPoster from './Portfolio/Design/img/SKG/SKG_Poster.png';
 
 /*---------------------SMM Imported Images------------------------------------------------------------------------------------*/
 
 import SMM from './Portfolio/Design/img/smm.jpg';
-// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
+import SMM1 from './Portfolio/Design/img/SMM/SMM_01.jpeg';
+import SMM2 from './Portfolio/Design/img/SMM/SMM_02.jpeg';
+import SMM3 from './Portfolio/Design/img/SMM/SMM_03.jpeg';
+import SMM4 from './Portfolio/Design/img/SMM/SMM_04.jpeg';
+import SMM5 from './Portfolio/Design/img/SMM/SMM_05.jpeg';
+import SMM6 from './Portfolio/Design/img/SMM/SMM_06.jpeg';
+import SMM7 from './Portfolio/Design/img/SMM/SMM_07.png';
 
 /*---------------------Stoked One Imported Images------------------------------------------------------------------------------------*/
 
@@ -237,12 +264,15 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={RangerHB}/>
-            <img src={RangerHB} className="hidden"/>
-            <img src={RangerHB} className="hidden" />
-            <img src={RangerHB} className="hidden" />
-            <img src={RangerHB} className="hidden" />
-            <img src={RangerHB} className="hidden" />
-            <img src={RangerHB} className="hidden" />
+            <img src={CoverSpread} className="hidden"/>
+            <img src={ContourCover} className="hidden" />
+            <img src={HeroDisplay} className="hidden" />
+            <img src={CreedCover} className="hidden" />
+            <img src={PocketFront} className="hidden" />
+            <img src={PocketBack} className="hidden" />
+            <img src={PocketInside} className="hidden" />
+            <img src={KnotsSpread} className="hidden" />
+            <img src={CenterFold} className="hidden" />
           </SlideshowLightbox>
         </div>
 
@@ -262,12 +292,7 @@ function GraphicDesignBody() {
       <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={SKG}/>
-            <img src={SKG} className="hidden"/>
-            <img src={SKG} className="hidden" />
-            <img src={SKG} className="hidden" />
-            <img src={SKG} className="hidden" />
-            <img src={SKG} className="hidden" />
-            <img src={SKG} className="hidden" />
+            <img src={SKGPoster} className="hidden"/>
           </SlideshowLightbox>
         </div>
 
@@ -286,12 +311,8 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={Phantom}/>
-            <img src={Phantom} className="hidden"/>
-            <img src={Phantom} className="hidden" />
-            <img src={Phantom} className="hidden" />
-            <img src={Phantom} className="hidden" />
-            <img src={Phantom} className="hidden" />
-            <img src={Phantom} className="hidden" />
+            <img src={FlyerFront} className="hidden"/>
+            <img src={FlyerBack} className="hidden" />
           </SlideshowLightbox>
         </div>
 
@@ -310,12 +331,10 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={BrownForman}/>
-            <img src={BrownForman} className="hidden"/>
-            <img src={BrownForman} className="hidden" />
-            <img src={BrownForman} className="hidden" />
-            <img src={BrownForman} className="hidden" />
-            <img src={BrownForman} className="hidden" />
-            <img src={BrownForman} className="hidden" />
+            <img src={BrownFormanOne} className="hidden"/>
+            <img src={BrownFormanTwo} className="hidden" />
+            <img src={BrownFormanThree} className="hidden" />
+
           </SlideshowLightbox>
         </div>
 
@@ -334,12 +353,16 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={Dreams}/>
-            <img src={Dreams} className="hidden"/>
-            <img src={Dreams} className="hidden" />
-            <img src={Dreams} className="hidden" />
-            <img src={Dreams} className="hidden" />
-            <img src={Dreams} className="hidden" />
-            <img src={Dreams} className="hidden" />
+            <img src={FinalGreen} className="hidden"/>
+            <img src={FinalPink} className="hidden" />
+            <img src={GridSource_01} className="hidden" />
+            <img src={GridSource_02} className="hidden" />
+            <img src={Grid_01} className="hidden" />
+            <img src={Grid_02} className="hidden" />
+            <img src={Grid_03} className="hidden" />
+            <img src={Grid_04} className="hidden" />
+            <img src={Grid_05} className="hidden" />
+            <img src={Grid_06} className="hidden" />
           </SlideshowLightbox>
         </div>
 
@@ -358,12 +381,13 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={SMM}/>
-            <img src={SMM} className="hidden"/>
-            <img src={SMM} className="hidden" />
-            <img src={SMM} className="hidden" />
-            <img src={SMM} className="hidden" />
-            <img src={SMM} className="hidden" />
-            <img src={SMM} className="hidden" />
+            <img src={SMM7} className="hidden"/>
+            <img src={SMM1} className="hidden"/>
+            <img src={SMM2} className="hidden" />
+            <img src={SMM3} className="hidden" />
+            <img src={SMM4} className="hidden" />
+            <img src={SMM5} className="hidden" />
+            <img src={SMM6} className="hidden" />
           </SlideshowLightbox>
         </div>
 
@@ -390,6 +414,8 @@ function GraphicDesignBody() {
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={QRT} alt="Quick Reaction Team" />
+            <img src={QRTCrest} className="hidden" />
+            <img src={QRTCoin} className="hidden" />
           </SlideshowLightbox>
         </div>
 
