@@ -4,50 +4,66 @@ import './App.css';
 /*---------------------Stoked Ampere's Imported Images------------------------------------------------------------------------------------*/
 
 import Amperes from './Portfolio/Design/img/amperes&.jpg';
+import AmperesMain from './Portfolio/Design/img/Amperes/AmperesAnd.png';
 
 /*---------------------BG Imported Images------------------------------------------------------------------------------------*/
 
 import BG from './Portfolio/Design/img/bg.jpg';
+import BG01 from './Portfolio/Design/img/BG/BG_01.png';
+import BG02 from './Portfolio/Design/img/BG/BG_02.png';
+import BG03 from './Portfolio/Design/img/BG/BG_03.png';
+import BG04 from './Portfolio/Design/img/BG/BG_04.png';
+import BGMain from './Portfolio/Design/img/BG/BG.png';
 
 /*---------------------Boss Imported Images------------------------------------------------------------------------------------*/
 
 import Boss from './Portfolio/Design/img/boss.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------BrownForman Imported Images------------------------------------------------------------------------------------*/
 
 import BrownForman from './Portfolio/Design/img/brownforman.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------Dreams Imported Images------------------------------------------------------------------------------------*/
 
 import Dreams from './Portfolio/Design/img/dreams.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------EastCoast Imported Images------------------------------------------------------------------------------------*/
 
 import EastCoast from './Portfolio/Design/img/eastcoast.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------Mindset Imported Images------------------------------------------------------------------------------------*/
 
 import Mindset from './Portfolio/Design/img/mindset.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------Phantom Imported Images------------------------------------------------------------------------------------*/
 
 import Phantom from './Portfolio/Design/img/phantom.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------QRT Imported Images------------------------------------------------------------------------------------*/
 
 import QRT from './Portfolio/Design/img/QRT.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------RHB Imported Images------------------------------------------------------------------------------------*/
 
 import RangerHB from './Portfolio/Design/img/rangerhandbook.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------SKG Imported Images------------------------------------------------------------------------------------*/
 
 import SKG from './Portfolio/Design/img/skg.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------SMM Imported Images------------------------------------------------------------------------------------*/
 
 import SMM from './Portfolio/Design/img/smm.jpg';
+// import MiniCover from './Portfolio/Design/img/Stoked_One/Mini_Cover.png';
 
 /*---------------------Stoked One Imported Images------------------------------------------------------------------------------------*/
 
@@ -132,7 +148,7 @@ function GraphicDesignBody() {
 {/*------------------------------Stoked Mini------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={StoicismOne}/>
             <img src={MiniCover} className="hidden"/>
             <img src={MiniCoverSpreadFull} className="hidden" />
@@ -157,7 +173,7 @@ function GraphicDesignBody() {
 {/*------------------------------Stoked History------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={StoicismTwo}/>
             <img src={HistoryCoverFront} className="hidden"/>
             <img src={HistoryMarcusSpread} className="hidden" />
@@ -186,7 +202,7 @@ function GraphicDesignBody() {
 {/*------------------------------Stoked Pantheon------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={StoicismThree}/>
             <img src={GodZineCoverFront} className="hidden"/>
             <img src={GodZineOne} className="hidden" />
@@ -219,7 +235,7 @@ function GraphicDesignBody() {
 {/*------------------------------Ranger Handbook------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={RangerHB}/>
             <img src={RangerHB} className="hidden"/>
             <img src={RangerHB} className="hidden" />
@@ -244,7 +260,7 @@ function GraphicDesignBody() {
 {/*------------------------------Sea Kayak Georgia------------------------------------------------------------------------------------------*/}
 
       <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={SKG}/>
             <img src={SKG} className="hidden"/>
             <img src={SKG} className="hidden" />
@@ -268,7 +284,7 @@ function GraphicDesignBody() {
 {/*------------------------------Phantom Fireworks------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={Phantom}/>
             <img src={Phantom} className="hidden"/>
             <img src={Phantom} className="hidden" />
@@ -292,7 +308,7 @@ function GraphicDesignBody() {
         {/*------------------------------Brown Forman------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={BrownForman}/>
             <img src={BrownForman} className="hidden"/>
             <img src={BrownForman} className="hidden" />
@@ -316,7 +332,7 @@ function GraphicDesignBody() {
     {/*------------------------------Dream Posters------------------------------------------------------------------------------------------*/}
         
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={Dreams}/>
             <img src={Dreams} className="hidden"/>
             <img src={Dreams} className="hidden" />
@@ -340,7 +356,7 @@ function GraphicDesignBody() {
     {/*------------------------------Space Monkey Mafia------------------------------------------------------------------------------------------*/}
       
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}>
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
             <img src={SMM}/>
             <img src={SMM} className="hidden"/>
             <img src={SMM} className="hidden" />
@@ -364,7 +380,7 @@ function GraphicDesignBody() {
     {/*------------------------------3055 Strategies------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={Boss} alt="3055 Strategies" />
           </SlideshowLightbox>
         </div>
@@ -372,7 +388,7 @@ function GraphicDesignBody() {
     {/*------------------------------QRT------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={QRT} alt="Quick Reaction Team" />
           </SlideshowLightbox>
         </div>
@@ -380,7 +396,7 @@ function GraphicDesignBody() {
             {/*------------------------------Mindset Solutions------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={Mindset} alt="Mindset Solution" />
           </SlideshowLightbox>
         </div>
@@ -388,23 +404,29 @@ function GraphicDesignBody() {
             {/*------------------------------Ampere's &------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={Amperes} alt="Ampere's & Co." />
+            <img src={AmperesMain} className="hidden"/>
           </SlideshowLightbox>
         </div>
 
             {/*------------------------------Bluegrass Gentleman------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={BG} alt="Bluegrass Gentleman" />
+            <img src={BG01} className="hidden" />
+            {/* <img src={BG02} className="hidden" /> */}
+            <img src={BG03} className="hidden" />
+            {/* <img src={BG04} className="hidden" /> */}
+            <img src={BGMain} className="hidden" />
           </SlideshowLightbox>
         </div>
 
             {/*------------------------------East Coast Magazine------------------------------------------------------------------------------------------*/}
 
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
-          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={true}> 
+          <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={EastCoast} alt="East Coast Magazine" />
           </SlideshowLightbox>
         </div>
