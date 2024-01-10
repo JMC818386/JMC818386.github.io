@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.19a82115.css",
-    "main.js": "/static/js/main.9e7d5c56.js",
+    "main.js": "/static/js/main.3cb08a75.js",
     "static/media/God_Zine_FullCoverSpread.png": "/static/media/God_Zine_FullCoverSpread.c1045cc7074d4f5a8249.png",
     "static/media/Flyer Front.jpg": "/static/media/Flyer Front.485191bd858fe2becb09.jpg",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
@@ -24,7 +24,6 @@
     "static/media/God_Zine_12.png": "/static/media/God_Zine_12.eb33a731845ef3baf749.png",
     "static/media/History_Late.png": "/static/media/History_Late.ad44b596e00a72edd36e.png",
     "static/media/History_Early.png": "/static/media/History_Early.e0c44faeedf87018667f.png",
-    "static/media/Flyer Back.jpg": "/static/media/Flyer Back.f06704d491c4a3283338.jpg",
     "static/media/History_MarcusSpread.png": "/static/media/History_MarcusSpread.b30f46e385e2a4b3c648.png",
     "static/media/God_Zine_01.png": "/static/media/God_Zine_01.9a53c6a9c185a6caf2ed.png",
     "static/media/Grid.png": "/static/media/Grid.7c3ff76e02a224336a00.png",
@@ -66,7 +65,6 @@
     "static/media/Grid_06.png": "/static/media/Grid_06.f555448c703db2f9463d.png",
     "static/media/skg.jpg": "/static/media/skg.1344d5721349d607c877.jpg",
     "static/media/dreams.jpg": "/static/media/dreams.4f9bf9053cffa7275bf6.jpg",
-    "static/media/alarm-clock.png": "/static/media/alarm-clock.9103a2e3b0af1f5a73de.png",
     "static/media/pocket-pro.png": "/static/media/pocket-pro.2a720ac33c3f7aa83cf5.png",
     "static/media/RHB_Pocket_Inside.jpeg": "/static/media/RHB_Pocket_Inside.0cbb7ad0ed58a17e25d2.jpeg",
     "static/media/rangerhandbook.jpg": "/static/media/rangerhandbook.29576d4a731f66195932.jpg",
@@ -103,14 +101,9 @@
     "static/media/mindset.jpg": "/static/media/mindset.42ef7b3796962bddd93b.jpg",
     "static/media/gitpod.png": "/static/media/gitpod.5858f62a5a73fc3a0cf2.png",
     "static/media/CodeWarsNav.png": "/static/media/CodeWarsNav.54bc17296cf970d555c8.png",
-    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.78bb4f1a3e9bc2be83d7.png",
     "static/media/python.png": "/static/media/python.84743938ef81ab8007fe.png",
-    "static/media/tic-tac-toe-two.png": "/static/media/tic-tac-toe-two.e8f6454bd2247e56fee9.png",
     "static/media/javascript.png": "/static/media/javascript.37ad15e913b1d75b7304.png",
     "static/media/eastcoast.jpg": "/static/media/eastcoast.6d468ef8f2bac5491071.jpg",
-    "static/media/LogoJMC.jpg": "/static/media/LogoJMC.e8401581e6d0b77118f6.jpg",
-    "static/media/todo-list.png": "/static/media/todo-list.79e6d76325161ee001c7.png",
-    "static/media/weather-app.png": "/static/media/weather-app.9ae797db14461e5e5aef.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.359f0e5e26731947e468.png",
     "static/media/google.png": "/static/media/google.05bcc055e3ea1dbc2506.png",
     "static/media/boss.jpg": "/static/media/boss.bbf70a6151298aae2004.jpg",
@@ -130,10 +123,10 @@
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
     "main.19a82115.css.map": "/static/css/main.19a82115.css.map",
-    "main.9e7d5c56.js.map": "/static/js/main.9e7d5c56.js.map"
+    "main.3cb08a75.js.map": "/static/js/main.3cb08a75.js.map"
   },
   "entrypoints": [
     "static/css/main.19a82115.css",
-    "static/js/main.9e7d5c56.js"
+    "static/js/main.3cb08a75.js"
   ]
 }
