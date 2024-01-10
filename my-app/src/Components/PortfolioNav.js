@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Link
+// } from "react-router-dom";
 
 
 function PortfolioNav() {
@@ -17,7 +17,7 @@ function PortfolioNav() {
           </div>
         </div>
       </div>
-      <div className="container-fluid d-flex align-items-center justify-content-center">
+      {/* <div className="container-fluid d-flex align-items-center justify-content-center">
         <div className="row justify-content-around">
           <div className="col-6 card-port d-flex justify-content-center">
             <Link to="/graphic-design" className="text-subnav mb-4 d-flex justify-content-center">GRAPHIC DESIGN</Link>
@@ -26,7 +26,7 @@ function PortfolioNav() {
             <Link to="/web-development" className="text-subnav mb-4 d-flex justify-content-center">WEB DEVELOPMENT</Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
