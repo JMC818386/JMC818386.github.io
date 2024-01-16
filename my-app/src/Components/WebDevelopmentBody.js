@@ -1,3 +1,7 @@
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Logo from './img/logo.jpg';
 import { useState } from 'react';
@@ -20,9 +24,9 @@ import Amperes from './Portfolio/Design/img/amperes&.jpg';
 import AmperesMain from './Portfolio/Design/img/Amperes/AmperesAnd.png';
 import BG from './Portfolio/Design/img/bg.jpg';
 import BG01 from './Portfolio/Design/img/BG/BG_01.png';
-import BG02 from './Portfolio/Design/img/BG/BG_02.png';
+// import BG02 from './Portfolio/Design/img/BG/BG_02.png';
 import BG03 from './Portfolio/Design/img/BG/BG_03.png';
-import BG04 from './Portfolio/Design/img/BG/BG_04.png';
+// import BG04 from './Portfolio/Design/img/BG/BG_04.png';
 import BGMain from './Portfolio/Design/img/BG/BG.png';
 import Boss from './Portfolio/Design/img/boss.jpg';
 import BrownForman from './Portfolio/Design/img/brownforman.jpg';
@@ -117,9 +121,14 @@ function WebDevelopmentBody() {
         setHovered(false);
       };
 
-    useEffect(() => {
-    initLightboxJS("8FD0-B03E-0811-EA4A", "Individual");
-    });
+      useEffect(() => {
+        AOS.init({
+            duration: 2500,
+            once: true,
+        });
+        initLightboxJS("8FD0-B03E-0811-EA4A", "Individual");
+    }, []);
+    
 
     // const topRef = useRef(null);
 
@@ -135,7 +144,7 @@ function WebDevelopmentBody() {
     <div>
         <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center text-light">
             <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <img className="card-img-top" src={PocketPro} alt="PocketPro" />
                         {hovered && (
@@ -163,7 +172,7 @@ function WebDevelopmentBody() {
                     </div>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <img className="card-img-top" src={BudgetApp} alt="Budget App" />
                         {hovered && (
@@ -181,14 +190,14 @@ function WebDevelopmentBody() {
                     </div>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={SKG} alt="Sea Kayak Georgia" />
                         <img src={SKGPoster} alt="Sea Kayak Georgia" className="hidden"/>
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                 <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
                     <img className="card-img-top" src={QRT} alt="Quick Reaction Team" />
                     <img src={QRTCrest} className="hidden" alt="Quick Response Team"/>
@@ -196,7 +205,7 @@ function WebDevelopmentBody() {
                 </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={SMM} alt="Space Monkey Mafia"/>
                         <img src={SMM7} className="hidden" alt="Space Monkey Mafia"/>
@@ -209,7 +218,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
                 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={StoicismOne} alt="Stoked on Stoicism"/>
                         <img src={MiniCover} className="hidden" alt="Stoked on Stoicism"/>
@@ -221,7 +230,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={StoicismTwo} alt="Stoked on Stoicism | History"/>
                         <img src={HistoryCoverFront} className="hidden" alt="Stoked on Stoicism | History"/>
@@ -238,7 +247,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={StoicismThree} alt="Stoked on Stoicism | Hellenism"/>
                         <img src={GodZineCoverFront} className="hidden" alt="Stoked on Stoicism | Hellenism"/>
@@ -259,7 +268,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={RangerHB} alt="EDC Ranger Handbook Primer"/>
                         <img src={CoverSpread} className="hidden" alt="EDC Weatherproof Ranger Handbook Primer"/>
@@ -274,7 +283,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={Phantom} alt="Phantom Fireworks"/>
                         <img src={FlyerFront} className="hidden" alt="Phantom Fireworks"/>
@@ -282,7 +291,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={BrownForman} alt="Brown Forman"/>
                         <img src={BrownFormanOne} className="hidden" alt="Brown Forman"/>
@@ -291,7 +300,7 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
                         <img src={Dreams} alt="Dream + Goal Posters"/>
                         <img src={FinalGreen} className="hidden" alt="Dream + Goal Posters"/>
@@ -307,26 +316,26 @@ function WebDevelopmentBody() {
                     </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                 <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
                     <img className="card-img-top" src={Boss} alt="3055 Strategies" />
                 </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                 <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
                     <img className="card-img-top" src={Mindset} alt="Mindset Solution" />
                 </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                 <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
                     <img className="card-img-top" src={Amperes} alt="Ampere's & Co." />
                     <img src={AmperesMain} className="hidden" alt="Ampere's & Co."/>
                 </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                 <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
                     <img className="card-img-top" src={BG} alt="Bluegrass Gentleman" />
                     <img src={BG01} className="hidden" alt="Bluegrass Gentleman"/>
@@ -337,7 +346,7 @@ function WebDevelopmentBody() {
                 </SlideshowLightbox>
                 </div>
 
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
                         <img className="card-img-top" src={EastCoast} alt="East Coast Magazine" />
                     </SlideshowLightbox>
