@@ -3,16 +3,28 @@ import TopNav from './TopNav';
 import Footer from './Footer';
 import './App.css';
 import Grid from './img/Grid.png';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 function Blog() {
+
+  useEffect(() => {
+    AOS.init({
+        duration: 2500,
+        once: true,
+    });  
+}, []);
+
   return (
     <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
       <TopNav />
-      <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <div className="container-fluid d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
           <div className="container text-light pb-0 mb-0">
             <div className="row d-flex justify-content-center pb-0 mb-0">
               <div className="col-12 pb-0 mb-0 d-flex justify-content-center mt-5">
-                <p className="text-title text-light pb-0 mb-0">BLOG</p>
+                {/* <p className="text-title text-light pb-0 mb-0">BLOG</p> */}
               </div>
             </div>  
           </div>

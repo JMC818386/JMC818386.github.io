@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav';
-import PortfolioNav from './PortfolioNav';
+// import PortfolioNav from './PortfolioNav';
 import Footer from './Footer';
 import WebDevelopmentBody from './WebDevelopmentBody';
 import './App.css';
@@ -10,7 +10,7 @@ function Portfolio() {
   return (
   <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
     <TopNav />
-    <PortfolioNav />
+    {/* <PortfolioNav /> */}
     <WebDevelopmentBody />
     <Footer />
   </div>

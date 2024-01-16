@@ -41,7 +41,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4 d-flex justify-content-end">
-              <img src={aboutPhoto} alt="John-Michael Crawford" className="about-image" data-aos="fade" data-aos-delay="100" data-aos-duration="4000"/>
+              <img src={aboutPhoto} alt="John-Michael Crawford" className="about-image" data-aos="fade" data-aos-delay="500" data-aos-duration="10000"/>
             </div>
           </div>
           <div className="row mt-0 pt-0 d-flex justify-content-center ">
