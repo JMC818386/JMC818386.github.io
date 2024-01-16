@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.167be74a.css",
-    "main.js": "/static/js/main.4c657521.js",
+    "main.css": "/static/css/main.f1df2abb.css",
+    "main.js": "/static/js/main.9a36a224.js",
     "static/media/God_Zine_FullCoverSpread.png": "/static/media/God_Zine_FullCoverSpread.c1045cc7074d4f5a8249.png",
     "static/media/Flyer Front.jpg": "/static/media/Flyer Front.485191bd858fe2becb09.jpg",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
@@ -120,11 +120,11 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.167be74a.css.map": "/static/css/main.167be74a.css.map",
-    "main.4c657521.js.map": "/static/js/main.4c657521.js.map"
+    "main.f1df2abb.css.map": "/static/css/main.f1df2abb.css.map",
+    "main.9a36a224.js.map": "/static/js/main.9a36a224.js.map"
   },
   "entrypoints": [
-    "static/css/main.167be74a.css",
-    "static/js/main.4c657521.js"
+    "static/css/main.f1df2abb.css",
+    "static/js/main.9a36a224.js"
   ]
 }
