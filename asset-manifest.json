@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.19a82115.css",
-    "main.js": "/static/js/main.3cb08a75.js",
+    "main.css": "/static/css/main.167be74a.css",
+    "main.js": "/static/js/main.4c657521.js",
     "static/media/God_Zine_FullCoverSpread.png": "/static/media/God_Zine_FullCoverSpread.c1045cc7074d4f5a8249.png",
     "static/media/Flyer Front.jpg": "/static/media/Flyer Front.485191bd858fe2becb09.jpg",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
@@ -56,8 +56,6 @@
     "static/media/BG.png": "/static/media/BG.5525acd0dbc57251f57b.png",
     "static/media/stoicism1.jpg": "/static/media/stoicism1.da3dc8cd76e59c2e61f0.jpg",
     "static/media/QRT_Crest.png": "/static/media/QRT_Crest.bd039a3b03f4b33e44ef.png",
-    "static/media/BG_02.png": "/static/media/BG_02.6edbf6418f1310df033c.png",
-    "static/media/BG_04.png": "/static/media/BG_04.6edbf6418f1310df033c.png",
     "static/media/amperes-main.jpg": "/static/media/amperes-main.e1e0a30e95e82fc5800b.jpg",
     "static/media/stoicism2.jpg": "/static/media/stoicism2.02ff571f2215d359c584.jpg",
     "static/media/SMM_05.jpeg": "/static/media/SMM_05.d73daf650d726f0278d1.jpeg",
@@ -122,11 +120,11 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.19a82115.css.map": "/static/css/main.19a82115.css.map",
-    "main.3cb08a75.js.map": "/static/js/main.3cb08a75.js.map"
+    "main.167be74a.css.map": "/static/css/main.167be74a.css.map",
+    "main.4c657521.js.map": "/static/js/main.4c657521.js.map"
   },
   "entrypoints": [
-    "static/css/main.19a82115.css",
-    "static/js/main.3cb08a75.js"
+    "static/css/main.167be74a.css",
+    "static/js/main.4c657521.js"
   ]
 }
