@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f1df2abb.css",
-    "main.js": "/static/js/main.9a36a224.js",
+    "main.js": "/static/js/main.712cfe0f.js",
     "static/media/God_Zine_FullCoverSpread.png": "/static/media/God_Zine_FullCoverSpread.c1045cc7074d4f5a8249.png",
     "static/media/Flyer Front.jpg": "/static/media/Flyer Front.485191bd858fe2becb09.jpg",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
@@ -121,10 +121,10 @@
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
     "main.f1df2abb.css.map": "/static/css/main.f1df2abb.css.map",
-    "main.9a36a224.js.map": "/static/js/main.9a36a224.js.map"
+    "main.712cfe0f.js.map": "/static/js/main.712cfe0f.js.map"
   },
   "entrypoints": [
     "static/css/main.f1df2abb.css",
-    "static/js/main.9a36a224.js"
+    "static/js/main.712cfe0f.js"
   ]
 }
