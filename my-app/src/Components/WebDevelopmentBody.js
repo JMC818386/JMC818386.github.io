@@ -112,6 +112,13 @@ import GodZineFullCoverSpread from './Portfolio/Design/img/Stoked_Three/God_Zine
 
 function WebDevelopmentBody() {
     const [hovered, setHovered] = useState(false);
+    const [showSlideshow, setShowSlideshow] = useState(false);
+
+    const [showPoster, setShowPoster] = useState(false);
+
+    const handleClick = () => {
+        setShowPoster(true);
+    };
 
     const handleMouseEnter = () => {
         setHovered(true);
@@ -121,6 +128,8 @@ function WebDevelopmentBody() {
         setHovered(false);
       };
 
+      
+
       useEffect(() => {
         AOS.init({
             duration: 2500,
@@ -128,17 +137,7 @@ function WebDevelopmentBody() {
         });
         initLightboxJS("8FD0-B03E-0811-EA4A", "Individual");
     }, []);
-    
-
-    // const topRef = useRef(null);
-
-    // const handleClick = () => {
-    //     window.scrollTo({
-    //     top: 0,
-    //     behavior: "smooth"
-    //     }); 
-      
-    // }  
+     
 
   return (
     <div>
@@ -196,6 +195,7 @@ function WebDevelopmentBody() {
                         <img src={SKGPoster} alt="Sea Kayak Georgia" className="hidden"/>
                     </SlideshowLightbox>
                 </div>
+
 
                 <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                 <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
