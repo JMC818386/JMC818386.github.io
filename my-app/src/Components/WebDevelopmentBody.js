@@ -109,6 +109,8 @@ import GodZineCoverBack from './Portfolio/Design/img/Stoked_Three/God_Zine_Cover
 import GodZineCoverFront from './Portfolio/Design/img/Stoked_Three/God_Zine_Cover_Front.png';
 import GodZineFullCoverSpread from './Portfolio/Design/img/Stoked_Three/God_Zine_FullCoverSpread.png';
 
+import MD99 from './img/MD99.png';
+
 
 function WebDevelopmentBody() {
     const [hovered, setHovered] = useState(false);
@@ -143,26 +145,17 @@ function WebDevelopmentBody() {
     <div>
         <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center text-light">
             <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
-                <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
+                
+            <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <img className="card-img-top" src={PocketPro} alt="PocketPro" />
+                        <img className="card-img-top" src={MD99} alt="Budget App" />
                         {hovered && (
                         <div className="overlay d-flex flex-column justify-content-center align-items-center">
-                            <h4 className="overlay-header pb-1">PocketPro</h4>
+                         {/* <h4 className="overlay-header pb-1">MD99</h4> */}
                             <ul className="overlay-icons list-unstyled d-flex flex-row">
                                 <li className="web-links">
-                                    <a href="https://pocket-pro-api.web.app/" target="_blank" rel="noreferrer" title="Live Site">
-                                        <img src={GlobeIcon} alt="Web Application" className="web-icons" />
-                                    </a>
-                                </li>
-                                <li className="web-links">
-                                    <a href="https://github.com/JMC818386/golf-app-frontend" target="_blank" rel="noreferrer" title="Front End GitHub Repo">
-                                        <img src={ReactIcon} alt="React Code" className="web-icons"/>
-                                    </a>
-                                </li>
-                                <li className="web-links">
-                                    <a href="https://github.com/JMC818386/golf-app"  target="_blank" rel="noreferrer" title="Back End GitHub Repo">
-                                        <img src={DjangoIcon} alt="Django Code" className="web-icons"/>
+                                    <a href="https://mydesign99.com" target="_blank" rel="noreferrer" title="Back End GitHub Repo">
+                                        <img src={GlobeIcon} alt="Python Code" label="Live Site" className="web-icons"/>
                                     </a>
                                 </li>
                             </ul>
@@ -173,14 +166,14 @@ function WebDevelopmentBody() {
 
                 <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                     <div className="position-relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <img className="card-img-top" src={BudgetApp} alt="Budget App" />
+                        <img className="card-img-top" src={PocketPro} alt="Budget App" />
                         {hovered && (
                         <div className="overlay d-flex flex-column justify-content-center align-items-center">
-                            <h4 className="overlay-header pb-1">Budget Caluculator</h4>
+                            {/* <h4 className="overlay-header pb-1">PocketPro</h4> */}
                             <ul className="overlay-icons list-unstyled d-flex flex-row">
                                 <li className="web-links">
-                                    <a href="https://github.com/JMC818386/oop-budget-app" target="_blank" rel="noreferrer" title="Back End GitHub Repo">
-                                        <img src={PythonIcon} alt="Python Code" className="web-icons"/>
+                                    <a href="https://pocket-pro-api.web.app/" target="_blank" rel="noreferrer" title="Back End GitHub Repo">
+                                        <img src={GlobeIcon} alt="Python Code" className="web-icons"/>
                                     </a>
                                 </li>
                             </ul>
