@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1df2abb.css",
-    "main.js": "/static/js/main.712cfe0f.js",
+    "main.css": "/static/css/main.2a316a3d.css",
+    "main.js": "/static/js/main.0c534501.js",
     "static/media/God_Zine_FullCoverSpread.png": "/static/media/God_Zine_FullCoverSpread.c1045cc7074d4f5a8249.png",
     "static/media/Flyer Front.jpg": "/static/media/Flyer Front.485191bd858fe2becb09.jpg",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
@@ -102,6 +102,7 @@
     "static/media/python.png": "/static/media/python.84743938ef81ab8007fe.png",
     "static/media/javascript.png": "/static/media/javascript.37ad15e913b1d75b7304.png",
     "static/media/eastcoast.jpg": "/static/media/eastcoast.6d468ef8f2bac5491071.jpg",
+    "static/media/MD99.png": "/static/media/MD99.b94c2f8b509e563edc21.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.359f0e5e26731947e468.png",
     "static/media/google.png": "/static/media/google.05bcc055e3ea1dbc2506.png",
     "static/media/boss.jpg": "/static/media/boss.bbf70a6151298aae2004.jpg",
@@ -120,11 +121,11 @@
     "static/media/lightroom.png": "/static/media/lightroom.4bd986f71bdf49067423.png",
     "static/media/django.png": "/static/media/django.8cf8bb690b1062ba7e00.png",
     "index.html": "/index.html",
-    "main.f1df2abb.css.map": "/static/css/main.f1df2abb.css.map",
-    "main.712cfe0f.js.map": "/static/js/main.712cfe0f.js.map"
+    "main.2a316a3d.css.map": "/static/css/main.2a316a3d.css.map",
+    "main.0c534501.js.map": "/static/js/main.0c534501.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1df2abb.css",
-    "static/js/main.712cfe0f.js"
+    "static/css/main.2a316a3d.css",
+    "static/js/main.0c534501.js"
   ]
 }
