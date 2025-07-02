@@ -8,6 +8,10 @@
 font-family: 'Outfit', sans-serif;
         font-weight: 600px; */
 
+/* .bg-main-dark {
+    background-color: #0D0B0B;
+} */
+
 html, body, #root {
     height: 100vh;
     width: 100vw;
@@ -30,7 +34,7 @@ html, body, #root {
 }
 
 .navbar-nav .nav-link {
-    color: white !important;
+    color: rgb(228, 226, 226) !important;
     text-shadow: 2px 2px 100px rgba(0, 0, 0, 50);
 }
 
