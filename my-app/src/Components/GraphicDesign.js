@@ -11,7 +11,7 @@ function GraphicDesign() {
   return (
   <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
     <TopNav />
-    <PortfolioNav />
+    {/* <PortfolioNav /> */}
     <GraphicDesignBody />
     <Footer />
   </div>

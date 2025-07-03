@@ -37,7 +37,7 @@ function Contact() {
       }
 
   return (
-    <div className="vh-100 vw-100 d-flex flex-column justify-content-between alight-items-center" style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
+    <div className="vh-100 vw-100 d-flex flex-column justify-content-between alight-items-center bg-main-dark">
       <TopNav />
       <div className="container-fluid pt-5 d-flex justify-content-center text-light flex-grow-1">
         <div className="row flex-column flex-md-row justify-content-center w-100">

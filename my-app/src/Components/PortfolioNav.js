@@ -10,13 +10,13 @@ function PortfolioNav() {
 
   return (
     <div>
-      <div className="container-fluid d-flex justify-content-center text-light pb-0 mb-0">
+      {/* <div className="container-fluid d-flex justify-content-center text-light pb-0 mb-0">
         <div className="row d-flex justify-content-center pb-0 mb-">
           <div className="col-12 pb-0 mb-0">
             <p className="text-title text-light pb-0 mb-0">PORTFOLIO</p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="container-fluid d-flex align-items-center justify-content-center">
         <div className="row justify-content-around">
           <div className="col-6 card-port d-flex justify-content-center">

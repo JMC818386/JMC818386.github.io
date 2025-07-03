@@ -22,7 +22,7 @@ function About() {
 }, []);
 
   return (
-    <div className="d-flex justify-content-center flex-column" style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
+    <div className="d-flex justify-content-center flex-column bg-main-dark">
       <TopNav />
       <div className="my-2">
         <div className="container p-5 text-light">

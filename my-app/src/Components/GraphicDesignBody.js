@@ -186,15 +186,15 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
-          <Link to="/stoked-two" className="" onClick={handleClick}>
+        {/* <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/stoked-one" className="" onClick={handleClick}>
             <img className="card-img-top" src={StoicismOne} alt="To-Do-List" />
             <div className="overlay">
               <p className="overlay-text">Stoked on Stoicism Mini</p>
             </div>
           </Link>
           <div ref={topRef}></div>
-        </div>
+        </div> */}
 
 
 {/*------------------------------Stoked History------------------------------------------------------------------------------------------*/}
@@ -218,7 +218,7 @@ function GraphicDesignBody() {
 
         <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/stoked-two" className="" onClick={handleClick}>
-            <img className="card-img-top" src={StoicismTwo} alt="To-Do-List" />
+            <img className="card-img-top" src={StoicismOne} alt="To-Do-List" />
             <div className="overlay">
               <p className="overlay-text">Stoked on Stoicism History</p>
             </div>

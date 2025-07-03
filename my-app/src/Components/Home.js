@@ -18,7 +18,7 @@ function Home() {
 
   return (
 
-    <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
+    <div className="bg-main-dark">
       <TopNav />
       <div className="container px-5 d-flex align-items-center justify-content-center vh-100">
         <div className="row d-flex justify-content-center">

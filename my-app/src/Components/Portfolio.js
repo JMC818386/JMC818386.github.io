@@ -9,7 +9,7 @@ import WebDevelopmentBody from './WebDevelopmentBody';
 
 function Portfolio() {
   return (
-  <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
+  <div className="bg-main-dark">
     <TopNav />
     {/* <PortfolioNav /> */}
     {/* <WebDevelopmentBody /> */}

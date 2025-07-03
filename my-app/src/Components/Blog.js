@@ -17,7 +17,7 @@ function Blog() {
 }, []);
 
   return (
-    <div style={{backgroundImage: `url(${Grid})`, backgroundSize: 'cover'}}>
+    <div className="bg-main-dark">
       <TopNav />
       <div className="container-fluid d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
