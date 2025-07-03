@@ -1,5 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { CBreadcrumb, CBreadcrumbItem } from '@coreui/react';
+
+
+/*---------------------MD99 Imported Images------------------------------------------------------------------------------------*/
+
+import MD99 from './Portfolio/Design/img/MD99.png';
+
+/*---------------------Ideal Experience Imported Images------------------------------------------------------------------------------------*/
+
+import IdealExperience from './Portfolio/Design/img/ideal-experience.png';
+
+/*---------------------Clover Imported Images------------------------------------------------------------------------------------*/
+
+import Clover from './Portfolio/Design/img/clover-cover.png';
 
 /*---------------------Stoked Ampere's Imported Images------------------------------------------------------------------------------------*/
 
@@ -166,11 +180,58 @@ function GraphicDesignBody() {
     }
     
   return (
+    
   <div>
+    {/* <CBreadcrumb
+      style={{
+        '--cui-breadcrumb-divider': `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E")`,
+      }}
+      className="text-light px-4 pt-4"
+    >
+      <CBreadcrumbItem href="/">Home</CBreadcrumbItem>
+      <CBreadcrumbItem active>Graphic Design Portfolio</CBreadcrumbItem>
+    </CBreadcrumb> */}
+
     <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center text-light">
       <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
 
 
+{/*------------------------------MD99------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/md99" className="" onClick={handleClick}>
+            <img className="card-img-top" src={MD99} alt="To-Do-List" />
+            <div className="overlay">
+              <p className="overlay-text">MyDesign99 DGE</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+
+{/*------------------------------Ideal Experience------------------------------------------------------------------------------------------*/}
+
+<div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+  <Link to="/ideal-experience" className="" onClick={handleClick}>
+    <img className="card-img-top" src={IdealExperience} alt="To-Do-List" />
+    <div className="overlay">
+      <p className="overlay-text">Ideal Generative AI Experience</p>
+    </div>
+  </Link>
+  <div ref={topRef}></div>
+</div>
+
+{/*------------------------------Clover------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/clover" className="" onClick={handleClick}>
+            <img className="card-img-top" src={Clover} alt="To-Do-List" />
+            <div className="overlay">
+              <p className="overlay-text">Clover</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
 
 {/*------------------------------Stoked Mini------------------------------------------------------------------------------------------*/}
 
@@ -276,7 +337,7 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        {/* <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
           <Link to="/ranger" className="" onClick={handleClick}>
             <img className="card-img-top" src={RangerHB} alt="Weather App" />
             <div className="overlay">
@@ -284,7 +345,7 @@ function GraphicDesignBody() {
             </div>
           </Link>
           <div ref={topRef}></div>
-        </div>
+        </div> */}
 
 
 {/*------------------------------Sea Kayak Georgia------------------------------------------------------------------------------------------*/}

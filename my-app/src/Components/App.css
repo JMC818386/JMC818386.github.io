@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 .sticky-navbar {
@@ -12,9 +12,22 @@
   width: 100%;
 }
 
+.navbar-nav .nav-link:hover {
+  color: #bbb !important;
+}
+
+.social-links img {
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.social-links:hover img {
+  filter: grayscale(100%) brightness(1.2);
+  opacity: 0.7;
+}
+
 
 /* 
-font-family: 'Outfit', sans-serif;
+font-family: 'Inter', sans-serif;
         font-weight: 600px; */
 
 /* .bg-main-dark {
@@ -49,6 +62,8 @@ html, body, #root {
 .navbar-nav .nav-link {
     color: var(--color-gray) !important;
     text-shadow: 2px 2px 100px rgba(0, 0, 0, 50);
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .navbar-width {
@@ -73,7 +88,7 @@ html, body, #root {
   }
 
 .contact-input form label {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600px;
     color: var(--color-silver);
     display: block;
@@ -84,7 +99,7 @@ html, body, #root {
   .contact-input form input[type="text"],
   .contact-input form input[type="email"],
   .contact-input form textarea {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     background-color: transparent;
     border: none;
@@ -95,7 +110,7 @@ html, body, #root {
   }
   
   .contact-input form input[type="submit"] {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     background-color: transparent;
     border: none;
@@ -199,7 +214,7 @@ html, body, #root {
 }
 
 .contact-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 700;
     font-size: 60px;
@@ -207,7 +222,7 @@ html, body, #root {
     color: var(--color-silver);
 }
 .contact-subheading {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 400;
     font-size: 30px;
@@ -216,7 +231,7 @@ html, body, #root {
 }
 
 .contact-body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 200;
     font-size: 15px;
@@ -225,7 +240,7 @@ html, body, #root {
 }
 
 .text-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 700;
     font-size: 80px;
@@ -233,7 +248,7 @@ html, body, #root {
 }
 
 .text-subnav {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 400;
     font-size: 15px;
@@ -290,7 +305,7 @@ html, body, #root {
         font-size: 15px;
     }
     .about-header {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
         font-weight: 600px;
         font-weight: 700;
         font-size: 50px;
@@ -299,7 +314,7 @@ html, body, #root {
         color: var(--color-silver);
     }
     .about-subheader {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
         font-weight: 600px;
         color: var(--color-silver);
         font-size: 25px;
@@ -308,7 +323,7 @@ html, body, #root {
         text-align: left;
     }
     .about-subheader-2 {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
         font-weight: 600px;
         color: var(--color-silver);
         font-size: 20px;
@@ -317,7 +332,7 @@ html, body, #root {
         text-align: left;
     }
     .about-body {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
         font-weight: 600px;
         font-weight: 400;
         text-align: left;
@@ -326,7 +341,7 @@ html, body, #root {
         color: var(--color-silver);
     }
     .text-header {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 90px;
         text-align: center;
@@ -334,7 +349,7 @@ html, body, #root {
     }
 
     .text-second {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-size: 40px;
         color: var(--color-silver);
@@ -350,44 +365,49 @@ html, body, #root {
     }
     .text-title {
       font-size: 60px;
+      color: var(--color-silver);
     }
     .text-subnav {
         font-size: 17px;
+        color: var(--color-silver);
     }
     .about-header {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-weight: 700;
         font-size: 40px;
         text-align: left;
         line-height: 40px;
+        color: var(--color-silver);
     }
     .about-subheader {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         color: var(--color-silver);
         font-size: 15px;
         font-weight: 200;
         text-align: left;
+        color: var(--color-silver);
     }
     .about-subheader-2 {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
-        color: #88898C;
+        color: var(--color-silver);
         font-size: 12px;
         font-weight: 200;
         text-align: left;
     }
     .about-body {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-weight: 400;
         line-height: 25px;
         font-size: 12px;
         text-align: left;
+        color: var(--color-silver);
     }
     .about-image {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-weight: 400;
         line-height: 30px;
@@ -396,13 +416,13 @@ html, body, #root {
         max-width: 100%;
     }
     .text-header {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 600px;
         font-size: 80px;
         text-align: center;
     }
     .text-second {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-size: 30px;
         color: var(--color-silver);
@@ -418,7 +438,7 @@ html, body, #root {
         right: 0;
     }
     .text-header {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 70px;
         text-align: center;
@@ -432,14 +452,14 @@ html, body, #root {
     }
     
     .text-header {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 70px;
         line-height: 70px;
         text-align: center;
     }
     .text-second {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-size: 20px;
         color: var(--color-silver);
@@ -461,14 +481,15 @@ html, body, #root {
         font-size: 17px;
     }
     .about-header {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-weight: 700;
         text-align: left;
         line-height: 40px;
+        color: var(--color-silver);
     }
     .about-subheader {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         color: var(--color-silver);
         font-size: 20px;
@@ -476,7 +497,7 @@ html, body, #root {
         text-align: left;
     }
     .about-subheader-2 {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         color: var(--color-silver);
         font-size: 15px;
@@ -484,15 +505,16 @@ html, body, #root {
         text-align: left;
     }
     .about-body {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-weight: 400;
         line-height: 25px;
-        font-size: 12px;
+        font-size: 15px;
         text-align: left;
+        color: var(--color-silver);
     }
     .text-header {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 600px;
         font-size: calc(20px + 4em);
         overflow: hidden;
@@ -501,7 +523,7 @@ html, body, #root {
         text-align: left;
     }
     .text-second {
-       font-family: 'Outfit', sans-serif;
+       font-family: 'Inter', sans-serif;
     font-weight: 600px;
         font-size: 15px;
         color: var(--color-silver);
@@ -528,18 +550,15 @@ html, body, #root {
 }
 
 
-
-
-
 .blog-header {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 500;
     color: var(--color-silver);
 }
 
 .blog-sub-header {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: bold;
     text-align: left;
@@ -547,7 +566,7 @@ html, body, #root {
 }
 
 .blog-sub-header2 {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: bold;
     text-align: left;
@@ -555,7 +574,7 @@ html, body, #root {
 }
 
 .blog-body-q {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     font-weight: 400;
     text-align: left;
@@ -564,7 +583,7 @@ html, body, #root {
 }
 
 .blog-body {
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600px;
     color: var(--color-silver);
     font-size: 16;
@@ -606,6 +625,17 @@ body {
     font-size: 35px;
     padding: 10px 40px;
 }
+
+.secondary-sub-headline {
+    color: var(--color-gray);
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
 .top {
   	align-self: stretch;
   	display: flex;
@@ -781,6 +811,17 @@ body {
 
 .cover-img {
   max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.drop-1 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.empathy-img {
+  max-width: 50%;
   height: auto;
   display: block;
   object-fit: contain;

@@ -25,6 +25,9 @@ import SpaceMonkey from "./Components/Portfolio/Design/SpaceMonkey.js";
 import StokedOne from "./Components/Portfolio/Design/StokedOne.js";
 import StokedTwo from "./Components/Portfolio/Design/StokedTwo.js";
 import StokedThree from "./Components/Portfolio/Design/StokedThree.js";
+import Clover from "./Components/Portfolio/Design/Clover.js";
+import IdealExperience from "./Components/Portfolio/Design/IdealExperience.js";
+import MD99 from "./Components/Portfolio/Design/MD99.js";
 
 const router = createBrowserRouter([
   {
@@ -118,6 +121,20 @@ const router = createBrowserRouter([
   {
     path: "/stoked-three",
     element: <StokedThree />,
+  },
+  {
+    path: "/clover",
+    element: <Clover />,
+  },
+
+   {
+    path: "/md99",
+    element: <MD99 />,
+  },
+
+   {
+    path: "/ideal-experience",
+    element: <IdealExperience />,
   },
 ]);
 
