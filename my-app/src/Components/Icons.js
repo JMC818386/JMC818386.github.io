@@ -1,5 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Figma from './img/icons/figma.png'
+import Sketch from './img/icons/sketch.png'
+import Vscode from './img/icons/vscode.png'
 import Acrobat from './img/icons/acrobat.png'
 import Illustrator from './img/icons/illustrator.png'
 import Indesign from './img/icons/indesign.png'
@@ -30,6 +33,9 @@ function Icons() {
         <div className="row">
             <p className="text-second pb-0 mb-0 d-flex justify-content-center">Tools</p>
           <div className="col d-flex flex-wrap justify-content-center">
+            <img src={Figma} alt="Figma" className="icons"/>
+            <img src={Sketch} alt="Sketch" className="icons"/>
+            <img src={Vscode} alt="VS Code" className="icons"/>
             <img src={Photoshop} alt="Adobe Photoshop" className="icons"/>
             <img src={Illustrator} alt="Adobe Illustrator" className="icons"/>
             <img src={Indesign} alt="Adobe Indesign" className="icons"/>

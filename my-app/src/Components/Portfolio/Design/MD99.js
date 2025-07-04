@@ -5,6 +5,7 @@ import Footer from "../../Footer";
 import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
+import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 
 import MD99DesktopUI from './img/MD99/md99-desktop-ui.png';
 import MD99EditorRadial from './img/MD99/md99-editor-radial.png';
@@ -20,6 +21,7 @@ function MD99() {
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
+      <PortfolioNavigationArrows currentPath="/md99" />
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">

@@ -15,6 +15,30 @@ import IdealExperience from './Portfolio/Design/img/ideal-experience.png';
 
 import Clover from './Portfolio/Design/img/clover-cover.png';
 
+/*---------------------AG_CON Imported Images------------------------------------------------------------------------------------*/
+
+import AgCon from './Portfolio/Design/img/ag-con-cover.png';
+
+/*---------------------Silent Battle Imported Images------------------------------------------------------------------------------------*/
+
+import SilentBattle from './Portfolio/Design/img/silent-battle-cover.png';
+
+/*---------------------Rowan's Creek Imported Images------------------------------------------------------------------------------------*/
+
+import RowansCreek from './Portfolio/Design/img/rowans-creek-cover.png';
+
+/*---------------------Railbird Imported Images------------------------------------------------------------------------------------*/
+
+import Railbird from './Portfolio/Design/img/railbird-cover.png';
+
+/*---------------------Three Willows Imported Images------------------------------------------------------------------------------------*/
+
+import ThreeWillows from './Portfolio/Design/img/three-willows-cover.png';
+
+/*---------------------Total PT Connect Imported Images------------------------------------------------------------------------------------*/
+
+import TotalPtConnect from './Portfolio/Design/img/total-pt-connect.png';
+
 /*---------------------Stoked Ampere's Imported Images------------------------------------------------------------------------------------*/
 
 import Amperes from './Portfolio/Design/img/amperes&.jpg';
@@ -181,7 +205,7 @@ function GraphicDesignBody() {
     
   return (
     
-  <div>
+  <div className="bg-main-dark">
     {/* <CBreadcrumb
       style={{
         '--cui-breadcrumb-divider': `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E")`,
@@ -228,6 +252,78 @@ function GraphicDesignBody() {
             <img className="card-img-top" src={Clover} alt="To-Do-List" />
             <div className="overlay">
               <p className="overlay-text">Clover</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+{/*------------------------------AG_CON------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/ag-con" className="" onClick={handleClick}>
+            <img className="card-img-top" src={AgCon} alt="AG_CON 2026" />
+            <div className="overlay">
+              <p className="overlay-text">AG_CON 2026</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+{/*------------------------------Silent Battle------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/silent-battle" className="" onClick={handleClick}>
+            <img className="card-img-top" src={SilentBattle} alt="Silent Battle" />
+            <div className="overlay">
+              <p className="overlay-text">Silent Battle</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+{/*------------------------------Rowan's Creek------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/rowans-creek" className="" onClick={handleClick}>
+            <img className="card-img-top" src={RowansCreek} alt="Rowan's Creek" />
+            <div className="overlay">
+              <p className="overlay-text">Rowan's Creek</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+{/*------------------------------Railbird------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/railbird" className="" onClick={handleClick}>
+            <img className="card-img-top" src={Railbird} alt="Railbird" />
+            <div className="overlay">
+              <p className="overlay-text">Railbird</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+{/*------------------------------Three Willows------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/three-willows" className="" onClick={handleClick}>
+            <img className="card-img-top" src={ThreeWillows} alt="Three Willows" />
+            <div className="overlay">
+              <p className="overlay-text">Three Willows</p>
+            </div>
+          </Link>
+          <div ref={topRef}></div>
+        </div>
+
+{/*------------------------------Total PT Connect------------------------------------------------------------------------------------------*/}
+
+        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+          <Link to="/total-pt-connect" className="" onClick={handleClick}>
+            <img className="card-img-top" src={TotalPtConnect} alt="Total PT Connect" />
+            <div className="overlay">
+              <p className="overlay-text">Total PT Connect</p>
             </div>
           </Link>
           <div ref={topRef}></div>

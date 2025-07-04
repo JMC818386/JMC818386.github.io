@@ -5,6 +5,7 @@ import Footer from "../../Footer";
 import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
+import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 
 import CloverHero from './img/Clover/clover-hero.png';
 import CloverEmpathyMap from './img/Clover/clover-empathy-map.png';
@@ -19,6 +20,7 @@ function Clover() {
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
+      <PortfolioNavigationArrows currentPath="/clover" />
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">

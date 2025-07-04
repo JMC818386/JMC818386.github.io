@@ -5,6 +5,7 @@ import Footer from "../../Footer";
 import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
+import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 
 import PantheonCover from './img/Stoked_Three/pantheon-hero.png';
 import Pantheon1 from './img/Stoked_Three/pantheon-1.png';
@@ -16,6 +17,7 @@ function StokedThree() {
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
+      <PortfolioNavigationArrows currentPath="/stoked-three" />
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">

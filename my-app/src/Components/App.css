@@ -153,12 +153,23 @@ html, body, #root {
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: all 0.5s ease;
     background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+    .overlay-text {
+      color:#ffffff;
+      font-family: 'Hind', sans-serif;
+      font-weight: 500px ;
+      font-size: 15px;
+      text-align: center;
+      margin: 0;
   }
   
   .position-relative:hover .overlay {
@@ -181,6 +192,7 @@ html, body, #root {
 
   .icon-link {
     color: white;
+    font-weight: bold;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -202,7 +214,15 @@ html, body, #root {
 .card-port {
     width: 325px;
     position: relative;
+    overflow: hidden;
 }
+
+
+.card-port a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
 
 
 .contact-input {
@@ -402,7 +422,7 @@ html, body, #root {
     font-weight: 600px;
         font-weight: 400;
         line-height: 25px;
-        font-size: 12px;
+        font-size: 15px;
         text-align: left;
         color: var(--color-silver);
     }
@@ -506,7 +526,7 @@ html, body, #root {
     }
     .about-body {
        font-family: 'Inter', sans-serif;
-    font-weight: 600px;
+        font-weight: 600px;
         font-weight: 400;
         line-height: 25px;
         font-size: 15px;
@@ -887,6 +907,63 @@ body {
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
+}
+
+/* Portfolio Navigation Arrows */
+.portfolio-navigation {
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-silver);
+  margin-bottom: 0;
+  position: sticky;
+  top: 88px;
+  z-index: 999;
+  width: 100%;
+}
+
+.portfolio-nav-arrow, 
+.portfolio-nav-home {
+  color: var(--color-gray);
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.portfolio-nav-arrow:hover, 
+.portfolio-nav-home:hover {
+  color: var(--color-silver);
+  background-color: rgba(122, 122, 122, 0.1);
+  text-decoration: none;
+}
+
+.portfolio-arrow-icon {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.portfolio-grid-icon {
+  font-size: 16px;
+}
+
+.portfolio-nav-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.portfolio-nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .portfolio-nav-text {
+    display: none;
+  }
+  
+  .portfolio-navigation {
+    padding: 1rem 2rem;
   }
 }
 

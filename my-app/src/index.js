@@ -28,6 +28,12 @@ import StokedThree from "./Components/Portfolio/Design/StokedThree.js";
 import Clover from "./Components/Portfolio/Design/Clover.js";
 import IdealExperience from "./Components/Portfolio/Design/IdealExperience.js";
 import MD99 from "./Components/Portfolio/Design/MD99.js";
+import AgCon from "./Components/Portfolio/Design/AgCon.js";
+import SilentBattle from "./Components/Portfolio/Design/SilentBattle.js";
+import RowansCreek from "./Components/Portfolio/Design/RowansCreek.js";
+import Railbird from "./Components/Portfolio/Design/Railbird.js";
+import ThreeWillows from "./Components/Portfolio/Design/ThreeWillows.js";
+import TotalPtConnect from "./Components/Portfolio/Design/TotalPtConnect.js";
 
 const router = createBrowserRouter([
   {
@@ -135,6 +141,30 @@ const router = createBrowserRouter([
    {
     path: "/ideal-experience",
     element: <IdealExperience />,
+  },
+  {
+    path: "/ag-con",
+    element: <AgCon />,
+  },
+  {
+    path: "/silent-battle",
+    element: <SilentBattle />,
+  },
+  {
+    path: "/rowans-creek",
+    element: <RowansCreek />,
+  },
+  {
+    path: "/railbird",
+    element: <Railbird />,
+  },
+  {
+    path: "/three-willows",
+    element: <ThreeWillows />,
+  },
+  {
+    path: "/total-pt-connect",
+    element: <TotalPtConnect />,
   },
 ]);
 

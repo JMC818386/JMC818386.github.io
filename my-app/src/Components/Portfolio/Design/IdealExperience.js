@@ -5,6 +5,7 @@ import Footer from "../../Footer";
 import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
+import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 
 import IdealXCover from './img/IdealExperience/ideal-x-cover.png';
 import IdealXEcosystem from './img/IdealExperience/ideal-x-ecosystem-tacos.png';
@@ -18,6 +19,7 @@ function IdealExperience() {
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
+      <PortfolioNavigationArrows currentPath="/ideal-experience" />
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">

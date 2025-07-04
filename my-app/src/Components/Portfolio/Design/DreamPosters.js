@@ -5,12 +5,14 @@ import Footer from '../../Footer';
 import Logo from './img/logo.jpg';
 import '../../App.css';
 import GraphicDesignBody from '../../GraphicDesignBody';
+import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 
 function DreamPoster() {
   return (
   <div className="bg-dark">
     <TopNav />
     <PortfolioNav />
+    <PortfolioNavigationArrows currentPath="/dream-posters" />
     <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center bg-dark text-light">
       <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
         <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">

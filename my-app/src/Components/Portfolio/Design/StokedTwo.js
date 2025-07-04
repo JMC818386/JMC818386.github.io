@@ -5,6 +5,7 @@ import Footer from "../../Footer";
 import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
+import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 
 import HistoryCover from './img/Stoked_Two/mini-history-hero.png';
 import MiniSpread from './img/Stoked_Two/mini-history-1.png';
@@ -16,6 +17,7 @@ function StokedTwo() {
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
+      <PortfolioNavigationArrows currentPath="/stoked-two" />
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
