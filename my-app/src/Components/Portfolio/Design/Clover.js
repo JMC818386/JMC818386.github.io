@@ -6,6 +6,9 @@ import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
 import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 import CloverHero from './img/Clover/clover-hero.png';
 import CloverEmpathyMap from './img/Clover/clover-empathy-map.png';
@@ -16,11 +19,21 @@ import CloverPersona from './img/Clover/clover-persona.png';
 import CloverPlayerStats from './img/Clover/clover-player-stats.png';
 
 function Clover() {
+  
+  useEffect(() => {
+    AOS.init({
+        duration: 1250,
+        once: true,
+    });  
+}, []);
+
   return (
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/clover" />
+
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
@@ -152,6 +165,7 @@ function Clover() {
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />
       <Footer />
+      </div>
     </div>
   );
 }

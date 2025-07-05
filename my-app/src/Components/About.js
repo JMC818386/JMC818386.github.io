@@ -18,7 +18,7 @@ function About() {
 
   useEffect(() => {
     AOS.init({
-        duration: 2500,
+        duration: 1250,
         once: true,
     });  
 }, []);
@@ -31,7 +31,7 @@ function About() {
           <div className="row">
             <div className="col-md-8 p-4 d-flex align-items-center">
               <div>
-                <h1 className="about-header" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">JOHN-MICHAEL</h1>
+                <h1 className="about-header" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">JM</h1>
                 <h1 className="about-header grey" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">CRAWFORD</h1>
                 <p className="about-subheader-3 mb-0" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">ARTIST | DESIGNER | ENGINEER</p>
                 {/* <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p> */}

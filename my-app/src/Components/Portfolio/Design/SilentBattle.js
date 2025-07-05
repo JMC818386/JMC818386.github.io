@@ -4,15 +4,28 @@ import PortfolioNav from "../../PortfolioNav";
 import Footer from "../../Footer";
 import "../../App.css";
 import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 import SilentBattleCover from './img/silent-battle-cover.png';
 
 function SilentBattle() {
+  
+  useEffect(() => {
+    AOS.init({
+        duration: 1250,
+        once: true,
+    });  
+}, []);
+
   return (
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/silent-battle" />
+
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
@@ -49,6 +62,7 @@ function SilentBattle() {
       </div>
 
       <Footer />
+      </div>
     </div>
   );
 }

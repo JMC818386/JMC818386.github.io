@@ -6,6 +6,9 @@ import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
 import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
+import React, { useState, useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 import MD99DesktopUI from './img/MD99/md99-desktop-ui.png';
 import MD99EditorRadial from './img/MD99/md99-editor-radial.png';
@@ -17,11 +20,52 @@ import MD99Persona1 from './img/MD99/md99-persona-1.png';
 import MD99Persona2 from './img/MD99/md99-persona-2.png';
 
 function MD99() {
+  const [lightboxImage, setLightboxImage] = useState(null);
+
+  useEffect(() => {
+    AOS.init({
+        duration: 1250,
+        once: true,
+    });  
+}, []);
+
+  const openLightbox = (imageSrc, imageAlt) => {
+    setLightboxImage({ src: imageSrc, alt: imageAlt });
+  };
+
+  const closeLightbox = () => {
+    setLightboxImage(null);
+  };
+
+  const handleBackdropClick = (e) => {
+    if (e.target.classList.contains('lightbox-backdrop')) {
+      closeLightbox();
+    }
+  };
+
   return (
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/md99" />
+
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
+
+      {/* Lightbox Modal */}
+      {lightboxImage && (
+        <div className="lightbox-backdrop" onClick={handleBackdropClick}>
+          <div className="lightbox-container">
+            <button className="lightbox-close" onClick={closeLightbox}>
+              ×
+            </button>
+            <img 
+              src={lightboxImage.src} 
+              alt={lightboxImage.alt} 
+              className="lightbox-image"
+            />
+          </div>
+        </div>
+      )}
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
@@ -34,7 +78,13 @@ function MD99() {
           </div>
         </div>
         <div className="half-section image-side">
-          <img className="history-cover-img" src={MD99MockupEditor} alt="History Zine Cover" />
+          <img 
+            className="history-cover-img" 
+            src={MD99MockupEditor} 
+            alt="MD99 Mockup Editor" 
+            onClick={() => openLightbox(MD99MockupEditor, "MD99 Mockup Editor")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
       </div>
 
@@ -63,7 +113,13 @@ function MD99() {
           </div>
         </div>
         <div className="half-section image-side">
-          <img className="cover-img" src={MD99MockupMobile} alt="History Zine Cover" />
+          <img 
+            className="cover-img" 
+            src={MD99MockupMobile} 
+            alt="MD99 Mobile Mockup" 
+            onClick={() => openLightbox(MD99MockupMobile, "MD99 Mobile Mockup")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
       </div>
 
@@ -91,7 +147,13 @@ function MD99() {
       {/* ---------------------------------------------- SECTION 2 ---------------------------------------------- */}
       <div className="section">
         <div className="half-section image-side">
-          <img className="cover-img" src={MD99Persona1} alt="History Zine Cover" />
+          <img 
+            className="cover-img" 
+            src={MD99Persona1} 
+            alt="MD99 Persona 1" 
+            onClick={() => openLightbox(MD99Persona1, "MD99 Persona 1")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
         <div className="half-section text-side">
           <div className="top">
@@ -114,18 +176,31 @@ function MD99() {
           </div>
         </div>
         <div className="half-section image-side">
-          <img className="cover-img" src={MD99Persona2} alt="History Zine Cover" />
+          <img 
+            className="cover-img" 
+            src={MD99Persona2} 
+            alt="MD99 Persona 2" 
+            onClick={() => openLightbox(MD99Persona2, "MD99 Persona 2")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
       </div>
 
       {/* ---------------------------------------------- SECTION 3 ---------------------------------------------- */}
       <div className="section mb-5 pb-5">
-        <img className="cover-img" src={MD99MockupDocs} alt="History Zine Cover" />
+        <img 
+          className="cover-img" 
+          src={MD99MockupDocs} 
+          alt="MD99 Documentation Mockup" 
+          onClick={() => openLightbox(MD99MockupDocs, "MD99 Documentation Mockup")}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
 
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />
       <Footer />
+      </div>
     </div>
   );
 }

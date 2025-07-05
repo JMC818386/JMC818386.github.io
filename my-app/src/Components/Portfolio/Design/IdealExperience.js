@@ -6,6 +6,9 @@ import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
 import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 import IdealXCover from './img/IdealExperience/ideal-x-cover.png';
 import IdealXEcosystem from './img/IdealExperience/ideal-x-ecosystem-tacos.png';
@@ -15,11 +18,21 @@ import IdealXFullSpread from './img/IdealExperience/ideal-x-full-spread.png';
 import IdealXSpreads from './img/IdealExperience/ideal-x-spreads.png';
 
 function IdealExperience() {
+  
+  useEffect(() => {
+    AOS.init({
+        duration: 1250,
+        once: true,
+    });  
+}, []);
+
   return (
     <div className="bg-main-dark">
       <TopNav />
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/ideal-experience" />
+
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
@@ -177,6 +190,7 @@ function IdealExperience() {
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />
       <Footer />
+      </div>
     </div>
   );
 }

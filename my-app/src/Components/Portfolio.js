@@ -6,14 +6,27 @@ import './App.css';
 import Grid from './img/Grid.png';
 import GraphicDesignBody from './GraphicDesignBody';
 import WebDevelopmentBody from './WebDevelopmentBody';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import React, { useEffect } from 'react';
 
 function Portfolio() {
+  
+  useEffect(() => {
+    AOS.init({
+        duration: 1250,
+        once: true,
+    });  
+}, []);
+
   return (
   <div className="bg-main-dark">
     <TopNav />
     {/* <PortfolioNav /> */}
     {/* <WebDevelopmentBody /> */}
-    <GraphicDesignBody />
+    <div data-aos="fade" data-aos-anchor-placement="top-bottom">
+      <GraphicDesignBody />
+    </div>
     <Footer />
   </div>
   );

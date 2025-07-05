@@ -11,7 +11,7 @@ function Blog() {
 
   useEffect(() => {
     AOS.init({
-        duration: 2500,
+        duration: 1250,
         once: true,
     });  
 }, []);
@@ -19,8 +19,7 @@ function Blog() {
   return (
     <div className="bg-main-dark">
       <TopNav />
-      <div className="container-fluid d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+      <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
           <div className="container text-light pb-0 mb-0">
             <div className="row d-flex justify-content-center pb-0 mb-0">
               <div className="col-12 pb-0 mb-0 d-flex justify-content-center mt-5">
@@ -30,7 +29,7 @@ function Blog() {
           </div>
           <div className="container mt-5 d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 mt-5 blog-container w-60 d-flex flex-column justify-content-center">
+              <div className="col-12 mt-5 blog-container w-60 d-flex flex-column justify-content-center" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Sprint 7 | Python | Week 9</h2>
                   <h3 className="blog-body">03.24.23</h3>
                   <h5 className="blog-body-q">What are some similarities and differences you can see with JS and Python?</h5>
@@ -45,7 +44,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="400" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Sprint 6 | Halfway | Week 8</h2>
                   <h3 className="blog-body">03.17.23</h3>
                   <h5 className="blog-body-q">Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?</h5>
@@ -60,7 +59,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="500" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Sprint 5 | CLI | Week 7</h2>
                   <h3 className="blog-body">03.10.23</h3>
                   <h5 className="blog-body-q">What have you learned about CLIs? Do you think they are scary?</h5>
@@ -75,7 +74,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="600" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Sprint 4 | React Intro | Week 6</h2>
                   <h3 className="blog-body">03.03.23</h3>
                   <h5 className="blog-body-q">Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h5>
@@ -90,7 +89,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="700" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Retrospective Sprint 3 | Week 5</h2>
                   <h3 className="blog-body">02.24.23</h3>
                   <h5 className="blog-body-q">What did you enjoy?</h5>
@@ -107,7 +106,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="800" data-aos-duration="2500">
                 <h2 className="blog-sub-header">Sprint 3 | Technical Article | Week 5</h2>
                 <h3 className="blog-body">02.24.23</h3>
                 <h3 className="blog-sub-header">What is pseudocode and how does it help with programming?</h3>
@@ -136,7 +135,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light pt-5 mt-5">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="900" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Sprint 2 | Vanilla JS | Week 4</h2>
                   <h3 className="blog-body">02.17.23</h3>
                   <h5 className="blog-body-q">What did you learn about that helped you understand the development process?</h5>
@@ -153,7 +152,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="1000" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Sprint 1 | HTML/CSS/JS/State | Week 3</h2>
                   <h3 className="blog-body">02.10.23</h3>
                   <h5 className="blog-body-q">What is the number one thing that held you back this week? Why?</h5>
@@ -168,7 +167,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="1100" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Onboarding Sprint 2 | Week 2</h2>
                   <h3 className="blog-body">02.03.23</h3>
                   <h5 className="blog-body-q">What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h5>
@@ -187,7 +186,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="1200" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Retrospective | Week 2</h2>
                   <h3 className="blog-body">02.03.23</h3>
                   <h5 className="blog-body-q">What did you enjoy?</h5>
@@ -227,7 +226,7 @@ function Blog() {
 
           <div className="container d-flex row justify-content-center text-light">
             <div className="row d-flex justify-content-center">
-              <div className="col-12 rounded blog-container">
+              <div className="col-12 rounded blog-container" data-aos="fade" data-aos-delay="1300" data-aos-duration="2500">
                   <h2 className="blog-sub-header">Onboarding Sprint 1 | Week 1</h2>
                   <h3 className="blog-body">01/26/23</h3>
                   <h5 className="blog-body-q">Was your first week what you expected? Why? Why not?</h5>

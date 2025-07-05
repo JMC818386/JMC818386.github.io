@@ -384,6 +384,7 @@ html, body, #root {
         line-height: 30px;
         font-size: 15px;
         color: var(--color-silver);
+        max-width: 500px;
     }
     .text-header {
         font-family: 'Inter', sans-serif;
@@ -460,6 +461,7 @@ html, body, #root {
         font-size: 15px;
         text-align: left;
         color: var(--color-silver);
+        max-width: 500px;
     }
     .about-image {
        font-family: 'Inter', sans-serif;
@@ -577,6 +579,7 @@ html, body, #root {
         font-size: 15px;
         text-align: left;
         color: var(--color-silver);
+        max-width: 500px;
     }
     .text-header {
         font-family: 'Inter', sans-serif;
@@ -724,6 +727,21 @@ body {
   	font-size: 20px;
   	line-height: 160%;
     padding: 10px 40px;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+    .paragraph-2 {
+        font-size: 18px;
+    }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 600px) {
+    .paragraph-2 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 }
 
 .section-text {
@@ -1009,6 +1027,70 @@ body {
   
   .portfolio-navigation {
     padding: 1rem 2rem;
+  }
+}
+
+/* Lightbox Styles */
+.lightbox-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+.lightbox-container {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  cursor: default;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  z-index: 10001;
+}
+
+.lightbox-close:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile responsive lightbox */
+@media (max-width: 768px) {
+  .lightbox-container {
+    max-width: 95vw;
+    max-height: 85vh;
+  }
+  
+  .lightbox-close {
+    top: -35px;
+    font-size: 28px;
+    padding: 6px 10px;
   }
 }
 
