@@ -711,6 +711,11 @@ body {
   	align-items: center;
   	justify-content: flex-start;
 }
+
+.top:has(.clover-logo) {
+  align-items: flex-start;
+}
+
 .paragraph {
     color: var(--color-silver);
   	align-self: stretch;
@@ -842,7 +847,8 @@ body {
    width: 100%;
    position: relative;
    background-color: var(--color-bg-);
-   height: 580px;
+   min-height: 580px;
+   height: auto;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -860,7 +866,8 @@ body {
    width: 100%;
    position: relative;
    background-color: var(--color-bg-);
-   height: 250px;
+   min-height: 250px;
+   height: auto;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -917,6 +924,30 @@ body {
   padding-left: 10px;
 }
 
+.clover-logo {
+  max-width: 65%;
+  height: auto;
+  display: block;
+  padding-left: 40px;
+}
+
+.empathy-map-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.phantom-flyer-img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
 
 @media (max-width: 1000px) {
   .section {
@@ -966,7 +997,8 @@ body {
   }
 
   .cover-img,
-  .history-cover-img {
+  .history-cover-img,
+  .empathy-map-img {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -1092,6 +1124,16 @@ body {
     font-size: 28px;
     padding: 6px 10px;
   }
+}
+
+/* Spacing utilities */
+.mt-5 {
+  margin-top: 3rem;
+}
+
+/* Spacing utilities */
+.mt-5 {
+  margin-top: 3rem;
 }
 
 

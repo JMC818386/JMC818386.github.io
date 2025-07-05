@@ -74,7 +74,7 @@ function MD99() {
             <b className="secondary-headline">MD99</b>
           </div>
           <div className="paragraph">
-            {`A collection of Zines (miniature magazine) combining elements of modern Swiss style layout with grunge typography to explore the notion of readability in philosophy. Printed in color process with a Risograph printer on assorted papers. `}
+            {`MD99 is a cutting-edge web-based platform designed to revolutionize the way developers create and deploy dynamic KPI graphics. It bridges the gap between data visualization and web development, offering a seamless way to generate, customize, and integrate performance metrics with minimal effort. Built with flexibility and efficiency in mind, MD99 enables both front-end and back-end developers to visualize key performance indicators instantly, without needing extensive design experience `}
           </div>
         </div>
         <div className="half-section image-side">
@@ -96,7 +96,7 @@ function MD99() {
               <b className="secondary-headline">Concept</b>
             </div>
             <div className="paragraph-2">
-              {`This project represents my own interpretation and experience with interest in Stoicism  through contemporary and expressive design. The goal was to transform its traditionally rigid and structured nature into something visually engaging while maintaining its depth and substance. Inspired by the history of zines as a medium for both artistic expression and intellectual exploration, this work merges philosophical discourse with dynamic, unconventional design. By layering structured content with bold typographic choices, abstract compositions, and experimental print techniques, the project challenges the notion that philosophy must be dense and inaccessible. Instead, it presents Stoicism in a way that is provocative, visually immersive, and compelling to modern audiences. `}
+              {`The platform leverages server-side rendering to deliver optimized, fast-loading graphics that can be embedded directly into web applications via a simple API call. By focusing exclusively on single-value KPIs, MD99 provides an innovative solution for professionals who need clear, concise, and impactful data representation. With pre-designed templates, automated asset management, and a streamlined workflow, MD99 transforms the traditionally complex process of data visualization into an intuitive, scalable experience. `}
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ function MD99() {
             <b className="secondary-headline">Visual Design</b>
           </div>
           <div className="paragraph">
-            {`The first zine, Stoked on Stoicism, contrasts the philosophy’s intrinsic ideals with a mix of non-linear, grunge-style typography and a structured, modern layout. This interplay creates visual tension, reinforcing the balance between order and abstraction. `}
+            {`MD99 empowers developers with a robust dynamic route system that enables the creation of real-time data visuals tailored to specific reporting needs. Whether for small team analytics or enterprise-scale dashboards, developers can generate and modify visuals on demand. `}
           </div>
         </div>
         <div className="half-section image-side">
@@ -123,23 +123,46 @@ function MD99() {
         </div>
       </div>
 
+      {/* ---------------------------------------------- SECTION 2 ---------------------------------------------- */}
+
+      <div className="section">
+        <div className="half-section image-side">
+          <img 
+            className="cover-img" 
+            src={MD99Persona1} 
+            alt="MD99 Persona 1" 
+            onClick={() => openLightbox(MD99Persona1, "MD99 Persona 1")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+        <div className="half-section text-side">
+          <div className="top">
+            <b className="secondary-headline">No-Code Data Visualization Builder</b>
+          </div>
+          <div className="paragraph">
+            {`The Asset Builder provides an easy-to-use interface for customizing KPI graphics without requiring advanced coding knowledge. Users can instantly deploy their visuals via a unique image URL, making data integration effortless. `}
+          </div>
+        </div>
+      </div>
+
+
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
       <div className="section-2">
         <div className="half-section text-side">
           <div className="top">
-            <b className="secondary-headline">Scope</b>
+            <b className="secondary-headline">Intuitive Asset Control</b>
           </div>
           <div className="paragraph">
-            {`As the project progressed, the work evolved to include larger print areas, longer bodies of text, and greater complexity in transparency overlays and abstracted typographic compositions. A limited color palette was intentionally used to push the boundaries of Risograph printing techniques, emphasizing layered separations and dynamic color interactions. `}
+            {`The dashboard acts as the central hub for managing, updating, and organizing data assets. Developers can create, edit, and control their visual elements with ease, while also managing public and secret API keys for security. `}
           </div>
         </div>
 
         <div className="half-section text-side">
           <div className="top">
-            <b className="secondary-headline">Influence</b>
+            <b className="secondary-headline">Automated & Scalable API Integration</b>
           </div>
           <div className="paragraph">
-            {`Inspired by David Carson’s unconventional typography and the unique constraints of Risograph printing, the compositions integrate raster and vector imagery, color overlays, and intricate layering. Special attention was given to the relationship between text and image, ensuring a cohesive yet experimental aesthetic. `}
+            {`Built on a scalable AWS infrastructure, MD99 delivers high-performance asset rendering that ensures speed and reliability. The system supports automated updates and refreshes, allowing for real-time KPI adjustments without manual intervention. `}
           </div>
         </div>
       </div>
@@ -157,10 +180,10 @@ function MD99() {
         </div>
         <div className="half-section text-side">
           <div className="top">
-            <b className="secondary-headline">Persona 1</b>
+            <b className="secondary-headline">The Challenge</b>
           </div>
           <div className="paragraph">
-            {`This series reflects a personal creative process—merging structured design principles with abstract experimentation. By pairing Stoicism’s logic and discipline with ambitious, unconventional layouts, the work offers both an artistic expression and an accessible introduction to Stoic thought. `}
+            {`Developers often struggle to integrate dynamic performance graphics into their applications due to the complexity of designing, deploying, and maintaining them. Traditional visualization tools are either too rigid, requiring extensive setup, or too complex, demanding a significant learning curve. Additionally, many existing solutions lack real-time rendering capabilities, slowing down decision-making processes. `}
           </div>
         </div>
       </div>
@@ -169,10 +192,10 @@ function MD99() {
       <div className="section">
         <div className="half-section text-side">
           <div className="top">
-            <b className="secondary-headline">Persona 2</b>
+            <b className="secondary-headline">The Solution</b>
           </div>
           <div className="paragraph">
-            {`The first zine, Stoked on Stoicism, contrasts the philosophy’s intrinsic ideals with a mix of non-linear, grunge-style typography and a structured, modern layout. This interplay creates visual tension, reinforcing the balance between order and abstraction. `}
+            {`With automated asset management, scalable AWS hosting, and a self-service model, MD99 ensures that developers can focus on functionality while enjoying a seamless visualization experience. By combining simplicity with cutting-edge server-side rendering, MD99 redefines how developers interact with real-time data. `}
           </div>
         </div>
         <div className="half-section image-side">
