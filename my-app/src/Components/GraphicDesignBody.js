@@ -2,6 +2,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { CBreadcrumb, CBreadcrumbItem } from '@coreui/react';
 
+/*---------------------Technology Icons------------------------------------------------------------------------------------*/
+
+import FigmaIcon from './img/icons/figma.png';
+import IllustratorIcon from './img/icons/illustrator.png';
+import ReactIcon from './img/icons/react.png';
+import BootstrapIcon from './img/icons/bootstrap.png';
+import CSSIcon from './img/icons/css.png';
+import HTMLIcon from './img/icons/html.png';
+import JavaScriptIcon from './img/icons/javascript.png';
+import VSCodeIcon from './img/icons/vscode.png';
+import IndesignIcon from './img/icons/indesign.png';
+import GoogleIcon from './img/icons/google.png';
+import PythonIcon from './img/icons/python.png';
+import DjangoIcon from './img/icons/django.png';
+import PostgreSQLIcon from './img/icons/postgresql.png';
+import PhotoshopIcon from './img/icons/photoshop.png';
+import XDIcon from './img/icons/xd.png';
+
 
 /*---------------------MD99 Imported Images------------------------------------------------------------------------------------*/
 
@@ -217,16 +235,26 @@ function GraphicDesignBody() {
     </CBreadcrumb> */}
 
     <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center text-light">
-      <div className="row row-cols-3 mx-5 mt-1 mb-5 justify-content-center">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mx-3 mt-1 mb-5 justify-content-center g-3">
 
 
 {/*------------------------------MD99------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/md99" className="" onClick={handleClick}>
             <img className="card-img-top" src={MD99} alt="To-Do-List" />
             <div className="overlay">
               <p className="overlay-text">MyDesign99 DGE</p>
+              <div className="tech-icons">
+                <img src={FigmaIcon} alt="Figma" className="tech-icon" />
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={ReactIcon} alt="React" className="tech-icon" />
+                <img src={BootstrapIcon} alt="Bootstrap" className="tech-icon" />
+                <img src={CSSIcon} alt="CSS" className="tech-icon" />
+                <img src={HTMLIcon} alt="HTML" className="tech-icon" />
+                <img src={JavaScriptIcon} alt="JavaScript" className="tech-icon" />
+                <img src={VSCodeIcon} alt="VSCode" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -235,11 +263,17 @@ function GraphicDesignBody() {
 
 {/*------------------------------Ideal Experience------------------------------------------------------------------------------------------*/}
 
-<div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+<div className="col text-light card-port p-2">
   <Link to="/ideal-experience" className="" onClick={handleClick}>
     <img className="card-img-top" src={IdealExperience} alt="To-Do-List" />
     <div className="overlay">
       <p className="overlay-text">Ideal Generative AI Experience</p>
+      <div className="tech-icons">
+        <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+        <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+        <img src={FigmaIcon} alt="Figma" className="tech-icon" />
+        <img src={GoogleIcon} alt="Google" className="tech-icon" />
+      </div>
     </div>
   </Link>
   <div ref={topRef}></div>
@@ -247,11 +281,24 @@ function GraphicDesignBody() {
 
 {/*------------------------------Clover------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/clover" className="" onClick={handleClick}>
             <img className="card-img-top" src={Clover} alt="To-Do-List" />
             <div className="overlay">
               <p className="overlay-text">Clover</p>
+              <div className="tech-icons">
+                <img src={FigmaIcon} alt="Figma" className="tech-icon" />
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={ReactIcon} alt="React" className="tech-icon" />
+                <img src={BootstrapIcon} alt="Bootstrap" className="tech-icon" />
+                <img src={CSSIcon} alt="CSS" className="tech-icon" />
+                <img src={HTMLIcon} alt="HTML" className="tech-icon" />
+                <img src={JavaScriptIcon} alt="JavaScript" className="tech-icon" />
+                <img src={VSCodeIcon} alt="VSCode" className="tech-icon" />
+                <img src={PythonIcon} alt="Python" className="tech-icon" />
+                <img src={DjangoIcon} alt="Django" className="tech-icon" />
+                <img src={PostgreSQLIcon} alt="PostgreSQL" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -259,11 +306,16 @@ function GraphicDesignBody() {
 
 {/*------------------------------AG_CON------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/ag-con" className="" onClick={handleClick}>
             <img className="card-img-top" src={AgCon} alt="AG_CON 2026" />
             <div className="overlay">
               <p className="overlay-text">AG_CON 2026</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -271,11 +323,16 @@ function GraphicDesignBody() {
 
 {/*------------------------------Silent Battle------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/silent-battle" className="" onClick={handleClick}>
             <img className="card-img-top" src={SilentBattle} alt="Silent Battle" />
             <div className="overlay">
               <p className="overlay-text">Silent Battle</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -283,11 +340,16 @@ function GraphicDesignBody() {
 
 {/*------------------------------Rowan's Creek------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/rowans-creek" className="" onClick={handleClick}>
             <img className="card-img-top" src={RowansCreek} alt="Rowan's Creek" />
             <div className="overlay">
               <p className="overlay-text">Rowan's Creek</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -295,11 +357,16 @@ function GraphicDesignBody() {
 
 {/*------------------------------Railbird------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/railbird" className="" onClick={handleClick}>
             <img className="card-img-top" src={Railbird} alt="Railbird" />
             <div className="overlay">
               <p className="overlay-text">Railbird</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -307,11 +374,16 @@ function GraphicDesignBody() {
 
 {/*------------------------------Three Willows------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/three-willows" className="" onClick={handleClick}>
             <img className="card-img-top" src={ThreeWillows} alt="Three Willows" />
             <div className="overlay">
               <p className="overlay-text">Three Willows</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -319,11 +391,24 @@ function GraphicDesignBody() {
 
 {/*------------------------------Total PT Connect------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/total-pt-connect" className="" onClick={handleClick}>
             <img className="card-img-top" src={TotalPtConnect} alt="Total PT Connect" />
             <div className="overlay">
               <p className="overlay-text">Total PT Connect</p>
+              <div className="tech-icons">
+                <img src={XDIcon} alt="XD" className="tech-icon" />
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={ReactIcon} alt="React" className="tech-icon" />
+                <img src={BootstrapIcon} alt="Bootstrap" className="tech-icon" />
+                <img src={CSSIcon} alt="CSS" className="tech-icon" />
+                <img src={HTMLIcon} alt="HTML" className="tech-icon" />
+                <img src={JavaScriptIcon} alt="JavaScript" className="tech-icon" />
+                <img src={VSCodeIcon} alt="VSCode" className="tech-icon" />
+                <img src={PythonIcon} alt="Python" className="tech-icon" />
+                <img src={DjangoIcon} alt="Django" className="tech-icon" />
+                <img src={PostgreSQLIcon} alt="PostgreSQL" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -373,11 +458,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/stoked-two" className="" onClick={handleClick}>
             <img className="card-img-top" src={StoicismOne} alt="To-Do-List" />
             <div className="overlay">
               <p className="overlay-text">Stoked on Stoicism History</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -406,11 +496,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/stoked-three" className="" onClick={handleClick}>
             <img className="card-img-top" src={StoicismThree} alt="Tic-Tac-Toe" />
             <div className="overlay">
               <p className="overlay-text">Stoked on Stoicism Pantheon</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -453,11 +548,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/skg" className="" onClick={handleClick}>
             <img className="card-img-top" src={SKG} alt="Weather App" />
             <div className="overlay">
               <p className="overlay-text">Sea Kayak Georgia</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -473,11 +573,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/phantom" className="" onClick={handleClick}>
             <img className="card-img-top" src={Phantom} alt="Weather App" />
             <div className="overlay">
               <p className="overlay-text">Phantom Fireworks</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -495,11 +600,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/brown-forman" className="" onClick={handleClick}>
             <img className="card-img-top" src={BrownForman} alt="Weather App" />
             <div className="overlay">
               <p className="overlay-text">Brown Forman</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -523,11 +633,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/dream-posters" className="" onClick={handleClick}>
             <img className="card-img-top" src={Dreams} alt="Weather App" />
             <div className="overlay">
               <p className="overlay-text">Dream Posters</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -548,11 +663,16 @@ function GraphicDesignBody() {
           </SlideshowLightbox>
         </div> */}
 
-        <div className="col-lg-4 col-md-6 col-12 text-light card-port p-4 m-4">
+        <div className="col text-light card-port p-2">
           <Link to="/space-monkey" className="" onClick={handleClick}>
             <img className="card-img-top" src={SMM} alt="Weather App" />
             <div className="overlay">
               <p className="overlay-text">Space Monkey Mafia</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
             </div>
           </Link>
           <div ref={topRef}></div>
@@ -560,57 +680,105 @@ function GraphicDesignBody() {
 
     {/*------------------------------3055 Strategies------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+        <div className="col card-port p-2">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={Boss} alt="3055 Strategies" />
+            <div className="overlay">
+              <p className="overlay-text">3055 Strategies</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
+            </div>
           </SlideshowLightbox>
         </div>
 
     {/*------------------------------QRT------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+        <div className="col card-port p-2">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={QRT} alt="Quick Reaction Team" />
-            <img src={QRTCrest} className="hidden" />
-            <img src={QRTCoin} className="hidden" />
+            <div className="overlay">
+              <p className="overlay-text">Quick Reaction Team</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
+            </div>
+            <img src={QRTCrest} className="hidden" alt="" />
+            <img src={QRTCoin} className="hidden" alt="" />
           </SlideshowLightbox>
         </div>
 
             {/*------------------------------Mindset Solutions------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+        <div className="col card-port p-2">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={Mindset} alt="Mindset Solution" />
+            <div className="overlay">
+              <p className="overlay-text">Mindset Solutions</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
+            </div>
           </SlideshowLightbox>
         </div>
 
             {/*------------------------------Ampere's &------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+        <div className="col card-port p-2">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={Amperes} alt="Ampere's & Co." />
-            <img src={AmperesMain} className="hidden"/>
+            <div className="overlay">
+              <p className="overlay-text">Ampere's &</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
+            </div>
+            <img src={AmperesMain} className="hidden" alt="" />
           </SlideshowLightbox>
         </div>
 
             {/*------------------------------Bluegrass Gentleman------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+        <div className="col card-port p-2">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={BG} alt="Bluegrass Gentleman" />
-            <img src={BG01} className="hidden" />
+            <div className="overlay">
+              <p className="overlay-text">Bluegrass Gentleman</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
+            </div>
+            <img src={BG01} className="hidden" alt="" />
             {/* <img src={BG02} className="hidden" /> */}
-            <img src={BG03} className="hidden" />
+            <img src={BG03} className="hidden" alt="" />
             {/* <img src={BG04} className="hidden" /> */}
-            <img src={BGMain} className="hidden" />
+            <img src={BGMain} className="hidden" alt="" />
           </SlideshowLightbox>
         </div>
 
             {/*------------------------------East Coast Magazine------------------------------------------------------------------------------------------*/}
 
-        <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
+        <div className="col card-port p-2">
           <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}> 
             <img className="card-img-top" src={EastCoast} alt="East Coast Magazine" />
+            <div className="overlay">
+              <p className="overlay-text">East Coast Magazine</p>
+              <div className="tech-icons">
+                <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
+                <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
+                <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
+              </div>
+            </div>
           </SlideshowLightbox>
         </div>
 

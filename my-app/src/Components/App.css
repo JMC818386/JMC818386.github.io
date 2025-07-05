@@ -167,9 +167,24 @@ html, body, #root {
       color:#ffffff;
       font-family: 'Hind', sans-serif;
       font-weight: 500px ;
-      font-size: 15px;
+      font-size: 16px;
       text-align: center;
       margin: 0;
+      margin-bottom: 10px;
+  }
+
+  .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    max-width: 200px;
+  }
+
+  .tech-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
   }
   
   .position-relative:hover .overlay {
@@ -342,6 +357,16 @@ html, body, #root {
         font-weight: 200;
         text-align: left;
     }
+
+    p.about-subheader-3 {
+        font-family: 'Inter', sans-serif !important;
+        font-weight: 600 !important;
+        color: #21272a !important;
+        font-size: 30px !important;
+        text-align: left !important;
+        padding: 10px 0px !important;
+    }
+
     .about-subheader-2 {
        font-family: 'Inter', sans-serif;
         font-weight: 600px;
@@ -409,6 +434,16 @@ html, body, #root {
         text-align: left;
         color: var(--color-silver);
     }
+    
+    p.about-subheader-3 {
+        font-family: 'Inter', sans-serif !important;
+        font-weight: 600 !important;
+        color: #adbac1 !important;
+        font-size: 20px !important;
+        text-align: left !important;
+        padding: 10px 0px !important;
+    }
+    
     .about-subheader-2 {
        font-family: 'Inter', sans-serif;
     font-weight: 600px;
@@ -516,6 +551,16 @@ html, body, #root {
         font-weight: 200;
         text-align: left;
     }
+    
+    p.about-subheader-3 {
+        font-family: 'Inter', sans-serif !important;
+        font-weight: 600 !important;
+        color: #21272a !important;
+        font-size: 25px !important;
+        text-align: left !important;
+        padding: 10px 0px !important;
+    }
+    
     .about-subheader-2 {
        font-family: 'Inter', sans-serif;
     font-weight: 600px;

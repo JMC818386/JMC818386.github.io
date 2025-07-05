@@ -27,14 +27,14 @@ function About() {
     <div className="d-flex justify-content-center flex-column bg-main-dark">
       <TopNav />
       <div className="my-2">
-        <div className="container p-5 text-light">
+        <div className="container p-5">
           <div className="row">
             <div className="col-md-8 p-4 d-flex align-items-center">
               <div>
-                <h1 className="about-header" data-aos="fade-right" data-aos-delay="300" data-aos-duration="2500">JOHN-MICHAEL</h1>
-                <h1 className="about-header grey" data-aos="fade-left" data-aos-delay="300" data-aos-duration="2500">CRAWFORD</h1>
-                <p className="about-subheader mb-0" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">GRAPHIC DESIGNER + WEB DEVELOPER</p>
-                <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p>
+                <h1 className="about-header" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">JOHN-MICHAEL</h1>
+                <h1 className="about-header grey" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">CRAWFORD</h1>
+                <p className="about-subheader-3 mb-0" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">ARTIST | DESIGNER | ENGINEER</p>
+                {/* <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p> */}
                 <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">I’m a creative technologist, UX/UI designer, and developer with a foundation in graphic design, systems thinking, and visual culture. My approach blends strategy, storytelling, and code to build brands, interfaces, and tools that are clear, purposeful, and performance-driven.</p>
                 <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">With degrees in Graphic Design, Digital Media, and Art History, I bring a multidisciplinary lens to every challenge - combining user insight, research, and design thinking to craft experiences that connect and endure.</p>
                 {/* <div className="d-flex justify-content-start">
