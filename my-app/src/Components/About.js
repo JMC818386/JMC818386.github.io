@@ -35,7 +35,7 @@ function About() {
                 <h1 className="about-header grey" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">CRAWFORD</h1>
                 <p className="about-subheader-3 mb-0" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">ARTIST | DESIGNER | ENGINEER</p>
                 {/* <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p> */}
-                <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">I’m a creative technologist, UX/UI designer, and developer with a foundation in graphic design, systems thinking, and visual culture. My approach blends strategy, storytelling, and code to build brands, interfaces, and tools that are clear, purposeful, and performance-driven.</p>
+                <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">I’m a creative technologist, UX/UI designer, and web developer with a foundation in graphic design, systems thinking, and visual culture. My approach blends strategy, storytelling, and interactive experiences to build brands, interfaces, and tools that are clear, purposeful, and performance-driven.</p>
                 <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">With degrees in Graphic Design, Digital Media, and Art History, I bring a multidisciplinary lens to every challenge - combining user insight, research, and design thinking to craft experiences that connect and endure.</p>
                 {/* <div className="d-flex justify-content-start">
                   <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Resume</button>
@@ -52,6 +52,116 @@ function About() {
                 <Icons />
             </div>
           </div>
+          <div className="row mt-5 pt-3">
+            <div className="col-12">
+              <h2 className="text-second text-center mb-4">Skills & Competencies</h2>
+              <div className="skills-container d-flex flex-wrap justify-content-center gap-2 mb-4">
+                <span className="skill-pill">UX research</span>
+                <span className="skill-pill">User research</span>
+                <span className="skill-pill">Observational research</span>
+                <span className="skill-pill">Participant research</span>
+                <span className="skill-pill">Affinity mapping</span>
+                <span className="skill-pill">Empathy mapping</span>
+                <span className="skill-pill">Persona development</span>
+                <span className="skill-pill">Stakeholder mapping</span>
+                <span className="skill-pill">Ecosystem mapping</span>
+                <span className="skill-pill">Ethnographic analysis</span>
+                <span className="skill-pill">Information architecture</span>
+                <span className="skill-pill">Information hierarchy</span>
+                <span className="skill-pill">System design</span>
+                <span className="skill-pill">Interaction design</span>
+                <span className="skill-pill">UI development</span>
+                <span className="skill-pill">UI design</span>
+                <span className="skill-pill">User-centric Design</span>
+                <span className="skill-pill">UX design</span>
+                <span className="skill-pill">User Experience (UX)</span>
+                <span className="skill-pill">User Interface (UI)</span>
+                <span className="skill-pill">User Interface Design</span>
+                <span className="skill-pill">User Interface Prototyping</span>
+                <span className="skill-pill">Wireframing</span>
+                <span className="skill-pill">Front-end development</span>
+                <span className="skill-pill">Back-end development</span>
+                <span className="skill-pill">Full-stack development</span>
+                <span className="skill-pill">API-driven product design</span>
+                <span className="skill-pill">Real-time data visualization</span>
+                <span className="skill-pill">Responsive web design</span>
+                <span className="skill-pill">Web design</span>
+                <span className="skill-pill">Web development</span>
+                <span className="skill-pill">Native mobile UI design</span>
+                <span className="skill-pill">Visual hierarchy</span>
+                <span className="skill-pill">Grids</span>
+                <span className="skill-pill">Visual design</span>
+                <span className="skill-pill">Visual communication</span>
+                <span className="skill-pill">Visual analysis</span>
+                <span className="skill-pill">Semiotics</span>
+                <span className="skill-pill">Typographic Design</span>
+                <span className="skill-pill">Layout design</span>
+                <span className="skill-pill">Editorial design</span>
+                <span className="skill-pill">Visual Storytelling</span>
+                <span className="skill-pill">Print production</span>
+                <span className="skill-pill">Digital production</span>
+                <span className="skill-pill">Production workflows</span>
+                <span className="skill-pill">Marketing</span>
+                <span className="skill-pill">Branding</span>
+                <span className="skill-pill">Marketing</span>
+                <span className="skill-pill">Digital marketing</span>
+                <span className="skill-pill">Social media management</span>
+                <span className="skill-pill">Concept development</span>
+                <span className="skill-pill">Creative direction</span>
+                <span className="skill-pill">Design strategy</span>
+                <span className="skill-pill">Business strategy</span>
+                <span className="skill-pill">Design thinking</span>
+                <span className="skill-pill">Human-centered design</span>
+                <span className="skill-pill">Behavioral design</span>
+                <span className="skill-pill">Emotional design</span>
+                <span className="skill-pill">Inclusive design</span>
+                <span className="skill-pill">Accessibility</span>
+                <span className="skill-pill">Global perspective</span>
+                <span className="skill-pill">Cross-cultural communication</span>
+                <span className="skill-pill">Public speaking</span>
+                <span className="skill-pill">Communication</span>
+                <span className="skill-pill">Communication skills</span>
+                <span className="skill-pill">Stakeholder communication</span>
+                <span className="skill-pill">Team development</span>
+                <span className="skill-pill">Leadership</span>
+                <span className="skill-pill">Project management</span>
+                <span className="skill-pill">Planning</span>
+                <span className="skill-pill">Time management</span>
+                <span className="skill-pill">Management</span>
+                <span className="skill-pill">Problem solving</span>
+                <span className="skill-pill">Critical thinking</span>
+                <span className="skill-pill">Creative writing</span>
+                <span className="skill-pill">Copywriting</span>
+                <span className="skill-pill">Professional Writing</span>
+                <span className="skill-pill">Oral presentation</span>
+                <span className="skill-pill">Written communication</span>
+                <span className="skill-pill">Content strategy</span>
+                <span className="skill-pill">Visual strategy</span>
+                <span className="skill-pill">Cross-functional collaboration</span>
+                <span className="skill-pill">Cross-functional teams</span>
+                <span className="skill-pill">Client collaboration</span>
+                <span className="skill-pill">Interdisciplinary research</span>
+                <span className="skill-pill">Cultural studies</span>
+                <span className="skill-pill">Design history</span>
+                <span className="skill-pill">Art history</span>
+                <span className="skill-pill">Historical contextualization</span>
+                <span className="skill-pill">Illustration</span>
+                <span className="skill-pill">Photography</span>
+                <span className="skill-pill">Photo editing</span>
+                <span className="skill-pill">Screen printing</span>
+                <span className="skill-pill">Concept development</span>
+                <span className="skill-pill">Remote team collaboration</span>
+                <span className="skill-pill">System thinking</span>
+                <span className="skill-pill">Databases</span>
+                <span className="skill-pill">Print production tools</span>
+                <span className="skill-pill">Digital production tools</span>
+                <span className="skill-pill">Prototyping</span>
+                <span className="skill-pill">Risograph printing</span>
+                <span className="skill-pill">API integration</span>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
       <Footer />

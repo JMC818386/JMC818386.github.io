@@ -1131,9 +1131,49 @@ body {
   margin-top: 3rem;
 }
 
-/* Spacing utilities */
-.mt-5 {
-  margin-top: 3rem;
+/* Skills Section Styles */
+.skills-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.skill-pill {
+  background-color: #9f9d9d;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  display: inline-block;
+  margin: 4px;
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.skill-pill:hover {
+  background-color: #555555;
+}
+
+@media (max-width: 768px) {
+  .skill-pill {
+    font-size: 12px;
+    padding: 6px 12px;
+    margin: 3px;
+  }
+  
+  .skills-container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-pill {
+    font-size: 11px;
+    padding: 5px 10px;
+    margin: 2px;
+  }
 }
 
 
