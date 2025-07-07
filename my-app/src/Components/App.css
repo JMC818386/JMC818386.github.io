@@ -880,6 +880,30 @@ body {
    font-family: var(--font-roboto);
 }
 
+.section-auto {
+   width: 100%;
+   position: relative;
+   background-color: var(--color-bg-);
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 20px 40px;
+   box-sizing: border-box;
+   gap: 40px;
+   text-align: left;
+   color: var(--color-bg);
+   font-family: var(--font-roboto);
+}
+
+@media (max-width: 1000px) {
+  .section-auto {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+  }
+}
 
 .half-section {
   width: 50%;
@@ -904,6 +928,15 @@ body {
   height: auto;
   display: block;
   object-fit: contain;
+}
+
+.cover-img-uniform {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .drop-1 {
@@ -977,7 +1010,8 @@ body {
 
 @media (max-width: 1000px) {
   .section,
-  .section-2 {
+  .section-2,
+  .section-auto {
     flex-direction: column;
     height: auto;
   }
@@ -1073,7 +1107,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10000;
+  z-index: 99999;
   cursor: pointer;
 }
 
@@ -1088,28 +1122,25 @@ body {
   max-width: 100%;
   max-height: 90vh;
   object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 .lightbox-close {
   position: absolute;
-  top: -40px;
+  top: -35px;
   right: 0;
   background: none;
   border: none;
   color: white;
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: normal;
   cursor: pointer;
-  padding: 8px 12px;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-  z-index: 10001;
+  padding: 4px;
+  transition: color 0.3s ease;
+  z-index: 99999;
 }
 
 .lightbox-close:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Mobile responsive lightbox */
@@ -1120,9 +1151,9 @@ body {
   }
   
   .lightbox-close {
-    top: -35px;
-    font-size: 28px;
-    padding: 6px 10px;
+    top: -30px;
+    font-size: 20px;
+    padding: 3px;
   }
 }
 
