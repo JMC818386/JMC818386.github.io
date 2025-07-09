@@ -13,6 +13,7 @@ import AOS from 'aos';
 
 import PhantomFlyerFront from './img/Phantom/Flyer Front.jpg';
 import PhantomFlyerBack from './img/Phantom/Flyer Back.jpg';
+import PhantomLogo from './img/Phantom/phantom-logo.png';
 
 function Phantom() {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -95,12 +96,33 @@ function Phantom() {
 
       <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
+        {/* ---------------------------------------------- BRAND IDENTITY SECTION ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Phantom Fireworks</b>
+            </div>
+            <div className="paragraph">
+              {`Brand identity and promotional materials for Phantom Fireworks, featuring bold visuals and clear information hierarchy designed for maximum impact.`}
+            </div>
+          </div>
+          <div className="half-section image-side">
+            <img
+              className="cover-img"
+              src={PhantomLogo}
+              alt="Phantom Logo"
+              onClick={() => openLightbox(PhantomLogo, "Phantom Logo")}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
+        </div>
+
         {/* ---------------------------------------------- DESIGN DETAILS SECTION ---------------------------------------------- */}
         <div className="section-2 mt-5">
           <div className="content-2">
             <div className="section-text-2">
               <div className="top">
-                <b className="secondary-headline">Phantom Fireworks</b>
+                <b className="secondary-headline">Design Approach</b>
               </div>
               <div className="paragraph-2">
                 {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}

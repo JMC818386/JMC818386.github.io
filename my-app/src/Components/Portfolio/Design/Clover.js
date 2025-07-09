@@ -20,6 +20,10 @@ import CloverMock2 from './img/Clover/clover-mockup-2.png';
 import CloverPersona from './img/Clover/clover-persona.png';
 import CloverPlayerStats from './img/Clover/clover-player-stats.png';
 import CloverLogo from './img/Clover/clover-logo.png';
+import CloverColors from './img/Clover/clover-colors.png';
+import CloverMockupsTiles from './img/Clover/clover-mockups-tiles.png';
+import CloverTypeHeader from './img/Clover/clover-type-header.png';
+import CloverTypeWeights from './img/Clover/clover-type-weights.png';
 
 function Clover() {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -297,6 +301,69 @@ function Clover() {
               style={{ cursor: 'pointer' }}
             />
           </div>
+        </div>
+
+        {/* ---------------------------------------------- COLOR PALETTE ---------------------------------------------- */}
+        <div className="top mt-5">
+          <b className="secondary-headline">Brand Colors</b>
+        </div>
+        <div className="section mb-1">
+          <img
+            className="cover-img"
+            alt="Clover Color Palette"
+            src={CloverColors}
+            onClick={() => openLightbox(CloverColors, "Clover Color Palette")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+
+        {/* ---------------------------------------------- TYPOGRAPHY ---------------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="section-text-2">
+              <div className="top">
+                <b className="secondary-headline">Typography System</b>
+              </div>
+              <div className="paragraph-2">
+                {`The typography system for Clover emphasizes clarity and readability across all platforms, from mobile interfaces to printed materials.`}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section">
+          <div className="half-section image-side">
+            <img
+              className="cover-img"
+              alt="Clover Type Headers"
+              src={CloverTypeHeader}
+              onClick={() => openLightbox(CloverTypeHeader, "Clover Type Headers")}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
+          <div className="half-section image-side">
+            <img
+              className="cover-img"
+              alt="Clover Type Weights"
+              src={CloverTypeWeights}
+              onClick={() => openLightbox(CloverTypeWeights, "Clover Type Weights")}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
+        </div>
+
+        {/* ---------------------------------------------- ADDITIONAL MOCKUPS ---------------------------------------------- */}
+        <div className="top mt-5">
+          <b className="secondary-headline">Application Mockups</b>
+        </div>
+        <div className="section mb-1">
+          <img
+            className="cover-img"
+            alt="Clover Mockups Tiles"
+            src={CloverMockupsTiles}
+            onClick={() => openLightbox(CloverMockupsTiles, "Clover Mockups Tiles")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
