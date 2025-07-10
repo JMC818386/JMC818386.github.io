@@ -147,7 +147,7 @@ function TotalPtConnect() {
             alt="Total PT Connect Messaging"
             src={TotalConnectMessaging}
             onClick={() => openLightbox(TotalConnectMessaging, "Total PT Connect Messaging")}
-            style={{ cursor: 'pointer', transform: 'scale(0.75)' }}
+            style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
           />
         </div>
       </div>
@@ -171,7 +171,7 @@ function TotalPtConnect() {
             alt="Total PT Connect Calendar Mockup"
             src={TotalConnectMockupCalendar}
             onClick={() => openLightbox(TotalConnectMockupCalendar, "Total PT Connect Calendar Mockup")}
-            style={{ cursor: 'pointer', transform: 'scale(0.75)' }}
+            style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
           />
         </div>
       </div>
@@ -195,7 +195,7 @@ function TotalPtConnect() {
             alt="Total PT Connect Stats Mockup"
             src={TotalConnectMockupStats}
             onClick={() => openLightbox(TotalConnectMockupStats, "Total PT Connect Stats Mockup")}
-            style={{ cursor: 'pointer', transform: 'scale(0.75)' }}
+            style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
           />
         </div>
       </div>
@@ -214,7 +214,7 @@ function TotalPtConnect() {
         </div>
       </div>
 
-      <div className="section mb-1">
+      <div className=" py-3 px-5 mb-1">
         <img
           className="cover-img"
           alt="Total PT Connect Platform Screens"

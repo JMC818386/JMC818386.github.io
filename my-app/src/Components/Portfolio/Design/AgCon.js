@@ -108,7 +108,7 @@ function AgCon() {
       <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section">
+        <div className="section-2 pt-5 my-5">
           <div className="half-section text-side">
             <div className="top">
               <b className="secondary-headline">AG_CON 2026</b>
@@ -142,32 +142,20 @@ function AgCon() {
           </div>
         </div>
 
-        <div className="section">
-          <div className="half-section image-side">
-            <img
-              className="cover-img"
-              alt="AG_CON Moodboard"
-              src={AgConMoodboard}
-              onClick={() => openLightbox(AgConMoodboard, "AG_CON Moodboard")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
-          <div className="half-section image-side">
-            <img
-              className="cover-img"
-              alt="AG_CON Influence"
-              src={AgConInfluence}
-              onClick={() => openLightbox(AgConInfluence, "AG_CON Influence")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
+        <div className="top mt-5 mb-2">
+          <b className="secondary-headline">Mood Board</b>
+        </div>
+        <div className="px-5">
+          <img
+            className="cover-img"
+            alt="AG_CON Moodboard"
+            src={AgConMoodboard}
+            onClick={() => openLightbox(AgConMoodboard, "AG_CON Moodboard")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
 
-        {/* ---------------------------------------------- COLOR PALETTE ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Color Palette</b>
-        </div>
-        <div className="section mb-1">
+        <div className="my-0 py-2 px-5">
           <img
             className="cover-img"
             alt="AG_CON Color Palette"
@@ -177,21 +165,38 @@ function AgCon() {
           />
         </div>
 
-        {/* ---------------------------------------------- TYPOGRAPHY ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Typography</b>
-              </div>
-              <div className="paragraph-2">
-                The typography system combines modern sans-serif headers with readable body text and expressive display type for impact moments.
-              </div>
-            </div>
-          </div>
+        <div className="section-2 mb-1">
+          <img
+            className="cover-img"
+            alt="AG_CON Crop Lines"
+            src={AgConCropLines}
+            onClick={() => openLightbox(AgConCropLines, "AG_CON Crop Lines")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+        
+        <div className="top mt-5 mb-2">
+          <b className="secondary-headline">Visual Research + Influence</b>
+        </div>
+        <div className="my-3 px-5">
+          <img
+            className="cover-img"
+            alt="AG_CON Influence"
+            src={AgConInfluence}
+            onClick={() => openLightbox(AgConInfluence, "AG_CON Influence")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
 
-        <div className="section">
+        
+
+
+        {/* ---------------------------------------------- TYPOGRAPHY ---------------------------------------------- */}
+        <div className="top mt-5 pt-5 mb-2">
+          <b className="secondary-headline">Type Study</b>
+        </div>
+
+        <div className="section-2">
           <div className="half-section image-side">
             <img
               className="cover-img"
@@ -212,7 +217,11 @@ function AgCon() {
           </div>
         </div>
 
-        <div className="section mb-1">
+        <div className="top mt-5 pt-5mb-2">
+          <b className="secondary-headline">Expressive Type Ideation</b>
+        </div>
+
+        <div className="px-5 mb-1">
           <img
             className="cover-img"
             alt="AG_CON Expressive Typography"
@@ -223,45 +232,24 @@ function AgCon() {
         </div>
 
         {/* ---------------------------------------------- GRID & LAYOUT ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Grid System & Layout</b>
-              </div>
-              <div className="paragraph-2">
-                A flexible grid system was developed to accommodate various content types while maintaining consistency across all conference materials.
-              </div>
-            </div>
-          </div>
+        <div className="top mt-5 pt-5 mb-2">
+          <b className="secondary-headline">Grid Experimentation</b>
         </div>
-
-        <div className="section">
-          <div className="half-section image-side">
-            <img
-              className="cover-img"
-              alt="AG_CON Grid Study"
-              src={AgConGridStudy}
-              onClick={() => openLightbox(AgConGridStudy, "AG_CON Grid Study")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
-          <div className="half-section image-side">
-            <img
-              className="cover-img"
-              alt="AG_CON Crop Lines"
-              src={AgConCropLines}
-              onClick={() => openLightbox(AgConCropLines, "AG_CON Crop Lines")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
+        <div className="section-2 mb-1">
+          <img
+            className="cover-img"
+            alt="AG_CON Grid Study"
+            src={AgConGridStudy}
+            onClick={() => openLightbox(AgConGridStudy, "AG_CON Grid Study")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
 
         {/* ---------------------------------------------- DIGITAL COMPOSITIONS ---------------------------------------------- */}
         <div className="top mt-5">
-          <b className="secondary-headline">Digital Compositions</b>
+          <b className="secondary-headline">Digital Comp Progression</b>
         </div>
-        <div className="section mb-1">
+        <div className="mb-1">
           <img
             className="cover-img"
             alt="AG_CON Digital Compositions"
@@ -272,21 +260,11 @@ function AgCon() {
         </div>
 
         {/* ---------------------------------------------- FINAL DESIGNS ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Final Brand Applications</b>
-              </div>
-              <div className="paragraph-2">
-                The final brand system was applied across multiple touchpoints including conference materials, digital assets, and promotional items.
-              </div>
-            </div>
-          </div>
+        <div className="top mt-5 mb-2">
+          <b className="secondary-headline">Final Posters</b>
         </div>
-
-        <div className="section">
-          <div className="half-section image-side">
+        <div className="final-designs-container">
+          <div className="final-design-item">
             <img
               className="cover-img"
               alt="AG_CON Connect Final"
@@ -295,7 +273,7 @@ function AgCon() {
               style={{ cursor: 'pointer' }}
             />
           </div>
-          <div className="half-section image-side">
+          <div className="final-design-item">
             <img
               className="cover-img"
               alt="AG_CON Cultivate Final"
@@ -304,42 +282,40 @@ function AgCon() {
               style={{ cursor: 'pointer' }}
             />
           </div>
+          <div className="final-design-item">
+            <img
+              className="cover-img"
+              alt="AG_CON Grow Final"
+              src={AgConGrowFinal}
+              onClick={() => openLightbox(AgConGrowFinal, "AG_CON Grow Final")}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
         </div>
 
-        <div className="section mb-1">
+        {/* ---------------------------------------------- MOCKUPS ---------------------------------------------- */}
+        <div className="top mt-5 mb-4">
+          <b className="secondary-headline">Brand Mockups</b>
+        </div>
+
+        <div className="">
           <img
-            className="cover-img"
-            alt="AG_CON Grow Final"
-            src={AgConGrowFinal}
-            onClick={() => openLightbox(AgConGrowFinal, "AG_CON Grow Final")}
+            className="cover-img px-5"
+            alt="AG_CON Main Mockups"
+            src={AgConMockupsMain}
+            onClick={() => openLightbox(AgConMockupsMain, "AG_CON Main Mockups")}
             style={{ cursor: 'pointer' }}
           />
         </div>
 
-        {/* ---------------------------------------------- MOCKUPS ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Brand Mockups</b>
-        </div>
-
-        <div className="section">
-          <div className="half-section image-side">
-            <img
-              className="cover-img"
-              alt="AG_CON Main Mockups"
-              src={AgConMockupsMain}
-              onClick={() => openLightbox(AgConMockupsMain, "AG_CON Main Mockups")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
-          <div className="half-section image-side">
-            <img
-              className="cover-img"
-              alt="AG_CON Final Mockups"
-              src={AgConFinalMockups}
-              onClick={() => openLightbox(AgConFinalMockups, "AG_CON Final Mockups")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
+        <div className="">
+          <img
+            className="cover-img  mt-5 px-5"
+            alt="AG_CON Final Mockups"
+            src={AgConFinalMockups}
+            onClick={() => openLightbox(AgConFinalMockups, "AG_CON Final Mockups")}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
 
         <Footer />

@@ -56,6 +56,22 @@ body,
   height: 500px;
 }
 
+.skg-logo {
+  max-width: 85%;
+  height: auto;
+  display: block;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.skg-poster-img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 .spread {
   width: 800px;
   display: flex;
@@ -765,6 +781,12 @@ body {
   line-height: 100%;
   font-size: 35px;
   padding: 10px 40px;
+  width: 100%;
+  display: block;
+}
+
+.secondary-headline.left-aligned {
+  text-align: left;
 }
 
 .secondary-sub-headline {
@@ -1061,6 +1083,26 @@ body {
   display: block;
   object-fit: contain;
   margin: 0 auto;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.3));
+}
+
+/* Phantom Logo styling - similar to other logos */
+.phantom-logo {
+  max-width: 85%;
+  height: auto;
+  display: block;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+/* Phantom Flyer Front styling - reduced by 25% (was 50%, now 75%) */
+.phantom-flyer-front-img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.3));
 }
 
 @media (max-width: 1000px) {
@@ -1314,4 +1356,112 @@ body {
   .image-col {
     width: 100%;
   }
+}
+
+/* Final designs container - only wraps at 980px */
+.final-designs-container {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: var(--color-bg-);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.final-design-item {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.final-design-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 980px) {
+  .final-designs-container {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/* Total PT Connect image width restrictions */
+.total-connect-messaging-img,
+.total-connect-mockup-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+
+  .total-connect-messaging-img,
+  .total-connect-mockup-img {
+    max-width: 100%;
+  }
+}
+
+/* Custom Button Styles */
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
 }

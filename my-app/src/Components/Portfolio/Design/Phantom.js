@@ -100,41 +100,26 @@ function Phantom() {
         <div className="section">
           <div className="half-section text-side">
             <div className="top">
-              <b className="secondary-headline">Phantom Fireworks</b>
+              <img src={PhantomLogo} alt="Phantom Fireworks" className="phantom-logo" />
             </div>
             <div className="paragraph">
-              {`Brand identity and promotional materials for Phantom Fireworks, featuring bold visuals and clear information hierarchy designed for maximum impact.`}
+              {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}
             </div>
           </div>
           <div className="half-section image-side">
             <img
-              className="cover-img"
-              src={PhantomLogo}
-              alt="Phantom Logo"
-              onClick={() => openLightbox(PhantomLogo, "Phantom Logo")}
+              className="phantom-flyer-front-img"
+              src={PhantomFlyerFront}
+              alt="Phantom Flyer Front"
+              onClick={() => openLightbox(PhantomFlyerFront, "Phantom Flyer Front")}
               style={{ cursor: 'pointer' }}
             />
           </div>
         </div>
 
-        {/* ---------------------------------------------- DESIGN DETAILS SECTION ---------------------------------------------- */}
-        <div className="section-2 mt-5">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Design Approach</b>
-              </div>
-              <div className="paragraph-2">
-                {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* ---------------------------------------------- PHANTOM FLYERS SECTION ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Flyer Design - Front & Back</b>
-        </div>
+
         <div className="section-2">
           <div className="half-section image-side">
             <img

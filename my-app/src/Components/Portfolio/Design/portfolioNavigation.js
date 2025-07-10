@@ -5,24 +5,24 @@ export const portfolioProjects = [
   { path: '/clover', name: 'Clover' },
   { path: '/ag-con', name: 'AG_CON 2026' },
   { path: '/silent-battle', name: 'Silent Battle' },
-  { path: '/rowans-creek', name: "Rowan's Creek" },
-  { path: '/railbird', name: 'Railbird' },
-  { path: '/three-willows', name: 'Three Willows' },
+  // { path: '/rowans-creek', name: "Rowan's Creek" },
+  // { path: '/railbird', name: 'Railbird' },
+  // { path: '/three-willows', name: 'Three Willows' },
   { path: '/total-pt-connect', name: 'Total PT Connect' },
   { path: '/stoked-two', name: 'Stoked on Stoicism History' },
   { path: '/stoked-three', name: 'Stoked on Stoicism Pantheon' },
   { path: '/skg', name: 'Sea Kayak Georgia' },
   { path: '/phantom', name: 'Phantom Fireworks' },
-  { path: '/brown-forman', name: 'Brown Forman' },
+  // { path: '/brown-forman', name: 'Brown Forman' },
   { path: '/dream-posters', name: 'Dream Posters' },
-  { path: '/space-monkey', name: 'Space Monkey Mafia' },
+  // { path: '/space-monkey', name: 'Space Monkey Mafia' },
   // Note: Commented out projects that use SlideshowLightbox instead of Link components
   // '/boss-strategies', '/qrt', '/mindset', '/amperes', '/bg', '/east-coast'
 ];
 
 export const getNavigationData = (currentPath) => {
   const currentIndex = portfolioProjects.findIndex(project => project.path === currentPath);
-  
+
   if (currentIndex === -1) {
     return { prevProject: null, nextProject: null, currentProject: null };
   }

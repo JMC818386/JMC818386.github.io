@@ -120,7 +120,7 @@ function StokedThree() {
         <div className="content-2">
           <div className="section-text-2">
             <div className="top">
-              <b className="secondary-headline">Concept</b>
+              <b className="secondary-headline text-center">Concept</b>
             </div>
             <div className="paragraph-2">
               {`My goal with this piece was to continue using abstracted grunge typography combined with raster images of stone statues - juxtaposing strong modern imagery with justified type that is meant to immulate a Snellen Chart (Used to determine a persons ability to see progressively smaller objects from a distance. By combining these elements together, my aim was to force the observer to slow down and read through the text in an uncomfortable and fragmented way - mirroring my own difficulties in reading, and in particular - reading dense works like philosophy and history. `}
@@ -162,8 +162,20 @@ function StokedThree() {
         </div>
       </div>
 
+    {/* ---------------------------------------------- SECTION 5 ---------------------------------------------- */}
+      <div className="section">
+        <img
+          className="cover-img"
+          src={Pantheon3}
+          alt="Pantheon Zine Spreads"
+          onClick={() => openLightbox(Pantheon3, "Pantheon Zine Spreads")}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
+
+
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
-      <div className="section-2">
+      <div className="section-2 mb-5 pb-5">
         <div className="half-section text-side">
           <div className="top">
             <b className="secondary-headline">Influence</b>
@@ -183,16 +195,7 @@ function StokedThree() {
         </div>
       </div>
 
-      {/* ---------------------------------------------- SECTION 5 ---------------------------------------------- */}
-      <div className="section mb-5 pb-5">
-        <img
-          className="cover-img"
-          src={Pantheon3}
-          alt="Pantheon Zine Spreads"
-          onClick={() => openLightbox(Pantheon3, "Pantheon Zine Spreads")}
-          style={{ cursor: 'pointer' }}
-        />
-      </div>
+
 
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />

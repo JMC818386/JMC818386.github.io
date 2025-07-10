@@ -25,6 +25,9 @@ import CloverMockupsTiles from './img/Clover/clover-mockups-tiles.png';
 import CloverTypeHeader from './img/Clover/clover-type-header.png';
 import CloverTypeWeights from './img/Clover/clover-type-weights.png';
 
+// Import Figma icon
+import FigmaIcon from '../../img/icons/figma-logo-icon-md.png';
+
 function Clover() {
   const [lightboxImage, setLightboxImage] = useState(null);
   const [isZoomed, setIsZoomed] = useState(false);
@@ -117,6 +120,49 @@ function Clover() {
             </div>
             <div className="paragraph">
               {`Clover is native mobile application designed for golf coaches and instructors, providing a  simple, practical and affordable tool to centralize all  team and player performance, scheduling and communications into a single application. Players and coaches can upload  individual and group scorecards, view individual and team statistics, keep track of practice and competition schedules, and communicate directly with one another in private and groups chats all from within this single application. `}
+            </div>
+            <div className="paragraph">
+              <div className="d-flex gap-3 flex-column flex-sm-row">
+                <a
+                  href="https://www.figma.com/design/4RRNfRgjYw8FdSWIKTInCJ/JM-Crawford_Product?node-id=15-2&t=wDS2hc8bRFWOnvaQ-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  role="button"
+                  style={{ padding: '12px 20px' }}
+                >
+                  <img src={FigmaIcon} alt="Figma" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
+                  Design File
+                </a>
+                <a
+                  href="https://www.figma.com/proto/4RRNfRgjYw8FdSWIKTInCJ/JM-Crawford_Product?page-id=1%3A2&node-id=574-31315&starting-point-node-id=574%3A31309&t=qzU4GgmWVpqbeHsY-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  role="button"
+                  style={{ padding: '12px 20px' }}
+                >
+                  <img src={FigmaIcon} alt="Figma" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
+                  Prototype
+                </a>
+                <a
+                  href="/docs/Process_JM_Crawford_Clover.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  role="button"
+                  style={{ padding: '12px 20px' }}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <polyline points="14,2 14,8 20,8" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <line x1="16" y1="13" x2="8" y2="13" stroke="#24292E" strokeWidth="1.5" />
+                    <line x1="16" y1="17" x2="8" y2="17" stroke="#24292E" strokeWidth="1.5" />
+                    <polyline points="10,9 9,9 8,9" stroke="#24292E" strokeWidth="1.5" />
+                  </svg>
+                  Process Book
+                </a>
+              </div>
             </div>
           </div>
           <div className="half-section image-side">
@@ -250,22 +296,17 @@ function Clover() {
         </div>
 
         {/* ---------------------------------------------- SECTION 1 ---------------------------------------------- */}
-        <div className="section py-5 mb-5">
+        <div className="section">
           <div className="half-section text-side">
             <div className="top">
-              <b className="secondary-headline">Feature 1</b>
+              <b className="secondary-headline">Centralized Team Hub</b>
             </div>
-            <div className="paragraph">
-              {`The first zine, Stoked on Stoicism, contrasts the philosophy’s intrinsic ideals with a mix of non-linear, grunge-style typography and a structured, modern layout. This interplay creates visual tension, reinforcing the balance between order and abstraction. `}
+            <div className="paragraph-2">
+              {`Coaches and players can track and manage their daily practice and competition schedules as well as  communicate directly through private and group chats.`}
             </div>
-            <div className="top">
-              <b className="secondary-headline">Feature 2</b>
-            </div>
-            <div className="paragraph">
-              {`The first zine, Stoked on Stoicism, contrasts the philosophy’s intrinsic ideals with a mix of non-linear, grunge-style typography and a structured, modern layout. This interplay creates visual tension, reinforcing the balance between order and abstraction. `}
-            </div>
+
           </div>
-          <div className="half-section image-side py-5">
+          <div className="half-section image-side">
             <img
               className="clover-mock-img"
               src={CloverMock1}
@@ -280,17 +321,12 @@ function Clover() {
         <div className="section">
           <div className="half-section text-side">
             <div className="top">
-              <b className="secondary-headline">Feature 3</b>
+              <b className="secondary-headline">Flexible Score Tracking</b>
             </div>
-            <div className="paragraph">
-              {`The first zine, Stoked on Stoicism, contrasts the philosophy’s intrinsic ideals with a mix of non-linear, grunge-style typography and a structured, modern layout. This interplay creates visual tension, reinforcing the balance between order and abstraction. `}
+            <div className="paragraph-2">
+              {`Players can upload their practice and competition round scores by either taking a picture of their scorecard or entering their scores manually through the digital scorecard entry feature.`}
             </div>
-            <div className="top">
-              <b className="secondary-headline">Feature 4</b>
-            </div>
-            <div className="paragraph">
-              {`The first zine, Stoked on Stoicism, contrasts the philosophy’s intrinsic ideals with a mix of non-linear, grunge-style typography and a structured, modern layout. This interplay creates visual tension, reinforcing the balance between order and abstraction. `}
-            </div>
+
           </div>
           <div className="half-section image-side">
             <img
@@ -304,41 +340,26 @@ function Clover() {
         </div>
 
         {/* ---------------------------------------------- COLOR PALETTE ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Brand Colors</b>
-        </div>
-        <div className="section mb-1">
+        {/* <div className="section-2 mb-1" style={{ display: 'flex', justifyContent: 'center' }}>
           <img
             className="cover-img"
             alt="Clover Color Palette"
             src={CloverColors}
             onClick={() => openLightbox(CloverColors, "Clover Color Palette")}
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: 'pointer', maxWidth: '85%', height: 'auto' }}
           />
-        </div>
+        </div> */}
 
         {/* ---------------------------------------------- TYPOGRAPHY ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Typography System</b>
-              </div>
-              <div className="paragraph-2">
-                {`The typography system for Clover emphasizes clarity and readability across all platforms, from mobile interfaces to printed materials.`}
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="section">
+        {/* <div className="section-2">
           <div className="half-section image-side">
             <img
               className="cover-img"
               alt="Clover Type Headers"
               src={CloverTypeHeader}
               onClick={() => openLightbox(CloverTypeHeader, "Clover Type Headers")}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: 'pointer', maxWidth: '60%', height: 'auto' }}
             />
           </div>
           <div className="half-section image-side">
@@ -347,16 +368,14 @@ function Clover() {
               alt="Clover Type Weights"
               src={CloverTypeWeights}
               onClick={() => openLightbox(CloverTypeWeights, "Clover Type Weights")}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: 'pointer', maxWidth: '60%', height: 'auto' }}
             />
           </div>
-        </div>
+        </div> */}
 
         {/* ---------------------------------------------- ADDITIONAL MOCKUPS ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Application Mockups</b>
-        </div>
-        <div className="section mb-1">
+
+        <div className="section mb-5">
           <img
             className="cover-img"
             alt="Clover Mockups Tiles"

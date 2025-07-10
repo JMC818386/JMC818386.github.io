@@ -18,10 +18,10 @@ function About() {
 
   useEffect(() => {
     AOS.init({
-        duration: 1250,
-        once: true,
-    });  
-}, []);
+      duration: 1250,
+      once: true,
+    });
+  }, []);
 
   return (
     <div className="d-flex justify-content-center flex-column bg-main-dark">
@@ -37,6 +37,25 @@ function About() {
                 {/* <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p> */}
                 <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">I’m a creative technologist, UX/UI designer, and web developer with a foundation in graphic design, systems thinking, and visual culture. My approach blends strategy, storytelling, and interactive experiences to build brands, interfaces, and tools that are clear, purposeful, and performance-driven.</p>
                 <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">With degrees in Graphic Design, Digital Media, and Art History, I bring a multidisciplinary lens to every challenge - combining user insight, research, and design thinking to craft experiences that connect and endure.</p>
+                <div className="d-flex gap-3 flex-column flex-sm-row mt-4" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">
+                  <a
+                    href="/docs/Resume_JM_Crawford.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button-4 d-flex align-items-center justify-content-center"
+                    role="button"
+                    style={{ padding: '12px 20px' }}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                      <polyline points="14,2 14,8 20,8" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                      <line x1="16" y1="13" x2="8" y2="13" stroke="#24292E" strokeWidth="1.5" />
+                      <line x1="16" y1="17" x2="8" y2="17" stroke="#24292E" strokeWidth="1.5" />
+                      <polyline points="10,9 9,9 8,9" stroke="#24292E" strokeWidth="1.5" />
+                    </svg>
+                    Resume
+                  </a>
+                </div>
                 {/* <div className="d-flex justify-content-start">
                   <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Resume</button>
                   <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Extended Resume</button>
@@ -44,12 +63,12 @@ function About() {
               </div>
             </div>
             <div className="col-md-4 d-flex justify-content-end">
-              <img src={aboutPhoto2} alt="John-Michael Crawford" className="about-image" data-aos="fade" data-aos-delay="500" data-aos-duration="10000"/>
+              <img src={aboutPhoto2} alt="John-Michael Crawford" className="about-image" data-aos="fade" data-aos-delay="500" data-aos-duration="10000" />
             </div>
           </div>
           <div className="row mt-0 pt-0 d-flex justify-content-center ">
             <div className="col-12" data-aos="fade" data-aos-delay="500" data-aos-duration="2500">
-                <Icons />
+              <Icons />
             </div>
           </div>
           <div className="row mt-5 pt-3">
@@ -161,7 +180,7 @@ function About() {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
       <Footer />

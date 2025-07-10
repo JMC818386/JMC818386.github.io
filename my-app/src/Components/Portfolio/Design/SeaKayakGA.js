@@ -96,10 +96,10 @@ function SeaKayakGA() {
       <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section">
+        <div className="section mb-5 pb-5">
           <div className="half-section text-side">
             <div className="top">
-              <b className="secondary-headline">Sea Kayak Georgia</b>
+              <img src={SKGLogo} alt="Sea Kayak Georgia" className="skg-logo" />
             </div>
             <div className="paragraph">
               {`A promotional poster design for Sea Kayak Georgia, showcasing the natural beauty and adventure opportunities of Georgia's coastal waters and waterways.`}
@@ -110,7 +110,7 @@ function SeaKayakGA() {
           </div>
           <div className="half-section image-side">
             <img
-              className="history-cover-img"
+              className="skg-poster-img"
               src={SKGPoster}
               alt="Sea Kayak Georgia Poster"
               onClick={() => openLightbox(SKGPoster, "Sea Kayak Georgia Poster")}
@@ -119,29 +119,6 @@ function SeaKayakGA() {
           </div>
         </div>
 
-        {/* ---------------------------------------------- LOGO SECTION ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Brand Identity</b>
-              </div>
-              <div className="paragraph-2">
-                {`The Sea Kayak Georgia logo combines nautical elements with outdoor adventure aesthetics, creating a memorable brand mark that resonates with water sports enthusiasts.`}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="section mb-1">
-          <img
-            className="cover-img"
-            src={SKGLogo}
-            alt="Sea Kayak Georgia Logo"
-            onClick={() => openLightbox(SKGLogo, "Sea Kayak Georgia Logo")}
-            style={{ cursor: 'pointer' }}
-          />
-        </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
         <GraphicDesignBody />

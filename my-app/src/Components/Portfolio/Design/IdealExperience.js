@@ -110,7 +110,45 @@ function IdealExperience() {
             </div>
 
             <div className="paragraph">
-              {`As a team we decided to base our research on “the ideal generative AI user experience.” The focus is on how this powerful technology can boost creativity, make work easier, and offer personalized solutions while also tackling key challenges related to accuracy, transparency, and ethics. `}
+              {`As a team we decided to base our research on "the ideal generative AI user experience." The focus is on how this powerful technology can boost creativity, make work easier, and offer personalized solutions while also tackling key challenges related to accuracy, transparency, and ethics. `}
+            </div>
+            <div className="paragraph">
+              <div className="d-flex gap-3 flex-column flex-sm-row">
+                <a
+                  href="/docs/Process_JM_Crawford_IdealExperience.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  role="button"
+                  style={{ padding: '12px 20px' }}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <polyline points="14,2 14,8 20,8" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <line x1="16" y1="13" x2="8" y2="13" stroke="#24292E" strokeWidth="1.5" />
+                    <line x1="16" y1="17" x2="8" y2="17" stroke="#24292E" strokeWidth="1.5" />
+                    <polyline points="10,9 9,9 8,9" stroke="#24292E" strokeWidth="1.5" />
+                  </svg>
+                  Process Book
+                </a>
+                <a
+                  href="/docs/Ideal_Experience_Booklet.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  role="button"
+                  style={{ padding: '12px 20px' }}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <polyline points="14,2 14,8 20,8" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <line x1="16" y1="13" x2="8" y2="13" stroke="#24292E" strokeWidth="1.5" />
+                    <line x1="16" y1="17" x2="8" y2="17" stroke="#24292E" strokeWidth="1.5" />
+                    <polyline points="10,9 9,9 8,9" stroke="#24292E" strokeWidth="1.5" />
+                  </svg>
+                  Experience Booklet
+                </a>
+              </div>
             </div>
           </div>
           <div className="half-section image-side">
