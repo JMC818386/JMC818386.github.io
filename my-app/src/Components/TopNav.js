@@ -47,9 +47,9 @@ function TopNav() {
             <li className="nav-item">
               <Link to="/Portfolio" className={`nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end ${isActive('/Portfolio')}`}>Portfolio</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/blog" className={`nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end ${isActive('/blog')}`}>Blog</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/contact" className={`nav-item nav-link mx-3 px-3 top-nav d-flex justify-content-end ${isActive('/contact')}`}>Contact</Link>
             </li>
