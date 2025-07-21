@@ -138,13 +138,11 @@ function SilentBattle() {
         {/* ---------------------------------------------- RESEARCH & INSPIRATION ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Research & Inspiration</b>
-              </div>
-              <div className="paragraph-2">
-                The design process began with research into how visual design can communicate complex emotional states and internal struggles through typography and layout.
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Research & Inspiration</b>
+            </div>
+            <div className="paragraph-2">
+              The design process began with research into how visual design can communicate complex emotional states and internal struggles through typography and layout.
             </div>
           </div>
         </div>
@@ -193,13 +191,11 @@ function SilentBattle() {
         {/* ---------------------------------------------- COLOR COMPOSITIONS ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Color & Composition</b>
-              </div>
-              <div className="paragraph-2">
-                Color palettes and compositions were carefully developed to evoke specific emotional responses while maintaining readability and visual hierarchy.
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Color & Composition</b>
+            </div>
+            <div className="paragraph-2">
+              Color palettes and compositions were carefully developed to evoke specific emotional responses while maintaining readability and visual hierarchy.
             </div>
           </div>
         </div>
@@ -242,13 +238,11 @@ function SilentBattle() {
         {/* ---------------------------------------------- FINAL DESIGNS ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Final Publication</b>
-              </div>
-              <div className="paragraph-2">
-                The final publication combines powerful typography, thoughtful layout, and strategic use of whitespace to create an impactful reading experience.
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Final Publication</b>
+            </div>
+            <div className="paragraph-2">
+              The final publication combines powerful typography, thoughtful layout, and strategic use of whitespace to create an impactful reading experience.
             </div>
           </div>
         </div>
@@ -264,7 +258,7 @@ function SilentBattle() {
           />
         </div>
 
-        
+
 
         {/* ---------------------------------------------- FINAL MOCKUPS ---------------------------------------------- */}
         <div style={{ padding: '40px 40px', margin: 0 }}>

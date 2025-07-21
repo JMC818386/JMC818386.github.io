@@ -178,14 +178,12 @@ function Clover() {
 
         {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
         <div className="section-2">
-          <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Research</b>
-              </div>
-              <div className="paragraph-2">
-                {`I began my research by gathering feedback from a local High School golf coach and varsity player through a survey questionnaire. I then constructed user empathy maps and personas to consolidate and identity the core user motivations, goals and pain points of their current experiences. `}
-              </div>
+          <div className="content-2 text-center"> {/* Added text-center class */}
+            <div className="top">
+              <b className="secondary-headline">Research</b>
+            </div>
+            <div className="paragraph-2">
+              {`I began my research by gathering feedback from a local High School golf coach and varsity player through a survey questionnaire. I then constructed user empathy maps and personas to consolidate and identity the core user motivations, goals and pain points of their current experiences. `}
             </div>
           </div>
         </div>
@@ -219,7 +217,7 @@ function Clover() {
         <div className="top mt-5">
           <b className="secondary-headline">User Persona</b>
         </div>
-        <div className="section mb-1">
+        <div className="section-auto mb-1">
           <img
             className="cover-img"
             src={CloverPersona}
@@ -233,13 +231,11 @@ function Clover() {
         {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Ideal User</b>
-              </div>
-              <div className="paragraph-2">
-                {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Ideal User</b>
+            </div>
+            <div className="paragraph-2">
+              {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
             </div>
           </div>
         </div>
@@ -247,35 +243,35 @@ function Clover() {
 
         {/* ---------------------------------------------- SCOPE & INFLUENCE SECTION ---------------------------------------------- */}
         <div className="section-2">
-          <ul className="half-section text-side">
+          <ul className="half-section text-side" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
             <li className="top">
               <b className="secondary-headline">Goals</b>
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Improve individual player and team scores `}
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Collect player scores and practice data in a more efficient and automatic way`}
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Maximize what is currently available within budget contraints to help coaches track, analyze and communicate with players more effectively `}
             </li>
           </ul>
 
-          <ul className="half-section text-side">
+          <ul className="half-section text-side" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
             <li className="top">
               <b className="secondary-headline">Frustrations</b>
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Limited time (Coaches & Players) `}
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Small budget`}
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Inadequate facilities/Training resources `}
             </li>
-            <li className="paragraph-2">
+            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
               {`Coaches manually enter and analyze player and team scores to Excel spreadsheet `}
             </li>
           </ul>
@@ -285,7 +281,7 @@ function Clover() {
         <div className="top mt-5">
           <b className="secondary-headline">User Flow - Core Navigation</b>
         </div>
-        <div className="section mb-1">
+        <div className="section-auto"> {/* Changed to section-auto for consistent spacing */}
           <img
             className="cover-img"
             src={CloverFlow}
@@ -296,12 +292,12 @@ function Clover() {
         </div>
 
         {/* ---------------------------------------------- SECTION 1 ---------------------------------------------- */}
-        <div className="section">
+        <div className="section-auto"> {/* Changed to section-auto for consistent spacing */}
           <div className="half-section text-side">
             <div className="top">
               <b className="secondary-headline">Centralized Team Hub</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph">
               {`Coaches and players can track and manage their daily practice and competition schedules as well as  communicate directly through private and group chats.`}
             </div>
 
@@ -323,7 +319,7 @@ function Clover() {
             <div className="top">
               <b className="secondary-headline">Flexible Score Tracking</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph">
               {`Players can upload their practice and competition round scores by either taking a picture of their scorecard or entering their scores manually through the digital scorecard entry feature.`}
             </div>
 

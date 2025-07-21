@@ -144,13 +144,11 @@ function Phantom() {
         {/* ---------------------------------------------- DESIGN DETAILS SECTION ---------------------------------------------- */}
         <div className="section-2 mt-5">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Design Approach</b>
-              </div>
-              <div className="paragraph-2">
-                {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Design Approach</b>
+            </div>
+            <div className="paragraph-2">
+              {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}
             </div>
           </div>
         </div>

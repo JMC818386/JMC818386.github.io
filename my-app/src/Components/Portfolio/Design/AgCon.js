@@ -108,7 +108,7 @@ function AgCon() {
       <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section-2 pt-5 my-5">
+        <div className="section">
           <div className="half-section text-side">
             <div className="top">
               <b className="secondary-headline">AG_CON 2026</b>
@@ -131,19 +131,21 @@ function AgCon() {
         {/* ---------------------------------------------- RESEARCH & INSPIRATION ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Research & Inspiration</b>
-              </div>
-              <div className="paragraph-2">
-                The design process began with extensive research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology.
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Research & Inspiration</b>
+            </div>
+            <div className="paragraph-2">
+              The design process began with extensive research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology.
             </div>
           </div>
         </div>
 
-        <div className="top mt-5 mb-2">
-          <b className="secondary-headline">Mood Board</b>
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline">Mood Board</b>
+            </div>
+          </div>
         </div>
         <div className="px-5">
           <img
@@ -174,7 +176,7 @@ function AgCon() {
             style={{ cursor: 'pointer' }}
           />
         </div>
-        
+
         <div className="top mt-5 mb-2">
           <b className="secondary-headline">Visual Research + Influence</b>
         </div>
@@ -188,7 +190,7 @@ function AgCon() {
           />
         </div>
 
-        
+
 
 
         {/* ---------------------------------------------- TYPOGRAPHY ---------------------------------------------- */}

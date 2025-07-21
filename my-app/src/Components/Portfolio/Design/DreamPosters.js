@@ -159,13 +159,11 @@ function DreamPoster() {
         {/* ---------------------------------------------- GRID SYSTEM SECTION ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Grid System Development</b>
-              </div>
-              <div className="paragraph-2">
-                A systematic approach to layout design using modular grid structures that create visual harmony while allowing for creative expression within the poster series.
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Grid System Development</b>
+            </div>
+            <div className="paragraph-2">
+              A systematic approach to layout design using modular grid structures that create visual harmony while allowing for creative expression within the poster series.
             </div>
           </div>
         </div>
@@ -205,13 +203,11 @@ function DreamPoster() {
         {/* ---------------------------------------------- FINAL DESIGNS ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
-            <div className="section-text-2">
-              <div className="top">
-                <b className="secondary-headline">Final Poster Designs</b>
-              </div>
-              <div className="paragraph-2">
-                The completed poster series showcases the integration of photographic elements with geometric grid systems, resulting in visually striking compositions that capture the essence of dream states through design.
-              </div>
+            <div className="top">
+              <b className="secondary-headline">Final Poster Designs</b>
+            </div>
+            <div className="paragraph-2">
+              The completed poster series showcases the integration of photographic elements with geometric grid systems, resulting in visually striking compositions that capture the essence of dream states through design.
             </div>
           </div>
         </div>

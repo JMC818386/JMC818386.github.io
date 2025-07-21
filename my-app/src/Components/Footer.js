@@ -23,7 +23,7 @@ function Footer() {
                 }}
               />
             </div>
-          <div className="d-flex flex-row justify-content-center">
+          {/* <div className="d-flex flex-row justify-content-center">
             <div classname="div mx-5 px-5 d-flex justify-content-center" style={{ position: 'relative'}}>
               <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://github.com/JMC818386"><img src={Github} style={{ width: 25 }} alt="GitHub Profile" /></a>
                         
@@ -35,7 +35,7 @@ function Footer() {
               
               <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://www.behance.com/"><img src={Behance} style={{ width: 25 }} alt="Behance Profile" /></a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

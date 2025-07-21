@@ -142,13 +142,11 @@ function Template() {
 
       <div className="section-2">
         <div className="content-2">
-          <div className="section-text-2">
-            <div className="top">
-              <b className="secondary-headline">Section Title</b>
-            </div>
-            <div className="paragraph">
-              {`Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros scelerisque sed. `.repeat(4)}
-            </div>
+          <div className="top">
+            <b className="secondary-headline">Section Title</b>
+          </div>
+          <div className="paragraph">
+            {`Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros scelerisque sed. `.repeat(4)}
           </div>
         </div>
       </div>
