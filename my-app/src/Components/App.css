@@ -244,8 +244,10 @@ body,
 }
 
 .tech-icon {
-  width: 25px;
-  height: 25px;
+  width: 21.25px;
+  /* Reduced from 25px by 15% */
+  height: 21.25px;
+  /* Reduced from 25px by 15% */
   object-fit: contain;
 }
 
@@ -1681,4 +1683,33 @@ body {
 .paragraph-2.mobile-padding {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.button-4.open-button {
+  font-size: 1rem;
+  /* Make the button larger */
+  font-weight: 400px;
+  padding: 15px 40px;
+  /* Adjust padding for size */
+  background-color: transparent;
+  /* No background */
+  color: white;
+  /* White text */
+  border: .5px solid white;
+  /* White border */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Smooth hover effect */
+}
+
+.button-4.open-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Slightly lighter than overlay background */
+}
+
+.open-button {
+  border-width: 1px;
+  /* Thinner border */
+  margin-top: 10px;
+  /* Add spacing between title text and button */
 }

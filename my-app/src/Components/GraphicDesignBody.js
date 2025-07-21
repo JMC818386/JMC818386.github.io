@@ -232,15 +232,17 @@ function GraphicDesignBody() {
           {/*------------------------------MD99------------------------------------------------------------------------------------------*/}
 
           <div className="col text-light card-port p-2">
-            <Link to="/md99" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={MD99} alt="To-Do-List" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Web App</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">MyDesign99 DGE</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">MyDesign99 DGE</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/md99'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -256,7 +258,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -264,15 +266,17 @@ function GraphicDesignBody() {
           {/*------------------------------Ideal Experience------------------------------------------------------------------------------------------*/}
 
           <div className="col text-light card-port p-2">
-            <Link to="/ideal-experience" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={IdealExperience} alt="To-Do-List" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">UX Research</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Ideal Generative AI Experience</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Ideal Generative AI Experience</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/ideal-experience'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -284,56 +288,52 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
           {/*------------------------------Clover------------------------------------------------------------------------------------------*/}
 
           <div className="col text-light card-port p-2">
-            <Link to="/clover" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={Clover} alt="To-Do-List" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Web App</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Clover</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Clover</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/clover'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
                   <div className="tech-icons">
                     <img src={FigmaIcon} alt="Figma" className="tech-icon" />
                     <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
-                    <img src={ReactIcon} alt="React" className="tech-icon" />
-                    <img src={BootstrapIcon} alt="Bootstrap" className="tech-icon" />
-                    <img src={CSSIcon} alt="CSS" className="tech-icon" />
-                    <img src={HTMLIcon} alt="HTML" className="tech-icon" />
-                    <img src={JavaScriptIcon} alt="JavaScript" className="tech-icon" />
-                    <img src={VSCodeIcon} alt="VSCode" className="tech-icon" />
-                    <img src={PythonIcon} alt="Python" className="tech-icon" />
-                    <img src={DjangoIcon} alt="Django" className="tech-icon" />
-                    <img src={PostgreSQLIcon} alt="PostgreSQL" className="tech-icon" />
+                    <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
           {/*------------------------------AG_CON------------------------------------------------------------------------------------------*/}
 
           <div className="col text-light card-port p-2">
-            <Link to="/ag-con" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={AgCon} alt="AG_CON 2026" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Branding</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">AG_CON 2026</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">AG_CON 2026</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/ag-con'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -344,22 +344,24 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
           {/*------------------------------Silent Battle------------------------------------------------------------------------------------------*/}
 
           <div className="col text-light card-port p-2">
-            <Link to="/silent-battle" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={SilentBattle} alt="Silent Battle" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Editorial</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Silent Battle</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Silent Battle</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/silent-battle'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -370,7 +372,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -428,34 +430,33 @@ function GraphicDesignBody() {
           {/*------------------------------Total PT Connect------------------------------------------------------------------------------------------*/}
 
           <div className="col text-light card-port p-2">
-            <Link to="/total-pt-connect" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={TotalPtConnect} alt="Total PT Connect" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Web App</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Total PT Connect</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Total PT Connect</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/total-pt-connect'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
                   <div className="tech-icons">
                     <img src={XDIcon} alt="XD" className="tech-icon" />
                     <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
-                    <img src={ReactIcon} alt="React" className="tech-icon" />
-                    <img src={BootstrapIcon} alt="Bootstrap" className="tech-icon" />
-                    <img src={CSSIcon} alt="CSS" className="tech-icon" />
-                    <img src={HTMLIcon} alt="HTML" className="tech-icon" />
-                    <img src={JavaScriptIcon} alt="JavaScript" className="tech-icon" />
                     <img src={VSCodeIcon} alt="VSCode" className="tech-icon" />
-                    <img src={PythonIcon} alt="Python" className="tech-icon" />
-                    <img src={DjangoIcon} alt="Django" className="tech-icon" />
-                    <img src={PostgreSQLIcon} alt="PostgreSQL" className="tech-icon" />
+                    <img src={HTMLIcon} alt="HTML" className="tech-icon" />
+                    <img src={CSSIcon} alt="CSS" className="tech-icon" />
+                    <img src={JavaScriptIcon} alt="JavaScript" className="tech-icon" />
+                    <img src={BootstrapIcon} alt="Bootstrap" className="tech-icon" />
+                    <img src={ReactIcon} alt="React" className="tech-icon" />
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -504,15 +505,17 @@ function GraphicDesignBody() {
         </div> */}
 
           <div className="col text-light card-port p-2">
-            <Link to="/stoked-two" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={StoicismOne} alt="To-Do-List" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Editorial</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Stoked on Stoicism History</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Stoked on Stoicism History</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/stoked-two'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -523,7 +526,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -551,15 +554,17 @@ function GraphicDesignBody() {
         </div> */}
 
           <div className="col text-light card-port p-2">
-            <Link to="/stoked-three" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={StoicismThree} alt="Tic-Tac-Toe" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Editorial</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Stoked on Stoicism Pantheon</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Stoked on Stoicism Pantheon</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/stoked-three'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -570,7 +575,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -612,15 +617,17 @@ function GraphicDesignBody() {
         </div> */}
 
           <div className="col text-light card-port p-2">
-            <Link to="/skg" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={SKG} alt="Weather App" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Print Design</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Sea Kayak Georgia</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Sea Kayak Georgia</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/skg'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -631,7 +638,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -646,15 +653,17 @@ function GraphicDesignBody() {
         </div> */}
 
           <div className="col text-light card-port p-2">
-            <Link to="/phantom" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={Phantom} alt="Weather App" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Print Design</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Phantom Fireworks</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Phantom Fireworks</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/phantom'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -665,7 +674,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -715,15 +724,17 @@ function GraphicDesignBody() {
         </div> */}
 
           <div className="col text-light card-port p-2">
-            <Link to="/dream-posters" className="" onClick={handleClick}>
+            <div style={{ position: 'relative' }}>
               <img className="card-img-top" src={Dreams} alt="Weather App" />
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Print Design</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
-                  <p className="overlay-text">Dream Posters</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <p className="overlay-text">Dream Posters</p>
+                    <button className="button-4 open-button" onClick={() => window.location.href = '/dream-posters'}>OPEN</button>
+                  </div>
                 </div>
                 <div className="overlay-bottom">
                   <p className="tools-title">Tools used</p>
@@ -734,7 +745,7 @@ function GraphicDesignBody() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
             <div ref={topRef}></div>
           </div>
 
@@ -776,7 +787,6 @@ function GraphicDesignBody() {
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Branding</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
                   <p className="overlay-text">3055 Strategies</p>
@@ -819,7 +829,6 @@ function GraphicDesignBody() {
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Branding</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
                   <p className="overlay-text">Mindset Solutions</p>
@@ -844,7 +853,6 @@ function GraphicDesignBody() {
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Branding</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
                   <p className="overlay-text">Ampere's &</p>
@@ -870,7 +878,6 @@ function GraphicDesignBody() {
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Branding</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
                   <p className="overlay-text">Bluegrass Gentleman</p>
@@ -900,7 +907,6 @@ function GraphicDesignBody() {
               <div className="overlay">
                 <div className="overlay-top">
                   <p className="project-type">Editorial</p>
-                  <div className="placeholder-icon"></div>
                 </div>
                 <div className="overlay-center">
                   <p className="overlay-text">East Coast Magazine</p>
