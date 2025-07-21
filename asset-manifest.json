@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0388290b.css",
-    "main.js": "/static/js/main.8db8ced3.js",
+    "main.css": "/static/css/main.50f5c525.css",
+    "main.js": "/static/js/main.db4bda7c.js",
     "static/media/ag-con-final-mockups.png": "/static/media/ag-con-final-mockups.bfeb7eecfe7ce65cd1e7.png",
     "static/media/silent-final-mockups.png": "/static/media/silent-final-mockups.0fa6c8576f82d79a1585.png",
     "static/media/ag-con-moodboard.png": "/static/media/ag-con-moodboard.64ed3065af2ba2ba1034.png",
@@ -44,6 +44,7 @@
     "static/media/pantheon-hero.png": "/static/media/pantheon-hero.cc648a6a86f235bca109.png",
     "static/media/silent-influence.png": "/static/media/silent-influence.2aa5d5697a9e2365bf58.png",
     "static/media/History_Early.png": "/static/media/History_Early.e0c44faeedf87018667f.png",
+    "static/media/ideal-x-empowered.png": "/static/media/ideal-x-empowered.d1f5d21fe1e84795da3b.png",
     "static/media/total-connect-patient-grid.png": "/static/media/total-connect-patient-grid.7fca3b3739cbbc506e44.png",
     "static/media/Flyer Back.jpg": "/static/media/Flyer Back.f06704d491c4a3283338.jpg",
     "static/media/mini-history-hero.png": "/static/media/mini-history-hero.1263d5fdb111633bd5e5.png",
@@ -56,7 +57,6 @@
     "static/media/ag-con-cover.png": "/static/media/ag-con-cover.89842b1c189495c86567.png",
     "static/media/silent-hero-banner.png": "/static/media/silent-hero-banner.8c5bd8e2c7e3e431cfa2.png",
     "static/media/silent-battle-cover.png": "/static/media/silent-battle-cover.3be6d58e831adc0ee552.png",
-    "static/media/ideal-x-empowered.png": "/static/media/ideal-x-empowered.0bd1efd0a406d4c961c5.png",
     "static/media/ag-con-cultivate-final.png": "/static/media/ag-con-cultivate-final.3d91a270e7e2ab67479c.png",
     "static/media/dream-final-2.png": "/static/media/dream-final-2.4237af84f70d7fc85fa8.png",
     "static/media/ideal-x-full-spread.png": "/static/media/ideal-x-full-spread.badc29a233d52359375f.png",
@@ -212,11 +212,11 @@
     "static/media/figma.png": "/static/media/figma.650415bde3345b67cbc7.png",
     "static/media/figma-logo-icon-md.png": "/static/media/figma-logo-icon-md.5295c6c1e70af9658335.png",
     "index.html": "/index.html",
-    "main.0388290b.css.map": "/static/css/main.0388290b.css.map",
-    "main.8db8ced3.js.map": "/static/js/main.8db8ced3.js.map"
+    "main.50f5c525.css.map": "/static/css/main.50f5c525.css.map",
+    "main.db4bda7c.js.map": "/static/js/main.db4bda7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0388290b.css",
-    "static/js/main.8db8ced3.js"
+    "static/css/main.50f5c525.css",
+    "static/js/main.db4bda7c.js"
   ]
 }
