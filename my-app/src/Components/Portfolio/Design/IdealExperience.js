@@ -101,26 +101,18 @@ function IdealExperience() {
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
         <div className="section">
-          <div className="top">
-            <b className="secondary-headline">Ideal GenAI Experience</b>
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Ideal GenAI Experience</b>
+            </div>
+            <div className="paragraph">
+              {`For this project, myself and three classmates conducted a 10-week comprehensive user experience research study to see if we could conceptualize what the ideal experience would be while using OpenAi's DALL-E, Adobe's Firefly, and Midjourney. By following the Lextant ideal model framework as our guide, we were able to take a deep dive into this new and exciting technology. Each member of the team completed this project remotely, utilizing Miro, Google,, and Discord to organize and manage project requirements. `}
+            </div>
+            <div className="paragraph">
+              {`As a team we decided to base our research on "the ideal generative AI user experience." The focus is on how this powerful technology can boost creativity, make work easier, and offer personalized solutions while also tackling key challenges related to accuracy, transparency, and ethics. `}
+            </div>
           </div>
-          <div className="d-block d-md-none">
-            <img
-              className="history-cover-img"
-              src={IdealXCover}
-              alt="Ideal Experience Cover"
-              onClick={() => openLightbox(IdealXCover, "Ideal Experience Cover")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
-          <div className="paragraph">
-            {`For this project, myself and three classmates conducted a 10-week comprehensive user experience research study to see if we could conceptualize what the ideal experience would be while using OpenAi’s DALL-E, Adobe’s Firefly, and Midjourney. By following the Lextant ideal model framework as our guide, we were able to take a deep dive into this new and exciting technology. Each member of the team completed this project remotely, utilizing Miro, Google,, and Discord to organize and manage project requirements. `}
-          </div>
-
-          <div className="paragraph">
-            {`As a team we decided to base our research on "the ideal generative AI user experience." The focus is on how this powerful technology can boost creativity, make work easier, and offer personalized solutions while also tackling key challenges related to accuracy, transparency, and ethics. `}
-          </div>
-          <div className="d-none d-md-block image-side">
+          <div className="half-section image-side">
             <img
               className="history-cover-img"
               src={IdealXCover}

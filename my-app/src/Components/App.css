@@ -1061,19 +1061,10 @@ body {
 }
 
 @media (max-width: 1000px) {
-
-  .section,
-  .section-2,
   .section-auto {
     flex-direction: column;
     height: auto;
-    gap: 15px;
-    /* Reduced from default 40px for tighter mobile spacing */
-  }
-
-  /* Improve mobile padding for section-2 specifically */
-  .section-2 {
-    padding: 20px 15px;
+    padding: 20px 10px;
   }
 
   .half-section {
@@ -1082,7 +1073,6 @@ body {
 
   .text-side {
     padding-right: 0;
-
   }
 
   .image-side {
@@ -1104,7 +1094,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 0;
+  padding-right: 40px;
 }
 
 .image-side {
@@ -1225,10 +1215,7 @@ body {
   .section-auto {
     flex-direction: column;
     height: auto;
-  }
-
-  /* Improve mobile padding for section-2 specifically */
-  .section-2 {
+    gap: 15px;
     padding: 20px 15px;
   }
 
@@ -1237,21 +1224,15 @@ body {
   }
 
   .text-side {
-    padding: 5px 0;
-    margin-bottom: 10px;
-  }
-
-  .image-side {
-    padding: 5px 0;
-    justify-content: center;
-  }
-
-  /* Make all images appear below text on mobile */
-  .text-side {
+    padding-right: 0;
+    padding: 10px 0;
+    margin-bottom: 20px;
     order: 1;
   }
 
   .image-side {
+    justify-content: center;
+    padding: 10px 0;
     order: 2;
   }
 
