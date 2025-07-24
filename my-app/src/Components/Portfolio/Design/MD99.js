@@ -147,7 +147,9 @@ function MD99() {
                   style={{ padding: '12px 20px' }}
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-4-8c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z" fill="#24292E" />
+                    <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <polyline points="15 3 21 3 21 9" stroke="#24292E" strokeWidth="1.5" fill="none" />
+                    <line x1="10" y1="14" x2="21" y2="3" stroke="#24292E" strokeWidth="1.5" />
                   </svg>
                   Live Site
                 </a>

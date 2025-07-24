@@ -18,7 +18,7 @@ function PortfolioNavigationArrows({ currentPath }) {
   }
 
   return (
-    <div className="portfolio-navigation d-flex justify-content-between align-items-center p-4">
+    <div className="portfolio-navigation d-flex justify-content-between align-items-center p-1">
       <Link
         to={prevProject.path}
         className="portfolio-nav-arrow portfolio-nav-prev d-flex align-items-center text-decoration-none"

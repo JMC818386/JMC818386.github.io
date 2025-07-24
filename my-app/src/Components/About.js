@@ -9,8 +9,10 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import React, { useEffect } from 'react';
 
-import aboutPhoto from './img/about-me-photo.png'
-import aboutPhoto2 from './about-me-photo-2.png'
+import aboutPhoto from './img/about-me-photo.png';
+import aboutPhoto2 from './about-me-photo-2.png';
+import EyeOpenIcon from './img/icons/eye-open.png';
+import UserAddIcon from './img/icons/user-add.png';
 
 
 
@@ -27,36 +29,35 @@ function About() {
     <div className="d-flex justify-content-center flex-column bg-main-dark">
       <TopNav />
       <div className="my-2">
-        <div className="container p-5">
+        <div className="container px-5">
           <div className="row">
             <div className="col-md-8 p-4 d-flex align-items-center">
               <div>
                 <h1 className="about-header" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">JM</h1>
                 <h1 className="about-header grey" data-aos="fade" data-aos-delay="300" data-aos-duration="2500">CRAWFORD</h1>
-                <p className="about-subheader-3 mb-0" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">ARTIST | DESIGNER | ENGINEER</p>
+                <p className="about-mobile-subheader" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">ARTIST | DESIGNER | ENGINEER</p>
                 {/* <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p> */}
                 <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">I’m a creative technologist with a foundation in graphic design, systems thinking, and visual culture. My approach blends research, strategy, and interactive experiences to build brands, interfaces, and experiences that are clear, purposeful, and performance-driven.</p>
-                
+
                 {/* <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">With degrees in Graphic Design, Digital Media, and Art History, I bring a multidisciplinary lens to every challenge - combining user insight, research, and design thinking to craft experiences that connect and endure.</p> */}
 
                 <div className="d-flex gap-3 flex-column flex-sm-row mt-4" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">
-                  <a
-                    href="/docs/Resume_JM_Crawford.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
                     className="button-4 d-flex align-items-center justify-content-center"
-                    role="button"
                     style={{ padding: '12px 20px' }}
+                    onClick={() => window.location.href = '/portfolio'}
                   >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#24292E" strokeWidth="1.5" fill="none" />
-                      <polyline points="14,2 14,8 20,8" stroke="#24292E" strokeWidth="1.5" fill="none" />
-                      <line x1="16" y1="13" x2="8" y2="13" stroke="#24292E" strokeWidth="1.5" />
-                      <line x1="16" y1="17" x2="8" y2="17" stroke="#24292E" strokeWidth="1.5" />
-                      <polyline points="10,9 9,9 8,9" stroke="#24292E" strokeWidth="1.5" />
-                    </svg>
-                    Resume
-                  </a>
+                    <img src={EyeOpenIcon} alt="See My Work" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
+                    See My Work
+                  </button>
+                  <button
+                    className="button-4 d-flex align-items-center justify-content-center"
+                    style={{ padding: '12px 20px' }}
+                    onClick={() => window.location.href = '/contact'}
+                  >
+                    <img src={UserAddIcon} alt="Let's Connect" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
+                    Let's Connect
+                  </button>
                 </div>
                 {/* <div className="d-flex justify-content-start">
                   <button className="mt-5 ms-4 p-2 bg-dark text-light border border-secondary rounded">Resume</button>
@@ -64,8 +65,9 @@ function About() {
                 </div> */}
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-end">
+            <div className="col-md-4 d-flex flex-column align-items-end">
               <img src={aboutPhoto2} alt="John-Michael Crawford" className="about-image" data-aos="fade" data-aos-delay="500" data-aos-duration="10000" />
+              {/* Resume button removed as requested */}
             </div>
           </div>
           <div className="row mt-0 pt-0 d-flex justify-content-center ">
@@ -73,11 +75,11 @@ function About() {
               <Icons />
             </div>
           </div>
-          <div className="row mt-5 pt-3">
+          {/* <div className="row mt-5 pt-3">
             <div className="col-12">
               <h2 className="text-second text-center mb-4">Skills</h2>
               <div className="skills-container d-flex flex-wrap justify-content-center gap-2 mb-4">
-                {/* UX/UI Design */}
+                
                 <span className="skill-pill">User research</span>
                 <span className="skill-pill">Ethnographic analysis</span>
                 <span className="skill-pill">Affinity mapping</span>
@@ -95,7 +97,7 @@ function About() {
                 <span className="skill-pill">User-centric Design</span>
                 <span className="skill-pill">Accessibility</span>
 
-                {/* Web Development */}
+               
                 <span className="skill-pill">Front-end development</span>
                 <span className="skill-pill">Back-end development</span>
                 <span className="skill-pill">Full-stack development</span>
@@ -104,7 +106,7 @@ function About() {
                 <span className="skill-pill">Web Design + Developement</span>
                 <span className="skill-pill">Database Architecture</span>
 
-                {/* Graphic Design */}
+                
                 <span className="skill-pill">Layout + Grid Design</span>
                 <span className="skill-pill">Typographic Design</span>
                 <span className="skill-pill">Editorial design</span>
@@ -113,13 +115,13 @@ function About() {
                 <span className="skill-pill">Creative direction</span>
                 <span className="skill-pill">Visual strategy</span>
 
-                {/* Other Design Disciplines */}
+              
                 <span className="skill-pill">Illustration</span>
                 <span className="skill-pill">Photography</span>
                 <span className="skill-pill">Photo editing</span>
                 <span className="skill-pill">Screen printing</span>
 
-                {/* General + Intangible Skills */}
+                
                 <span className="skill-pill">Design + Business strategy</span>
                 <span className="skill-pill">Concept development</span>
                 <span className="skill-pill">Client collaboration</span>
@@ -139,7 +141,7 @@ function About() {
                 <span className="skill-pill">Historical contextualization</span>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

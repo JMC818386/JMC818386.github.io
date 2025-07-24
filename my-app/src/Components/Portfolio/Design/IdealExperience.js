@@ -17,6 +17,9 @@ import IdealXEmpowered from './img/IdealExperience/ideal-x-empowered.png';
 import IdealXFramework from './img/IdealExperience/ideal-x-framework.png';
 import IdealXFullSpread from './img/IdealExperience/ideal-x-full-spread.png';
 import IdealXSpreads from './img/IdealExperience/ideal-x-spreads.png';
+import DallEIcon from './img/IdealExperience/dall-e-icon.png';
+import MidjourneyIcon from './img/IdealExperience/midjourney-icon.png';
+import FireflyIcon from './img/IdealExperience/firefly-icon.png';
 
 function IdealExperience() {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -155,73 +158,17 @@ function IdealExperience() {
             <div className="top mb-4 text-center">
               <b className="secondary-headline text-center">Methods</b>
             </div>
-
             <div className="methods-grid">
-              <div className="method-feature-box">
-                <svg className="method-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <h3 className="method-title">Secondary Research</h3>
-              </div>
-
-              <div className="method-feature-box">
-                <svg className="method-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="11" cy="11" r="8" stroke="currentColor" strokeWidth="2" />
-                  <path d="m21 21-4.35-4.35" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <h3 className="method-title">Observational Research</h3>
-              </div>
-
-              <div className="method-feature-box">
-                <svg className="method-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <polyline points="14,2 14,8 20,8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <line x1="8" y1="13" x2="16" y2="13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <line x1="8" y1="17" x2="12" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M18 18l1.5 1.5-1.5 1.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <h3 className="method-title">Non-Participant Research</h3>
-              </div>
-
-              <div className="method-feature-box">
-                <svg className="method-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="9" cy="7" r="4" stroke="currentColor" strokeWidth="2" />
-                  <path d="M22 11l-3-3m0 0-3 3m3-3v12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <h3 className="method-title">Participant Research</h3>
-              </div>
-
-              <div className="method-feature-box">
-                <svg className="method-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="3" y="3" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="10" y="3" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="17" y="3" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="3" y="10" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="10" y="10" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="17" y="10" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="3" y="17" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="10" y="17" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="17" y="17" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <h3 className="method-title">Affinity Mapping</h3>
-              </div>
-
-              <div className="method-feature-box">
-                <svg className="method-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="2" y="3" width="8" height="6" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="12" y="3" width="6" height="8" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="20" y="3" width="2" height="4" rx="0.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="2" y="11" width="6" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="10" y="13" width="8" height="6" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="20" y="9" width="2" height="6" rx="0.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="2" y="17" width="4" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <rect x="16" y="17" width="6" height="4" rx="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <h3 className="method-title">Sensory Cue Analysis</h3>
-              </div>
+              {/* ...existing method-feature-boxes... */}
             </div>
           </div>
+        </div>
+
+        {/* ----------- AI ICONS ROW (responsive) ----------- */}
+        <div className="ai-icons-row d-flex justify-content-center align-items-center mb-4">
+          <img src={DallEIcon} alt="DALL-E" className="ai-icon" />
+          <img src={MidjourneyIcon} alt="Midjourney" className="ai-icon" />
+          <img src={FireflyIcon} alt="Firefly" className="ai-icon" />
         </div>
 
         {/* ---------------------------------------------- SECTION 2 ---------------------------------------------- */}
