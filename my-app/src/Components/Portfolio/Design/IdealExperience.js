@@ -13,6 +13,7 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import IdealExperienceBooklet from './IdealExperienceBooklet';
 
 import IdealXCover from './img/IdealExperience/ideal-x-cover.png';
 import IdealXEcosystem from './img/IdealExperience/ideal-x-ecosystem-tacos.png';
@@ -136,6 +137,11 @@ function IdealExperience() {
           <img src={MidjourneyIcon} alt="Midjourney" className="ideal-icon-img" />
           <img src={FireflyIcon} alt="Firefly" className="ideal-icon-img" />
         </div>
+        
+        <div style={{ margin: '100px 0' }}>
+          <IdealExperienceBooklet />
+        </div>
+        
         <div className="section-2">
           <div className="content-2">
             <div className="top">
@@ -397,6 +403,18 @@ function IdealExperience() {
             onClick={() => openLightbox(IdealXSpreads, "Ideal Experience Spreads")}
             style={{ cursor: 'pointer', display: 'block', maxWidth: '100%', height: 'auto' }}
           />
+        </div>
+
+        {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline">Interactive Experience</b>
+            </div>
+            <div className="paragraph-2">
+              Explore our complete research findings and framework in this interactive booklet. Click and drag to turn pages and discover the full story of our ideal GenAI experience research.
+            </div>
+          </div>
         </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
