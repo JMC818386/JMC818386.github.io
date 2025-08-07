@@ -10,6 +10,8 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import StokedOneBooklet from './StokedOneBooklet';
+import StokedTwoBooklet from './StokedTwoBooklet';
 
 import HistoryCover from './img/Stoked_Two/mini-history-hero.png';
 import MiniSpread from './img/Stoked_Two/mini-history-1.png';
@@ -115,6 +117,21 @@ function StokedTwo() {
         </div>
       </div>
 
+      {/* ---------------------------------------------- FLIPBOOK SECTION ---------------------------------------------- */}
+      <div className="section mb-5">
+        <div className="content-2">
+          {/* <div className="section-text-2 text-center mb-4">
+            <div className="top">
+              <b className="secondary-headline">Interactive Booklet</b>
+            </div>
+            <div className="paragraph-2">
+              {`Explore the complete "Stoked on Stoicism" zine through this interactive flipbook. Click and drag to turn pages and experience the full design progression.`}
+            </div>
+          </div> */}
+          <StokedOneBooklet />
+        </div>
+      </div>
+
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
       <div className="section-2 mt-5">
         <div className="content-2">
@@ -147,6 +164,13 @@ function StokedTwo() {
             onClick={() => openLightbox(MiniSpread, "Mini Spread")}
             style={{ cursor: 'pointer' }}
           />
+        </div>
+      </div>
+
+      {/* ---------------------------------------------- FLIPBOOK SECTION 2 ---------------------------------------------- */}
+      <div className="section mb-5">
+        <div className="content-2">
+          <StokedTwoBooklet />
         </div>
       </div>
 
@@ -202,6 +226,8 @@ function StokedTwo() {
           style={{ cursor: 'pointer' }}
         />
       </div>
+
+      
 
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />

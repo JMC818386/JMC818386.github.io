@@ -3,6 +3,7 @@ import TopNav from "../../TopNav";
 import PortfolioNav from "../../PortfolioNav";
 import Footer from "../../Footer";
 import "../../App.css";
+import GraphicDesignBody from "../../GraphicDesignBody";
 import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
@@ -271,6 +272,7 @@ function SilentBattle() {
           />
         </div>
 
+        <GraphicDesignBody />
         <Footer />
       </div>
 

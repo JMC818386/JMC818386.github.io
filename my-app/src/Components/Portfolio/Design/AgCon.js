@@ -3,6 +3,7 @@ import TopNav from "../../TopNav";
 import PortfolioNav from "../../PortfolioNav";
 import Footer from "../../Footer";
 import "../../App.css";
+import GraphicDesignBody from "../../GraphicDesignBody";
 import PortfolioNavigationArrows from "./PortfolioNavigationArrows";
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
@@ -114,16 +115,16 @@ function AgCon() {
               <b className="secondary-headline">AG_CON 2026</b>
             </div>
             <div className="paragraph">
-              Conference branding and visual identity for AG_CON 2026, featuring modern agricultural technology themes and contemporary design elements.
+              A conceptual poster series exploring the visual representation of dreams through abstract photography and grid-based design systems. This project combines artistic expression with structured design principles to create compelling visual narratives.
             </div>
           </div>
           <div className="half-section image-side">
             <img
               className="history-cover-img"
               alt="AG_CON 2026 Hero"
-              src={AgConHero}
-              onClick={() => openLightbox(AgConHero, "AG_CON 2026 Hero")}
-              style={{ cursor: 'pointer' }}
+              src={AgConCultivateFinal}
+              onClick={() => openLightbox(AgConCultivateFinal, "AG_CON 2026 Hero")}
+              style={{ cursor: 'pointer', width: '65%', height: 'auto' }}
             />
           </div>
         </div>
@@ -320,6 +321,7 @@ function AgCon() {
           />
         </div>
 
+        <GraphicDesignBody />
         <Footer />
       </div>
 
