@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.890e9206.css",
-    "main.js": "/static/js/main.19acda37.js",
+    "main.css": "/static/css/main.130e95d6.css",
+    "main.js": "/static/js/main.b7ef11f5.js",
     "static/media/ag-con-final-mockups.png": "/static/media/ag-con-final-mockups.bfeb7eecfe7ce65cd1e7.png",
     "static/media/silent-final-mockups.png": "/static/media/silent-final-mockups.0fa6c8576f82d79a1585.png",
     "static/media/ag-con-moodboard.png": "/static/media/ag-con-moodboard.64ed3065af2ba2ba1034.png",
@@ -14,6 +14,7 @@
     "static/media/Flyer Front.jpg": "/static/media/Flyer Front.485191bd858fe2becb09.jpg",
     "static/media/ag-con-crop-lines.png": "/static/media/ag-con-crop-lines.0122f09f029fbe89a67b.png",
     "static/media/clover-mockups-tiles.png": "/static/media/clover-mockups-tiles.0bb362b321739fdef0ae.png",
+    "static/media/clover-design-system-snapshot.png": "/static/media/clover-design-system-snapshot.c9c7a91a0e9de07266ae.png",
     "static/media/tptc-cover.png": "/static/media/tptc-cover.2de4c9fa971f220c6fc0.png",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
     "static/media/logo.png": "/static/media/logo.1d40d7213f4907eeb3c7.png",
@@ -46,9 +47,11 @@
     "static/media/silent-influence.png": "/static/media/silent-influence.2aa5d5697a9e2365bf58.png",
     "static/media/History_Early.png": "/static/media/History_Early.e0c44faeedf87018667f.png",
     "static/media/ideal-x-empowered.png": "/static/media/ideal-x-empowered.d1f5d21fe1e84795da3b.png",
+    "static/media/clover-sketches.png": "/static/media/clover-sketches.98e11da29a3e89b443a4.png",
     "static/media/total-connect-patient-grid.png": "/static/media/total-connect-patient-grid.7fca3b3739cbbc506e44.png",
     "static/media/Flyer Back.jpg": "/static/media/Flyer Back.f06704d491c4a3283338.jpg",
     "static/media/mini-history-hero.png": "/static/media/mini-history-hero.1263d5fdb111633bd5e5.png",
+    "static/media/clover-design-system-collage.png": "/static/media/clover-design-system-collage.39a974e2130aae417f3b.png",
     "static/media/History_MarcusSpread.png": "/static/media/History_MarcusSpread.b30f46e385e2a4b3c648.png",
     "static/media/silent-hero-img.png": "/static/media/silent-hero-img.041bddf51ab21623731b.png",
     "static/media/God_Zine_01.png": "/static/media/God_Zine_01.9a53c6a9c185a6caf2ed.png",
@@ -62,6 +65,7 @@
     "static/media/dream-final-2.png": "/static/media/dream-final-2.4237af84f70d7fc85fa8.png",
     "static/media/ideal-x-full-spread.png": "/static/media/ideal-x-full-spread.badc29a233d52359375f.png",
     "static/media/ag-con-connect-final.png": "/static/media/ag-con-connect-final.8f4bf8674cc8b41607ff.png",
+    "static/media/clover-prototype-nodes.png": "/static/media/clover-prototype-nodes.ab562631ad894122da32.png",
     "static/media/History_Cover_Back.png": "/static/media/History_Cover_Back.e62b9cd013ffc1fe74ec.png",
     "static/media/dream-final-1.png": "/static/media/dream-final-1.e19480018777b9222e69.png",
     "static/media/ideal-x-framework-model.png": "/static/media/ideal-x-framework-model.e9eaeab93b0dffaaa3e9.png",
@@ -76,6 +80,8 @@
     "static/media/Mini_Marcus.png": "/static/media/Mini_Marcus.e98f6c0d1e002dbe5617.png",
     "static/media/Mini_Epictiteus.png": "/static/media/Mini_Epictiteus.5fb28b267495e7ce4cff.png",
     "static/media/ideal-x-cover.png": "/static/media/ideal-x-cover.c21da7c4e53e5821d8d8.png",
+    "static/media/clover-tablet-trio.png": "/static/media/clover-tablet-trio.97674b8eb9ec7efdd947.png",
+    "static/media/clover-empathy-map.png": "/static/media/clover-empathy-map.1e08eafff0354d17da7b.png",
     "static/media/SMM_07.png": "/static/media/SMM_07.bd47782535928d128e89.png",
     "static/media/ideal-x-book-spread.png": "/static/media/ideal-x-book-spread.2494228411b78ebb0479.png",
     "static/media/Mini_CoverSpread_Full.png": "/static/media/Mini_CoverSpread_Full.b1b640cf70d91d0e6cc0.png",
@@ -98,6 +104,7 @@
     "static/media/BrownForman_03.png": "/static/media/BrownForman_03.68ccb9e3bb704d549505.png",
     "static/media/God_Zine_Cover_Back.png": "/static/media/God_Zine_Cover_Back.6bff2bf01c8ee1da31ec.png",
     "static/media/BrownForman_02.png": "/static/media/BrownForman_02.6ede126908c5f2c7ce5a.png",
+    "static/media/clover-design-system.png": "/static/media/clover-design-system.30878fbd1696c88b3a8e.png",
     "static/media/md99-desktop-ui.png": "/static/media/md99-desktop-ui.762567dd8e1aa8603b2e.png",
     "static/media/ideal-x-affinity-map.png": "/static/media/ideal-x-affinity-map.bd3908bd1582804f0eef.png",
     "static/media/ideal-x-newbies.png": "/static/media/ideal-x-newbies.7180e359ce204af017c6.png",
@@ -116,6 +123,7 @@
     "static/media/dream-grids.png": "/static/media/dream-grids.72f2bbc6c32a8c04600d.png",
     "static/media/clover-hero.png": "/static/media/clover-hero.7f62ec8e42ed66ab805b.png",
     "static/media/Mini_Cover_Back.png": "/static/media/Mini_Cover_Back.07925cd0b428c5ab7201.png",
+    "static/media/clover-wireframes.png": "/static/media/clover-wireframes.e4b2cacde8478f969dc0.png",
     "static/media/clover-cover.png": "/static/media/clover-cover.85c98789bd67308c77fb.png",
     "static/media/node-sdk.png": "/static/media/node-sdk.4b027840748679353b04.png",
     "static/media/QRT_Coin.png": "/static/media/QRT_Coin.b53da7fedd5165cb7f1b.png",
@@ -142,6 +150,7 @@
     "static/media/BG_02.png": "/static/media/BG_02.6edbf6418f1310df033c.png",
     "static/media/BG_04.png": "/static/media/BG_04.6edbf6418f1310df033c.png",
     "static/media/ideal-x-framework.png": "/static/media/ideal-x-framework.c8edf35f4077249387d7.png",
+    "static/media/golf-survey.png": "/static/media/golf-survey.c1c9ed1404318268e140.png",
     "static/media/amperes-main.jpg": "/static/media/amperes-main.e1e0a30e95e82fc5800b.jpg",
     "static/media/md99-mockup-docs.png": "/static/media/md99-mockup-docs.32040a4fc3f5d7a6f88e.png",
     "static/media/dalle-ui.png": "/static/media/dalle-ui.b37795b48a19e543aabd.png",
@@ -230,11 +239,11 @@
     "static/media/figma.png": "/static/media/figma.650415bde3345b67cbc7.png",
     "static/media/figma-logo-icon-md.png": "/static/media/figma-logo-icon-md.5295c6c1e70af9658335.png",
     "index.html": "/index.html",
-    "main.890e9206.css.map": "/static/css/main.890e9206.css.map",
-    "main.19acda37.js.map": "/static/js/main.19acda37.js.map"
+    "main.130e95d6.css.map": "/static/css/main.130e95d6.css.map",
+    "main.b7ef11f5.js.map": "/static/js/main.b7ef11f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.890e9206.css",
-    "static/js/main.19acda37.js"
+    "static/css/main.130e95d6.css",
+    "static/js/main.b7ef11f5.js"
   ]
 }
