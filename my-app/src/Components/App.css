@@ -1824,10 +1824,10 @@ body {
 }
 
 .method-feature-box:hover {
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .method-icon {
@@ -1844,6 +1844,14 @@ body {
   font-weight: 600;
   margin: 0;
   line-height: 1.3;
+}
+
+.method-description {
+  color: var(--color-silver);
+  font-size: 15px;
+  line-height: 160%;
+  margin: 8px 0 0 0;
+  padding: 0;
 }
 
 /* Responsive breakpoints for methods grid */
@@ -1894,6 +1902,10 @@ body {
 
   .method-title {
     font-size: 0.9rem;
+  }
+
+  .method-description {
+    font-size: 14px;
   }
 }
 
