@@ -321,6 +321,42 @@ function AgCon() {
           />
         </div>
 
+        {/* ------------------- Back to Top ---------------------------- */}
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--color-silver)',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'color 0.3s ease',
+              gap: '8px'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'white'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+            Back to Top
+          </a>
+        </div>
+
         <GraphicDesignBody />
         <Footer />
       </div>

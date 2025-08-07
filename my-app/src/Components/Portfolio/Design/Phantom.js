@@ -100,7 +100,7 @@ function Phantom() {
         <div className="section">
           <div className="half-section text-side">
             <div className="top">
-              <img src={PhantomLogo} alt="Phantom Fireworks" className="phantom-logo" />
+              <b className="secondary-headline">Phantom Fireworks</b>
             </div>
             <div className="paragraph">
               {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}
@@ -141,16 +141,42 @@ function Phantom() {
           </div>
         </div>
 
-        {/* ---------------------------------------------- DESIGN DETAILS SECTION ---------------------------------------------- */}
-        <div className="section-2 mt-5">
-          <div className="content-2">
-            <div className="top">
-              <b className="secondary-headline">Design Approach</b>
-            </div>
-            <div className="paragraph-2">
-              {`The Phantom flyer design emphasizes bold visual impact and clear information hierarchy. The front design captures attention with striking visuals, while the back provides detailed information in an organized, easy-to-read format. Both designs maintain brand consistency and visual cohesion.`}
-            </div>
-          </div>
+    
+
+        {/* ------------------- Back to Top ---------------------------- */}
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--color-silver)',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'color 0.3s ease',
+              gap: '8px'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'white'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+            Back to Top
+          </a>
         </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}

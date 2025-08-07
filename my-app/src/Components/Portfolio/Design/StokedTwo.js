@@ -118,18 +118,8 @@ function StokedTwo() {
       </div>
 
       {/* ---------------------------------------------- FLIPBOOK SECTION ---------------------------------------------- */}
-      <div className="section mb-5">
-        <div className="content-2">
-          {/* <div className="section-text-2 text-center mb-4">
-            <div className="top">
-              <b className="secondary-headline">Interactive Booklet</b>
-            </div>
-            <div className="paragraph-2">
-              {`Explore the complete "Stoked on Stoicism" zine through this interactive flipbook. Click and drag to turn pages and experience the full design progression.`}
-            </div>
-          </div> */}
-          <StokedOneBooklet />
-        </div>
+      <div className="section-auto">
+        <StokedOneBooklet />
       </div>
 
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
@@ -168,10 +158,8 @@ function StokedTwo() {
       </div>
 
       {/* ---------------------------------------------- FLIPBOOK SECTION 2 ---------------------------------------------- */}
-      <div className="section mb-5">
-        <div className="content-2">
-          <StokedTwoBooklet />
-        </div>
+      <div className="section-auto">
+        <StokedTwoBooklet />
       </div>
 
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
@@ -217,7 +205,7 @@ function StokedTwo() {
       </div>
 
       {/* ---------------------------------------------- SECTION 3 ---------------------------------------------- */}
-      <div className="section mb-5 pb-5">
+      <div className="section-auto my-5 mb-5 pb-5">
         <img
           className="cover-img"
           src={HistorySpread2}
@@ -228,6 +216,42 @@ function StokedTwo() {
       </div>
 
       
+
+      {/* ------------------- Back to Top ---------------------------- */}
+      <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+          className="d-flex align-items-center justify-content-center"
+          style={{
+            textDecoration: 'none',
+            color: 'var(--color-silver)',
+            fontSize: '14px',
+            fontWeight: '500',
+            transition: 'color 0.3s ease',
+            gap: '8px'
+          }}
+          onMouseEnter={(e) => e.target.style.color = 'white'}
+          onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <polyline points="18,15 12,9 6,15"></polyline>
+          </svg>
+          Back to Top
+        </a>
+      </div>
 
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />

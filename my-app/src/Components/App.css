@@ -1039,9 +1039,9 @@ body {
   align-self: stretch;
   position: relative;
   line-height: 100%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 10px 40px;
+  padding-bottom: 5px;
 }
 
 .top {
@@ -1062,7 +1062,7 @@ body {
   position: relative;
   font-size: 15px;
   line-height: 160%;
-  padding: 10px 40px;
+  padding: 5px 40px;
 }
 
 .paragraph-2 {
@@ -1072,6 +1072,23 @@ body {
   font-size: 20px;
   line-height: 160%;
   padding: 10px 40px;
+}
+
+.paragraph-3 {
+  color: var(--color-silver);
+  align-self: stretch;
+  position: relative;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.paragraph-no-padding {
+  color: var(--color-silver);
+  align-self: stretch;
+  position: relative;
+  font-size: 15px;
+  line-height: 160%;
+  padding: 5px 0px;
 }
 
 /* Tablet breakpoint */
@@ -1102,6 +1119,11 @@ body {
   .paragraph-2 {
     font-size: 16px;
     padding: 10px 40px;
+  }
+
+  .paragraph-no-padding {
+    font-size: 14px;
+    padding: 10px 0px;
   }
 
   .secondary-headline {

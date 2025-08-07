@@ -106,16 +106,16 @@ function DreamPoster() {
               <b className="secondary-headline">Dreams Poster Series</b>
             </div>
             <div className="paragraph">
-              A conceptual poster series exploring the visual representation of dreams through abstract photography and grid-based design systems. This project combines artistic expression with structured design principles to create compelling visual narratives.
+              A conceptual poster series exploring the visual representation of dreams through abstract photography and grid-based design systems. This project combines artistic expression with structured design principles to create compelling visual narratives. 
             </div>
           </div>
           <div className="half-section image-side">
             <img
               className="cover-img"
-              src={DreamFinal1}
+              src={DreamMockup1}
               alt="Dreams Poster Final Design"
-              onClick={() => openLightbox(DreamFinal1, "Dreams Poster Final Design")}
-              style={{ cursor: 'pointer', maxWidth: '75%' }}
+              onClick={() => openLightbox(DreamMockup1, "Dreams Poster Final Design")}
+              style={{ cursor: 'pointer', maxWidth: '100%' }}
             />
           </div>
         </div>
@@ -128,7 +128,7 @@ function DreamPoster() {
                 <b className="secondary-headline">Concept</b>
               </div>
               <div className="paragraph-2">
-                The Dreams poster series explores the ethereal and abstract nature of dreams through a combination of photography and geometric design elements. Each piece represents different dream states and emotional landscapes, creating a cohesive visual narrative that bridges the gap between reality and imagination.
+                Inspired by dream theory, time relativity, and grunge typography, this poster project aims to capture the visual essence of a dream experience through a combination of expressive typography and layout. The posters contain layered motivational quotes emphasizing the words dream, time, energy, and goal.  This poster series attempts to depict dreams as free and open space where  letters and words appear suspended or frozen while in frenzied and chaotic motion.
               </div>
             </div>
           </div>
@@ -156,17 +156,19 @@ function DreamPoster() {
           </div>
         </div>
 
-        {/* ---------------------------------------------- GRID SYSTEM SECTION ---------------------------------------------- */}
+        {/* -------------------------- Goal ------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline">Grid System Development</b>
+              <b className="secondary-headline text-center">Goal</b>
             </div>
-            <div className="paragraph-2">
-              A systematic approach to layout design using modular grid structures that create visual harmony while allowing for creative expression within the poster series.
+            <div className="paragraph-2 text-center">
+              Through expressive typography and grid layouts, my goal was to capture the concept of dreams as an abstracted and fragmented space where all elements are working together to create a composition that visually implies a third dimension -    with letters and words aligned to a custom grid created by layering and tracing lines of perspective from two photographs taken in and around Adler Hall (Savannah, Ga).
             </div>
           </div>
         </div>
+
+ {/* --------------------------------- Grids ------------------------------ */}
 
         <div style={{ padding: '0 40px', margin: 0 }}>
           <img
@@ -178,21 +180,34 @@ function DreamPoster() {
           />
         </div>
 
-        {/* ---------------------------------------------- MOCKUPS SECTION ---------------------------------------------- */}
+        {/* -------------------------- Goal ------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline text-center">Approach</b>
+            </div>
+            <div className="paragraph-2 text-center">
+              I selected the two photographs to the right primarily for stark contrast in perspective lines and implied form - the staircase providing implied lines and planes receding into a single vanishing point, and the other photo creating an implied form in space that protrudes forward from the composition, dividing visual direction to symmetrical receding perspective lines to both the left and to the right. Establishing this core contrast would allow me to begin constructing the typography into a composed order of elements and layout structure  without being limited by a single vantage point - allowing the layouts to work together in both contrast and harmony. Each of these design choices was aimed at creating a tension between contrasting shapes,  sizes, perspective, and orientation - making the experience of accurately reading the printed message feel perhaps as challenging as trying to remember a dream.
+            </div>
+          </div>
+        </div>
+
+
+        {/* --------------------------------- MOCKUPS SECTION ------------------------------ */}
         <div className="image-row">
           <div className="image-col">
             <img
               className="cover-img"
-              src={DreamMockup1}
+              src={DreamFinal1}
               alt="Dream Mockup 1"
-              onClick={() => openLightbox(DreamMockup1, "Dream Mockup 1")}
+              onClick={() => openLightbox(DreamFinal1, "Dream Mockup 1")}
               style={{ cursor: 'pointer' }}
             />
           </div>
           <div className="image-col">
             <img
               className="cover-img"
-              src={DreamMockup2}
+              src={DreamFinal2}
               alt="Dream Mockup 2"
               onClick={() => openLightbox(DreamMockup2, "Dream Mockup 2")}
               style={{ cursor: 'pointer' }}
@@ -204,10 +219,10 @@ function DreamPoster() {
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline">Final Poster Designs</b>
+              <b className="secondary-headline text-center">Final Designs</b>
             </div>
             <div className="paragraph-2">
-              The completed poster series showcases the integration of photographic elements with geometric grid systems, resulting in visually striking compositions that capture the essence of dream states through design.
+              The completed poster series showcases the integration of photographic elements with geometric grid systems, resulting in visually striking compositions that capture the essence of dream states through design. This poster series is the product of a larger project for a dream-goal calendar that provides an interactive print device for establishing and reaching a goal through an evening and morning interaction with the calendar to complete tasks that support reaching the goal before right before going to sleep every night, and as soon as they wake up every day - until the goal is reached.
             </div>
           </div>
         </div>
@@ -217,22 +232,58 @@ function DreamPoster() {
             <img
               className="cover-img"
               alt="Dream Final 1"
-              src={DreamFinal1}
-              onClick={() => openLightbox(DreamFinal1, "Dream Final 1")}
-              style={{ cursor: 'pointer' }}
+              src={DreamMockup1}
+              onClick={() => openLightbox(DreamMockup1, "Dream Final 1")}
+              style={{ cursor: 'pointer', width: '85%', height: 'auto', display: 'block' }}
             />
           </div>
           <div className="image-col">
             <img
               className="cover-img"
               alt="Dream Final 2"
-              src={DreamFinal2}
-              onClick={() => openLightbox(DreamFinal2, "Dream Final 2")}
-              style={{ cursor: 'pointer' }}
+              src={DreamMockup2}
+              onClick={() => openLightbox(DreamMockup2, "Dream Final 2")}
+              style={{ cursor: 'pointer', width: '85%', height: 'auto', display: 'block' }}
             />
           </div>
         </div>
 
+      </div>
+
+      {/* ------------------- Back to Top ---------------------------- */}
+      <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+          className="d-flex align-items-center justify-content-center"
+          style={{
+            textDecoration: 'none',
+            color: 'var(--color-silver)',
+            fontSize: '14px',
+            fontWeight: '500',
+            transition: 'color 0.3s ease',
+            gap: '8px'
+          }}
+          onMouseEnter={(e) => e.target.style.color = 'white'}
+          onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <polyline points="18,15 12,9 6,15"></polyline>
+          </svg>
+          Back to Top
+        </a>
       </div>
 
       <GraphicDesignBody />

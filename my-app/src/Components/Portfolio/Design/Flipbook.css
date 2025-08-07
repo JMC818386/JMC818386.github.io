@@ -1,6 +1,6 @@
 .flipbook-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   background: white;
@@ -17,4 +17,18 @@
   overflow: hidden;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile styles - smaller flipbooks with space around the frame */
+@media (max-width: 768px) {
+  .flipbook-container {
+    padding: 0;
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+  
+  .flipbook-container.opened {
+    transform: scale(0.7);
+    transform-origin: center;
+  }
 }

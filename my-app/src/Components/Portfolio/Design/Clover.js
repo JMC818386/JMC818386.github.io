@@ -14,6 +14,7 @@ import AOS from 'aos';
 import CloverHero from './img/Clover/clover-hero.png';
 import CloverEmpathyMap1 from './img/Clover/clover-empathy-map-1.png';
 import CloverEmpathyMap2 from './img/Clover/clover-empathy-map-2.png';
+import CloverEmpathyMap from './img/Clover/clover-empathy-map.png';
 import CloverFlow from './img/Clover/clover-flow.png';
 import CloverMock1 from './img/Clover/clover-mockup-1.png';
 import CloverMock2 from './img/Clover/clover-mockup-2.png';
@@ -24,6 +25,14 @@ import CloverColors from './img/Clover/clover-colors.png';
 import CloverMockupsTiles from './img/Clover/clover-mockups-tiles.png';
 import CloverTypeHeader from './img/Clover/clover-type-header.png';
 import CloverTypeWeights from './img/Clover/clover-type-weights.png';
+import CloverDesignSystem from './img/Clover/clover-design-system.png';
+import CloverDesignSystemCollage from './img/Clover/clover-design-system-collage.png';
+import CloverDesignSystemSnapshot from './img/Clover/clover-design-system-snapshot.png';
+import CloverPrototypeNodes from './img/Clover/clover-prototype-nodes.png';
+import CloverSketches from './img/Clover/clover-sketches.png';
+import CloverTabletTrio from './img/Clover/clover-tablet-trio.png';
+import CloverWireframes from './img/Clover/clover-wireframes.png';
+import GolfSurvey from './img/Clover/golf-survey.png';
 
 // Import Figma icon
 import FigmaIcon from '../../img/icons/figma-logo-icon-md.png';
@@ -110,14 +119,14 @@ function Clover() {
       <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section">
+        <div className="section-auto my-5 mt-5 pt-5">
           <div className="half-section text-side">
             <div className="top">
               <img className="clover-logo" src={CloverLogo} alt="History Zine Cover" />
             </div>
-            <div className="paragraph">
+            {/* <div className="paragraph">
               {`A native mobile team tracking and player development application for golfers, coaches and trainers. `}
-            </div>
+            </div> */}
             <div className="paragraph">
               {`Clover is native mobile application designed for golf coaches and instructors, providing a  simple, practical and affordable tool to centralize all  team and player performance, scheduling and communications into a single application. Players and coaches can upload  individual and group scorecards, view individual and team statistics, keep track of practice and competition schedules, and communicate directly with one another in private and groups chats all from within this single application. `}
             </div>
@@ -176,21 +185,44 @@ function Clover() {
           </div>
         </div>
 
-        {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2 text-center"> {/* Added text-center class */}
+        {/* -------------------------------------- Research -------------------------------------- */}
+        <div className="section-2 my-5 mb-5">
+          <div className="content-2 text-center">
             <div className="top">
               <b className="secondary-headline">Research</b>
             </div>
             <div className="paragraph-2">
-              {`I began my research by gathering feedback from a local High School golf coach and varsity player through a survey questionnaire. I then constructed user empathy maps and personas to consolidate and identity the core user motivations, goals and pain points of their current experiences. `}
+              {`I began my research by gathering feedback from a local High School golf team, interviewing an assistant coach as well as a varsity golfer. I then constructed user empathy maps and personas to consolidate and identify the core user motivations, goals and pain points of their current experiences. `}
             </div>
           </div>
         </div>
 
-        {/* ---------------------------------------------- EMPATHY MAPS SECTION ---------------------------------------------- */}
+  {/* ---------------------------------- Interviews ---------------------------- */}
+
+        <div className="section-auto my-5 mb-5 mt-5">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Interviews</b>
+            </div>
+            
+            <div className="paragraph">
+              {`Interviews were structured into 6 distinct sections, each focused on addressing a specific area of the empathy map - what the user is thinking/feeling, what they see, what they hear, what they say/do, and what their pros and cons were. Following this structure helped to automate data gathering and consolidation, and quickly identify key insights. `}
+            </div>
+          </div>
+          <div className="half-section image-side">
+            <img
+              className="history-cover-img"
+              src={GolfSurvey}
+              alt="Clover Survey Image"
+              onClick={() => openLightbox(GolfSurvey, "Clover Survey Image")}
+              style={{ cursor: 'pointer', width: '75%', height: 'auto' }}
+            />
+          </div>
+        </div>
+
+        {/* ---------------------------------- Empathy Maps ---------------------------- */}
         <div className="top mt-5">
-          <b className="secondary-headline">User Empathy Maps</b>
+          <b className="secondary-headline text-center">User Empathy Maps</b>
         </div>
         <div className="section-2">
           <div className="half-section image-side">
@@ -213,92 +245,272 @@ function Clover() {
           </div>
         </div>
 
-        {/* ---------------------------------------------- PERSONA SECTION ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">User Persona</b>
+        {/* --------------------------- Ideal User ---------------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline text-center">Ideal User</b>
+            </div>
+            <div className="paragraph-2 text-center">
+              {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
+            </div>
+          </div>
         </div>
-        <div className="section-auto mb-1">
+
+        {/* ------------------------------- PERSONA SECTION ---------------------------------------------- */}
+        <div className="top mt-5">
+          <b className="secondary-headline text-center">User Persona</b>
+        </div>
+        <div className="section-auto mb-1" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img
             className="cover-img"
             src={CloverPersona}
             alt="Clover Persona"
             onClick={() => openLightbox(CloverPersona, "Clover Persona")}
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: 'pointer', width: '85%', height: 'auto', margin: '20px auto', display: 'block' }}
           />
         </div>
 
 
-        {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
+
+        {/* ----------------------------- Pain Points & Goals ------------------------------------ */}
+        <div className="section-2" style={{ 
+          display: 'flex', 
+          alignItems: 'stretch',
+          gap: '2rem',
+          paddingLeft: '2rem',
+          paddingRight: '2rem',
+          paddingTop: '20px'
+        }}>
+          <div className="half-section text-side" style={{ 
+            flex: '1',
+            display: 'flex',
+            flexDirection: 'column'
+          }}>
+            <ul style={{ 
+              listStyle: 'none',
+              margin: 0,
+              padding: '1.5rem',
+              backgroundColor: 'rgba(255, 255, 255, 0.02)',
+              borderRadius: '8px',
+              boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
+              border: '1px solid rgba(255, 255, 255, 0.05)',
+              height: '100%',
+              display: 'flex',
+              flexDirection: 'column'
+            }}>
+              <li className="top">
+                <b className="secondary-headline" style={{ padding: '10px 0px' }}>Pain Points</b>
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`Limited time/availability (coaches & players) `}
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`All communication is decentralized - relying on text messaging and email`}
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`Small budget/Inadequate facilities/limited resources `}
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`All scorecards and training data is manually entered into Excel spreadsheets `}
+              </li>
+            </ul>
+          </div>
+
+          <div className="half-section text-side" style={{ 
+            flex: '1',
+            display: 'flex',
+            flexDirection: 'column'
+          }}>
+            <ul style={{ 
+              listStyle: 'none',
+              margin: 0,
+              padding: '1.5rem',
+              backgroundColor: 'rgba(255, 255, 255, 0.02)',
+              borderRadius: '8px',
+              boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
+              border: '1px solid rgba(255, 255, 255, 0.05)',
+              height: '100%',
+              display: 'flex',
+              flexDirection: 'column'
+            }}>
+              <li className="top">
+                <b className="secondary-headline" style={{ padding: '10px 0px' }}>Goals</b>
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`Make team and player scheduling easier to track/manage (practice, matches, tournaments) `}
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`Optimize team communication (messaging - group + individual)`}
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`Automate/simplify collection of player scores and training data `}
+              </li>
+              <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                {`Maximize what is currently available within budget constraints to help coaches track, analyze and communicate with players more effectively `}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
+
+        {/* -------------------------------------- User Flow -------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2 text-center">
+            <div className="top">
+              <b className="secondary-headline text-center">User Flow</b>
+            </div>
+            <div className="paragraph-2 text-center">
+              {`I constructed a User Flow Chart of the core navigation, focusing on keeping the system simple and centered around a primary home screen, where the user can access every core feature easily with a single click. The home screen contains a call to action button to access the feature that allows users to either take a picture of their scorecard, upload a picture, or manually enter their scores. The remaining core features of the application are accessible through a bottom navigation bar, giving the user access to the home page, stats, calendar and chat from anywhere within the application. `}
+            </div>
+          </div>
+        </div>
+
+        {/* ------------------------------------ Core Navigation ------------------------------------ */}
+        <div className="top mt-5">
+          <b className="secondary-headline text-center">Core Navigation </b>
+        </div>
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <img
+            className="cover-img"
+            src={CloverFlow}
+            alt="Clover Flow"
+            onClick={() => openLightbox(CloverFlow, "Clover Flow")}
+            style={{ cursor: 'pointer', width: '85%', height: 'auto', margin: '0 auto', display: 'block' }}
+          />
+        </div>
+
+        {/* ------------------------------------ Sketches ------------------------------------ */}
+        <div className="section-auto mt-5">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Sketches</b>
+            </div>
+            <div className="paragraph">
+              {`My initial sketches were focused on building the home screen, focused on how to provide easily recognizable and thoughtfully placed feature navigation elements to ensure that the foundation of the user experience (home screen) set the tone for the flow and navigation of the application experience once the user began to click through each feature. `}
+            </div>
+          </div>
+          <div className="half-section image-side">
+            <img
+              className="history-cover-img"
+              src={CloverSketches}
+              alt="Clover Survey Image"
+              onClick={() => openLightbox(CloverSketches, "Clover Survey Image")}
+              style={{ cursor: 'pointer', width: '90%', height: 'auto' }}
+            />
+          </div>
+        </div>
+        
+        {/* ------------------------------------ Wireframes------------------------------------ */}
+        <div className="section-auto mt-5">
+          <div className="half-section image-side">
+            <img
+              className="history-cover-img"
+              src={CloverWireframes}
+              alt="Clover Survey Image"
+              onClick={() => openLightbox(CloverWireframes, "Clover Survey Image")}
+              style={{ cursor: 'pointer', width: '90%', height: 'auto' }}
+            />
+          </div>
+          
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Wireframes</b>
+            </div>
+            
+            <div className="paragraph">
+              {`At this stage a majority of my design decisions were made, focusing on building the authentication pages and home page first before moving on to the core feature pages.  When building the low-fidelity wireframes, I tried to push the styling as much as I could without getting bogged down in the design. This helped me to work out a lot of the style choices early on that would normally be the focus in high-fidelity comps in the next iteration. The User Flow Chart that I created served as a road map which pages to build and how each of them connected into the complete application structure. `}
+            </div>
+          </div>
+          
+        </div>
+
+        {/* ------------------------------------ High-Fidelity Prototype------------------------------------ */}
+        <div className="section-auto mt-5">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Prototype</b>
+            </div>
+            
+            <div className="paragraph">
+              {`For these designs, I used simple card and bento box layouts to balance visual weight and group elements. The dark-to-light green gradient background reflects a prominent color in golf. I chose light-to-dark oranges as secondary colors to create contrast and guide the user's eye to focal areas. White typography and icons also draw attention to key navigation and titles. A subtle drop shadow on elements like navigation and call-to-action components adds a slight sense of depth, helping to differentiate between core features and secondary pages. `}
+            </div>
+          </div>
+          <div className="half-section image-side">
+            <img
+              className="history-cover-img"
+              src={CloverPrototypeNodes}
+              alt="Clover Survey Image"
+              onClick={() => openLightbox(CloverPrototypeNodes, "Clover Survey Image")}
+              style={{ cursor: 'pointer', width: '100%', height: 'auto' }}
+            />
+          </div>
+        </div>
+
+        {/* ----------------------------- Atomic Design System --------------------------- */}
+
+        {/* ------------------- Ideal User ---------------------------- */}
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline">Ideal User</b>
+              <b className="secondary-headline text-center">Ideal User</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
             </div>
           </div>
         </div>
 
 
-        {/* ---------------------------------------------- SCOPE & INFLUENCE SECTION ---------------------------------------------- */}
-        <div className="section-2">
-          <ul className="half-section text-side" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-            <li className="top">
-              <b className="secondary-headline">Goals</b>
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Improve individual player and team scores `}
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Collect player scores and practice data in a more efficient and automatic way`}
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Maximize what is currently available within budget contraints to help coaches track, analyze and communicate with players more effectively `}
-            </li>
-          </ul>
-
-          <ul className="half-section text-side" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-            <li className="top">
-              <b className="secondary-headline">Frustrations</b>
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Limited time (Coaches & Players) `}
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Small budget`}
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Inadequate facilities/Training resources `}
-            </li>
-            <li className="paragraph" style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-              {`Coaches manually enter and analyze player and team scores to Excel spreadsheet `}
-            </li>
-          </ul>
-        </div>
-
-        {/* ---------------------------------------------- PERSONA SECTION ---------------------------------------------- */}
         <div className="top mt-5">
-          <b className="secondary-headline">User Flow - Core Navigation</b>
+          <b className="secondary-headline text-center">Atomic Design System </b>
         </div>
-        <div className="section-auto"> {/* Changed to section-auto for consistent spacing */}
+        
+        <div className="section-auto">
           <img
             className="cover-img"
-            src={CloverFlow}
+            src={CloverDesignSystemCollage}
             alt="Clover Flow"
-            onClick={() => openLightbox(CloverFlow, "Clover Flow")}
-            style={{ cursor: 'pointer' }}
+            onClick={() => openLightbox(CloverDesignSystemCollage, "Clover Flow")}
+            style={{ cursor: 'pointer', width: '100%', height: 'auto' }}
           />
         </div>
 
-        {/* ---------------------------------------------- SECTION 1 ---------------------------------------------- */}
-        <div className="section-auto"> {/* Changed to section-auto for consistent spacing */}
-          <div className="half-section text-side">
+        <div className="paragraph-2 text-center mb-5">
+            {`This was my first time building a design system, and it didn't take long to see the huge benefits of following atomic design principles from the bottom up while building prototype in Figma. Although tedious at first, once I had my local styles, colors , and effects established and all of my core page elements constructed into components - the application began to come together really quickly. The further I progressed and the more components I built, constructing pages became more drag and drop, allowing me to spend more time working on connecting pages for the prototype and adding micro-interactions and transition animations for key user moments like uploading a scorecard, submitting a score manually or completing a daily task. `}
+          </div>
+
+        {/* ------------------------------------ Features ------------------------------------ */}
+        <div className="section-auto mt-5">
+          <div className="half-section text-side mx-5">
             <div className="top">
-              <b className="secondary-headline">Centralized Team Hub</b>
+              <b className="secondary-headline px-0">Centralized Team Hub</b>
             </div>
-            <div className="paragraph">
-              {`Coaches and players can track and manage their daily practice and competition schedules as well as  communicate directly through private and group chats.`}
+            <div className="paragraph-no-padding mt-0 pt-0">
+              {`Coaches and players can track and manage their daily practice and competition schedules as well as  communicate directly through private and group chats. `}
+            </div>
+
+            <div className="top pt-2">
+              <b className="secondary-sub-headline">Create Scheduled Events</b>
+            </div>
+            <div className="paragraph-no-padding pt-0">
+              {`Create, manage, and track scheduled team and individual events for competition, practice rounds, or skills training. `}
+            </div>
+
+            <div className="top pt-2">
+              <b className="secondary-sub-headline">Group & Individual Messaging</b>
+            </div>
+            <div className="paragraph-no-padding pt-0">
+              {`Team, group, and individual communications in one place - ensuring the team is always connected. `}
             </div>
 
           </div>
@@ -314,13 +526,27 @@ function Clover() {
         </div>
 
         {/* ---------------------------------------------- SECTION 1 ---------------------------------------------- */}
-        <div className="section">
-          <div className="half-section text-side">
+        <div className="section-auto">
+          <div className="half-section text-side mx-5">
             <div className="top">
-              <b className="secondary-headline">Flexible Score Tracking</b>
+              <b className="secondary-headline px-0">Flexible Score Tracking</b>
             </div>
-            <div className="paragraph">
-              {`Players can upload their practice and competition round scores by either taking a picture of their scorecard or entering their scores manually through the digital scorecard entry feature.`}
+            <div className="paragraph-no-padding mt-0 pt-0">
+              {`Players can upload their practice and competition round scores by either taking a picture of their scorecard or entering their scores manually through the digital scorecard entry feature. `}
+            </div>
+
+            <div className="top pt-2">
+              <b className="secondary-sub-headline">Upload Scorecards</b>
+            </div>
+            <div className="paragraph-no-padding pt-0">
+              {`Upload a photo of your scorecard to automatically enter your scores. `}
+            </div>
+
+            <div className="top pt-2">
+              <b className="secondary-sub-headline">Track Team and Player Progress</b>
+            </div>
+            <div className="paragraph-no-padding pt-0">
+              {`Monitor the progress of individual players and the team as a whole through detailed analytics and reporting features. `}
             </div>
 
           </div>
@@ -369,16 +595,76 @@ function Clover() {
           </div>
         </div> */}
 
-        {/* ---------------------------------------------- ADDITIONAL MOCKUPS ---------------------------------------------- */}
+       {/* ------------------------ Tablet Mockups ------------------------------ */}
 
-        <div className="section mb-5">
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <img
+            className="cover-img"
+            alt="Clover Mockups Tiles"
+            src={CloverTabletTrio}
+            onClick={() => openLightbox(CloverTabletTrio, "Clover Mockups Tiles")}
+            style={{ cursor: 'pointer', width: '100%', height: 'auto', paddingBottom: '20px',paddingTop: '20px', margin: '0 auto', display: 'block' }}
+          />
+        </div>
+
+        {/* ------------------------------Mobile Tiles ---------------------------------- */}
+
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img
             className="cover-img"
             alt="Clover Mockups Tiles"
             src={CloverMockupsTiles}
             onClick={() => openLightbox(CloverMockupsTiles, "Clover Mockups Tiles")}
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: 'pointer', width: '85%', height: 'auto', paddingBottom: '60px', margin: '0 auto', display: 'block' }}
           />
+        </div>
+
+         {/* ------------------- Reflection ---------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline text-center">Reflection</b>
+            </div>
+            <div className="paragraph-2 text-center">
+              {`Clover brings every aspect of team management into one place—practice and competition schedules, score tracking, stats, and communication—so coaches can stay organized and connected with minimal time and effort. Players can upload scores instantly with a photo, eliminating manual data entry and making performance tracking effortless. By focusing on optimizing the team and player experience within the constraints of a small budget, Clover delivers a simple, practical tool that keeps the entire program running smoothly, no matter where coaches or players are. `}
+            </div>
+          </div>
+        </div>
+
+        {/* ------------------- Back to Top ---------------------------- */}
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--color-silver)',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'color 0.3s ease',
+              gap: '8px'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'white'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+            Back to Top
+          </a>
         </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}

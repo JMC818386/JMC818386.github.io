@@ -99,13 +99,10 @@ function SeaKayakGA() {
         <div className="section mb-5 pb-5">
           <div className="half-section text-side">
             <div className="top">
-              <img src={SKGLogo} alt="Sea Kayak Georgia" className="skg-logo" />
+              <b className="secondary-headline">Sea Kayak Georgia</b>
             </div>
             <div className="paragraph">
-              {`A promotional poster design for Sea Kayak Georgia, showcasing the natural beauty and adventure opportunities of Georgia's coastal waters and waterways.`}
-            </div>
-            <div className="paragraph">
-              {`This design captures the essence of sea kayaking adventures through compelling visuals and typography, promoting outdoor recreation and the exploration of Georgia's stunning maritime landscapes.`}
+              {`This pricing poster for Sea Kayak Georgia was designed as a navigable infographic that uses connected nodes to visually guide customers through available adventures, durations, and rates at a glance. Inspired by branching river systems and decision trees, the structure allows users to follow each route—kayak, SUP, or canoe - from activity to timeframe to final pricing with minimal effort or confusion. The layout eliminates cluttered charts in favor of intuitive flow and visual grouping, helping users quickly compare options. The soft gradient color palette and rounded forms were chosen to reflect the easygoing, nostalgic atmosphere of Tybee Island—evoking a sense of place while staying functional and inviting for both tourists and locals.`}
             </div>
           </div>
           <div className="half-section image-side">
@@ -119,6 +116,42 @@ function SeaKayakGA() {
           </div>
         </div>
 
+
+        {/* ------------------- Back to Top ---------------------------- */}
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--color-silver)',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'color 0.3s ease',
+              gap: '8px'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'white'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+            Back to Top
+          </a>
+        </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
         <GraphicDesignBody />

@@ -187,28 +187,23 @@ function IdealExperience() {
         </div>
 
         {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="top">
-              <b className="secondary-headline text-center">Interactive Experience</b>
-            </div>
-            <div className="paragraph-2 text-center">
-              Explore our complete research findings and framework in this interactive booklet. Click and drag to turn pages and discover the full story of our ideal GenAI experience research.
-            </div>
+        <div style={{ textAlign: 'center' }}>
+          <b className="secondary-headline text-center mt-5">Interactive Experience</b>
+        </div>
+        <div style={{ textAlign: 'center' }}>
+          <div className="paragraph-2 text-center mb-5 pb-5">
+            Explore our complete research findings and framework in this interactive booklet. Click and drag to turn pages and discover the full story of our ideal GenAI experience research.
           </div>
         </div>
-        
-        <div style={{ margin: '25px 0' }}>
+        <div className="section-auto m-2 p-0">
           <IdealExperienceBooklet />
         </div>
-        
-        
 
         {/* ---------------------------------------------- METHODS SECTION ---------------------------------------------- */}
         <div className="section-2 methods-section">
           <div className="content-2 methods-content-center">
             <div className="top mb-4 text-center">
-              <b className="secondary-headline text-center">Research Methods</b>
+              <b className="secondary-headline text-center mt-5">Research Methods</b>
             </div>
 
             <div className="methods-grid">
@@ -618,6 +613,42 @@ function IdealExperience() {
             onClick={() => openLightbox(IdealXBookSpread, "Book Spread")}
             style={{ cursor: 'pointer', display: 'block', maxWidth: '80%', height: 'auto', margin: '0 auto' }}
           />
+        </div>
+
+        {/* ------------------- Back to Top ---------------------------- */}
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--color-silver)',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'color 0.3s ease',
+              gap: '8px'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'white'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+            Back to Top
+          </a>
         </div>
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
