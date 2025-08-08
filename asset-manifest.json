@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.130e95d6.css",
-    "main.js": "/static/js/main.b7ef11f5.js",
+    "main.css": "/static/css/main.c2776f44.css",
+    "main.js": "/static/js/main.8f61eb1d.js",
+    "static/media/silent-hero-cover.png": "/static/media/silent-hero-cover.cd1e28faca695ce499e5.png",
     "static/media/ag-con-final-mockups.png": "/static/media/ag-con-final-mockups.bfeb7eecfe7ce65cd1e7.png",
     "static/media/silent-final-mockups.png": "/static/media/silent-final-mockups.0fa6c8576f82d79a1585.png",
     "static/media/ag-con-moodboard.png": "/static/media/ag-con-moodboard.64ed3065af2ba2ba1034.png",
+    "static/media/silent-cover-spread.png": "/static/media/silent-cover-spread.2ae650f3e32e38032fb0.png",
     "static/media/ag-con-mockups-main.png": "/static/media/ag-con-mockups-main.04c335323cabb93571da.png",
     "static/media/MD99.png": "/static/media/MD99.b94c2f8b509e563edc21.png",
     "static/media/ag-con-influence.png": "/static/media/ag-con-influence.d998eaaf34e058f183fc.png",
@@ -16,6 +18,7 @@
     "static/media/clover-mockups-tiles.png": "/static/media/clover-mockups-tiles.0bb362b321739fdef0ae.png",
     "static/media/clover-design-system-snapshot.png": "/static/media/clover-design-system-snapshot.c9c7a91a0e9de07266ae.png",
     "static/media/tptc-cover.png": "/static/media/tptc-cover.2de4c9fa971f220c6fc0.png",
+    "static/media/silent-angled-2.png": "/static/media/silent-angled-2.645e1452808800a7ef3c.png",
     "static/media/God_Zine_Cover_Front.png": "/static/media/God_Zine_Cover_Front.8c7525896f66b7d7408d.png",
     "static/media/logo.png": "/static/media/logo.1d40d7213f4907eeb3c7.png",
     "static/media/God_Zine_08.png": "/static/media/God_Zine_08.c28d493d82613f15e837.png",
@@ -26,8 +29,10 @@
     "static/media/History_FullCover_Back.png": "/static/media/History_FullCover_Back.891b26f173ac32d63d2d.png",
     "static/media/God_Zine_10.png": "/static/media/God_Zine_10.150e6c66e441578ae79f.png",
     "static/media/History_MixedCover_Full.png": "/static/media/History_MixedCover_Full.45804396a31401673baa.png",
+    "static/media/silent-angled-1.png": "/static/media/silent-angled-1.0b415a5629afa6c725ce.png",
     "static/media/History_MixedSpread.png": "/static/media/History_MixedSpread.dd365ba174eefdc0acb7.png",
     "static/media/God_Zine_04.png": "/static/media/God_Zine_04.1e7868b871b3972f47e1.png",
+    "static/media/silent-angled-3.png": "/static/media/silent-angled-3.3ba59c4cddaa4cf93842.png",
     "static/media/silent-final-comps.png": "/static/media/silent-final-comps.6e4e7b26a408b22bd125.png",
     "static/media/God_Zine_03.png": "/static/media/God_Zine_03.6fc088846d0b3769078d.png",
     "static/media/God_Zine_06.png": "/static/media/God_Zine_06.73bb25af8b7da32096fd.png",
@@ -239,11 +244,11 @@
     "static/media/figma.png": "/static/media/figma.650415bde3345b67cbc7.png",
     "static/media/figma-logo-icon-md.png": "/static/media/figma-logo-icon-md.5295c6c1e70af9658335.png",
     "index.html": "/index.html",
-    "main.130e95d6.css.map": "/static/css/main.130e95d6.css.map",
-    "main.b7ef11f5.js.map": "/static/js/main.b7ef11f5.js.map"
+    "main.c2776f44.css.map": "/static/css/main.c2776f44.css.map",
+    "main.8f61eb1d.js.map": "/static/js/main.8f61eb1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.130e95d6.css",
-    "static/js/main.b7ef11f5.js"
+    "static/css/main.c2776f44.css",
+    "static/js/main.8f61eb1d.js"
   ]
 }
