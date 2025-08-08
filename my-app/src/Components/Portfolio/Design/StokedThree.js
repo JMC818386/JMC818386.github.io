@@ -10,6 +10,7 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import StokedThreeBooklet from './StokedThreeBooklet';
 
 import PantheonCover from './img/Stoked_Three/pantheon-hero.png';
 import Pantheon1 from './img/Stoked_Three/pantheon-1.png';
@@ -113,6 +114,12 @@ function StokedThree() {
             style={{ cursor: 'pointer' }}
           />
         </div>
+      </div>
+
+      {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
+      
+      <div className="section-auto m-2 p-0">
+        <StokedThreeBooklet />
       </div>
 
       {/* ---------------------------------------------- SECTION 1 ---------------------------------------------- */}
