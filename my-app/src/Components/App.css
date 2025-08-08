@@ -1044,6 +1044,17 @@ body {
   padding-bottom: 5px;
 }
 
+.sub-secondary-headline {
+  color: var(--color-silver);
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 40px;
+  text-align: left;
+}
+
 .top {
   align-self: stretch;
   display: flex;
@@ -1112,7 +1123,7 @@ body {
 /* Mobile breakpoint */
 @media (max-width: 600px) {
   .paragraph {
-    font-size: 14px;
+    font-size: 15px;
     padding: 10px 40px;
   }
 
@@ -1130,6 +1141,14 @@ body {
     font-size: 28px;
     padding: 10px 40px;
     text-align: left;
+  }
+
+   .sub-secondary-headline {
+    font-size: 20px;
+    padding: 10px 40px;
+    text-align: left;
+    color: var(--color-silver);
+    font-weight: 600;
   }
 
   /* Remove paragraph padding when inside sections that already have padding */

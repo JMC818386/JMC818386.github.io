@@ -9,10 +9,12 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import SilentBattleBooklet from './SilentBattleBooklet';
 
 import SilentBattleCover from './img/silent-battle-cover.png';
 import SilentHeroImg from './img/Silent/silent-hero-img.png';
 import SilentHeroBanner from './img/Silent/silent-hero-banner.png';
+import SilentHeroCover from './img/Silent/silent-hero-cover.png';
 import SilentInfluence from './img/Silent/silent-influence.png';
 import SilentTypeStudy from './img/Silent/silent-type-study.png';
 import SilentExperimentation from './img/Silent/silent-experimentation.png';
@@ -22,6 +24,10 @@ import SilentTestPrint from './img/Silent/silent-test-print.png';
 import SilentFinalComps from './img/Silent/silent-final-comps.png';
 import SilentPagination from './img/Silent/silent-pagination.png';
 import SilentFinalMockups from './img/Silent/silent-final-mockups.png';
+import SilentCoverSpread from './img/Silent/silent-cover-spread.png';
+import SilentAngled1 from './img/Silent/silent-angled-1.png';
+import SilentAngled2 from './img/Silent/silent-angled-2.png';
+import SilentAngled3 from './img/Silent/silent-angled-3.png';
 
 function SilentBattle() {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -110,76 +116,75 @@ function SilentBattle() {
             <div className="top">
               <b className="secondary-headline">Silent Battle</b>
             </div>
+            <div className="top">
+              <b className="sub-secondary-headline">The Enchiridion of Epictetus</b>
+            </div>
             <div className="paragraph">
               Editorial design and publication layout exploring the untold stories of internal struggles and personal battles through compelling visual narrative.
+            </div>
+            <div className="paragraph">
+              An invisible war waged daily within: the disciplined soul confronting desire, fear, grief, and ego. The battlefield is the mind. The weapons are reason, vigilance, detachment. The cost is comfort. The reward is freedom. This book uses only letterforms, never imagery, to dramatize this ongoing inner conflict.
             </div>
           </div>
           <div className="half-section image-side">
             <img
               className="history-cover-img"
               alt="Silent Battle Hero"
-              src={SilentHeroImg}
-              onClick={() => openLightbox(SilentHeroImg, "Silent Battle Hero")}
+              src={SilentHeroCover}
+              onClick={() => openLightbox(SilentHeroCover, "Silent Battle Hero")}
               style={{ cursor: 'pointer' }}
             />
           </div>
         </div>
 
-        {/* ---------------------------------------------- HERO BANNER ---------------------------------------------- */}
-        <div style={{ padding: '0 40px', margin: 0 }}>
-          <img
-            className="cover-img"
-            alt="Silent Battle Banner"
-            src={SilentHeroBanner}
-            onClick={() => openLightbox(SilentHeroBanner, "Silent Battle Banner")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
-          />
+        {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
+      
+        <div className="section-auto m-2 p-0">
+          <SilentBattleBooklet />
         </div>
 
-        {/* ---------------------------------------------- RESEARCH & INSPIRATION ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
+          {/* ---------------------------------------------- Visual Research ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
             <div className="top">
-              <b className="secondary-headline">Research & Inspiration</b>
+              <b className="secondary-headline">Visual Research</b>
             </div>
-            <div className="paragraph-2">
-              The design process began with research into how visual design can communicate complex emotional states and internal struggles through typography and layout.
+            
+            <div className="paragraph">
+              This project began with visual research, pulling from both Swiss modernism and expressive contemporary typography to inform a hybrid design approach grounded in structure and disruption. Using Epictetus’s Enchiridion as primary source text -I mapped out 12 expressive spreads and experimented with both perfect and case binding. Type exploration focused on pairing classical Roman serif faces (Sabon, Caslon, Chronicle Text) for the body with grotesque and modern san-serifs (Aktiv Grotesk, Futura Condensed, Space Grotesk) for contrast and typographic dynamism. Initial layout sketches explored themes of control, fracture, and clarity under pressure, using custom grid structures and hand-drawn type treatments.
             </div>
+            
+          </div>
+          <div className="half-section image-side">
+            <img
+              className="history-cover-img"
+              alt="Silent Battle Hero"
+              src={SilentInfluence}
+              onClick={() => openLightbox(SilentInfluence, "Silent Battle Hero")}
+              style={{ cursor: 'pointer' }}
+            />
           </div>
         </div>
 
-        <div style={{ padding: '0 40px', margin: 0 }}>
-          <img
-            className="cover-img"
-            alt="Silent Battle Influence"
-            src={SilentInfluence}
-            onClick={() => openLightbox(SilentInfluence, "Silent Battle Influence")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
-          />
-        </div>
 
-        <div className="image-row">
-          <div className="image-col">
+
+        {/* ---------------------------------------------- Type Study ---------------------------------------------- */}
+
+        <div className="">
+          
             <img
               className="cover-img"
               alt="Silent Battle Type Study"
               src={SilentTypeStudy}
               onClick={() => openLightbox(SilentTypeStudy, "Silent Battle Type Study")}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: 'pointer', width: "100%" }}
             />
-          </div>
-          <div className="image-col">
-            <img
-              className="cover-img"
-              alt="Silent Battle Experimentation"
-              src={SilentExperimentation}
-              onClick={() => openLightbox(SilentExperimentation, "Silent Battle Experimentation")}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
+         
         </div>
 
-        <div style={{ padding: '40px 40px', margin: 0 }}>
+        {/* ---------------------------------------------- Pagination ---------------------------------------------- */}
+
+        {/* <div style={{ padding: '40px 40px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Pagination"
@@ -187,16 +192,19 @@ function SilentBattle() {
             onClick={() => openLightbox(SilentPagination, "Silent Battle Pagination")}
             style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
           />
-        </div>
+        </div> */}
 
         {/* ---------------------------------------------- COLOR COMPOSITIONS ---------------------------------------------- */}
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline">Color & Composition</b>
+              <b className="secondary-headline text-center">Content + Layout</b>
             </div>
             <div className="paragraph-2">
-              Color palettes and compositions were carefully developed to evoke specific emotional responses while maintaining readability and visual hierarchy.
+              With the conceptual structure defined, I began building out the full pagination system—mapping ten expressive spreads across the body of the book while integrating all 53 chapters of the Enchiridion in sequence. Each spread was anchored by a central theme such as Control, Desire, or Fracture, which guided both layout and typographic expression. I used a modular grid to organize the Roman body text with precision while allowing expressive headlines to disrupt, shape, or reinforce the structure.
+            </div>
+            <div className="paragraph-2">
+              As I began populating each composition with the full body copy, the balance between clarity and contrast became critical. I tested a variety of type treatments and spatial arrangements to preserve legibility while driving emotional and philosophical tone. A full grayscale print test allowed me to evaluate rhythm, density, and pacing across the book in physical form—revealing what was working visually and where refinement was needed before committing to final print production.
             </div>
           </div>
         </div>
@@ -213,10 +221,7 @@ function SilentBattle() {
         </div>
 
         {/* ---------------------------------------------- PRINT TESTING ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Print Testing</b>
-        </div>
-        <div style={{ padding: '40px 40px', margin: 0 }}>
+        <div style={{ padding: '20px 40px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Test Print"
@@ -225,6 +230,25 @@ function SilentBattle() {
             style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
           />
         </div>
+
+
+
+
+          {/* ---------------------------------------------- Refinement ---------------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline">Refinement</b>
+            </div>
+            <div className="paragraph-2">
+              With the full structure, grid, and typographic system in place, I transitioned into high-fidelity composition - bringing each thematic spread to life through layered color, texture, and expressive typographic treatments. Every spread was carefully refined to reflect its underlying philosophical tone: Desire moves with fluid lines and tension, Fracture splinters violently across the grid, and Stillness fades into delicate quiet. Visual experimentation intensified as I explored techniques like motion simulation, typographic erosion, repetition, and spatial density to build contrast and rhythm. Final refinements focused on color correction, type clarity, and compositional pacing across the full sequence. The project concluded with a fully bound and printed book.
+            </div>
+          </div>
+        </div>
+
+
+
+      {/* ---------------------------------------------- Color Comps ---------------------------------------------- */}
 
         <div style={{ padding: '40px 40px', margin: 0 }}>
           <img
@@ -236,17 +260,7 @@ function SilentBattle() {
           />
         </div>
 
-        {/* ---------------------------------------------- FINAL DESIGNS ---------------------------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="top">
-              <b className="secondary-headline">Final Publication</b>
-            </div>
-            <div className="paragraph-2">
-              The final publication combines powerful typography, thoughtful layout, and strategic use of whitespace to create an impactful reading experience.
-            </div>
-          </div>
-        </div>
+      
 
 
         <div style={{ padding: '40px 40px', margin: 0 }}>
