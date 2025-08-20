@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background: white;
+  background: transparent;
   height: auto;
   width: 100%;
 }
@@ -13,22 +13,114 @@
 }
 
 .page {
-  background-color: white;
   overflow: hidden;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-/* Mobile styles - smaller flipbooks with space around the frame */
-@media (max-width: 768px) {
-  .flipbook-container {
-    padding: 0;
-    transform: scale(0.7);
+.page img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+
+/* Responsive scaling for all screen sizes */
+@media (max-width: 1200px) {
+  .flipbook-container,
+  .flipbook-container.opened {
+    transform: scale(0.9);
     transform-origin: center;
   }
-  
+}
+
+@media (max-width: 1000px) {
+  .flipbook-container,
   .flipbook-container.opened {
-    transform: scale(0.7);
+    transform: scale(0.8);
     transform-origin: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .flipbook-container,
+  .flipbook-container.opened {
+    transform: scale(0.6);
+    transform-origin: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .flipbook-container,
+  .flipbook-container.opened {
+    transform: scale(0.5);
+    transform-origin: center;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .flipbook-container,
+  .flipbook-container.opened {
+    transform: scale(0.45);
+    transform-origin: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .flipbook-container,
+  .flipbook-container.opened {
+    transform: scale(0.4);
+    transform-origin: center;
+    padding: 0;
+  }
+}
+
+/* Override all possible white backgrounds from HTMLFlipBook library */
+.flipbook-container * {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.flipbook-container [class*="st"],
+.flipbook-container [class*="page"],
+.flipbook-container [class*="flip"],
+.flipbook-container [class*="book"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Larger scaling for StokedThreeBooklet on mobile */
+@media (max-width: 768px) {
+  .stoked-three-booklet,
+  .stoked-three-booklet.opened {
+    transform: scale(0.8) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .stoked-three-booklet,
+  .stoked-three-booklet.opened {
+    transform: scale(0.7) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .stoked-three-booklet,
+  .stoked-three-booklet.opened {
+    transform: scale(0.65) !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .stoked-three-booklet,
+  .stoked-three-booklet.opened {
+    transform: scale(0.6) !important;
   }
 }

@@ -8,6 +8,7 @@ const StokedThreeBooklet = () => {
   const flipBookRef = useRef(null);
   const containerRef = useRef(null);
   const [hasBeenOpened, setHasBeenOpened] = useState(false);
+  const [isOpened, setIsOpened] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -19,6 +20,7 @@ const StokedThreeBooklet = () => {
               if (flipBookRef.current) {
                 flipBookRef.current.pageFlip().flipNext(); // Open first page to show first spread
                 setHasBeenOpened(true); // Mark as opened so it won't trigger again
+                setIsOpened(true); // Mark as opened for styling
                 
                 // Disconnect observer after first trigger to prevent future automatic page turns
                 observer.disconnect();
@@ -58,7 +60,7 @@ const StokedThreeBooklet = () => {
   });
 
   return (
-    <div className="flipbook-container" ref={containerRef}>
+    <div className={`flipbook-container stoked-three-booklet ${isOpened ? 'opened' : ''}`} ref={containerRef}>
       <HTMLFlipBook
         ref={flipBookRef}
         width={469}

@@ -119,7 +119,7 @@ function Clover() {
       <div data-aos="fade" data-aos-anchor-placement="top-bottom">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section-auto my-5 mt-5 pt-5">
+        <div className="section-auto mx-2">
           <div className="half-section text-side">
             <div className="top">
               <img className="clover-logo" src={CloverLogo} alt="History Zine Cover" />
@@ -133,7 +133,7 @@ function Clover() {
             <div className="paragraph">
               <div className="d-flex gap-3 flex-column flex-sm-row">
                 <a
-                  href="https://www.figma.com/design/4RRNfRgjYw8FdSWIKTInCJ/JM-Crawford_Product?node-id=15-2&t=wDS2hc8bRFWOnvaQ-1"
+                  href="https://www.figma.com/design/1ApWmH5DGwrUkiwd5KdMIU/Clover?node-id=1-9&t=vWCodqNBvywDHZZh-1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="button-4 d-flex align-items-center justify-content-center"
@@ -303,19 +303,19 @@ function Clover() {
                 <b className="secondary-headline" style={{ padding: '10px 0px' }}>Pain Points</b>
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`Limited time/availability (coaches & players) `}
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`All communication is decentralized - relying on text messaging and email`}
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`Small budget/Inadequate facilities/limited resources `}
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`All scorecards and training data is manually entered into Excel spreadsheets `}
               </li>
             </ul>
@@ -342,19 +342,19 @@ function Clover() {
                 <b className="secondary-headline" style={{ padding: '10px 0px' }}>Goals</b>
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`Make team and player scheduling easier to track/manage (practice, matches, tournaments) `}
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`Optimize team communication (messaging - group + individual)`}
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`Automate/simplify collection of player scores and training data `}
               </li>
               <li className="paragraph" style={{ paddingLeft: '1rem', paddingRight: '0rem', position: 'relative', lineHeight: '1.6' }}>
-                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em - 5px)', fontSize: '24px', color: 'var(--color-silver)' }}>◆</span>
+                <span style={{ position: 'absolute', left: '-10px', top: 'calc(0.1em + 2px)', fontSize: '16px', color: 'var(--color-silver)' }}>◆</span>
                 {`Maximize what is currently available within budget constraints to help coaches track, analyze and communicate with players more effectively `}
               </li>
             </ul>

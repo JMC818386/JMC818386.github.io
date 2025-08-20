@@ -29,6 +29,19 @@ import SilentAngled1 from './img/Silent/silent-angled-1.png';
 import SilentAngled2 from './img/Silent/silent-angled-2.png';
 import SilentAngled3 from './img/Silent/silent-angled-3.png';
 
+import SilentBattleAlignment from './img/Silent/silent-battle-full-alignment.png';
+import SilentBattleControl from './img/Silent/silent-battle-full-control.png';
+import SilentBattleDeath from './img/Silent/silent-battle-full-death.png';
+import SilentBattleDesire from './img/Silent/silent-battle-full-desire.png';
+import SilentBattleFormation from './img/Silent/silent-battle-full-formation.png';
+import SilentBattleFracture from './img/Silent/silent-battle-full-fracture.png';
+import SilentBattleMind from './img/Silent/silent-battle-full-mind.png';
+import SilentBattleStillness from './img/Silent/silent-battle-full-stillness.png';
+import SilentBattleVictory from './img/Silent/silent-battle-full-victory.png';
+import SilentBattleVigilance from './img/Silent/silent-battle-full-vigilance.png';
+
+
+
 function SilentBattle() {
   const [lightboxImage, setLightboxImage] = useState(null);
   const [isZoomed, setIsZoomed] = useState(false);
@@ -276,15 +289,97 @@ function SilentBattle() {
 
 
         {/* ---------------------------------------------- FINAL MOCKUPS ---------------------------------------------- */}
-        <div style={{ padding: '40px 40px', margin: 0 }}>
+        <div style={{ padding: '40px 80px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
-            src={SilentFinalMockups}
-            onClick={() => openLightbox(SilentFinalMockups, "Silent Battle Final Mockups")}
+            src={SilentBattleControl}
+            onClick={() => openLightbox(SilentBattleControl, "Silent Battle Final Mockups")}
             style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
           />
         </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleDeath}
+            onClick={() => openLightbox(SilentBattleDeath, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleDesire}
+            onClick={() => openLightbox(SilentBattleDesire, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleFormation}
+            onClick={() => openLightbox(SilentBattleFormation, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleFracture}
+            onClick={() => openLightbox(SilentBattleFracture, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleMind}
+            onClick={() => openLightbox(SilentBattleMind, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleStillness}
+            onClick={() => openLightbox(SilentBattleStillness, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleVictory}
+            onClick={() => openLightbox(SilentBattleVictory, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+        <div style={{ padding: '40px 80px', margin: 0 }}>
+          <img
+            className="cover-img"
+            alt="Silent Battle Final Mockups"
+            src={SilentBattleVigilance}
+            onClick={() => openLightbox(SilentBattleVigilance, "Silent Battle Final Mockups")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+          />
+        </div>
+
+
 
         {/* ------------------- Back to Top ---------------------------- */}
         <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>

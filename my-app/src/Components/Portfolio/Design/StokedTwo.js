@@ -118,12 +118,12 @@ function StokedTwo() {
       </div>
 
       {/* ---------------------------------------------- FLIPBOOK SECTION ---------------------------------------------- */}
-      <div className="section-auto">
+      <div className="">
         <StokedOneBooklet />
       </div>
 
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
-      <div className="section-2 mt-5">
+      <div className="section-auto">
         <div className="content-2">
           <div className="section-text-2">
             <div className="top">
@@ -158,7 +158,7 @@ function StokedTwo() {
       </div>
 
       {/* ---------------------------------------------- FLIPBOOK SECTION 2 ---------------------------------------------- */}
-      <div className="section-auto">
+      <div className="">
         <StokedTwoBooklet />
       </div>
 

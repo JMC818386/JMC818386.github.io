@@ -387,9 +387,13 @@ body,
 
 
 .icons {
-  width: 60px;
-  margin: 25px;
+  width: 55px;
+  height: 55px;
+  margin: 20px;
   padding-top: 10px;
+  object-fit: contain;
+  object-position: center;
+  transition: all 0.3s ease;
 }
 
 .web-icons {
@@ -712,12 +716,15 @@ body,
 
 }
 
-/* If the screen size is smaller than 1200px */
+/* If the screen size is smaller than 1200px - Large tablets */
 @media (max-width: 1199px) {
   .icons {
-    width: 40px;
-    margin: 25px;
-    padding-top: 10px;
+    width: 48px;
+    height: 48px;
+    margin: 18px;
+    padding-top: 8px;
+    object-fit: contain;
+    object-position: center;
   }
 
   .text-title {
@@ -805,6 +812,13 @@ body,
 }
 
 @media (max-width: 1000px) {
+  .icons {
+    width: 42px;
+    height: 42px;
+    margin: 16px;
+    padding-top: 8px;
+  }
+
   .social-links {
     display: none;
   }
@@ -823,6 +837,12 @@ body,
 }
 
 @media (max-width: 800px) {
+  .icons {
+    width: 38px;
+    height: 38px;
+    margin: 14px;
+    padding-top: 6px;
+  }
 
   .img-square {
     max-width: 300px;
@@ -844,12 +864,15 @@ body,
   }
 }
 
-/* If the screen size is smaller than 1200px */
+/* Mobile devices */
 @media (max-width: 600px) {
   .icons {
-    width: 60px;
-    margin: 25px;
-    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 12px;
+    padding-top: 6px;
+    object-fit: contain;
+    object-position: center;
   }
 
   .text-title {
@@ -933,6 +956,16 @@ body,
 
   .contact-input {
     padding: 2rem 1rem;
+  }
+}
+
+/* Very small mobile devices */
+@media (max-width: 480px) {
+  .icons {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    padding-top: 4px;
   }
 }
 
@@ -1417,10 +1450,17 @@ body {
 }
 
 .clover-logo {
-  max-width: 65%;
+  max-width: 85%;
   height: auto;
   display: block;
   padding-left: 40px;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 600px) {
+  .clover-logo {
+    margin-bottom: 30px;
+  }
 }
 
 .empathy-map-img {
@@ -1984,4 +2024,118 @@ body {
   /* Thinner border */
   margin-top: 10px;
   /* Add spacing between title text and button */
+}
+
+/* Contact Form Styles */
+.contact-form-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fields-group {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.text-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-field-full {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-silver);
+  line-height: 140%;
+}
+
+.field-input,
+.field-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-gray);
+  color: var(--color-silver);
+  padding: 12px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  transition: border-color 0.3s ease;
+}
+
+.field-input:focus,
+.field-textarea:focus {
+  outline: none;
+  border-bottom-color: var(--color-silver);
+}
+
+.field-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.submit-button {
+  background-color: transparent;
+  border: 1px solid var(--color-silver);
+  border-radius: 4px;
+  color: var(--color-silver);
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: var(--color-silver);
+  color: var(--color-bg);
+}
+
+/* Mobile responsiveness for contact form */
+@media (max-width: 768px) {
+  .fields-group {
+    flex-direction: column;
+  }
+  
+  .contact-form-container {
+    max-width: 100%;
+  }
+}
+
+/* Mobile spacing for contact form */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

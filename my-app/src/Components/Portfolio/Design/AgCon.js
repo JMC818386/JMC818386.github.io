@@ -27,6 +27,13 @@ import AgConGrowFinal from './img/AgCon/ag-con-grow-final.png';
 import AgConMockupsMain from './img/AgCon/ag-con-mockups-main.png';
 import AgConFinalMockups from './img/AgCon/ag-con-final-mockups.png';
 
+import AgConBusStop from './img/AgCon/agcon-busstop.png';
+import AgConBW from './img/AgCon/agcon-bw.png';
+import AgConColor from './img/AgCon/agcon-color.png';
+import AgConColor2 from './img/AgCon/agcon-color-2.png';
+import AgConLobby from './img/AgCon/agcon-lobby.png';
+import AgConMockupDoubles from './img/AgCon/agcon-mockup-double.png';
+
 function AgCon() {
   const [lightboxImage, setLightboxImage] = useState(null);
   const [isZoomed, setIsZoomed] = useState(false);
@@ -115,7 +122,7 @@ function AgCon() {
               <b className="secondary-headline">AG_CON 2026</b>
             </div>
             <div className="paragraph">
-              A conceptual poster series exploring the visual representation of dreams through abstract photography and grid-based design systems. This project combines artistic expression with structured design principles to create compelling visual narratives.
+               This poster series was created as a speculative visual identity for AG_CON, a smart farming summit set in Lexington, Kentucky. The goal was to fuse agriculture, engineering, and emerging tech into a bold, energetic system that speaks directly to young farmers, rural technologists, and university engineers. Each poster explores a different visual rhythm, communicating the core tension between tradition and innovation, land and logic, labor and machine.
             </div>
           </div>
           <div className="half-section image-side">
@@ -131,24 +138,20 @@ function AgCon() {
 
         {/* ---------------------------------------------- RESEARCH & INSPIRATION ---------------------------------------------- */}
         <div className="section-2">
-          <div className="content-2">
+          <div className="content-2 mx-3">
             <div className="top">
               <b className="secondary-headline">Research & Inspiration</b>
             </div>
             <div className="paragraph-2">
-              The design process began with extensive research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology.
+              The design process began with research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology. Visually, the series blends retro-tech futurism with farm grit. Posters use tight modular grids referencing aerial crop plots and circuit diagrams. The texture and structure borrow from mechanical blueprints, vintage computing systems, and welded machinery—combining industrial sharpness with rural resilience. The result is a kinetic, engineered system that feels both hand-built and high-tech, rooted in the dirt and wired for the future.
             </div>
           </div>
         </div>
 
-        <div className="section-2">
-          <div className="content-2">
-            <div className="top">
-              <b className="secondary-headline">Mood Board</b>
-            </div>
-          </div>
-        </div>
-        <div className="px-5">
+        {/* <div className="top mt-5 mb-2">
+          <b className="secondary-headline">Mood Board</b>
+        </div> */}
+        <div className="section-2 mb-1">
           <img
             className="cover-img"
             alt="AG_CON Moodboard"
@@ -158,7 +161,7 @@ function AgCon() {
           />
         </div>
 
-        <div className="my-0 py-2 px-5">
+        <div className="section-auto mb-1">
           <img
             className="cover-img"
             alt="AG_CON Color Palette"
@@ -168,7 +171,7 @@ function AgCon() {
           />
         </div>
 
-        <div className="section-2 mb-1">
+        <div className="section-auto mb-1">
           <img
             className="cover-img"
             alt="AG_CON Crop Lines"
@@ -177,10 +180,7 @@ function AgCon() {
             style={{ cursor: 'pointer' }}
           />
         </div>
-
-        <div className="top mt-5 mb-2">
-          <b className="secondary-headline">Visual Research + Influence</b>
-        </div>
+       
         <div className="my-3 px-5">
           <img
             className="cover-img"
@@ -191,15 +191,24 @@ function AgCon() {
           />
         </div>
 
-
+        <div className="section-auto">
+          <div className="content-2 mx-3">
+            <div className="top">
+              <b className="secondary-headline">Typography and Grid Exploration</b>
+            </div>
+            <div className="paragraph-2">
+              The design process began with research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology. Visually, the series blends retro-tech futurism with farm grit. Posters use tight modular grids referencing aerial crop plots and circuit diagrams. The texture and structure borrow from mechanical blueprints, vintage computing systems, and welded machinery—combining industrial sharpness with rural resilience. The result is a kinetic, engineered system that feels both hand-built and high-tech, rooted in the dirt and wired for the future.
+            </div>
+          </div>
+        </div>
 
 
         {/* ---------------------------------------------- TYPOGRAPHY ---------------------------------------------- */}
-        <div className="top mt-5 pt-5 mb-2">
+        {/* <div className="top mt-5 pt-5 mb-2">
           <b className="secondary-headline">Type Study</b>
-        </div>
+        </div> */}
 
-        <div className="section-2">
+        <div className="section-auto">
           <div className="half-section image-side">
             <img
               className="cover-img"
@@ -220,9 +229,9 @@ function AgCon() {
           </div>
         </div>
 
-        <div className="top mt-5 pt-5mb-2">
+        {/* <div className="top mt-5 pt-5mb-2">
           <b className="secondary-headline">Expressive Type Ideation</b>
-        </div>
+        </div> */}
 
         <div className="px-5 mb-1">
           <img
@@ -235,10 +244,10 @@ function AgCon() {
         </div>
 
         {/* ---------------------------------------------- GRID & LAYOUT ---------------------------------------------- */}
-        <div className="top mt-5 pt-5 mb-2">
+        {/* <div className="top mt-5 pt-5 mb-2">
           <b className="secondary-headline">Grid Experimentation</b>
-        </div>
-        <div className="section-2 mb-1">
+        </div> */}
+        <div className="section-auto mb-1">
           <img
             className="cover-img"
             alt="AG_CON Grid Study"
@@ -249,23 +258,62 @@ function AgCon() {
         </div>
 
         {/* ---------------------------------------------- DIGITAL COMPOSITIONS ---------------------------------------------- */}
-        <div className="top mt-5">
-          <b className="secondary-headline">Digital Comp Progression</b>
+         <div className="section-auto">
+          <div className="content-2 mx-3">
+            <div className="top">
+              <b className="secondary-headline">Digital Comps</b>
+            </div>
+            <div className="paragraph-2">
+               The first digital compositions served as a playground for structural layout and expressive typography. Each poster was built around one of the core words - Connect, Cultivate, and Grow - and pushed to extremes using dynamic grids, layering, repetition, and distortion. This phase was intentionally chaotic, leaning into overstatement to explore visual rhythm, scale, and typographic aggression. While these early drafts captured the raw energy of AG_CON’s themes, they also revealed the need for stronger clarity and conceptual alignment, especially for “Connect” and “Cultivate.”
+            </div>
+          </div>
         </div>
-        <div className="mb-1">
+
+        <div className="mb-5 mx-5">
           <img
             className="cover-img"
             alt="AG_CON Digital Compositions"
-            src={AgConDigitalComps}
-            onClick={() => openLightbox(AgConDigitalComps, "AG_CON Digital Compositions")}
+            src={AgConBW}
+            onClick={() => openLightbox(AgConBW, "AG_CON Digital Compositions")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+
+        <div className="mb-5 mx-5">
+          <img
+            className="cover-img"
+            alt="AG_CON Digital Compositions"
+            src={AgConColor}
+            onClick={() => openLightbox(AgConColor, "AG_CON Digital Compositions")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+
+        <div className="mb-5 mx-5">
+          <img
+            className="cover-img"
+            alt="AG_CON Digital Compositions"
+            src={AgConColor2}
+            onClick={() => openLightbox(AgConColor2, "AG_CON Digital Compositions")}
             style={{ cursor: 'pointer' }}
           />
         </div>
 
         {/* ---------------------------------------------- FINAL DESIGNS ---------------------------------------------- */}
-        <div className="top mt-5 mb-2">
-          <b className="secondary-headline">Final Posters</b>
+        <div className="section-auto">
+          <div className="content-2 mx-3">
+            <div className="top">
+              <b className="secondary-headline">Final Posters</b>
+            </div>
+
+            <div className="paragraph-2">
+              The final poster series embraces a more distilled and purposeful approach. The reduction of visual noise, refinement of composition, and integration of a limited color system helped the final posters balance intensity with intention. The result is a unified series that maintains its retro-tech aesthetic while honoring the agricultural intelligence at the core of the concept.
+
+            </div>
+
+          </div>
         </div>
+        
         <div className="final-designs-container">
           <div className="final-design-item">
             <img
@@ -297,26 +345,45 @@ function AgCon() {
         </div>
 
         {/* ---------------------------------------------- MOCKUPS ---------------------------------------------- */}
-        <div className="top mt-5 mb-4">
-          <b className="secondary-headline">Brand Mockups</b>
-        </div>
 
         <div className="">
           <img
             className="cover-img px-5"
             alt="AG_CON Main Mockups"
-            src={AgConMockupsMain}
-            onClick={() => openLightbox(AgConMockupsMain, "AG_CON Main Mockups")}
+            src={AgConMockupDoubles}
+            onClick={() => openLightbox(AgConMockupDoubles, "AG_CON Main Mockups")}
             style={{ cursor: 'pointer' }}
           />
         </div>
 
         <div className="">
           <img
+            className="cover-img px-5"
+            alt="AG_CON Main Mockups"
+            src={AgConLobby}
+            onClick={() => openLightbox(AgConLobby, "AG_CON Main Mockups")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+
+        <div className="">
+          <img
+            className="cover-img px-5"
+            alt="AG_CON Main Mockups"
+            src={AgConBusStop}
+            onClick={() => openLightbox(AgConBusStop, "AG_CON Main Mockups")}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+
+        
+
+        <div className="">
+          <img
             className="cover-img  mt-5 px-5"
             alt="AG_CON Final Mockups"
-            src={AgConFinalMockups}
-            onClick={() => openLightbox(AgConFinalMockups, "AG_CON Final Mockups")}
+            src={AgConMockupsMain}
+            onClick={() => openLightbox(AgConMockupsMain, "AG_CON Final Mockups")}
             style={{ cursor: 'pointer' }}
           />
         </div>

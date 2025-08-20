@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
+import Layout from "./Components/Layout.js";
 import Home from "./Components/Home.js";
 import About from "./Components/About.js";
 import Portfolio from "./Components/Portfolio";
@@ -38,133 +39,133 @@ import TotalPtConnect from "./Components/Portfolio/Design/TotalPtConnect.js";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Layout><App /></Layout>,
   },
   {
     path: "/home",
-    element: <Home />,
+    element: <Layout><Home /></Layout>,
   },
   {
     path: "/about",
-    element: <About />,
+    element: <Layout><About /></Layout>,
   },
   {
     path: "/portfolio",
-    element: <Portfolio />,
+    element: <Layout><Portfolio /></Layout>,
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Layout><Blog /></Layout>,
   },
   {
     path: "/contact",
-    element: <Contact />,
+    element: <Layout><Contact /></Layout>,
   },
   {
     path: "/graphic-design",
-    element: <GraphicDesign />,
+    element: <Layout><GraphicDesign /></Layout>,
   },
   {
     path: "/web-development",
-    element: <WebDevelopment />,
+    element: <Layout><WebDevelopment /></Layout>,
   },
   {
     path: "/amperes",
-    element: <Amperes />,
+    element: <Layout><Amperes /></Layout>,
   },
   {
     path: "/bg",
-    element: <BG />,
+    element: <Layout><BG /></Layout>,
   },
   {
     path: "/boss-strategies",
-    element: <BossStrategies />,
+    element: <Layout><BossStrategies /></Layout>,
   },
   {
     path: "/brown-forman",
-    element: <BrownForman />,
+    element: <Layout><BrownForman /></Layout>,
   },
   {
     path: "/dream-posters",
-    element: <DreamPosters />,
+    element: <Layout><DreamPosters /></Layout>,
   },
   {
     path: "/east-coast",
-    element: <EastCoast />,
+    element: <Layout><EastCoast /></Layout>,
   },
   {
     path: "/mindset",
-    element: <Mindset />,
+    element: <Layout><Mindset /></Layout>,
   },
   {
     path: "/phantom",
-    element: <Phantom />,
+    element: <Layout><Phantom /></Layout>,
   },
   {
     path: "/qrt",
-    element: <QRT />,
+    element: <Layout><QRT /></Layout>,
   },
   {
     path: "/ranger",
-    element: <RangerHB />,
+    element: <Layout><RangerHB /></Layout>,
   },
   {
     path: "/skg",
-    element: <SeaKayakGA />,
+    element: <Layout><SeaKayakGA /></Layout>,
   },
   {
     path: "/space-monkey",
-    element: <SpaceMonkey />,
+    element: <Layout><SpaceMonkey /></Layout>,
   },
   {
     path: "/stoked-one",
-    element: <StokedOne />,
+    element: <Layout><StokedOne /></Layout>,
   },
   {
     path: "/stoked-two",
-    element: <StokedTwo />,
+    element: <Layout><StokedTwo /></Layout>,
   },
   {
     path: "/stoked-three",
-    element: <StokedThree />,
+    element: <Layout><StokedThree /></Layout>,
   },
   {
     path: "/clover",
-    element: <Clover />,
+    element: <Layout><Clover /></Layout>,
   },
 
    {
     path: "/md99",
-    element: <MD99 />,
+    element: <Layout><MD99 /></Layout>,
   },
 
    {
     path: "/ideal-experience",
-    element: <IdealExperience />,
+    element: <Layout><IdealExperience /></Layout>,
   },
   {
     path: "/ag-con",
-    element: <AgCon />,
+    element: <Layout><AgCon /></Layout>,
   },
   {
     path: "/silent-battle",
-    element: <SilentBattle />,
+    element: <Layout><SilentBattle /></Layout>,
   },
   {
     path: "/rowans-creek",
-    element: <RowansCreek />,
+    element: <Layout><RowansCreek /></Layout>,
   },
   {
     path: "/railbird",
-    element: <Railbird />,
+    element: <Layout><Railbird /></Layout>,
   },
   {
     path: "/three-willows",
-    element: <ThreeWillows />,
+    element: <Layout><ThreeWillows /></Layout>,
   },
   {
     path: "/total-pt-connect",
-    element: <TotalPtConnect />,
+    element: <Layout><TotalPtConnect /></Layout>,
   },
 ]);
 

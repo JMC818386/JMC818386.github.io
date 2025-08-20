@@ -118,7 +118,7 @@ function StokedThree() {
 
       {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
       
-      <div className="section-auto m-2 p-0">
+      <div className="">
         <StokedThreeBooklet />
       </div>
 

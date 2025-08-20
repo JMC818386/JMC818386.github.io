@@ -214,7 +214,7 @@ function GraphicDesignBody() {
 
   return (
 
-    <div className="bg-main-dark">
+    <div id="portfolio-section" className="bg-main-dark">
       {/* <CBreadcrumb
       style={{
         '--cui-breadcrumb-divider': `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E")`,
@@ -224,6 +224,12 @@ function GraphicDesignBody() {
       <CBreadcrumbItem href="/">Home</CBreadcrumbItem>
       <CBreadcrumbItem active>Graphic Design Portfolio</CBreadcrumbItem>
     </CBreadcrumb> */}
+
+     
+        <div className="content-2 text-center">
+            <b className="secondary-headline">Portfolio</b>
+        </div>
+    
 
       <div className="container-fluid d-flex flex-wrap align-items-center justify-content-center text-light">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mx-3 mt-1 mb-5 justify-content-center g-3">
@@ -779,7 +785,7 @@ function GraphicDesignBody() {
 
           {/*------------------------------3055 Strategies------------------------------------------------------------------------------------------*/}
 
-          <div className="col card-port p-2">
+          {/* <div className="col card-port p-2">
             <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
               <img className="card-img-top" src={Boss} alt="3055 Strategies" />
               <div className="overlay">
@@ -799,7 +805,7 @@ function GraphicDesignBody() {
                 </div>
               </div>
             </SlideshowLightbox>
-          </div>
+          </div> */}
 
           {/*------------------------------QRT------------------------------------------------------------------------------------------*/}
 
@@ -821,7 +827,7 @@ function GraphicDesignBody() {
 
           {/*------------------------------Mindset Solutions------------------------------------------------------------------------------------------*/}
 
-          <div className="col card-port p-2">
+          {/* <div className="col card-port p-2">
             <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
               <img className="card-img-top" src={Mindset} alt="Mindset Solution" />
               <div className="overlay">
@@ -841,83 +847,29 @@ function GraphicDesignBody() {
                 </div>
               </div>
             </SlideshowLightbox>
-          </div>
+          </div> */}
 
           {/*------------------------------Ampere's &------------------------------------------------------------------------------------------*/}
 
           <div className="col card-port p-2">
-            <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
+            <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
               <img className="card-img-top" src={Amperes} alt="Ampere's & Co." />
-              <div className="overlay">
-                <div className="overlay-top">
-                  <p className="project-type">Branding</p>
-                </div>
-                <div className="overlay-center">
-                  <p className="overlay-text">Ampere's &</p>
-                </div>
-                <div className="overlay-bottom">
-                  <p className="tools-title">Tools used</p>
-                  <div className="tech-icons">
-                    <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
-                    <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
-                    <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
-                  </div>
-                </div>
-              </div>
-              <img src={AmperesMain} className="hidden" alt="" />
             </SlideshowLightbox>
           </div>
 
           {/*------------------------------Bluegrass Gentleman------------------------------------------------------------------------------------------*/}
 
           <div className="col card-port p-2">
-            <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
+            <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
               <img className="card-img-top" src={BG} alt="Bluegrass Gentleman" />
-              <div className="overlay">
-                <div className="overlay-top">
-                  <p className="project-type">Branding</p>
-                </div>
-                <div className="overlay-center">
-                  <p className="overlay-text">Bluegrass Gentleman</p>
-                </div>
-                <div className="overlay-bottom">
-                  <p className="tools-title">Tools used</p>
-                  <div className="tech-icons">
-                    <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
-                    <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
-                    <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
-                  </div>
-                </div>
-              </div>
-              <img src={BG01} className="hidden" alt="" />
-              {/* <img src={BG02} className="hidden" /> */}
-              <img src={BG03} className="hidden" alt="" />
-              {/* <img src={BG04} className="hidden" /> */}
-              <img src={BGMain} className="hidden" alt="" />
             </SlideshowLightbox>
           </div>
 
           {/*------------------------------East Coast Magazine------------------------------------------------------------------------------------------*/}
 
           <div className="col card-port p-2">
-            <SlideshowLightbox theme="night" showThumbnails={true} className="images" roundedImages={false}>
+            <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
               <img className="card-img-top" src={EastCoast} alt="East Coast Magazine" />
-              <div className="overlay">
-                <div className="overlay-top">
-                  <p className="project-type">Editorial</p>
-                </div>
-                <div className="overlay-center">
-                  <p className="overlay-text">East Coast Magazine</p>
-                </div>
-                <div className="overlay-bottom">
-                  <p className="tools-title">Tools used</p>
-                  <div className="tech-icons">
-                    <img src={IllustratorIcon} alt="Illustrator" className="tech-icon" />
-                    <img src={PhotoshopIcon} alt="Photoshop" className="tech-icon" />
-                    <img src={IndesignIcon} alt="Indesign" className="tech-icon" />
-                  </div>
-                </div>
-              </div>
             </SlideshowLightbox>
           </div>
 

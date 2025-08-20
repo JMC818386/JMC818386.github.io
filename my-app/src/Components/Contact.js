@@ -8,6 +8,8 @@ import Grid from './img/Grid.png';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import LinkedIn from './img/linkedin-social.png';
+import Email from './img/icons/mail.png';
 
 
 
@@ -17,46 +19,102 @@ function Contact() {
         AOS.init({
             duration: 1250,
             once: true,
-        });  
+        });
+        
+        // Initialize EmailJS with your public key
+        emailjs.init('OAeVoOcPeU1ZCFE-A');
     }, []);
 
     const form = useRef();
   
     const sendEmail = (e) => {
       e.preventDefault();
+      
+      console.log('Attempting to send email...');
+      console.log('Form data:', new FormData(form.current));
   
-      emailjs.sendForm('service_ufod1qr', 'template_zv07uef', form.current, 'OAeVoOcPeU1ZCFE-A')
+      emailjs.sendForm('service_ufod1qr', 'template_zv07uef', form.current)
         .then((result) => {
-            console.log(result.text);
+            console.log('Success:', result);
             alert('Your message was sent successfully!');
-            e.target.reset(); // clears the input fields
-        }, (error) => {
-            console.log(error.text);
-            alert('There was an error sending your message. Please try again later.');
+            form.current.reset();
+        })
+        .catch((error) => {
+            console.error('EmailJS Error:', error);
+            alert('There was an error sending your message. Please check the console for details.');
         });
       }
 
   return (
-    <div className="vh-100 vw-100 d-flex flex-column justify-content-between alight-items-center bg-main-dark">
+    <div className="bg-main-dark">
       <TopNav />
-      <div className="container-fluid pt-5 d-flex justify-content-center text-light flex-grow-1">
-        <div className="row flex-column flex-md-row justify-content-center w-100">
-          <div className="col-lg-6">
-              <h1 className="text-header contact-title mb-0 pb-4" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">CONTACT</h1>
-              <p className="contact-body mt-0 pt-0" data-aos="fade" data-aos-delay="200" data-aos-duration="5000">Thank you for visiting my site! If you would like to get in touch with me my contact information is listed below. You can contact me directly by email, or if you would like to leave a quick and simple message just fill out the contact form and I will get back to you as soon as I can. Also, feel free to connect with me through social media.</p>
-              <p className="contact-body pb-2 d-flex justify-content-center" data-aos="fade" data-aos-delay="200" data-aos-duration="5000">johncrawforddesign@gmail.com</p>
+      <div className="section">
+        <div className="half-section text-side">
+          <div className="content">
+            <div className="section-text">
+              <div className="top">
+                <b className="secondary-headline">Get In Touch</b>
+              </div>
+              <div className="paragraph">
+                Thank you for visiting my site! If you would like to get in touch with me, you can contact me directly by email, LinkedIn, or fill out the contact form to the right and I will get back to you as soon as I can.
+              </div>
               
+              <div className="d-flex flex-row gap-3 mt-4" data-aos="fade" data-aos-delay="300" data-aos-duration="6000" style={{ width: '75%', margin: '0 auto' }}>
+                <button
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  style={{ padding: '12px 20px', flex: '1' }}
+                  onClick={() => window.location.href = 'mailto:johncrawforddesign@gmail.com'}
+                >
+                  <img src={Email} alt="Email" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
+                  Email
+                </button>
+                <button
+                  className="button-4 d-flex align-items-center justify-content-center"
+                  style={{ padding: '12px 20px', flex: '1' }}
+                  onClick={() => window.open('https://www.linkedin.com/in/john-michaelcrawford', '_blank')}
+                >
+                  <img src={LinkedIn} alt="LinkedIn" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
+                  LinkedIn
+                </button>
+              </div>
+            </div>
           </div>
-          <div className="col-lg-6 contact-input px-5" data-aos="fade" data-aos-delay="200" data-aos-duration="5000">
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-              <label className="pt-4">Email</label>
-              <input type="email" name="user_email" />
-              <label className="pt-4">Message</label>
-              <textarea name="message" />
-              <input type="submit" value="Send Message" className="mt-3 px-2 py-1"/>
-            </form>
+        </div>
+        <div className="half-section text-side">
+          <div className="content">
+            <div className="contact-form-container" data-aos="fade" data-aos-delay="200" data-aos-duration="5000">
+              <form ref={form} onSubmit={sendEmail} className="contact-form">
+                <div className="fields-group">
+                  <div className="text-field">
+                    <label className="field-label">First Name</label>
+                    <input type="text" name="user_first_name" className="field-input" />
+                  </div>
+                  <div className="text-field">
+                    <label className="field-label">Last Name</label>
+                    <input type="text" name="user_last_name" className="field-input" />
+                  </div>
+                </div>
+                
+                <div className="text-field-full">
+                  <label className="field-label">Email</label>
+                  <input type="email" name="user_email" className="field-input" required />
+                </div>
+                
+                <div className="text-field-full">
+                  <label className="field-label">Subject</label>
+                  <input type="text" name="subject" className="field-input" />
+                </div>
+                
+                <div className="text-field-full">
+                  <label className="field-label">Message</label>
+                  <textarea name="message" className="field-textarea" rows="5" required></textarea>
+                </div>
+                
+                <div className="button-group">
+                  <input type="submit" value="Send Message" className="submit-button" />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

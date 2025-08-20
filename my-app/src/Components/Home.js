@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav';
-import Footer from './Footer';
 import './App.css';
 import Grid from './img/Grid.png';
 import 'aos/dist/aos.css';
@@ -30,7 +29,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

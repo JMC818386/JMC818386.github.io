@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.iconContainer {
+  	width: 22px;
+  	height: auto;
+  	object-fit: contain;
+}
+.webbyframes {
+  	position: relative;
+  	line-height: 110%;
+}
+.forFigma {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 140%;
+  	margin-top: -4px;
+}
+.text {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+}
+.logo {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 4px;
+}
+.logoContainer {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.menuItem1 {
+  	position: relative;
+  	line-height: 100%;
+  	font-weight: 500;
+  	text-decoration: none;
+  	color: inherit;
+}
+.menuItem1:hover {
+  	text-decoration: none;
+  	color: #24292E;
+}
+.menuItem {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 12px 8px;
+}
+.menu {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 16px;
+  	font-size: 16px;
+  	color: #24292E;
+}
+.iconJamIconsOutlineL {
+  	width: 24px;
+  	position: relative;
+  	height: 24px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.socialIcons {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 16px;
+}
+.top {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 48px;
+}
+.companyname202x {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 140%;
+  	color: #24292E;
+  	text-align: center;
+}
+.desktopMLogoLeftMenu {
+  	width: 100%;
+  	position: relative;
+  	background-color: #FAFBFC;
+  	border: 1px solid rgba(27, 31, 35, 0.15);
+  	border-radius: 6px;
+  	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 24px 80px 48px;
+  	gap: 48px;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #24292E;
+  	font-family: Roboto;
+}

@@ -75,7 +75,7 @@ const StokedTwoBooklet = () => {
         flippingTime={600}
         usePortrait={false}
         startZIndex={0}
-        autoSize={true}
+        autoSize={false}
         clickEventForward={true}
         useMouseEvents={true}
         swipeDistance={30}
