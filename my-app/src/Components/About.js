@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import BgImage from './img/paper-background.png';
-import TopNav from './TopNav';
+
 import './App.css';
 import Icons from './Icons';
 import Grid from './img/Grid.png';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import React, { useEffect } from 'react';
-
+import TopNav from './TopNav';
 import aboutPhoto from './img/about-me-photo.png';
 import aboutPhoto2 from './about-me-photo-2.png';
 import EyeOpenIcon from './img/icons/eye-open.png';

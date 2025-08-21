@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav';
 // import PortfolioNav from './PortfolioNav';
-import Footer from './Footer';
+
 import './App.css';
 import Grid from './img/Grid.png';
 import GraphicDesignBody from './GraphicDesignBody';
-import WebDevelopmentBody from './WebDevelopmentBody';
+
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import React, { useEffect } from 'react';
@@ -27,7 +27,7 @@ function Portfolio() {
     <div data-aos="fade" data-aos-anchor-placement="top-bottom">
       <GraphicDesignBody />
     </div>
-    <Footer />
+ 
   </div>
   );
 }

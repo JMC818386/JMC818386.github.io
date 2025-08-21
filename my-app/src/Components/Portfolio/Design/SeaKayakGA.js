@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from '../../TopNav';
 import PortfolioNav from '../../PortfolioNav';
-import Footer from '../../Footer';
+
 import Logo from './img/logo.jpg';
 import '../../App.css';
 import GraphicDesignBody from '../../GraphicDesignBody';
@@ -155,7 +155,7 @@ function SeaKayakGA() {
 
         {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
         <GraphicDesignBody />
-        <Footer />
+    
 
         {/* Lightbox Modal - Rendered as Portal */}
         {lightboxImage && createPortal(

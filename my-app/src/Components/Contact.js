@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav';
-import Footer from './Footer';
+
 import './App.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -118,7 +118,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <Footer />
+
     </div>
   );
 }

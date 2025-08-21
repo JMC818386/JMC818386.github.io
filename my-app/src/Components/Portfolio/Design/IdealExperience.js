@@ -4,7 +4,7 @@ import FireflyUi from './img/IdealExperience/firefly-ui.png';
 import "bootstrap/dist/css/bootstrap.min.css";
 import TopNav from "../../TopNav";
 import PortfolioNav from "../../PortfolioNav";
-import Footer from "../../Footer";
+
 import Logo from "./img/logo.jpg";
 import "../../App.css";
 import GraphicDesignBody from "../../GraphicDesignBody";
@@ -655,7 +655,7 @@ function IdealExperience() {
         <div style={{ marginTop: '0', paddingTop: '0', marginBottom: '0', paddingBottom: '0' }}>
           <GraphicDesignBody />
         </div>
-        <Footer />
+  
       </div>
 
       {/* Lightbox Modal - Rendered as Portal */}

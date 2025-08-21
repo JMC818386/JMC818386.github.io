@@ -8,7 +8,7 @@ import Email from './img/icons/mail.png';
 
 const Footer = () => {
   	return (
-    		<div className={styles.desktopMLogoLeftMenu} style={{ marginTop: '50px' }}>
+    		<div className={styles.desktopMLogoLeftMenu} style={{ psddingTop: '50px' }}>
       			<div className={styles.top}>
         				<div className={styles.logoContainer}>
           					<div className={styles.logo}>
