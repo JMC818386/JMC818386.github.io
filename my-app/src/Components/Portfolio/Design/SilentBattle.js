@@ -152,9 +152,9 @@ function SilentBattle() {
 
         {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
       
-        <div className="section-auto m-2 p-0">
+        {/* <div className="section-auto m-2 p-0">
           <SilentBattleBooklet />
-        </div>
+        </div> */}
 
           {/* ---------------------------------------------- Visual Research ---------------------------------------------- */}
         <div className="section">

@@ -26,7 +26,7 @@ function GraphicDesign() {
     <div data-aos="fade" data-aos-anchor-placement="top-bottom">
       <GraphicDesignBody />
     </div>
-    <Footer />
+   
   </div>
   );
 }

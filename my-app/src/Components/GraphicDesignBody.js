@@ -23,11 +23,11 @@ import XDIcon from './img/icons/xd.png';
 
 /*---------------------MD99 Imported Images------------------------------------------------------------------------------------*/
 
-import MD99 from './Portfolio/Design/img/MD99.png';
+import MD99 from './Portfolio/Design/img/md99-cover.png';
 
 /*---------------------Ideal Experience Imported Images------------------------------------------------------------------------------------*/
 
-import IdealExperience from './Portfolio/Design/img/ideal-experience.png';
+import IdealExperience from './Portfolio/Design/img/ideal-experience-cover.png';
 
 /*---------------------Clover Imported Images------------------------------------------------------------------------------------*/
 
@@ -55,7 +55,7 @@ import ThreeWillows from './Portfolio/Design/img/three-willows-cover.png';
 
 /*---------------------Total PT Connect Imported Images------------------------------------------------------------------------------------*/
 
-import TotalPtConnect from './Portfolio/Design/img/tptc-cover.png';
+import TotalPtConnect from './Portfolio/Design/img/totalpt-cover.png';
 
 /*---------------------Stoked Ampere's Imported Images------------------------------------------------------------------------------------*/
 
@@ -273,7 +273,7 @@ function GraphicDesignBody() {
                 </div>
                 <div className="overlay-center">
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <p className="overlay-text">Ideal Generative AI Experience</p>
+                    <p className="overlay-text">Ideal GenAI Experience</p>
                     <button className="button-4 open-button" onClick={() => window.location.href = '/ideal-experience'}>OPEN</button>
                   </div>
                 </div>
@@ -753,6 +753,35 @@ function GraphicDesignBody() {
             <div ref={topRef}></div>
           </div>
 
+
+          {/*------------------------------Three Willows----------------------------------------*/}
+
+          <div className="col card-port p-2">
+            <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
+              <img className="card-img-top" src={ThreeWillows} alt="Three Willows" />
+            </SlideshowLightbox>
+          </div>
+
+          
+
+          {/*------------------------------Rowan's Creek----------------------------------------*/}
+
+          <div className="col card-port p-2">
+            <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
+              <img className="card-img-top" src={RowansCreek} alt="Rowan's Creek" />
+            </SlideshowLightbox>
+          </div>
+
+          {/*------------------------------Railbird----------------------------------------*/}
+
+          <div className="col card-port p-2">
+            <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
+              <img className="card-img-top" src={Railbird} alt="Railbird" />
+            </SlideshowLightbox>
+          </div>
+
+          
+
           {/*------------------------------Space Monkey Mafia------------------------------------------------------------------------------------------*/}
 
           {/* <div className="col-lg-4 col-md-6 col-12 card-port p-4 m-4">
@@ -867,14 +896,34 @@ function GraphicDesignBody() {
 
           {/*------------------------------East Coast Magazine------------------------------------------------------------------------------------------*/}
 
-          <div className="col card-port p-2">
+                    <div className="col card-port p-2">
             <SlideshowLightbox theme="night" showThumbnails={true} className="container" roundedImages={false} modalClose="clickOutside">
               <img className="card-img-top" src={EastCoast} alt="East Coast Magazine" />
             </SlideshowLightbox>
           </div>
-
         </div>
       </div>
+      {/* Back to top link */}
+
+      <div className="text-center my-4">
+        <a
+          href="#portfolio-section"
+          className="btn btn-link"
+          style={{
+            textDecoration: 'underline',
+            fontWeight: 400, // normal
+            fontSize: '0.95rem', // smaller
+            color: '#222', // dark grey, almost black
+          }}
+          onClick={e => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
+          Back to top ↑
+        </a>
+      </div>
+
     </div>
   );
 }

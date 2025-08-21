@@ -112,3 +112,22 @@
   	color: #24292E;
   	font-family: Roboto;
 }
+
+/* --- Responsive Footer Fixes (force working) --- */
+@media (max-width: 767px) {
+  /* Hide logo and menu on mobile */
+  :global(.footer-hide-mobile) {
+    display: none !important;
+  }
+  /* Center and show social icons on mobile */
+  :global(.footer-social-center-mobile) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  :global(.footer-social-center-mobile) a {
+    display: inline-block !important;
+  }
+}
