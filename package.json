@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@firebasegen/example-connector": "file:dataconnect-generated/js/example-connector",
     "gh-pages": "^5.0.0"
   }
 }

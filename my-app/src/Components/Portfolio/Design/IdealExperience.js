@@ -464,32 +464,32 @@ function IdealExperience() {
             </div>
 
             <div className="methods-grid">
-              <div className="method-feature-box">
+              <div className="method-feature-box drop-card">
                 <h3 className="method-title">Efficiency is Key</h3>
                 <p className="method-description">Users value generative AI tools primarily for their ability to streamline workflows and save time, especially in early design stages like brainstorming and ideation.</p>
               </div>
 
-              <div className="method-feature-box">
+              <div className="method-feature-box drop-card">
                 <h3 className="method-title">Customization and Prompt Clarity Matter</h3>
                 <p className="method-description">Crafting clear, detailed prompts is essential for achieving high-quality results, and users desire more control over the customization of AI outputs.</p>
               </div>
 
-              <div className="method-feature-box">
+              <div className="method-feature-box drop-card">
                 <h3 className="method-title">Creative Experimentation</h3>
                 <p className="method-description">AI tools are frequently used as a creative partner, enabling users to iterate on ideas and explore multiple variations before arriving at a final design.</p>
               </div>
 
-              <div className="method-feature-box">
+              <div className="method-feature-box drop-card">
                 <h3 className="method-title">Learning Curve</h3>
                 <p className="method-description">Many users face challenges in learning to use AI effectively, with prompt generation being a common pain point, highlighting the need for more intuitive guidance within AI platforms.</p>
               </div>
 
-              <div className="method-feature-box">
+              <div className="method-feature-box drop-card  ">
                 <h3 className="method-title">Control Over Outputs</h3>
                 <p className="method-description">Users want to feel in control of the creative process, with AI acting as a supportive tool rather than replacing the designer's role in decision-making.</p>
               </div>
 
-              <div className="method-feature-box">
+              <div className="method-feature-box drop-card">
                 <h3 className="method-title">Trust and Concerns</h3>
                 <p className="method-description">While AI is embraced for its potential, users express concerns about over-reliance, the ethical implications of its use, and its impact on creativity and originality.</p>
               </div>

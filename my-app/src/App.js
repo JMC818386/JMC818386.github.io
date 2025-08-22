@@ -5,22 +5,19 @@ import Contact from './Components/Contact';
 import GraphicDesignBody from './Components/GraphicDesignBody';
 // import './Components/App.css';
 
-import Footer from './Components/Footer';
+
+
 
 
 function App() {
   return (
-        <div className="container-fluid h-100 g-0">
-         
+    <div className="container-fluid h-100 g-0">
+      <About />
+      <GraphicDesignBody />
+      {/* <Contact /> */}
 
-          <About />
-          <GraphicDesignBody />
-          <Contact />
-
-          {/* <Footer /> */}
-          
-        </div>
+    </div>
   );
-  }
+}
 
 export default App;

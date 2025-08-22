@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "jmc818386githubio-1"
+location: "us-east1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "jmc818386githubio-1-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./example"]

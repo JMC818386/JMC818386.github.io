@@ -7,6 +7,7 @@ import Grid from './img/Grid.png';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import TopNav from './TopNav';
 import aboutPhoto from './img/about-me-photo.png';
 import aboutPhoto2 from './about-me-photo-2.png';
@@ -16,7 +17,9 @@ import DocumentIcon from './img/icons/acrobat.png';
 
 
 
+
 function About() {
+  const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init({
@@ -47,12 +50,7 @@ function About() {
                   <button
                     className="button-4 d-flex align-items-center justify-content-center"
                     style={{ padding: '12px 20px' }}
-                    onClick={() => {
-                      const element = document.getElementById('portfolio-section');
-                      if (element) {
-                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                      }
-                    }}
+                    onClick={() => navigate('/portfolio')}
                   >
                     <img src={EyeOpenIcon} alt="See My Work" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
                     See My Work

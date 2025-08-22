@@ -39,7 +39,9 @@ import AgCon from './Portfolio/Design/img/ag-con-cover.png';
 
 /*---------------------Silent Battle Imported Images------------------------------------------------------------------------------------*/
 
-import SilentBattle from './Portfolio/Design/img/silent-battle-cover.png';
+// import SilentBattle from './Portfolio/Design/img/silent-battle-cover.png';
+// import SilentBattle from './Portfolio/Design/img/silent-battle-cover-2.png';
+import SilentBattle from './Portfolio/Design/img/silent-battle-cover-3.png';
 
 /*---------------------Rowan's Creek Imported Images------------------------------------------------------------------------------------*/
 
@@ -227,7 +229,7 @@ function GraphicDesignBody() {
 
      
         <div className="content-2 text-center">
-            <b className="secondary-headline">Portfolio</b>
+            <b className="secondary-headline text-center">Portfolio</b>
         </div>
     
 

@@ -116,10 +116,10 @@ function Clover() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/clover" />
 
-      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-5">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section-auto mx-2">
+        <div className="section-auto">
           <div className="half-section text-side">
             <div className="top">
               <img className="clover-logo" src={CloverLogo} alt="History Zine Cover" />
@@ -138,7 +138,7 @@ function Clover() {
                   rel="noopener noreferrer"
                   className="button-4 d-flex align-items-center justify-content-center"
                   role="button"
-                  style={{ padding: '12px 20px' }}
+                  style={{ padding: '12px 10px' }}
                 >
                   <img src={FigmaIcon} alt="Figma" style={{ width: '16px', height: '16px', marginRight: '8px' }} />
                   Design File
@@ -249,7 +249,7 @@ function Clover() {
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline text-center">Ideal User</b>
+              <b className="secondary-headline text-center bold">Ideal User</b>
             </div>
             <div className="paragraph-2 text-center">
               {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
