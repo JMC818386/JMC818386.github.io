@@ -121,7 +121,7 @@ function IdealExperience() {
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
         <div className="section">
-          <div className="half-section text-side">
+          <div className="content-2 text-side">
             <div className="top">
               <b className="secondary-headline">Ideal GenAI Experience</b>
             </div>
@@ -187,7 +187,7 @@ function IdealExperience() {
         </div>
 
         {/* ---------------------------------------------- INTERACTIVE BOOKLET ---------------------------------------------- */}
-        <div style={{ textAlign: 'center' }}>
+        {/* <div style={{ textAlign: 'center' }}>
           <b className="secondary-headline text-center mt-5">Interactive Experience</b>
         </div>
         <div style={{ textAlign: 'center' }}>
@@ -197,7 +197,7 @@ function IdealExperience() {
         </div>
         <div className="section-auto m-2 p-0">
           <IdealExperienceBooklet />
-        </div>
+        </div> */}
 
         {/* ---------------------------------------------- METHODS SECTION ---------------------------------------------- */}
         <div className="section-2 methods-section">

@@ -172,9 +172,9 @@ function MD99() {
           <div className="content-2">
             <div className="section-text-2">
               <div className="top">
-                <b className="secondary-headline">Concept</b>
+                <b className="secondary-headline text-center">Concept</b>
               </div>
-              <div className="paragraph-2">
+              <div className="paragraph-2 text-center">
                 {`The platform leverages server-side rendering to deliver optimized, fast-loading graphics that can be embedded directly into web applications via a simple API call. By focusing exclusively on single-value KPIs, MD99 provides an innovative solution for professionals who need clear, concise, and impactful data representation. With pre-designed templates, automated asset management, and a streamlined workflow, MD99 transforms the traditionally complex process of data visualization into an intuitive, scalable experience. `}
               </div>
             </div>

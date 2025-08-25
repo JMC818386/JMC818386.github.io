@@ -213,10 +213,10 @@ function SilentBattle() {
             <div className="top">
               <b className="secondary-headline text-center">Content + Layout</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               With the conceptual structure defined, I began building out the full pagination system—mapping ten expressive spreads across the body of the book while integrating all 53 chapters of the Enchiridion in sequence. Each spread was anchored by a central theme such as Control, Desire, or Fracture, which guided both layout and typographic expression. I used a modular grid to organize the Roman body text with precision while allowing expressive headlines to disrupt, shape, or reinforce the structure.
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center text-center">
               As I began populating each composition with the full body copy, the balance between clarity and contrast became critical. I tested a variety of type treatments and spatial arrangements to preserve legibility while driving emotional and philosophical tone. A full grayscale print test allowed me to evaluate rhythm, density, and pacing across the book in physical form—revealing what was working visually and where refinement was needed before committing to final print production.
             </div>
           </div>
@@ -251,9 +251,9 @@ function SilentBattle() {
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline">Refinement</b>
+              <b className="secondary-headline text-center">Refinement</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               With the full structure, grid, and typographic system in place, I transitioned into high-fidelity composition - bringing each thematic spread to life through layered color, texture, and expressive typographic treatments. Every spread was carefully refined to reflect its underlying philosophical tone: Desire moves with fluid lines and tension, Fracture splinters violently across the grid, and Stillness fades into delicate quiet. Visual experimentation intensified as I explored techniques like motion simulation, typographic erosion, repetition, and spatial density to build contrast and rhythm. Final refinements focused on color correction, type clarity, and compositional pacing across the full sequence. The project concluded with a fully bound and printed book.
             </div>
           </div>
@@ -263,7 +263,7 @@ function SilentBattle() {
 
       {/* ---------------------------------------------- Color Comps ---------------------------------------------- */}
 
-        <div style={{ padding: '40px 40px', margin: 0 }}>
+        <div style={{ padding: '10px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Color Compositions"
@@ -276,7 +276,7 @@ function SilentBattle() {
       
 
 
-        <div style={{ padding: '40px 40px', margin: 0 }}>
+        <div style={{ padding: '10px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Compositions"
@@ -289,7 +289,7 @@ function SilentBattle() {
 
 
         {/* ---------------------------------------------- FINAL MOCKUPS ---------------------------------------------- */}
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -299,7 +299,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -309,7 +309,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -319,7 +319,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -329,7 +329,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -339,7 +339,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -349,7 +349,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -359,7 +359,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"
@@ -369,7 +369,7 @@ function SilentBattle() {
           />
         </div>
 
-        <div style={{ padding: '40px 80px', margin: 0 }}>
+        <div style={{ padding: '20px 20px', margin: 0 }}>
           <img
             className="cover-img"
             alt="Silent Battle Final Mockups"

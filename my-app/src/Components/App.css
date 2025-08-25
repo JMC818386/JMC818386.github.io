@@ -1053,14 +1053,15 @@ body {
   position: relative;
   line-height: 100%;
   font-size: 35px;
-  padding: 10px 40px;
+  padding: 0px 10px;
   width: 100%;
   display: block;
+  text-align: left;
 }
 
 /* Special styling for Concept section - center aligned on all screen sizes */
 .section-text-2 .secondary-headline {
-  text-align: center;
+  text-align: left;
 }
 
 .section-text-2 .paragraph-2 {
@@ -1104,9 +1105,9 @@ body {
   color: var(--color-silver);
   align-self: stretch;
   position: relative;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 160%;
-  padding: 5px 40px;
+  padding: 5px 10px;
 }
 
 .paragraph-2 {
@@ -1122,7 +1123,7 @@ body {
   color: var(--color-silver);
   align-self: stretch;
   position: relative;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 160%;
 }
 
@@ -1130,7 +1131,7 @@ body {
   color: var(--color-silver);
   align-self: stretch;
   position: relative;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 160%;
   padding: 5px 0px;
 }
@@ -1156,29 +1157,30 @@ body {
 /* Mobile breakpoint */
 @media (max-width: 600px) {
   .paragraph {
-    font-size: 15px;
-    padding: 10px 40px;
+    font-size: 16px;
+    padding: 10px 10px;
   }
 
   .paragraph-2 {
-    font-size: 16px;
-    padding: 10px 40px;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: left;
   }
 
   .paragraph-no-padding {
-    font-size: 14px;
+    font-size: 17px;
     padding: 10px 0px;
   }
 
   .secondary-headline {
     font-size: 28px;
-    padding: 10px 40px;
+    padding: 0px 10px;
     text-align: left;
   }
 
    .sub-secondary-headline {
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 10px 10px;
     text-align: left;
     color: var(--color-silver);
     font-weight: 600;
@@ -1195,13 +1197,13 @@ body {
   /* Remove headline padding when inside sections that already have padding */
   .section-2 .secondary-headline,
   .section-auto .secondary-headline {
-    padding: 10px 0px;
+    padding: 0px 0px;
   }
 
   /* Special styling for Concept section - center aligned */
   .section-text-2 .secondary-headline {
     text-align: center;
-    padding: 10px 0px;
+    padding: 0px 0px;
   }
 
   .section-text-2 .paragraph-2 {

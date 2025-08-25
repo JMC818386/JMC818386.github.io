@@ -140,9 +140,9 @@ function AgCon() {
         <div className="section-2">
           <div className="content-2 mx-3">
             <div className="top">
-              <b className="secondary-headline">Research & Inspiration</b>
+              <b className="secondary-headline text-center">Research & Inspiration</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               The design process began with research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology. Visually, the series blends retro-tech futurism with farm grit. Posters use tight modular grids referencing aerial crop plots and circuit diagrams. The texture and structure borrow from mechanical blueprints, vintage computing systems, and welded machinery—combining industrial sharpness with rural resilience. The result is a kinetic, engineered system that feels both hand-built and high-tech, rooted in the dirt and wired for the future.
             </div>
           </div>
@@ -194,9 +194,9 @@ function AgCon() {
         <div className="section-auto">
           <div className="content-2 mx-3">
             <div className="top">
-              <b className="secondary-headline">Typography and Grid Exploration</b>
+              <b className="secondary-headline text-center">Typography and Grid Exploration</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               The design process began with research into agricultural innovation and conference branding. The moodboard captures the intersection of traditional farming with cutting-edge technology. Visually, the series blends retro-tech futurism with farm grit. Posters use tight modular grids referencing aerial crop plots and circuit diagrams. The texture and structure borrow from mechanical blueprints, vintage computing systems, and welded machinery—combining industrial sharpness with rural resilience. The result is a kinetic, engineered system that feels both hand-built and high-tech, rooted in the dirt and wired for the future.
             </div>
           </div>
@@ -261,9 +261,9 @@ function AgCon() {
          <div className="section-auto">
           <div className="content-2 mx-3">
             <div className="top">
-              <b className="secondary-headline">Digital Comps</b>
+              <b className="secondary-headline text-center">Digital Comps</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
                The first digital compositions served as a playground for structural layout and expressive typography. Each poster was built around one of the core words - Connect, Cultivate, and Grow - and pushed to extremes using dynamic grids, layering, repetition, and distortion. This phase was intentionally chaotic, leaning into overstatement to explore visual rhythm, scale, and typographic aggression. While these early drafts captured the raw energy of AG_CON’s themes, they also revealed the need for stronger clarity and conceptual alignment, especially for “Connect” and “Cultivate.”
             </div>
           </div>
@@ -303,10 +303,10 @@ function AgCon() {
         <div className="section-auto">
           <div className="content-2 mx-3">
             <div className="top">
-              <b className="secondary-headline">Final Posters</b>
+              <b className="secondary-headline text-center">Final Posters</b>
             </div>
 
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               The final poster series embraces a more distilled and purposeful approach. The reduction of visual noise, refinement of composition, and integration of a limited color system helped the final posters balance intensity with intention. The result is a unified series that maintains its retro-tech aesthetic while honoring the agricultural intelligence at the core of the concept.
 
             </div>

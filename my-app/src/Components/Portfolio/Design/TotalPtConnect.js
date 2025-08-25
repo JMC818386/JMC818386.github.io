@@ -205,9 +205,9 @@ function TotalPtConnect() {
       <div className="section-2">
         <div className="content-2">
           <div className="top">
-            <b className="secondary-headline">Platform Interface</b>
+            <b className="secondary-headline text-center">Platform Interface</b>
           </div>
-          <div className="paragraph-2">
+          <div className="paragraph-2 text-center">
             The platform interface was designed to be intuitive for healthcare professionals while maintaining the sophisticated functionality required for modern physical therapy practice management.
           </div>
         </div>

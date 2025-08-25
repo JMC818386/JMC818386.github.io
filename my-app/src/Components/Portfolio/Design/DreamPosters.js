@@ -221,7 +221,7 @@ function DreamPoster() {
             <div className="top">
               <b className="secondary-headline text-center">Final Designs</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               The completed poster series showcases the integration of photographic elements with geometric grid systems, resulting in visually striking compositions that capture the essence of dream states through design. This poster series is the product of a larger project for a dream-goal calendar that provides an interactive print device for establishing and reaching a goal through an evening and morning interaction with the calendar to complete tasks that support reaching the goal before right before going to sleep every night, and as soon as they wake up every day - until the goal is reached.
             </div>
           </div>

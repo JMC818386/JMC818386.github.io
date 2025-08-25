@@ -116,7 +116,7 @@ function Clover() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/clover" />
 
-      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-5">
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-1">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
         <div className="section-auto">
@@ -189,9 +189,9 @@ function Clover() {
         <div className="section-2 my-5 mb-5">
           <div className="content-2 text-center">
             <div className="top">
-              <b className="secondary-headline">Research</b>
+              <b className="secondary-headline text-center">Research</b>
             </div>
-            <div className="paragraph-2">
+            <div className="paragraph-2 text-center">
               {`I began my research by gathering feedback from a local High School golf team, interviewing an assistant coach as well as a varsity golfer. I then constructed user empathy maps and personas to consolidate and identify the core user motivations, goals and pain points of their current experiences. `}
             </div>
           </div>
@@ -249,7 +249,7 @@ function Clover() {
         <div className="section-2">
           <div className="content-2">
             <div className="top">
-              <b className="secondary-headline text-center bold">Ideal User</b>
+              <b className="secondary-headline text-center">Ideal User</b>
             </div>
             <div className="paragraph-2 text-center">
               {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
@@ -457,20 +457,6 @@ function Clover() {
         </div>
 
         {/* ----------------------------- Atomic Design System --------------------------- */}
-
-        {/* ------------------- Ideal User ---------------------------- */}
-        <div className="section-2">
-          <div className="content-2">
-            <div className="top">
-              <b className="secondary-headline text-center">Ideal User</b>
-            </div>
-            <div className="paragraph-2 text-center">
-              {`By creating a user persona of an ideal user I was able to identify the motivations, goals and pain points that needed to be addressed in the concept & design. My key findings indicated that amateur golf teams face a small budget, limited time and resources, and inadequate facilities at their home course. Using these findings, I could now begin formulating solutions to each of these obstacles in the concept and initial UI designs. `}
-            </div>
-          </div>
-        </div>
-
-
         <div className="top mt-5">
           <b className="secondary-headline text-center">Atomic Design System </b>
         </div>
