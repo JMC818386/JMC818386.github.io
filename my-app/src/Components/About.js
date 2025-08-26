@@ -85,7 +85,7 @@ function About() {
           </div>
 
         <div className="section-2 mb-3">
-          <div className="content-2 text-center">
+          <div className="content-2">
             <div className="top">
               <b className="secondary-headline">About</b>
             </div>
@@ -99,11 +99,11 @@ function About() {
         <div className="section-2 mb-3">
           <div className="row">
             <div className="col-12 col-md-6">
-              <div className="content-2 text-center">
+              <div className="content-2">
                 <div className="top">
-                  <b className="secondary-headline">Values</b>
+                  <b className="secondary-headline text-center">Values</b>
                 </div>
-                <div className="paragraph-2">
+                <div className="paragraph text-center">
                   {`My values as a designer and developer are anchored in thoughtful user-centric design, utilizing in-depth research, iterative design, and effective communication to produce work that connects with audiences to bring meaningful and impactful experiences to products and, brands.
                   `}
                 </div>
@@ -112,11 +112,11 @@ function About() {
             
             
             <div className="col-12 col-md-6">
-              <div className="content-2 text-center">
+              <div className="content-2">
                 <div className="top">
-                  <b className="secondary-headline">Vision</b>
+                  <b className="secondary-headline text-center">Vision</b>
                 </div>
-                <div className="paragraph-2">
+                <div className="paragraph text-center">
                   {`I am committed to continuously learning, growing, and adapting to industry standards as well as the unique demands of each client and project I undertake. I am a hands-on creative leader with the ability to contribute to projects from discovery and design to development and production.
                   `}
                 </div>
@@ -129,7 +129,7 @@ function About() {
            <div className="section-auto my-5 mb-5">
             <div className="content-2 text-center">
               <div className="top">
-                <b className="secondary-headline">Niche</b>
+                <b className="secondary-headline text-center">Niche</b>
               </div>
               <div className="paragraph-2">
                 {`My current niche is in my ability to build digital products from concept to production, working as both a designer and developer. I am a creative professional who can work in hybrid environments that require both design and engineering experience.
@@ -139,8 +139,8 @@ function About() {
         </div>
 
        
-          <div className="content-2 text-center">
-              <b className="secondary-headline">Tools</b>
+          <div className="content-2">
+              <b className="secondary-headline text-center">Tools</b>
           </div>
       
 
