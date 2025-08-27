@@ -394,7 +394,7 @@ function IdealExperience() {
             <div className="top">
               <b className="secondary-headline">External Interviews</b>
             </div>
- i           <div className="paragraph">
+             <div className="paragraph">
               {`We used Google Forms to create and distribute a survey aimed at gathering insights from creatives on their experience with generative AI tools. Responses were collected automatically in Google Sheets, where they were organized into a database for easy analysis. This method allowed us to efficiently collect and review the data to identify key trends for our research. `}
             </div>
           </div>

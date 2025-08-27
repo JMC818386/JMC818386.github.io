@@ -97,219 +97,221 @@ function TotalPtConnect() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/total-pt-connect" />
 
-      {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-      <div className="section">
-        <div className="half-section text-side">
-          <div className="top">
-            <b className="secondary-headline">Total PT Connect</b>
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-2">
+        {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Total PT Connect</b>
+            </div>
+            <div className="paragraph">
+              Professional healthcare platform branding and user interface design, connecting physical therapy providers with modern digital solutions.
+            </div>
           </div>
-          <div className="paragraph">
-            Professional healthcare platform branding and user interface design, connecting physical therapy providers with modern digital solutions.
+          <div className="half-section image-side">
+            <img
+              className="history-cover-img"
+              alt="Total PT Connect Hero"
+              src={TotalConnectHero}
+              onClick={() => openLightbox(TotalConnectHero, "Total PT Connect Hero")}
+              style={{ cursor: 'pointer', transform: 'scale(1.5)' }}
+            />
           </div>
         </div>
-        <div className="half-section image-side">
+
+        {/* ---------------------------------------------- PATIENT GRID OVERVIEW ---------------------------------------------- */}
+        <div style={{ padding: 0, margin: 0 }}>
           <img
-            className="history-cover-img"
-            alt="Total PT Connect Hero"
-            src={TotalConnectHero}
-            onClick={() => openLightbox(TotalConnectHero, "Total PT Connect Hero")}
-            style={{ cursor: 'pointer', transform: 'scale(1.5)' }}
+            className="cover-img"
+            alt="Total PT Connect Patient Grid"
+            src={TotalConnectPatientGrid}
+            onClick={() => openLightbox(TotalConnectPatientGrid, "Total PT Connect Patient Grid")}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
           />
         </div>
-      </div>
 
-      {/* ---------------------------------------------- PATIENT GRID OVERVIEW ---------------------------------------------- */}
-      <div style={{ padding: 0, margin: 0 }}>
-        <img
-          className="cover-img"
-          alt="Total PT Connect Patient Grid"
-          src={TotalConnectPatientGrid}
-          onClick={() => openLightbox(TotalConnectPatientGrid, "Total PT Connect Patient Grid")}
-          style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
-        />
-      </div>
-
-      {/* ---------------------------------------------- MESSAGING & BRANDING ---------------------------------------------- */}
-      <div className="section">
-        <div className="half-section text-side">
-          <div className="top">
-            <b className="secondary-headline">Brand Messaging</b>
+        {/* ---------------------------------------------- MESSAGING & BRANDING ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Brand Messaging</b>
+            </div>
+            <div className="paragraph">
+              Total PT Connect bridges the gap between traditional physical therapy practice and modern digital healthcare solutions, emphasizing accessibility, trust, and professional excellence.
+            </div>
+            <div className="paragraph">
+              The messaging strategy focuses on empowering healthcare providers with intuitive tools while maintaining the human connection that's essential to effective physical therapy treatment.
+            </div>
           </div>
-          <div className="paragraph">
-            Total PT Connect bridges the gap between traditional physical therapy practice and modern digital healthcare solutions, emphasizing accessibility, trust, and professional excellence.
-          </div>
-          <div className="paragraph">
-            The messaging strategy focuses on empowering healthcare providers with intuitive tools while maintaining the human connection that's essential to effective physical therapy treatment.
+          <div className="half-section image-side" style={{ marginTop: '-12.5%', marginBottom: '-12.5%' }}>
+            <img
+              className="history-cover-img"
+              alt="Total PT Connect Messaging"
+              src={TotalConnectMessaging}
+              onClick={() => openLightbox(TotalConnectMessaging, "Total PT Connect Messaging")}
+              style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
+            />
           </div>
         </div>
-        <div className="half-section image-side" style={{ marginTop: '-12.5%', marginBottom: '-12.5%' }}>
+
+        {/* ---------------------------------------------- APPLICATION MOCKUPS ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Calendar Management</b>
+            </div>
+            <div className="paragraph">
+              The integrated calendar system allows therapists to efficiently manage appointments, view patient schedules, and coordinate treatment sessions across multiple locations.
+            </div>
+            <div className="paragraph">
+              Smart scheduling features help optimize therapist availability while providing patients with flexible booking options that work with their busy schedules.
+            </div>
+          </div>
+          <div className="half-section image-side" style={{ marginTop: '-12.5%', marginBottom: '-12.5%' }}>
+            <img
+              className="history-cover-img"
+              alt="Total PT Connect Calendar Mockup"
+              src={TotalConnectMockupCalendar}
+              onClick={() => openLightbox(TotalConnectMockupCalendar, "Total PT Connect Calendar Mockup")}
+              style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
+            />
+          </div>
+        </div>
+
+        {/* ---------------------------------------------- STATISTICS TRACKING ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Performance Analytics</b>
+            </div>
+            <div className="paragraph">
+              Comprehensive analytics dashboard provides real-time insights into practice performance, patient outcomes, and treatment effectiveness across all therapy programs.
+            </div>
+            <div className="paragraph">
+              Data-driven reporting helps therapists make informed decisions about treatment plans while demonstrating measurable progress to patients and insurance providers.
+            </div>
+          </div>
+          <div className="half-section image-side" style={{ marginTop: '-12.5%', marginBottom: '-12.5%' }}>
+            <img
+              className="history-cover-img"
+              alt="Total PT Connect Stats Mockup"
+              src={TotalConnectMockupStats}
+              onClick={() => openLightbox(TotalConnectMockupStats, "Total PT Connect Stats Mockup")}
+              style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
+            />
+          </div>
+        </div>
+
+        {/* ---------------------------------------------- PLATFORM SCREENS ---------------------------------------------- */}
+        <div className="section-2">
+          <div className="content-2">
+            <div className="top">
+              <b className="secondary-headline text-center">Platform Interface</b>
+            </div>
+            <div className="paragraph-2 text-center">
+              The platform interface was designed to be intuitive for healthcare professionals while maintaining the sophisticated functionality required for modern physical therapy practice management.
+            </div>
+          </div>
+        </div>
+
+        <div className=" py-3 px-5 mb-1">
           <img
-            className="history-cover-img"
-            alt="Total PT Connect Messaging"
-            src={TotalConnectMessaging}
-            onClick={() => openLightbox(TotalConnectMessaging, "Total PT Connect Messaging")}
-            style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
-          />
-        </div>
-      </div>
-
-      {/* ---------------------------------------------- APPLICATION MOCKUPS ---------------------------------------------- */}
-      <div className="section">
-        <div className="half-section text-side">
-          <div className="top">
-            <b className="secondary-headline">Calendar Management</b>
-          </div>
-          <div className="paragraph">
-            The integrated calendar system allows therapists to efficiently manage appointments, view patient schedules, and coordinate treatment sessions across multiple locations.
-          </div>
-          <div className="paragraph">
-            Smart scheduling features help optimize therapist availability while providing patients with flexible booking options that work with their busy schedules.
-          </div>
-        </div>
-        <div className="half-section image-side" style={{ marginTop: '-12.5%', marginBottom: '-12.5%' }}>
-          <img
-            className="history-cover-img"
-            alt="Total PT Connect Calendar Mockup"
-            src={TotalConnectMockupCalendar}
-            onClick={() => openLightbox(TotalConnectMockupCalendar, "Total PT Connect Calendar Mockup")}
-            style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
-          />
-        </div>
-      </div>
-
-      {/* ---------------------------------------------- STATISTICS TRACKING ---------------------------------------------- */}
-      <div className="section">
-        <div className="half-section text-side">
-          <div className="top">
-            <b className="secondary-headline">Performance Analytics</b>
-          </div>
-          <div className="paragraph">
-            Comprehensive analytics dashboard provides real-time insights into practice performance, patient outcomes, and treatment effectiveness across all therapy programs.
-          </div>
-          <div className="paragraph">
-            Data-driven reporting helps therapists make informed decisions about treatment plans while demonstrating measurable progress to patients and insurance providers.
-          </div>
-        </div>
-        <div className="half-section image-side" style={{ marginTop: '-12.5%', marginBottom: '-12.5%' }}>
-          <img
-            className="history-cover-img"
-            alt="Total PT Connect Stats Mockup"
-            src={TotalConnectMockupStats}
-            onClick={() => openLightbox(TotalConnectMockupStats, "Total PT Connect Stats Mockup")}
-            style={{ cursor: 'pointer', transform: 'scale(0.75)', maxWidth: '400px' }}
-          />
-        </div>
-      </div>
-
-      {/* ---------------------------------------------- PLATFORM SCREENS ---------------------------------------------- */}
-      <div className="section-2">
-        <div className="content-2">
-          <div className="top">
-            <b className="secondary-headline text-center">Platform Interface</b>
-          </div>
-          <div className="paragraph-2 text-center">
-            The platform interface was designed to be intuitive for healthcare professionals while maintaining the sophisticated functionality required for modern physical therapy practice management.
-          </div>
-        </div>
-      </div>
-
-      <div className=" py-3 px-5 mb-1">
-        <img
-          className="cover-img"
-          alt="Total PT Connect Platform Screens"
-          src={TotalConnectScreens}
-          onClick={() => openLightbox(TotalConnectScreens, "Total PT Connect Platform Screens")}
-          style={{ cursor: 'pointer' }}
-        />
-      </div>
-
-      {/* ---------------------------------------------- PATIENT MANAGEMENT ---------------------------------------------- */}
-      <div className="section">
-        <div className="half-section text-side">
-          <div className="top">
-            <b className="secondary-headline">Patient Management</b>
-          </div>
-          <div className="paragraph">
-            Comprehensive patient management tools provide therapists with organized views of patient information, treatment progress, and detailed reporting capabilities.
-          </div>
-          <div className="paragraph">
-            The patient reporting system allows for detailed tracking of individual progress, treatment outcomes, and comprehensive documentation for insurance and medical record purposes.
-          </div>
-        </div>
-        <div className="half-section image-side">
-          <img
-            className="history-cover-img"
-            alt="Total PT Connect Patient Report"
-            src={TotalConnectPatientReport}
-            onClick={() => openLightbox(TotalConnectPatientReport, "Total PT Connect Patient Report")}
+            className="cover-img"
+            alt="Total PT Connect Platform Screens"
+            src={TotalConnectScreens}
+            onClick={() => openLightbox(TotalConnectScreens, "Total PT Connect Platform Screens")}
             style={{ cursor: 'pointer' }}
           />
         </div>
-      </div>
 
-      {/* ------------------- Back to Top ---------------------------- */}
-      <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }}
-          className="d-flex align-items-center justify-content-center"
-          style={{
-            textDecoration: 'none',
-            color: 'var(--color-silver)',
-            fontSize: '14px',
-            fontWeight: '500',
-            transition: 'color 0.3s ease',
-            gap: '8px'
-          }}
-          onMouseEnter={(e) => e.target.style.color = 'white'}
-          onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="18,15 12,9 6,15"></polyline>
-          </svg>
-          Back to Top
-        </a>
-      </div>
-
-      <GraphicDesignBody />
-   
-
-      {/* Lightbox Modal - Rendered as Portal */}
-      {lightboxImage && createPortal(
-        <div className="lightbox-backdrop" onClick={handleBackdropClick}>
-          <div className="lightbox-container" onClick={handleLightboxInteraction}>
-            <button className="lightbox-close" onClick={closeLightbox}>
-              ×
-            </button>
+        {/* ---------------------------------------------- PATIENT MANAGEMENT ---------------------------------------------- */}
+        <div className="section">
+          <div className="half-section text-side">
+            <div className="top">
+              <b className="secondary-headline">Patient Management</b>
+            </div>
+            <div className="paragraph">
+              Comprehensive patient management tools provide therapists with organized views of patient information, treatment progress, and detailed reporting capabilities.
+            </div>
+            <div className="paragraph">
+              The patient reporting system allows for detailed tracking of individual progress, treatment outcomes, and comprehensive documentation for insurance and medical record purposes.
+            </div>
+          </div>
+          <div className="half-section image-side">
             <img
-              src={lightboxImage.src}
-              alt={lightboxImage.alt}
-              className="lightbox-image"
-              onClick={handleImageClick}
-              onMouseMove={handleImageMouseMove}
-              style={{
-                cursor: isZoomed ? 'zoom-out' : 'zoom-in',
-                transform: isZoomed ? 'scale(2)' : 'scale(1)',
-                transformOrigin: isZoomed ? `${zoomPosition.x}% ${zoomPosition.y}%` : 'center',
-                transition: isZoomed ? 'none' : 'transform 0.3s ease'
-              }}
+              className="history-cover-img"
+              alt="Total PT Connect Patient Report"
+              src={TotalConnectPatientReport}
+              onClick={() => openLightbox(TotalConnectPatientReport, "Total PT Connect Patient Report")}
+              style={{ cursor: 'pointer' }}
             />
           </div>
-        </div>,
-        document.body
-      )}
+        </div>
+
+        {/* ------------------- Back to Top ---------------------------- */}
+        <div className="section-auto" style={{ display: 'flex', justifyContent: 'center', padding: '40px 0 80px 0' }}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="d-flex align-items-center justify-content-center"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--color-silver)',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'color 0.3s ease',
+              gap: '8px'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'white'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--color-silver)'}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+            Back to Top
+          </a>
+        </div>
+
+        <GraphicDesignBody />
+    
+
+        {/* Lightbox Modal - Rendered as Portal */}
+        {lightboxImage && createPortal(
+          <div className="lightbox-backdrop" onClick={handleBackdropClick}>
+            <div className="lightbox-container" onClick={handleLightboxInteraction}>
+              <button className="lightbox-close" onClick={closeLightbox}>
+                ×
+              </button>
+              <img
+                src={lightboxImage.src}
+                alt={lightboxImage.alt}
+                className="lightbox-image"
+                onClick={handleImageClick}
+                onMouseMove={handleImageMouseMove}
+                style={{
+                  cursor: isZoomed ? 'zoom-out' : 'zoom-in',
+                  transform: isZoomed ? 'scale(2)' : 'scale(1)',
+                  transformOrigin: isZoomed ? `${zoomPosition.x}% ${zoomPosition.y}%` : 'center',
+                  transition: isZoomed ? 'none' : 'transform 0.3s ease'
+                }}
+              />
+            </div>
+          </div>,
+          document.body
+        )}
+      </div>
     </div>
   );
 }

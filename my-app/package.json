@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+    "framer-motion": "^12.23.12",
     "gh-pages": "^5.0.0",
     "lightbox.js-react": "^0.6.9",
     "page-flip": "^2.0.7",

@@ -7,6 +7,7 @@ import Icons from './Icons';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import React, { useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import TopNav from './TopNav';
 
@@ -29,7 +30,7 @@ function About() {
   }, []);
 
   return (
-    <div className="d-flex justify-content-center flex-column bg-main-dark">
+    <div className="d-flex justify-content-center flex-column bg-main-dark pb-5">
       <TopNav />
       <div className="my-2">
         <div className="container px-5">
@@ -84,15 +85,26 @@ function About() {
             </div>
           </div>
 
+        {/* Animate About section title and body to fade in after hero using Framer Motion */}
         <div className="section-2 mb-3">
           <div className="content-2">
-            <div className="top">
-              <b className="secondary-headline">About</b>
-            </div>
-            <div className="paragraph-2">
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 2.2, duration: 0.7, ease: 'easeOut' }}
+              className="top"
+            >
+              <b className="secondary-headline text-center">About</b>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 2.5, duration: 0.7, ease: 'easeOut' }}
+              className="paragraph-2 text-center"
+            >
               {`I’m a multidisciplinary designer and software developer based in Lexington, KY. My experience spans graphic design, branding, printmaking, research, UX/UI design, interaction design, and software development. I thrive on helping clients capture the authentic essence of their brand, product, or service - turning ideas into visually compelling, functional designs.
               `}
-            </div>
+            </motion.div>
           </div>
         </div>
 
@@ -100,41 +112,68 @@ function About() {
           <div className="row">
             <div className="col-12 col-md-6">
               <div className="content-2">
-                <div className="top">
+                <motion.div
+                  initial={{ opacity: 0, y: 24 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 3.2, duration: 0.7, ease: 'easeOut' }}
+                  className="top"
+                >
                   <b className="secondary-headline text-center">Values</b>
-                </div>
-                <div className="paragraph text-center">
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 24 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 3.5, duration: 0.7, ease: 'easeOut' }}
+                  className="paragraph text-center"
+                >
                   {`My values as a designer and developer are anchored in thoughtful user-centric design, utilizing in-depth research, iterative design, and effective communication to produce work that connects with audiences to bring meaningful and impactful experiences to products and, brands.
                   `}
-                </div>
+                </motion.div>
               </div>
             </div>
-            
-            
             <div className="col-12 col-md-6">
               <div className="content-2">
-                <div className="top">
+                <motion.div
+                  initial={{ opacity: 0, y: 24 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 4.0, duration: 0.7, ease: 'easeOut' }}
+                  className="top"
+                >
                   <b className="secondary-headline text-center">Vision</b>
-                </div>
-                <div className="paragraph text-center">
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 24 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 4.3, duration: 0.7, ease: 'easeOut' }}
+                  className="paragraph text-center"
+                >
                   {`I am committed to continuously learning, growing, and adapting to industry standards as well as the unique demands of each client and project I undertake. I am a hands-on creative leader with the ability to contribute to projects from discovery and design to development and production.
                   `}
-                </div>
+                </motion.div>
               </div>
             </div>
-
           </div>
         </div>
 
-           <div className="section-auto my-5 mb-5">
-            <div className="content-2">
-              <div className="top">
-                <b className="secondary-headline">Niche</b>
-              </div>
-              <div className="paragraph-2">
-                {`My current niche is in my ability to build digital products from concept to production, working as both a designer and developer. I am a creative professional who can work in hybrid environments that require both design and engineering experience.
-                `}
-              </div>
+        <div className="section-auto my-5 mb-5">
+          <div className="content-2">
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 5.0, duration: 0.7, ease: 'easeOut' }}
+              className="top"
+            >
+              <b className="secondary-headline text-center">Niche</b>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 5.3, duration: 0.7, ease: 'easeOut' }}
+              className="paragraph-2 text-center"
+            >
+              {`My current niche is in my ability to build digital products from concept to production, working as both a designer and developer. I am a creative professional who can work in hybrid environments that require both design and engineering experience.
+              `}
+            </motion.div>
           </div>
         </div>
 

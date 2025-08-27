@@ -293,7 +293,7 @@ function MD99() {
         </div>
 
         {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
-        <div className="section-auto">
+        <div className="section-auto d-flex align-items-start">
           <div className="half-section text-side">
             <div className="top">
               <b className="secondary-headline">The Challenge</b>

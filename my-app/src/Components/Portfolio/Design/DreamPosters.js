@@ -125,7 +125,7 @@ function DreamPoster() {
           <div className="content-2">
             <div className="section-text-2">
               <div className="top">
-                <b className="secondary-headline">Concept</b>
+                <b className="secondary-headline text-center">Concept</b>
               </div>
               <div className="paragraph-2">
                 Inspired by dream theory, time relativity, and grunge typography, this poster project aims to capture the visual essence of a dream experience through a combination of expressive typography and layout. The posters contain layered motivational quotes emphasizing the words dream, time, energy, and goal.  This poster series attempts to depict dreams as free and open space where  letters and words appear suspended or frozen while in frenzied and chaotic motion.

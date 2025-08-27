@@ -121,7 +121,7 @@ function SilentBattle() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/silent-battle" />
 
-      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-2">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
         <div className="section">
@@ -130,7 +130,7 @@ function SilentBattle() {
               <b className="secondary-headline">Silent Battle</b>
             </div>
             <div className="top">
-              <b className="sub-secondary-headline">The Enchiridion of Epictetus</b>
+              <b className="sub-secondary-headline text-left">The Enchiridion of Epictetus</b>
             </div>
             <div className="paragraph">
               Editorial design and publication layout exploring the untold stories of internal struggles and personal battles through compelling visual narrative.
@@ -295,7 +295,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleControl}
             onClick={() => openLightbox(SilentBattleControl, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -305,7 +305,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleDeath}
             onClick={() => openLightbox(SilentBattleDeath, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -315,7 +315,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleDesire}
             onClick={() => openLightbox(SilentBattleDesire, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -325,7 +325,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleFormation}
             onClick={() => openLightbox(SilentBattleFormation, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -335,7 +335,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleFracture}
             onClick={() => openLightbox(SilentBattleFracture, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -345,7 +345,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleMind}
             onClick={() => openLightbox(SilentBattleMind, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -355,7 +355,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleStillness}
             onClick={() => openLightbox(SilentBattleStillness, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -365,7 +365,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleVictory}
             onClick={() => openLightbox(SilentBattleVictory, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 
@@ -375,7 +375,7 @@ function SilentBattle() {
             alt="Silent Battle Final Mockups"
             src={SilentBattleVigilance}
             onClick={() => openLightbox(SilentBattleVigilance, "Silent Battle Final Mockups")}
-            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto' }}
+            style={{ cursor: 'pointer', display: 'block', width: '100%', height: 'auto', padding: '10px 20px' }}
           />
         </div>
 

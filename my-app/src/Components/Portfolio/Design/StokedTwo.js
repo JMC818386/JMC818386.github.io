@@ -96,6 +96,9 @@ function StokedTwo() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/stoked-two" />
 
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-2">
+
+
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
         <div className="half-section text-side">
@@ -127,7 +130,7 @@ function StokedTwo() {
         <div className="content-2">
           <div className="section-text-2">
             <div className="top">
-              <b className="secondary-headline">Concept</b>
+              <b className="secondary-headline text-center">Concept</b>
             </div>
             <div className="paragraph-2">
               {`This project represents my own interpretation and experience with interest in Stoicism  through contemporary and expressive design. The goal was to transform its traditionally rigid and structured nature into something visually engaging while maintaining its depth and substance. Inspired by the history of zines as a medium for both artistic expression and intellectual exploration, this work merges philosophical discourse with dynamic, unconventional design. By layering structured content with bold typographic choices, abstract compositions, and experimental print techniques, the project challenges the notion that philosophy must be dense and inaccessible. Instead, it presents Stoicism in a way that is provocative, visually immersive, and compelling to modern audiences. `}
@@ -163,7 +166,7 @@ function StokedTwo() {
       </div> */}
 
       {/* ---------------------------------------------- SECTION 4 ---------------------------------------------- */}
-      <div className="section-2">
+      <div className="section-2 d-flex align-items-start">
         <div className="half-section text-side">
           <div className="top">
             <b className="secondary-headline">Scope</b>
@@ -251,7 +254,9 @@ function StokedTwo() {
           </svg>
           Back to Top
         </a>
+        </div>
       </div>
+      
 
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}
       <GraphicDesignBody />

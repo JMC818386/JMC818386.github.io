@@ -95,6 +95,7 @@ function StokedThree() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/stoked-three" />
 
+    <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-2">
       {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
       <div className="section">
         <div className="half-section text-side">
@@ -127,7 +128,7 @@ function StokedThree() {
         <div className="content-2">
           <div className="section-text-2">
             <div className="top">
-              <b className="secondary-headline">Concept</b>
+              <b className="secondary-headline text-center">Concept</b>
             </div>
             <div className="paragraph-2">
               {`My goal with this piece was to continue using abstracted grunge typography combined with raster images of stone statues - juxtaposing strong modern imagery with justified type that is meant to immulate a Snellen Chart (Used to determine a persons ability to see progressively smaller objects from a distance. By combining these elements together, my aim was to force the observer to slow down and read through the text in an uncomfortable and fragmented way - mirroring my own difficulties in reading, and in particular - reading dense works like philosophy and history. `}
@@ -162,7 +163,7 @@ function StokedThree() {
       <div className="section-2">
         <div className="content-2">
           <div className="section-text-2">
-            <div className="paragraph">
+            <div className="paragraph-2">
               {`Statues of each God have been distorted and disfigured to reflect my own challenges in reconciling the connections between these two great cultures, and how that contrasts the simple and elegant logic that can be found in reading what I find to be profound wisdom in Stoic texts. By abstracting the body text through varied degrees of justified type, expanded and contrasted kerning between letters, the observer can read through the quotes in a way that reflect my own struggles.`}
             </div>
           </div>
@@ -238,6 +239,7 @@ function StokedThree() {
           </svg>
           Back to Top
         </a>
+        </div>
       </div>
 
       {/* ----------------------------------------------CONTENT END ---------------------------------------------- */}

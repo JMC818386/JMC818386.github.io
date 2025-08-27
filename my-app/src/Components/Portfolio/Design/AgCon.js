@@ -113,7 +113,7 @@ function AgCon() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/ag-con" />
 
-      <div data-aos="fade" data-aos-anchor-placement="top-bottom">
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-3">
 
         {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
         <div className="section">

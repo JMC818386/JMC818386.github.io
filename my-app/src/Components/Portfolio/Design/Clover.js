@@ -116,10 +116,10 @@ function Clover() {
       <PortfolioNav />
       <PortfolioNavigationArrows currentPath="/clover" />
 
-      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-1">
+      <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="px-3">
 
-        {/* ---------------------------------------------- HERO SECTION ---------------------------------------------- */}
-        <div className="section-auto">
+        {/* ----------------------- HERO SECTION ----------------------------------- */}
+        <div className="section-auto pt-5">
           <div className="half-section text-side">
             <div className="top">
               <img className="clover-logo" src={CloverLogo} alt="History Zine Cover" />

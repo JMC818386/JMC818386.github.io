@@ -1038,6 +1038,7 @@ body {
   --color-white: #e2e0e0;
   --color-gray: #21272a;
   --color-silver: #7a7a7a;
+   --color-silver-light: #979696;
 
   /* Gap */
   --gap-5: 5px;
@@ -1085,7 +1086,7 @@ body {
   line-height: 100%;
   font-size: 24px;
   font-weight: 600;
-  padding: 10px 40px;
+  padding: 10px 10px;
   text-align: left;
 }
 
