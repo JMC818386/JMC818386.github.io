@@ -3,13 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 import Icons from './Icons';
-import Grid from './img/Grid.png';
+
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import TopNav from './TopNav';
-import aboutPhoto from './img/about-me-photo.png';
+
 import aboutPhoto2 from './about-me-photo-2.png';
 import EyeOpenIcon from './img/icons/eye-open.png';
 import UserAddIcon from './img/icons/user-add.png';
@@ -127,9 +127,9 @@ function About() {
         </div>
 
            <div className="section-auto my-5 mb-5">
-            <div className="content-2 text-center">
+            <div className="content-2">
               <div className="top">
-                <b className="secondary-headline text-center">Niche</b>
+                <b className="secondary-headline">Niche</b>
               </div>
               <div className="paragraph-2">
                 {`My current niche is in my ability to build digital products from concept to production, working as both a designer and developer. I am a creative professional who can work in hybrid environments that require both design and engineering experience.
