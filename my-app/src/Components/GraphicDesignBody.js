@@ -23,7 +23,6 @@ import XDIcon from './img/icons/xd.png';
 
 /*---------------------MD99 Imported Images------------------------------------------------------------------------------------*/
 
-import MD99 from './Portfolio/Design/img/md99-cover.png';
 
 /*---------------------Ideal Experience Imported Images------------------------------------------------------------------------------------*/
 

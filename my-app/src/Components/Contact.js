@@ -4,7 +4,6 @@ import TopNav from './TopNav';
 import './App.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Grid from './img/Grid.png';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
