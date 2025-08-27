@@ -42,7 +42,7 @@ function About() {
                 <p className="about-mobile-subheader pt-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5000">ARTIST | DESIGNER | ENGINEER</p>
                 
                 {/* <p className="about-subheader-2 mb-1" data-aos="fade" data-aos-delay="300" data-aos-duration="5500">LEXINGTION, KY</p> */}
-                <p className="about-body pt-2" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">As a product designer, my mission is to help individuals and organizations craft engaging, meaningful, and enduring connections with their audiences through practical and visually stunning design and creative solutions.</p>
+                <p className="about-body pt-2" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">My mission is to help individuals and organizations craft engaging, meaningful, and enduring connections with their audiences through practical and visually stunning design and creative solutions.</p>
                 {/* <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">I’m a creative technologist with a foundation in graphic design, systems thinking, and visual culture. My approach blends research, strategy, and interactive experiences to build brands, interfaces, and experiences that are clear, purposeful, and performance-driven.</p> */}
 
                 {/* <p className="about-body" data-aos="fade" data-aos-delay="300" data-aos-duration="6000">With degrees in Graphic Design, Digital Media, and Art History, I bring a multidisciplinary lens to every challenge - combining user insight, research, and design thinking to craft experiences that connect and endure.</p> */}

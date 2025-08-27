@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import SilentBattleBooklet from './SilentBattleBooklet';
 
-import SilentBattleCover from './img/silent-battle-cover.png';
+import SilentBattleCover from './img/Silent/silent-hero-cover.png';
 import SilentHeroImg from './img/Silent/silent-hero-img.png';
 import SilentHeroBanner from './img/Silent/silent-hero-banner.png';
 import SilentHeroCover from './img/Silent/silent-hero-cover.png';

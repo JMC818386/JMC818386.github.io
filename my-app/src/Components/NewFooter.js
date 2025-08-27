@@ -39,7 +39,7 @@ const Footer = () => {
 		  <a className="p-2 social-links" target="_blank" rel="noreferrer" href="https://github.com/JMC818386"><img src={Github} style={{ width: 25 }} alt="GitHub Profile" /></a>
 		</div>
 	  </div>
-	  <div className={styles.companyname202x}>John Crawford Design © 2025. All rights reserved.</div>
+	  <div className={styles.companyname202x}>JMCrawford Design © 2025. All rights reserved.</div>
 	</div>
   );
 };
