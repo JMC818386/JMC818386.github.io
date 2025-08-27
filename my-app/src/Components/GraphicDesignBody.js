@@ -1,3 +1,4 @@
+import MD99 from './Portfolio/Design/img/md99-cover.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { CBreadcrumb, CBreadcrumbItem } from '@coreui/react';
