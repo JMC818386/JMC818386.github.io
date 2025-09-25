@@ -1,0 +1,754 @@
+# MD99 - Dynamic KPI Graphics Engine
+
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/JMC818386/Data-Frontend)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB.svg)](https://reactjs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.5-7952B3.svg)](https://getbootstrap.com/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+## 🚀 Project Overview
+
+**MD99** is a revolutionary data visualization platform that transforms complex data into stunning, interactive KPI graphics through a simple image URL. Built for speed, scalability, and ease of use, MD99 eliminates the performance bottlenecks of traditional JavaScript charting libraries by leveraging server-side image rendering and intelligent caching.
+
+### What Makes MD99 Unique
+
+- **🎯 Image-Based Rendering**: Lightning-fast KPI graphics served as optimized images, not heavy DOM elements
+- **⚡ Performance First**: Dramatically faster load times compared to traditional JS charting libraries
+- **🎨 No-Code/Low-Code Friendly**: Intuitive visual editor for designers and business users
+- **🔧 Developer-Friendly**: Comprehensive SDKs for Node.js, Python, and PHP integration
+- **📱 Mobile Optimized**: Responsive designs that work flawlessly across all devices
+- **🔐 Enterprise Ready**: Secure authentication with public/private key architecture
+
+### Core Value Propositions
+
+1. **Speed**: 10x faster loading than traditional chart libraries
+2. **Simplicity**: Create professional KPIs in seconds, not hours  
+3. **Flexibility**: Works with any tech stack via simple HTTP requests
+4. **Scalability**: Cloud-native architecture handles enterprise workloads
+5. **Design Freedom**: Extensive template library with full customization
+
+---
+
+## ✨ Features
+
+### 🎨 Asset Builder & Visual Editor
+- **Drag-and-Drop Interface**: Intuitive visual editor for creating custom KPI graphics
+- **Real-Time Preview**: See changes instantly as you design
+- **Template Library**: 50+ pre-built templates (radials, bars, arrows, gauges)
+- **Color Theming**: Advanced color picker with gradient support
+- **Typography Control**: Custom fonts, sizes, and styling options
+- **Range Configuration**: Set value ranges with conditional color changes
+
+### 📊 Dashboard Manager
+- **Asset Organization**: Centralized management of all your KPI assets
+- **Live Preview**: Test assets with real data before deployment
+- **Version Control**: Track changes and revert to previous versions
+- **Batch Operations**: Update multiple assets simultaneously
+- **Performance Analytics**: Monitor asset usage and load times
+
+### 🔗 Multi-Language SDK Support
+- **Node.js SDK**: Full TypeScript support with async/await patterns
+- **Python SDK**: Django/Flask compatible with pip installation
+- **PHP SDK**: Composer-ready package for Laravel/WordPress integration
+- **Authentication**: Secure token-based API access
+- **Caching**: Built-in 24-hour token caching for optimal performance
+
+### 🎯 Asset Template Categories
+
+#### Radial Progress Indicators
+- Wedge Progress, Solid Fill, Pie Charts
+- Dotted Patterns (16/32/64 segments)
+- Fan Designs, Starlink Patterns
+- Octagonal and Custom Shapes
+
+#### Bar Progress Charts
+- Segmented Bars (16/32/64 divisions)
+- Dot Matrix Displays
+- Slash Patterns, Solid Fills
+- Rounded Tips, Border Styles
+
+#### Arrow & Directional Indicators
+- Positive/Negative Arrows
+- Multi-state Indicators
+- Trend Visualization
+- Performance Gauges
+
+### 🛠 Developer Workflow
+- **JSON Configuration**: Declarative asset definitions
+- **RESTful API**: Standard HTTP endpoints for all operations
+- **Webhook Support**: Real-time updates and notifications
+- **Error Handling**: Comprehensive error images and logging
+- **Documentation**: Interactive code examples with copy-to-clipboard
+
+### 🎭 Designer Workflow  
+- **Figma Integration**: Export designs directly to MD99 templates
+- **Brand Guidelines**: Maintain consistent styling across assets
+- **Design Systems**: Reusable component libraries
+- **Collaboration**: Share and iterate on designs with teams
+
+---
+
+## 🏗 Architecture & Tech Stack
+
+### Frontend Architecture
+```
+React 18.3.1 Application
+├── Component-Based Architecture
+├── Bootstrap 5.3.5 Grid System  
+├── React Router 6.26.2 (SPA Routing)
+├── Responsive Design (Mobile-First)
+└── Modern ES6+ JavaScript
+```
+
+### UI Framework & Styling
+- **CSS Framework**: Bootstrap 5.3.5 with custom CSS variables
+- **Icons**: FontAwesome 6.6.0, CoreUI Icons, React Icons
+- **Animations**: Framer Motion 11.5.4, AOS (Animate On Scroll)
+- **Color Management**: React Color, React Colorful
+- **Code Highlighting**: PrismJS with custom themes
+
+### State Management & Data Flow
+- **State**: React Hooks (useState, useEffect, useContext)
+- **HTTP Client**: Axios 1.7.7 for API communication
+- **Form Handling**: Formik 2.4.6 with Yup validation
+- **Notifications**: React Hot Toast 2.4.1
+- **Session Management**: Custom PHP session integration
+
+### Development & Build Tools
+- **Build System**: Create React App (React Scripts 5.0.1)
+- **Package Manager**: npm with package-lock.json
+- **Code Quality**: ESLint, Testing Library
+- **Deployment**: Firebase Hosting ready
+
+### Backend Integration Points
+- **Primary API**: https://mydesign99.com/api/
+- **Staging Environment**: https://md99.lakeshore-staging.com/
+- **Authentication**: JWT tokens with public/private key pairs
+- **Image Delivery**: CDN-optimized PNG/SVG rendering
+- **Database**: Session-based user management
+
+### Performance Optimizations
+- **Image Rendering**: Server-side generation with aggressive caching
+- **Lazy Loading**: Dynamic imports and code splitting
+- **Responsive Images**: Automatic size optimization
+- **CDN Integration**: Global content delivery network
+- **Token Caching**: 24-hour authentication token persistence
+
+---
+
+## 🛠 Installation & Setup
+
+### Prerequisites
+- **Node.js**: Version 16.0.0 or higher
+- **npm**: Version 7.0.0 or higher  
+- **Git**: For repository cloning
+- **Modern Browser**: Chrome 90+, Firefox 88+, Safari 14+
+
+### Quick Start
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/JMC818386/Data-Frontend.git
+   cd Data-Frontend/my-react-app
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Environment Configuration**
+   ```bash
+   # Create environment file
+   cp .env.example .env.local
+   
+   # Configure your settings
+   REACT_APP_API_BASE_URL=https://mydesign99.com/api/
+   REACT_APP_IMAGE_CDN=https://mydesign99.com/
+   ```
+
+4. **Start Development Server**
+   ```bash
+   npm start
+   ```
+
+   The application will open at `http://localhost:3000`
+
+### Production Build
+
+```bash
+# Create optimized production build
+npm run build
+
+# Test production build locally
+npm install -g serve
+serve -s build -l 3000
+```
+
+### Firebase Deployment (Optional)
+
+```bash
+# Install Firebase CLI
+npm install -g firebase-tools
+
+# Login and initialize
+firebase login
+firebase init
+
+# Deploy to Firebase Hosting
+firebase deploy
+```
+
+### Docker Setup (Alternative)
+
+```dockerfile
+# Dockerfile
+FROM node:16-alpine
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+
+COPY . .
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=0 /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
+```bash
+# Build and run with Docker
+docker build -t md99-frontend .
+docker run -p 3000:80 md99-frontend
+```
+
+---
+
+## 📖 Usage
+
+### 🎨 Creating Your First Asset
+
+1. **Access the Dashboard**
+   ```javascript
+   // Navigate to dashboard after login
+   https://yourapp.com/dashboard
+   ```
+
+2. **Create New Asset**
+   - Click "New Asset" button
+   - Choose from template categories (Radial, Bar, Arrow)
+   - Customize colors, fonts, and ranges
+   - Preview with sample data
+
+3. **Configure Value Ranges**
+   ```javascript
+   const assetConfig = {
+     name: "performance-gauge",
+     type: "radial-wedge", 
+     ranges: [
+       { min: 0, max: 69, color: "#ff4444" },    // Red
+       { min: 70, max: 79, color: "#ffaa00" },   // Orange  
+       { min: 80, max: 89, color: "#44aa44" },   // Green
+       { min: 90, max: 100, color: "#0088ff" }   // Blue
+     ],
+     font: "Arial",
+     size: "400x400"
+   };
+   ```
+
+### 🔧 SDK Integration Examples
+
+#### Node.js Implementation
+```javascript
+const md99 = require('md99-sdk-nodejs');
+
+// Initialize with your keys
+const publicKey = 'your_public_key';
+const secretKey = 'your_secret_key';
+
+// Get authentication token
+md99.getMD99AuthToken(publicKey, secretKey, (token) => {
+  // Generate image URL
+  const imageUrl = md99.createImageURL(
+    publicKey, 
+    token, 
+    85,                    // KPI value
+    'performance-gauge'    // Asset name
+  );
+  
+  console.log('KPI Image URL:', imageUrl);
+  // Result: https://mydesign99.com/abc123/def456/85/performance-gauge.png
+});
+```
+
+#### Python/Django Integration
+```python
+import md99authtoken
+
+# Configure credentials
+public_key = 'your_public_key'
+secret_key = 'your_secret_key'
+
+def get_student_kpi(student_id):
+    # Get data from your database
+    score = database.getStudentScore(student_id)
+    asset_name = "radial-wedges"
+    
+    # Generate authenticated image URL
+    image_url = md99authtoken.processAll(
+        public_key, 
+        secret_key, 
+        score, 
+        asset_name
+    )
+    
+    return image_url
+
+# Usage in Django template
+# <img src="{{ student_kpi_url }}" alt="Student Performance" />
+```
+
+#### PHP Implementation  
+```php
+<?php
+require_once 'vendor/autoload.php';
+use MD99_SDK\AuthImages;
+
+// Configuration
+define('PUBLIC_KEY', 'your_public_key');
+define('SECRET_KEY', 'your_secret_key');
+
+function generateDashboard($metrics) {
+    $images = [];
+    
+    foreach ($metrics as $metric) {
+        $imageUrl = AuthImages::processAll(
+            PUBLIC_KEY,
+            SECRET_KEY, 
+            $metric['value'],
+            $metric['asset_name']
+        );
+        
+        $images[] = [
+            'name' => $metric['name'],
+            'url' => $imageUrl,
+            'value' => $metric['value']
+        ];
+    }
+    
+    return $images;
+}
+?>
+```
+
+### 🎯 React Component Integration
+
+```jsx
+import React, { useState, useEffect } from 'react';
+import { getMD99ImageUrl } from './utils/md99-client';
+
+const KPIWidget = ({ value, assetName, label }) => {
+  const [imageUrl, setImageUrl] = useState('');
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadKPI() {
+      try {
+        const url = await getMD99ImageUrl(value, assetName);
+        setImageUrl(url);
+      } catch (error) {
+        console.error('Failed to load KPI:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    
+    loadKPI();
+  }, [value, assetName]);
+
+  return (
+    <div className="kpi-widget">
+      <h3>{label}</h3>
+      {loading ? (
+        <div className="spinner">Loading...</div>
+      ) : (
+        <img 
+          src={imageUrl} 
+          alt={label}
+          className="kpi-image"
+          style={{ width: '100%', maxWidth: '300px' }}
+        />
+      )}
+      <p className="kpi-value">{value}%</p>
+    </div>
+  );
+};
+
+// Usage
+<KPIWidget 
+  value={87} 
+  assetName="performance-gauge"
+  label="Team Performance"
+/>
+```
+
+### 📊 Dashboard Layout Example
+
+```jsx
+const ExecutiveDashboard = ({ metrics }) => {
+  return (
+    <div className="dashboard-grid">
+      <div className="row">
+        <div className="col-md-4">
+          <KPIWidget 
+            value={metrics.revenue} 
+            assetName="radial-solid-fill"
+            label="Revenue Target"
+          />
+        </div>
+        <div className="col-md-4">
+          <KPIWidget 
+            value={metrics.satisfaction} 
+            assetName="bar-segmented-32"
+            label="Customer Satisfaction" 
+          />
+        </div>
+        <div className="col-md-4">
+          <KPIWidget 
+            value={metrics.growth} 
+            assetName="arrow-posneg-2"
+            label="Growth Rate"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+```
+
+---
+
+## ⚙️ Configuration
+
+### 🔧 JSON-Based Asset Configuration
+
+MD99 uses declarative JSON configuration for maximum flexibility:
+
+```json
+{
+  "asset": {
+    "name": "sales-performance",
+    "type": "radial-wedge",
+    "dimensions": {
+      "width": 400,
+      "height": 400
+    },
+    "styling": {
+      "backgroundColor": "#ffffff",
+      "strokeWidth": 8,
+      "cornerRadius": 4
+    },
+    "typography": {
+      "fontFamily": "Arial",
+      "fontSize": 24,
+      "fontWeight": "bold",
+      "color": "#333333"
+    },
+    "valueRanges": [
+      {
+        "min": 0,
+        "max": 50,
+        "color": "#ff4444",
+        "label": "Needs Improvement"
+      },
+      {
+        "min": 51,
+        "max": 75, 
+        "color": "#ffaa00",
+        "label": "Good"
+      },
+      {
+        "min": 76,
+        "max": 90,
+        "color": "#44aa44", 
+        "label": "Excellent"
+      },
+      {
+        "min": 91,
+        "max": 100,
+        "color": "#0088ff",
+        "label": "Outstanding"
+      }
+    ],
+    "animation": {
+      "enabled": true,
+      "duration": 1000,
+      "easing": "easeInOut"
+    }
+  }
+}
+```
+
+### 🎨 Template Categories & Types
+
+#### Radial Components
+| Type | Description | Use Case |
+|------|-------------|----------|
+| `radial-wedge` | Classic pie-slice progress | Completion percentages |
+| `radial-solid-fill` | Filled circular progress | Loading indicators |  
+| `radial-solid-pie` | Full pie chart | Data distribution |
+| `radial-dots-16` | Dotted ring (16 segments) | Granular progress |
+| `radial-fan-32` | Fan pattern (32 segments) | Performance metrics |
+
+#### Bar Components
+| Type | Description | Use Case |
+|------|-------------|----------|
+| `bar-seg-16` | 16-segment bar | Progress tracking |
+| `bar-solid-fill` | Solid progress bar | Simple percentages |
+| `bar-dot-32` | Dotted bar pattern | Detailed metrics |
+| `bar-slash-16` | Diagonal slash pattern | Dynamic indicators |
+
+#### Arrow Components  
+| Type | Description | Use Case |
+|------|-------------|----------|
+| `arrow-posneg-1` | Up/down trend arrow | Performance changes |
+| `arrow-posneg-2` | Triple-state indicator | Trend analysis |
+| `arrow-posneg-3` | Multi-directional | Complex metrics |
+
+### 🔐 Authentication Configuration
+
+```javascript
+// Environment variables
+const config = {
+  apiBaseUrl: process.env.REACT_APP_API_BASE_URL,
+  imagePrefix: process.env.REACT_APP_IMAGE_CDN,
+  publicKey: process.env.MD99_PUBLIC_KEY,
+  secretKey: process.env.MD99_SECRET_KEY,
+  tokenCache: {
+    enabled: true,
+    duration: 24 * 60 * 60 * 1000 // 24 hours
+  }
+};
+
+// SDK initialization
+import { MD99Client } from 'md99-sdk';
+
+const client = new MD99Client({
+  publicKey: config.publicKey,
+  secretKey: config.secretKey,
+  apiUrl: config.apiBaseUrl
+});
+```
+
+### 🌐 Multi-Environment Setup
+
+```javascript
+// config/environments.js
+const environments = {
+  development: {
+    apiUrl: 'http://localhost:3001',
+    imageUrl: 'http://localhost:3001/images',
+    debugMode: true
+  },
+  staging: {
+    apiUrl: 'https://md99.lakeshore-staging.com',
+    imageUrl: 'https://md99.lakeshore-staging.com/images', 
+    debugMode: false
+  },
+  production: {
+    apiUrl: 'https://mydesign99.com',
+    imageUrl: 'https://mydesign99.com/images',
+    debugMode: false
+  }
+};
+
+export default environments[process.env.NODE_ENV || 'development'];
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how to get started:
+
+### 📋 Development Guidelines
+
+1. **Code Standards**
+   - Follow ES6+ JavaScript standards
+   - Use functional components with React Hooks  
+   - Implement responsive design principles
+   - Write clear, commented code
+   - Follow existing naming conventions
+
+2. **Component Structure**
+   ```
+   src/Components/
+   ├── ComponentName/
+   │   ├── ComponentName.js
+   │   ├── ComponentName.css  
+   │   ├── ComponentName.test.js
+   │   └── index.js
+   ```
+
+3. **Git Workflow**
+   ```bash
+   # Create feature branch
+   git checkout -b feature/your-feature-name
+   
+   # Make your changes
+   git add .
+   git commit -m "Add: feature description"
+   
+   # Push and create PR
+   git push origin feature/your-feature-name
+   ```
+
+### 🧪 Testing Requirements
+
+```bash
+# Run test suite
+npm test
+
+# Run with coverage
+npm test -- --coverage
+
+# Run specific test
+npm test ComponentName.test.js
+```
+
+### 📝 Pull Request Process
+
+1. **Pre-submission Checklist**
+   - [ ] Code follows project standards
+   - [ ] All tests pass
+   - [ ] Documentation updated
+   - [ ] No console errors/warnings
+   - [ ] Mobile responsive tested
+
+2. **PR Template**
+   ```markdown
+   ## Changes Made
+   - Brief description of changes
+   
+   ## Testing
+   - [ ] Tested on desktop
+   - [ ] Tested on mobile
+   - [ ] All existing tests pass
+   
+   ## Screenshots
+   - Before/after images if applicable
+   ```
+
+### 🐛 Bug Reports
+
+Use GitHub Issues with this template:
+```markdown
+**Bug Description**
+Clear description of the bug
+
+**Steps to Reproduce**  
+1. Go to '...'
+2. Click on '....'
+3. See error
+
+**Expected Behavior**
+What should happen
+
+**Screenshots**
+If applicable
+
+**Environment**
+- Browser: [e.g. Chrome 96]
+- Device: [e.g. iPhone 12]
+- OS: [e.g. macOS 12.1]
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+
+Copyright (c) 2024 MD99 / MyDesign99
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 🙏 Credits & Acknowledgements
+
+### 🏆 Core Contributors
+- **Lead Developer**: [@JMC818386](https://github.com/JMC818386)
+- **UI/UX Design**: MyDesign99 Design Team
+- **Backend Architecture**: Lakeshore Software Inc.
+
+### 🛠 Technology Stack Credits
+- **React Team** - For the amazing React framework
+- **Bootstrap Team** - For the responsive CSS framework  
+- **Vercel** - For Next.js inspiration and deployment tools
+- **Firebase** - For hosting and backend services
+
+### 🎨 Design Inspiration
+- **Figma Community** - For design system concepts
+- **Material Design** - For UI/UX principles
+- **Adobe Design** - For color theory and typography
+
+### 📚 Educational Resources
+- **freeCodeCamp** - For React tutorials and best practices
+- **MDN Web Docs** - For comprehensive web API documentation
+- **Stack Overflow** - For community problem-solving
+
+### 🌟 Special Thanks
+- All beta testers who provided valuable feedback
+- Open source community for continuous inspiration
+- Enterprise clients for real-world use case validation
+
+---
+
+## 📞 Support & Contact
+
+### 🆘 Getting Help
+- **Documentation**: [https://docs.mydesign99.com](https://docs.mydesign99.com)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/JMC818386/Data-Frontend/issues)
+- **Community Forum**: [Join discussions](https://community.mydesign99.com)
+
+### 💼 Enterprise Support
+- **Email**: enterprise@mydesign99.com
+- **Phone**: +1 (555) 123-4567
+- **Slack**: Join our enterprise Slack channel
+
+### 🔗 Links
+- **Website**: [https://mydesign99.com](https://mydesign99.com)
+- **API Documentation**: [https://api.mydesign99.com/docs](https://api.mydesign99.com/docs)
+- **Status Page**: [https://status.mydesign99.com](https://status.mydesign99.com)
+
+---
+
+<div align="center">
+
+**Built with ❤️ by the MD99 Team**
+
+[⭐ Star this repo](https://github.com/JMC818386/Data-Frontend) • [🐛 Report Bug](https://github.com/JMC818386/Data-Frontend/issues) • [💡 Request Feature](https://github.com/JMC818386/Data-Frontend/issues)
+
+</div>
